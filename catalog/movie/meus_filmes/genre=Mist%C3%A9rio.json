@@ -1,0 +1,203 @@
+{
+  "metas": [
+    {
+      "id": "tt0457433",
+      "type": "movie",
+      "name": "A Estranha Perfeita",
+      "poster": "https://image.tmdb.org/t/p/w500/pC7s1Ya9GKR4udtGZNmxRNU0aYk.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/sNhYDvDbEwf9AUGip2fGRwP7x8r.jpg",
+      "description": "Rowena Price é uma repórter investigativa, que teve uma amiga assassinada recentemente. Ela descobre que este fato pode estar relacionado a Harrison Hill, um poderoso executivo de publicidade. Com a ajuda de Miles Haley, Rowena decide se infiltrar disfarçada. Passando-se por Katherine, uma funcionária temporária na agência de Hill, e Veronica, uma garota com quem Hill flerta pela internet, Rowena passa a cercá-lo por todos os lados possíveis. Porém ela logo descobre que não é a única que está trocando de identidade.",
+      "releaseInfo": "2007",
+      "genres": [
+        "Thriller",
+        "Crime",
+        "Mistério"
+      ]
+    },
+    {
+      "id": "tt0258463",
+      "type": "movie",
+      "name": "A Identidade Bourne",
+      "poster": "https://image.tmdb.org/t/p/w500/q18OhXWdS0WncHminNK7A7uiEvc.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/zxYp7GhqzcNqNSkjHoOdx0BEtOM.jpg",
+      "description": "Um homem sem memória é resgatado do oceano por um barco de pesca. Sobre si, ele só sabe que tem talento para matar e um chip implantado no quadril. Enquanto busca sua história, tenta escapar de pessoas que, inexplicavelmente, querem matá-lo.",
+      "releaseInfo": "2002",
+      "genres": [
+        "Ação",
+        "Mistério",
+        "Thriller"
+      ]
+    },
+    {
+      "id": "tt0115645",
+      "type": "movie",
+      "name": "Antes e Depois",
+      "poster": "https://image.tmdb.org/t/p/w500/gSjuWIEZMM1ODFiTmgoyQiFvM6g.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/vmw1GLjWlCQJZVSaRthQYbf7Ypf.jpg",
+      "description": "Em uma pequena cidade na Nova Inglaterra, uma adolescente brutalmente morta e o principal suspeito Jacob Ryan (Edward Furlong), seu namorado, que está desaparecido. Ben Ryan (Liam Neeson), o pai do rapaz, destrói todas as evidências que possam prejudicar seu filho e Carolyn Ryan (Meryl Streep), a mãe e uma conhecida pediatra local, começa a ser discriminada, assim como todo o resto da família, que se desespera em ocultar fatos de uma verdade que eles realmente não sabem qual é.",
+      "releaseInfo": "1996",
+      "genres": [
+        "Crime",
+        "Drama",
+        "Mistério"
+      ]
+    },
+    {
+      "id": "tt32565993",
+      "type": "movie",
+      "name": "As Ovelhas Detetives",
+      "poster": "https://image.tmdb.org/t/p/w500/crW4rarCRUVRSRFy3Bufw8Mwf8l.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/a8uQvrplTkhGJQog6GZ6CqF8An6.jpg",
+      "description": "George é um pastor que lê romances policiais para suas queridas ovelhas todas as noites, acreditando que elas não conseguem entender. Mas, quando um incidente misterioso interrompe a vida na fazenda, as ovelhas percebem que precisam se tornar as detetives. Ao seguir as pistas e investigar suspeitos humanos, elas provam que até mesmo ovelhas podem ser brilhantes solucionadoras de crimes.",
+      "releaseInfo": "2026",
+      "genres": [
+        "Comédia",
+        "Família",
+        "Mistério"
+      ]
+    },
+    {
+      "id": "tt1877830",
+      "type": "movie",
+      "name": "Batman",
+      "poster": "https://image.tmdb.org/t/p/w500/wd7b4Nv9QBHDTIjc2m7sr0IUMoh.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/IYUD7rAIXzBM91TT3Z5fILUS7n.jpg",
+      "description": "Em seu segundo ano de combate ao crime, Batman descobre corrupção em Gotham City que se conecta à sua própria família enquanto enfrenta um serial killer conhecido como Charada.",
+      "releaseInfo": "2022",
+      "genres": [
+        "Crime",
+        "Mistério",
+        "Thriller"
+      ]
+    },
+    {
+      "id": "tt1401152",
+      "type": "movie",
+      "name": "Desconhecido",
+      "poster": "https://image.tmdb.org/t/p/w500/gI9sCrVmDPYthCeOk6UGAxr8D3t.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/f2d419xzKDbtVpToJorTxlKMvgQ.jpg",
+      "description": "Martin Harris acabou de sair de um coma de quatro dias, fruto de um acidente de carro em Berlim. Ao acordar, descobre que sua esposa não o reconhece e, para piorar, existe um outro homem usando sua identidade. Ignorado pelas autoridades e na mira de assassinos, sua única chance de desvendar este mistério é contar com Gina, uma motorista de táxi que poderá ajudá-lo a provar que ele não está louco.",
+      "releaseInfo": "2011",
+      "genres": [
+        "Ação",
+        "Mistério",
+        "Thriller"
+      ]
+    },
+    {
+      "id": "tt8080204",
+      "type": "movie",
+      "name": "Hypnotic: Ameaça Invisível",
+      "poster": "https://image.tmdb.org/t/p/w500/qU5OoGW31ahW9ANZU5tIwmPydKC.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/d1Vu0DRCeJ43YX98UKMi9xJNwrR.jpg",
+      "description": "Um detetive se envolve em um mistério envolvendo sua filha desaparecida e um programa secreto do governo enquanto investiga uma série de crimes que distorcem a realidade.",
+      "releaseInfo": "2023",
+      "genres": [
+        "Mistério",
+        "Ficção científica",
+        "Thriller"
+      ]
+    },
+    {
+      "id": "tt0440963",
+      "type": "movie",
+      "name": "O Ultimato Bourne",
+      "poster": "https://image.tmdb.org/t/p/w500/cCmkrXF2CL9rx9BnQHDGDhQv4pD.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/qiBILuWhv7ipF0pxiEqIJdkQzj8.jpg",
+      "description": "Procurado pela CIA, o assassino Jason Bourne viaja pelo mundo tentando reconstruir o próprio passado e descobrir a verdadeira identidade.",
+      "releaseInfo": "2007",
+      "genres": [
+        "Ação",
+        "Drama",
+        "Mistério",
+        "Thriller"
+      ]
+    },
+    {
+      "id": "tt0365686",
+      "type": "movie",
+      "name": "Revólver",
+      "poster": "https://image.tmdb.org/t/p/w500/rzpUAdFdZr8Zoxx0LZrl1da0e15.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/pt5kVrKrJuMwQq5xZaKpExL2o5Z.jpg",
+      "description": "Jake Green é um jogador audacioso e sem bom senso que passou sete anos na prisão por um crime que não cometeu depois de ter caído nas armadilhas do maldoso chefão do crime Dorothy Macha. Agora que Jake está livre, vai se vingar do chefão criminoso com a ajuda de Avi e Zach.",
+      "releaseInfo": "2005",
+      "genres": [
+        "Drama",
+        "Thriller",
+        "Crime",
+        "Mistério"
+      ]
+    },
+    {
+      "id": "tt0114369",
+      "type": "movie",
+      "name": "Seven - Os Sete Crimes Capitais",
+      "poster": "https://image.tmdb.org/t/p/w500/dZXYPSEaXCeigR2GEuZoukNmLTf.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/i5H7zusQGsysGQ8i6P361Vnr0n2.jpg",
+      "description": "Quando, a ponto de se aposentar, o detetive William Somerset aborda o último caso com a ajuda do recém-transferido David Mills, eles descobrem uma série de assassinatos. Logo percebem que estão lidando com um assassino que tem como alvo pessoas que ele acredita representar os sete pecados capitais.",
+      "releaseInfo": "1995",
+      "genres": [
+        "Crime",
+        "Mistério",
+        "Thriller"
+      ]
+    },
+    {
+      "id": "tt1464335",
+      "type": "movie",
+      "name": "Uncharted: Fora do Mapa",
+      "poster": "https://image.tmdb.org/t/p/w500/qNAPgepJ4NHNA74ThVsxQEOUceJ.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/fwrqW8Lp5VQuppFrODd4iJ8LySE.jpg",
+      "description": "Nathan Drake e seu parceiro canastrão Victor \"Sully\" Sullivan embarcam em uma perigosa busca para encontrar o maior tesouro jamais encontrado. Enquanto isso, eles também rastreiam pistas que podem levar ao irmão perdido de Nathan.",
+      "releaseInfo": "2022",
+      "genres": [
+        "Ação",
+        "Aventura",
+        "Mistério"
+      ]
+    },
+    {
+      "id": "tt5442430",
+      "type": "movie",
+      "name": "Vida",
+      "poster": "https://image.tmdb.org/t/p/w500/bKacW7BlSPHYvklyhSHvJrNl1CO.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/nNh7vHHISVAaziJEqAq0P9iL52w.jpg",
+      "description": "Um time de cientistas a bordo da Estação Espacial Internacional cuja missão de descoberta se transforma em medo puro quando eles encontram uma forma de vida em desenvolvimento que causou a extinção da vida em Marte e agora ameaça a tripulação e a vida na Terra.",
+      "releaseInfo": "2017",
+      "genres": [
+        "Terror",
+        "Ficção científica",
+        "Mistério"
+      ]
+    },
+    {
+      "id": "tt0443706",
+      "type": "movie",
+      "name": "Zodíaco",
+      "poster": "https://image.tmdb.org/t/p/w500/jFmlV5vUzOt1PgJ82efOhNsWcWX.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/3zCPI4JFc54xvLaJ71oI2KoP3az.jpg",
+      "description": "Durante os anos 60 e 70, o medo aumenta em São Francisco com os ataques de um assassino maníaco chamado Zodíaco. Investigadores e jornalistas tentam descobrir a identidade do assassino e levá-lo à justiça. Enquanto isso, Zodíaco provoca as autoridades com mensagens crípticas, cifras e telefonemas ameaçadores.",
+      "releaseInfo": "2007",
+      "genres": [
+        "Crime",
+        "Mistério",
+        "Thriller"
+      ]
+    },
+    {
+      "id": "tt0108238",
+      "type": "movie",
+      "name": "Zona de Perigo",
+      "poster": "https://image.tmdb.org/t/p/w500/40fmdc0apEKe8r36RRqBTqKELVS.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/3kdSGx028h48Zzr6PFbGZWY4fJM.jpg",
+      "description": "Um ex-detetive está convencido de que seu pai foi vítima de um assassino em série e decide provar que o culpado é um policial, mas sua caçada obsessiva prejudica sua relação com outro parceiro.",
+      "releaseInfo": "1993",
+      "genres": [
+        "Crime",
+        "Ação",
+        "Mistério",
+        "Thriller"
+      ]
+    }
+  ]
+}

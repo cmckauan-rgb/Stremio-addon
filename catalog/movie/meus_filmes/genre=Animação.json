@@ -1,0 +1,460 @@
+{
+  "metas": [
+    {
+      "id": "tt0120630",
+      "type": "movie",
+      "name": "A Fuga das Galinhas",
+      "poster": "https://image.tmdb.org/t/p/w500/hp5shw8xyuYId322rT9am3HrKCQ.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/3eYkMSjWbvTaZso7ow5ub9ikNNq.jpg",
+      "description": "Na década de 50, numa fazenda em Yorkshire, a galinha Ginger busca incessantemente um meio de conseguir escapar do fim trágico que seus donos reservaram para ela e seus semelhantes. Após várias tentativas frustradas, surge na granja o galo Rocky, com uma ambiciosa promessa: ensinar como voar às galinhas. Mas o tempo de Ginger e Rocky é curto: os Tweedy, donos da fazenda, compraram uma máquina que faz tortas de galinha, que em breve entrará em operação e irá dizimar toda a população do local.",
+      "releaseInfo": "2000",
+      "genres": [
+        "Animação",
+        "Comédia",
+        "Família"
+      ]
+    },
+    {
+      "id": "tt0397892",
+      "type": "movie",
+      "name": "Bolt: Supercão",
+      "poster": "https://image.tmdb.org/t/p/w500/puAIiFICbqLehrE8X884ZbNxI8N.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/zWqxBc6pdSIjklqWfZ70l5ce28P.jpg",
+      "description": "Bolt é o astro do maior e mais divertido show de Hollywood. O único problema é que ele acha que é tudo de verdade. Um dia, acidentalmente, o Supercão embarca para a cidade de Nova York e se separa da sua amada dona e coestrela Penny. Agora, na vida real, Bolt entra em ação para encontrar o caminho de volta para casa. Junto ao seu hilário amigo auxiliar Rhino, seu fã número 1, e uma gata esperta chamada Mittens, começam uma incrível jornada em que ele descobre que não precisa de superpoderes par ser um herói.",
+      "releaseInfo": "2008",
+      "genres": [
+        "Animação",
+        "Família",
+        "Aventura",
+        "Comédia"
+      ]
+    },
+    {
+      "id": "tt0317219",
+      "type": "movie",
+      "name": "Carros",
+      "poster": "https://image.tmdb.org/t/p/w500/A7nssMRIPauZhEVf2dzwsf4EALO.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/sOLgkBKf1gjMRc4yXxM5aciXdfr.jpg",
+      "description": "Ao viajar para a Califórnia, o famoso carro de corridas Relâmpago McQueen se perde e vai parar em Radiator Springs, uma cidadezinha na Rota 66. Ele conhece novos amigos e aprende lições que mudam sua forma de encarar a vida.",
+      "releaseInfo": "2006",
+      "genres": [
+        "Animação",
+        "Aventura",
+        "Comédia",
+        "Família"
+      ]
+    },
+    {
+      "id": "tt1216475",
+      "type": "movie",
+      "name": "Carros 2",
+      "poster": "https://image.tmdb.org/t/p/w500/fIKaabvE40T39nOIngcZPcPJeYe.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/robYRZk9LxJTwD7GlZCginji5k.jpg",
+      "description": "O astro das corridas, Relâmpago McQueen, e o carro-guincho, Mate, viajam para disputar o primeiro Grand Prix Mundial, que irá revelar o carro mais veloz do planeta. Nessa jornada imperdível, Mate se envolve com um grupo de espionagem e vive grandes aventuras com seus amigos.",
+      "releaseInfo": "2011",
+      "genres": [
+        "Animação",
+        "Família",
+        "Aventura",
+        "Comédia"
+      ]
+    },
+    {
+      "id": "tt3606752",
+      "type": "movie",
+      "name": "Carros 3",
+      "poster": "https://image.tmdb.org/t/p/w500/oEmdfjqQnAWe1t23WiiW0icFhGv.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/4mlS1MitcOqdPLhxEFyk9Qwf5rr.jpg",
+      "description": "Durante mais uma disputa eletrizante nas pistas, o campeão Relâmpago McQueen acelerou demais e acabou perdendo o controle. Agora, após ter capotando várias vezes e quase ter partido dessa para melhor, o vermelhinho vai ter sua vida alterada para sempre. O acidente foi tão grave que, com os estragos, McQueen pode ter que se aposentar de vez.",
+      "releaseInfo": "2017",
+      "genres": [
+        "Animação",
+        "Drama",
+        "Família"
+      ]
+    },
+    {
+      "id": "tt0328880",
+      "type": "movie",
+      "name": "Irmão Urso",
+      "poster": "https://image.tmdb.org/t/p/w500/pFRQgHiZwHTX7LmHEI0hwocuBC3.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/sZhY0BAsN1bMAPLIqMRqG1fqb3A.jpg",
+      "description": "Em busca de vingança por seu pai ter sido morto por um urso, o índio Kenai acaba sendo amaldiçoado pelos espíritos da floresta e é transformado em um urso. Obrigado a viver sob a nova pele, ele começa a ver a realidade sob a ótica dos animais. Logo faz amizade com outro urso, Koda, mas se vê em apuros quando seu próprio irmão começa a caçá-lo.",
+      "releaseInfo": "2003",
+      "genres": [
+        "Aventura",
+        "Animação",
+        "Família"
+      ]
+    },
+    {
+      "id": "tt0465925",
+      "type": "movie",
+      "name": "Irmão Urso 2",
+      "poster": "https://image.tmdb.org/t/p/w500/r4kOIrwYMXInmFH8eaJ6kDoAkUW.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/dMqbyB5GQvDujXiKdKPhWT0VTRw.jpg",
+      "description": "A primavera chegou e Kenai acordou de sua primeira hibernação com um apetite voraz. Ele e seu irmão mais novo, Koda, estão animadíssimos para cair na floresta e saborear os melhores frutos. Durante essa jornada, Nita, uma antiga amiga de infância de Kenai, reaparece. Crescida, Nita precisa se casar seguindo as tradições de sua tribo. Mas os Grandes Espíritos tem outros planos para ela e somente Kenai poderá ajudá-la.",
+      "releaseInfo": "2006",
+      "genres": [
+        "Aventura",
+        "Animação",
+        "Família"
+      ]
+    },
+    {
+      "id": "tt0441773",
+      "type": "movie",
+      "name": "Kung Fu Panda",
+      "poster": "https://image.tmdb.org/t/p/w500/1YMs3zCt5kICK28RvVgDL1UUtkA.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/qdthf9WrRDSaIkGVQGhhJ9pz1hn.jpg",
+      "description": "Po é um panda que trabalha na loja de macarrão da sua família e sonha em transformar-se em um mestre de kung fu. Seu sonho se torna realidade quando, inesperadamente, ele deve cumprir uma profecia antiga e estudar a arte marcial com seus ídolos, os Cinco Furiosos. Po precisa de toda a sabedoria, força e habilidade que conseguir reunir para proteger seu povo de um leopardo da neve malvado.",
+      "releaseInfo": "2008",
+      "genres": [
+        "Ação",
+        "Animação",
+        "Comédia",
+        "Família"
+      ]
+    },
+    {
+      "id": "tt1302011",
+      "type": "movie",
+      "name": "Kung Fu Panda 2",
+      "poster": "https://image.tmdb.org/t/p/w500/dSF0v3XPCzKb30zv3fLeuoJuTRv.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/reHkSQwiYKK4SabnGDY1FWKie82.jpg",
+      "description": "Po vive o sonho de ser o dragão guerreiro, protegendo o Vale da Paz ao lado dos mestres Shifu, Tigresa, Macaco, Víbora, Louva-deus e Garça. Sua vida pacata chega ao fim quando surge um novo inimigo, o lorde Chen, que possui uma arma secreta capaz de permitir a conquista da China e provocar o fim do kung fu. Para impedi-lo, Po e os Cinco Furiosos precisam cruzar o país e derrotá-lo.",
+      "releaseInfo": "2011",
+      "genres": [
+        "Animação",
+        "Família",
+        "Comédia",
+        "Ação"
+      ]
+    },
+    {
+      "id": "tt2267968",
+      "type": "movie",
+      "name": "Kung Fu Panda 3",
+      "poster": "https://image.tmdb.org/t/p/w500/ztaU1LyB4IpBSvdZ0p1RntQkfhQ.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/s3FiHTdpQVpqIqdBxLLiy40wGut.jpg",
+      "description": "Em uma visita a uma vila secreta com o pai, Po forma um exército de pandas para combater um espírito maligno que ameaça a China.",
+      "releaseInfo": "2016",
+      "genres": [
+        "Animação",
+        "Ação",
+        "Aventura",
+        "Comédia",
+        "Família"
+      ]
+    },
+    {
+      "id": "tt1683043",
+      "type": "movie",
+      "name": "Lanterna Verde: Cavaleiros Esmeralda",
+      "poster": "https://image.tmdb.org/t/p/w500/qyeoW0JGhdt0tULJuBKC7ip1t0E.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/5XQobwJuqx0UFCHVDooWUBraeID.jpg",
+      "description": "Prestes a ganhar seu primeiro longa-metragem live action, o herói Lanterna Verde tem novas aventuras animadas chegando ao mercado de vídeo, sempre em lançamentos com visual de tirar o fôlego. Aqui ele prepara uma jovem pupila para seguir seus passos, relatando a ela as aventuras de diversos outros Lanternas Verdes espalhados pela galáxia, em contos que mostram toda a coragem e honra dos integrantes desta seleta dinastia.",
+      "releaseInfo": "2011",
+      "genres": [
+        "Ação",
+        "Aventura",
+        "Animação",
+        "Ficção científica",
+        "Drama",
+        "Fantasia"
+      ]
+    },
+    {
+      "id": "tt20192230",
+      "type": "movie",
+      "name": "Lanterna Verde: Cuidado Com Meu Poder",
+      "poster": "https://image.tmdb.org/t/p/w500/9jKuuMoCuAlu0NHvPSHzabkmXtz.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/rRGl4Uqo962I2iqQSOT8nArWNWd.jpg",
+      "description": "O veterano da Marinha John Stewart é escolhido para se tornar um membro da Tropa dos Lanternas Verdes após a aparente morte de Hal Jordan, embarcando em uma missão que mudará sua vida para sempre. Ao lado do Arqueiro Verde e da Mulher-Gavião, John é arrastado para uma guerra galáctica, marcada por origens chocantes e consequências catastróficas.",
+      "releaseInfo": "2022",
+      "genres": [
+        "Animação",
+        "Ficção científica",
+        "Ação"
+      ]
+    },
+    {
+      "id": "tt1384590",
+      "type": "movie",
+      "name": "Lanterna Verde: Primeiro Vôo",
+      "poster": "https://image.tmdb.org/t/p/w500/ifUEtuvQeIrVh9ajaxMWKBBsDwx.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/zYARGakIhHUvPuVJzlbqU40FrnV.jpg",
+      "description": "Depois de receber das mãos de uma lienígena um anel eu lhe dá poderes sobre-humanos, o piloto Hal Jordan entra para a Tropa dos Lanternas Verdes, onde é supervisionado pelo respeitado Sinestro, Quando Jordan descobre que seu supervisor é na verdade o cabeça de uma conspiração que ameaça a filosofia e as tradições da Tropa, ele busca dominar rapidamente seus novos poderes para combater os traidores e manter a ordem no universo.",
+      "releaseInfo": "2009",
+      "genres": [
+        "Ação",
+        "Aventura",
+        "Fantasia",
+        "Animação",
+        "Ficção científica"
+      ]
+    },
+    {
+      "id": "tt1323594",
+      "type": "movie",
+      "name": "Meu Malvado Favorito",
+      "poster": "https://image.tmdb.org/t/p/w500/rYZzutMXxvirK9gK01iLo3Blaj3.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/2XSeKDmIa2KxaiJy4J9e8FrIZhk.jpg",
+      "description": "Um homem que adora todas as coisas diabólicas, o supervilão Gru traça um plano para roubar a lua. Rodeado de um exército de pequenos ajudantes e seu arsenal de armas e máquinas de guerra, Gru se prepara para destruir quem atravessar seu caminho. Mas ele não esperava pelo seu maior desafio: três adoráveis órfãs que querem ter Gru como pai.",
+      "releaseInfo": "2010",
+      "genres": [
+        "Animação",
+        "Comédia",
+        "Crime",
+        "Ficção científica",
+        "Família"
+      ]
+    },
+    {
+      "id": "tt1690953",
+      "type": "movie",
+      "name": "Meu Malvado Favorito 2",
+      "poster": "https://image.tmdb.org/t/p/w500/7mYMq6OQyum1wAiUI7i6w78YKEO.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/uD267eSiACfWLxp47t3gYymOQRj.jpg",
+      "description": "Gru mudou radicalmente sua vida e se dedica às filhotas Agnes, Edith e Margo, deixando de lado os tempos de vilão. Ele só não contava que seu passado fosse responsável pelo seu recrutamento pela Liga Antivilões para salvar o mundo na companhia da agente Lucy. Juntos, eles precisam localizar o criminoso que roubou a fórmula PX41 e Gru desconfia que seu antigo concorrente El Macho possa ser o responsável.",
+      "releaseInfo": "2013",
+      "genres": [
+        "Animação",
+        "Comédia",
+        "Família",
+        "Ficção científica"
+      ]
+    },
+    {
+      "id": "tt3469046",
+      "type": "movie",
+      "name": "Meu Malvado Favorito 3",
+      "poster": "https://image.tmdb.org/t/p/w500/6z0KlRIrXfkgNz3IJOCAQxdVXAg.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/ftRkFtAGuHngHnLiOxktq0aCVMF.jpg",
+      "description": "O ex-ator mirim e astro de TV, Balthazar Bratt, foi um típico malvado bem-sucedido nos anos 80 e agora está de volta à ativa. Ele vai aterrorizar a vida de Gru, Agnes, Margo, Edith, Dr. Nefario e os atrapalhados Minions. Em meio a tudo isso, Gru também vai encontrar o seu irmão gêmeo, Drew.",
+      "releaseInfo": "2017",
+      "genres": [
+        "Ação",
+        "Animação",
+        "Comédia",
+        "Família",
+        "Aventura"
+      ]
+    },
+    {
+      "id": "tt7510222",
+      "type": "movie",
+      "name": "Meu Malvado Favorito 4",
+      "poster": "https://image.tmdb.org/t/p/w500/s8BefU3RIJrfipTpsDtOiatlp8j.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/twsxsfao6ZOVvT8LfudH603MMi6.jpg",
+      "description": "Nesta sequência, o vilão mais amado do planeta retorna e agora Gru, Lucy, Margo, Edith e Agnes dão as boas-vindas a um novo membro da família: Gru Jr., que pretende atormentar seu pai. Enquanto se adapta com o pequeno, Gru enfrenta um novo inimigo, Maxime Le Mal, forçando sua namorada Valentina e a família a fugir do perigo.",
+      "releaseInfo": "2024",
+      "genres": [
+        "Animação",
+        "Comédia",
+        "Ação",
+        "Ficção científica",
+        "Família"
+      ]
+    },
+    {
+      "id": "tt2293640",
+      "type": "movie",
+      "name": "Minions",
+      "poster": "https://image.tmdb.org/t/p/w500/caq9Xi6b1sZNREfzFBO2tRIBzWn.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/wKrxeY6lbu7KFBsWVcMH6M8avwr.jpg",
+      "description": "Seres amarelos milenares, os minions têm uma missão: servir os maiores vilões. Em depressão desde a morte de seu antigo mestre, eles tentam encontrar um novo chefe. Três voluntários, Kevin, Stuart e Bob, vão até uma convenção de vilões nos Estados Unidos e lá se encantam com Scarlet Overkill, que ambiciona ser a primeira mulher a dominar o mundo.",
+      "releaseInfo": "2015",
+      "genres": [
+        "Família",
+        "Animação",
+        "Aventura",
+        "Comédia"
+      ]
+    },
+    {
+      "id": "tt5113044",
+      "type": "movie",
+      "name": "Minions 2: A Origem de Gru",
+      "poster": "https://image.tmdb.org/t/p/w500/iTP3mMw0AoqmScYzDoMmYeKxYe.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/wZS4xSfPtk1NPQnx9zsT5R2WhCu.jpg",
+      "description": "A continuação das aventuras dos Minions, sempre em busca de um líder tirânico. Dessa vez, eles ajudam um Gru ainda criança, descobrindo como ser vilão.",
+      "releaseInfo": "2022",
+      "genres": [
+        "Animação",
+        "Comédia",
+        "Ficção científica",
+        "Crime",
+        "Família"
+      ]
+    },
+    {
+      "id": "tt0317705",
+      "type": "movie",
+      "name": "Os Incríveis",
+      "poster": "https://image.tmdb.org/t/p/w500/z8k5EhZZTLsCRF8NWjSe6snWNZg.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/lxwzY9vNwjDgxWKt3zZ6zcU6rEJ.jpg",
+      "description": "Beto Pêra e sua mulher Helena estavam entre os maiores super-heróis do mundo, salvando inúmeras vidas e combatendo o mal diariamente. Quinze anos depois, eles foram forçados a adotar novas identidades e a mudar-se para o subúrbio, onde vivem como cidadãos comuns com seus três filhos, Violeta, Flecha e Zezé. Louco para voltar à ação, Beto tem a sua chance quando uma misteriosa ligação o intima a comparecer a uma ilha distante para receber uma missão ultra-secreta. Ele logo descobre que só uma família inteira de super-heróis será capaz de salvar o mundo e impedir sua total destruição.",
+      "releaseInfo": "2004",
+      "genres": [
+        "Ação",
+        "Aventura",
+        "Animação",
+        "Família"
+      ]
+    },
+    {
+      "id": "tt3606756",
+      "type": "movie",
+      "name": "Os Incríveis 2",
+      "poster": "https://image.tmdb.org/t/p/w500/6et98yxnctR6uH16x3uJuIVKsPf.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/mabuNsGJgRuCTuGqjFkWe1xdu19.jpg",
+      "description": "Helena é chamada para liderar uma campanha para trazer os superheróis de volta. Enquanto Roberto deve enfrentar os desafios heroicos do dia a dia da vida doméstica. Mas quando um novo vilão aparece com um plano brilhante e perigoso, a família Pêra enfrenta o desafio juntos  com Gelado do lado deles.",
+      "releaseInfo": "2018",
+      "genres": [
+        "Ação",
+        "Aventura",
+        "Animação",
+        "Família"
+      ]
+    },
+    {
+      "id": "tt2709768",
+      "type": "movie",
+      "name": "Pets: A Vida Secreta dos Bichos",
+      "poster": "https://image.tmdb.org/t/p/w500/xKpQ8fDDu1qCvBl5bF2vpsZPSUj.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/c1Ywtvlqls6tPBZ3BqbPtBwHyng.jpg",
+      "description": "Max é um cachorrinho que mora em um apartamento de Manhattan. Quando seu dono traz para casa um vira-lata desleixado chamado Duke, Max não gosta nada, já que o seu tempo de bichinho de estimação favorito parece ter acabado. Mas logo eles vão ter que colocar as divergências de lado pois um coelhinho branco adorável chamado Snowball está construindo um exército de animais abandonados determinados a se vingar de todos os pets que tem dono.",
+      "releaseInfo": "2016",
+      "genres": [
+        "Animação",
+        "Comédia",
+        "Família",
+        "Aventura"
+      ]
+    },
+    {
+      "id": "tt5113040",
+      "type": "movie",
+      "name": "Pets: A Vida Secreta dos Bichos 2",
+      "poster": "https://image.tmdb.org/t/p/w500/lLfEOjuzNK7c8c0PpQL3UDZRde0.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/zDIievPXqjfjLogXFqnnopU0OkK.jpg",
+      "description": "Max se vê enganado por Katie no primeiro trailer da animação e acaba dentro de uma clínica veterinária onde os pets não parecem nada normais. Nesta sequência, o protagonista ainda terá que se acostumar com um recém-chegado à família.",
+      "releaseInfo": "2019",
+      "genres": [
+        "Animação",
+        "Comédia",
+        "Família",
+        "Aventura"
+      ]
+    },
+    {
+      "id": "tt0126029",
+      "type": "movie",
+      "name": "Shrek",
+      "poster": "https://image.tmdb.org/t/p/w500/wxeqfC221YMptRRdzxlijAh7q8l.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/sRvXNDItGlWCqtO3j6wks52FmbD.jpg",
+      "description": "Em um pântano distante vive Shrek, um ogro solitário que vê, sem mais nem menos, sua vida ser invadida por uma série de personagens de contos de fada. Todos eles foram expulsos de suas casas pelo maligno Lorde Farquaad. Determinado a recuperar a tranquilidade, Shrek faz um acordo com Farquaad: todos os personagens poderão retornar aos seus lares se ele e seu amigo Burro resgatarem uma princesa que foi aprisionada por um dragão.",
+      "releaseInfo": "2001",
+      "genres": [
+        "Animação",
+        "Comédia",
+        "Fantasia",
+        "Aventura",
+        "Família"
+      ]
+    },
+    {
+      "id": "tt0298148",
+      "type": "movie",
+      "name": "Shrek 2",
+      "poster": "https://image.tmdb.org/t/p/w500/2yYP0PQjG8zVqturh1BAqu2Tixl.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/8ohobj5lAIbl5XWw11FywS3IRrS.jpg",
+      "description": "Após se casar com a Princesa Fiona, Shrek vive feliz em seu pântano. Ao retornar de sua lua-de-mel Fiona recebe uma carta de seus pais, que não sabem que ela agora é um ogro, convidando-a para um jantar juntamente com seu grande amor, na intenção de conhecê-lo. A muito custo Fiona consegue convencer Shrek a ir visitá-los, tendo ainda a companhia do Burro. Porém os problemas começam quando os pais de Fiona descobrem que ela não se casou com o Príncipe, a quem havia sido prometida, e enviam o Gato de Botas para separá-los.",
+      "releaseInfo": "2004",
+      "genres": [
+        "Animação",
+        "Comédia",
+        "Família",
+        "Fantasia",
+        "Romance"
+      ]
+    },
+    {
+      "id": "tt0892791",
+      "type": "movie",
+      "name": "Shrek Para Sempre",
+      "poster": "https://image.tmdb.org/t/p/w500/iFXVU0ni6YWgQNSPkoGO1Tk5L3g.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/uzzTystB8lL0mRDII5Sfs5HxgkI.jpg",
+      "description": "Shrek faz um pacto com Rumpelstiltskin para sentir-se como um ogro de verdade novamente, mas ele é enganado e enviado para uma versão distorcida de Tão, Tão Distante - onde Rumpelstiltskin é rei, ogros são caçados, e ele e Fiona nunca se encontraram - ele decide restaurar o seu mundo e recuperar seu verdadeiro amor.",
+      "releaseInfo": "2010",
+      "genres": [
+        "Comédia",
+        "Aventura",
+        "Fantasia",
+        "Animação",
+        "Família"
+      ]
+    },
+    {
+      "id": "tt0413267",
+      "type": "movie",
+      "name": "Shrek Terceiro",
+      "poster": "https://image.tmdb.org/t/p/w500/abw1mIJIjG9X3xSEffE9siLcOkN.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/wvXxKpFGXvQJRB0nvvfURhRD3C0.jpg",
+      "description": "O rei Harold, pai de Fiona, morre repentinamente. Com isto Shrek precisa ser coroado rei, algo que ele jamais pensou em ser. Juntamente com o Burro e o Gato de Botas, ele precisa encontrar alguém que possa substituí-lo no cargo de soberano do Reino de Tão, Tão Distante. O principal candidato é Artie, um jovem desprezado por todos em sua escola, que é primo de Fiona.",
+      "releaseInfo": "2007",
+      "genres": [
+        "Fantasia",
+        "Aventura",
+        "Animação",
+        "Comédia",
+        "Família"
+      ]
+    },
+    {
+      "id": "tt28650488",
+      "type": "movie",
+      "name": "Super Mario Galaxy: O Filme",
+      "poster": "https://image.tmdb.org/t/p/w500/b3WeTp42eJSRuE4UZfyPCOJW4c.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/kxQiIJ4gVcD3K6o14MJ72p5yRcE.jpg",
+      "description": "Depois de salvar o Reino dos Cogumelos, Mario e seus amigos se encontram em uma missão intergaláctica para deter um novo vilão ameaçador.",
+      "releaseInfo": "2026",
+      "genres": [
+        "Família",
+        "Comédia",
+        "Aventura",
+        "Fantasia",
+        "Animação"
+      ]
+    },
+    {
+      "id": "tt0844471",
+      "type": "movie",
+      "name": "Tá Chovendo Hambúrguer",
+      "poster": "https://image.tmdb.org/t/p/w500/czEUatnzoLXjCDZjTKHyjcKBTFy.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/doNIj6jX27hhfcbD6GEb22ydLSF.jpg",
+      "description": "As invenções de Flint nunca deram certo. Contudo, sua vida melhora quando ele cria uma máquina que faz com que chova comida do céu, mas tudo se descontrola quando a máquina começa a desencadear tornados de esparguete e almôndegas gigantes!",
+      "releaseInfo": "2009",
+      "genres": [
+        "Animação",
+        "Comédia",
+        "Família"
+      ]
+    },
+    {
+      "id": "tt1985966",
+      "type": "movie",
+      "name": "Tá Chovendo Hambúrguer 2",
+      "poster": "https://image.tmdb.org/t/p/w500/jyIWUZCtt3pRxi727NxFjhcdzNd.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/vWriOBVlgW0XWdgbOiijhyLW7B8.jpg",
+      "description": "Flint e seus amigos são obrigados a deixar Boca da Maré após a desastrosa tempestade de comida atingir a cidade. Sem muitas opções, ele aceita o convite de seu ídolo, Chester V., e se junta a Live Corp, uma empresa que reúne os inventores mais brilhantes do mundo. No entanto, ao descobrir que sua máquina ainda está funcionando e agora cria perigosas comidas animalescas mutantes, Flint decide retornar e tentar salvar o mundo.",
+      "releaseInfo": "2013",
+      "genres": [
+        "Animação",
+        "Família",
+        "Comédia"
+      ]
+    }
+  ]
+}

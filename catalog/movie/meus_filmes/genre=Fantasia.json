@@ -1,0 +1,421 @@
+{
+  "metas": [
+    {
+      "id": "tt0443649",
+      "type": "movie",
+      "name": "10.000 A.C.",
+      "poster": "https://image.tmdb.org/t/p/w500/yS9WxbISOCzucj7484IohnrBr5b.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/nZlvmbnx5ZJYkSVocuQvOgVlWli.jpg",
+      "description": "Uma aventura épica que segue o caçador de mamutes D'Leh (Steven Strait), um jovem apaixonado por Evolet (Camilla Belle), em uma viagem por território desconhecido, na tentativa de garantir a segurança de sua tribo. Quando um bando de perigosos guerreiros sequestra sua amada, D'Leh é obrigado a liderar um pequeno grupo de caçadores em uma expedição para resgatá-la.",
+      "releaseInfo": "2008",
+      "genres": [
+        "Aventura",
+        "Ação",
+        "Drama",
+        "Fantasia"
+      ]
+    },
+    {
+      "id": "tt0478304",
+      "type": "movie",
+      "name": "A Árvore da Vida",
+      "poster": "https://image.tmdb.org/t/p/w500/iDt5nvv2TdZsFFuF5JvnEZr6RGB.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/xq1HIwZq9VbuvMQELAua1nqEkH.jpg",
+      "description": "Conta a história que aproxima o foco na relação entre pai e filho de uma família comum, e expande a ótica desta rica relação, ao longo dos séculos, desde o Big Bang até o fim dos tempos, em uma fabulosa viagem pela história da vida e seus mistérios, que culmina na busca pelo amor altruísta e o perdão.",
+      "releaseInfo": "2011",
+      "genres": [
+        "Drama",
+        "Fantasia"
+      ]
+    },
+    {
+      "id": "tt0096895",
+      "type": "movie",
+      "name": "Batman",
+      "poster": "https://image.tmdb.org/t/p/w500/cij4dd21v2Rk2YtUQbV5kW69WB2.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/rBN6GPKUDZ6ZKAQiEZegZ0DZb6V.jpg",
+      "description": "Em Gotham City o milionário Bruce Wayne, que quando jovem teve os pais assassinados por bandidos, resolve combater o crime como Batman, o Homem-Morcego. Mas chega o dia em que o vilão Coringa decide dominar a cidade e se torna um grande desafio para o super-herói.",
+      "releaseInfo": "1989",
+      "genres": [
+        "Fantasia",
+        "Ação",
+        "Crime"
+      ]
+    },
+    {
+      "id": "tt0112462",
+      "type": "movie",
+      "name": "Batman Eternamente",
+      "poster": "https://image.tmdb.org/t/p/w500/nYiG3u2doARIiuInmAWAlIPVBTM.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/snlu32RmjldF9b068UURJg8sQtn.jpg",
+      "description": "Duas-Caras e Charada, dois excêntricos bandidos, decidem descobrir a identidade do Homem-Morcego para depois matá-lo. Este por sua vez recebe a ajuda de um jovem que tem sede de vingança, por ter perdido a família em um acidente provocado exatamente pelo Duas-Caras.",
+      "releaseInfo": "1995",
+      "genres": [
+        "Ação",
+        "Crime",
+        "Fantasia"
+      ]
+    },
+    {
+      "id": "tt0103776",
+      "type": "movie",
+      "name": "Batman: O Retorno",
+      "poster": "https://image.tmdb.org/t/p/w500/trmToqPh8XYS6tzI2Nmv5ctfuSI.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/7x4SNxO5HWArighxxFeet5sn3il.jpg",
+      "description": "O monstruoso Pinguim, que vive nos arredores de Gotham, se junta ao diabólico empresário Max Shreck para vencer Batman de uma vez por todas. Porém, a secretária de Shreck, Selina Kyle, descobre os planos e se transforma na irresistível Mulher Gato que se alia na destruição de Batman.",
+      "releaseInfo": "1992",
+      "genres": [
+        "Ação",
+        "Fantasia"
+      ]
+    },
+    {
+      "id": "tt2975590",
+      "type": "movie",
+      "name": "Batman vs Superman: A Origem da Justiça",
+      "poster": "https://image.tmdb.org/t/p/w500/vh6pjeGH0GQupLepPCZn5PylcRg.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/5fX1oSGuYdKgwWmUTAN5MNSQGzr.jpg",
+      "description": "Temendo que as ações de um super-herói divino não tenham sido controladas, o formidável e vigoroso vigilante de Gotham City enfrenta o salvador mais reverenciado e moderno de Metrópolis, enquanto o mundo luta com o tipo de herói que realmente precisa. E com Batman e Superman em guerra um contra o outro, uma nova ameaça rapidamente surge, colocando a humanidade em maior perigo do que nunca antes.",
+      "releaseInfo": "2016",
+      "genres": [
+        "Ação",
+        "Aventura",
+        "Fantasia"
+      ]
+    },
+    {
+      "id": "tt0119643",
+      "type": "movie",
+      "name": "Encontro Marcado",
+      "poster": "https://image.tmdb.org/t/p/w500/xpIVnmEHEYq70tVMjtITfyvw6XB.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/uMBByiSDpgFwWVegAtwwnuzvogJ.jpg",
+      "description": "Quando o Anjo da Morte chega à Terra para buscar um magnata da mídia, suas experiências como mortal o levam a se apaixonar pela filha do milionário. A Morte então decide fazer um acordo com o empresário para que ambos possam permanecer mais tempo na Terra.",
+      "releaseInfo": "1998",
+      "genres": [
+        "Fantasia",
+        "Drama",
+        "Romance"
+      ]
+    },
+    {
+      "id": "tt0110148",
+      "type": "movie",
+      "name": "Entrevista com o Vampiro",
+      "poster": "https://image.tmdb.org/t/p/w500/oKqRTSEeOaO6x4pqc5y36qnnHsq.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/3fChciF2G1wXHsyTfJD9y7uN6Il.jpg",
+      "description": "Na São Francisco dos anos 1990, um jornalista entrevista um jovem que afirma ser vampiro, narrando suas experiências dos últimos 200 anos. Em flash-back, conhecemos Louis de Pointe du Lac (Brad Pitt), um homem que perdeu a mulher, morta durante o parto, e também a vontade de viver. Com a ajuda de uma criatura da noite, Lestat de Lioncourt (Tom Cruise), ele se torna um vampiro e precisa aprender uma nova forma de vida.",
+      "releaseInfo": "1994",
+      "genres": [
+        "Terror",
+        "Drama",
+        "Fantasia"
+      ]
+    },
+    {
+      "id": "tt1386697",
+      "type": "movie",
+      "name": "Esquadrão Suicida",
+      "poster": "https://image.tmdb.org/t/p/w500/6hU2HAUpgBZ295sYzSkr8F5VxbS.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/8XyX5Us7uzwQdXtAdnhCB9Gquek.jpg",
+      "description": "Um time dos mais perigosos e encarcerados supervilões são contratados por uma agência secreta do governo, para combater uma poderosa entidade. No entanto, quando eles percebem que não foram escolhidos apenas para ter sucesso, mas também por sua óbvia culpa quando inevitavelmente falharem, terão que decidir se vale a pena ou não continuar correndo risco de morte.",
+      "releaseInfo": "2016",
+      "genres": [
+        "Ação",
+        "Aventura",
+        "Fantasia"
+      ]
+    },
+    {
+      "id": "tt0800320",
+      "type": "movie",
+      "name": "Fúria de Titãs",
+      "poster": "https://image.tmdb.org/t/p/w500/mo0clKzmkQ4cEogZrkbip8nrfd7.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/h7Bk9yEIKhyYo96EuTUki1oJE1R.jpg",
+      "description": "Perseu descobre que é o filho mortal de Zeus, mas recusa-se a aceitar tal condição. Contudo, para salvar a cidade de Argos da fúria dos deuses do olimpo e da vingança de seu tio Hades, ele vai ter que enfrentar uma perigosa jornada contra terríveis criaturas como a Medusa para salvar os simples mortais e a bela Andrômeda do sacrifício para o monstro Kraken.",
+      "releaseInfo": "2010",
+      "genres": [
+        "Aventura",
+        "Fantasia",
+        "Ação"
+      ]
+    },
+    {
+      "id": "tt1646987",
+      "type": "movie",
+      "name": "Fúria de Titãs 2",
+      "poster": "https://image.tmdb.org/t/p/w500/yf5sWg9T7mT8PTkg3kOdtzhH7P6.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/g6Bppew6A1PxpHfraNroo0mRBcm.jpg",
+      "description": "Dez anos depois de derrotar o Kraken, Perseu vive em paz com seu filho Helios. Mas os Deuses perdem o controle sobre os Titãs, que estão presos. Perseu é chamado novamente, agora para resgatar seu pai, Zeus, vencer os Titãs e salvar a humanidade.",
+      "releaseInfo": "2012",
+      "genres": [
+        "Fantasia",
+        "Aventura",
+        "Ação"
+      ]
+    },
+    {
+      "id": "tt0448157",
+      "type": "movie",
+      "name": "Hancock",
+      "poster": "https://image.tmdb.org/t/p/w500/7DyuV2G0hLEqHeueDfOqhZ2DVut.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/xh0ZRdnL4pSqfW73HBf97xiNEFP.jpg",
+      "description": "Hancock, um super-herói desajeitado, protege os cidadãos de Los Angeles mas causa danos colaterais a cada ato heroico que realiza. Hancock não se importa com o que as pessoas pensam. Entretanto, após salvar a vida de um executivo, ele conhece a bela esposa dele e descobre que, apesar de tudo, é um homem sensível.",
+      "releaseInfo": "2008",
+      "genres": [
+        "Fantasia",
+        "Ação"
+      ]
+    },
+    {
+      "id": "tt1683043",
+      "type": "movie",
+      "name": "Lanterna Verde: Cavaleiros Esmeralda",
+      "poster": "https://image.tmdb.org/t/p/w500/qyeoW0JGhdt0tULJuBKC7ip1t0E.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/5XQobwJuqx0UFCHVDooWUBraeID.jpg",
+      "description": "Prestes a ganhar seu primeiro longa-metragem live action, o herói Lanterna Verde tem novas aventuras animadas chegando ao mercado de vídeo, sempre em lançamentos com visual de tirar o fôlego. Aqui ele prepara uma jovem pupila para seguir seus passos, relatando a ela as aventuras de diversos outros Lanternas Verdes espalhados pela galáxia, em contos que mostram toda a coragem e honra dos integrantes desta seleta dinastia.",
+      "releaseInfo": "2011",
+      "genres": [
+        "Ação",
+        "Aventura",
+        "Animação",
+        "Ficção científica",
+        "Drama",
+        "Fantasia"
+      ]
+    },
+    {
+      "id": "tt1384590",
+      "type": "movie",
+      "name": "Lanterna Verde: Primeiro Vôo",
+      "poster": "https://image.tmdb.org/t/p/w500/ifUEtuvQeIrVh9ajaxMWKBBsDwx.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/zYARGakIhHUvPuVJzlbqU40FrnV.jpg",
+      "description": "Depois de receber das mãos de uma lienígena um anel eu lhe dá poderes sobre-humanos, o piloto Hal Jordan entra para a Tropa dos Lanternas Verdes, onde é supervisionado pelo respeitado Sinestro, Quando Jordan descobre que seu supervisor é na verdade o cabeça de uma conspiração que ameaça a filosofia e as tradições da Tropa, ele busca dominar rapidamente seus novos poderes para combater os traidores e manter a ordem no universo.",
+      "releaseInfo": "2009",
+      "genres": [
+        "Ação",
+        "Aventura",
+        "Fantasia",
+        "Animação",
+        "Ficção científica"
+      ]
+    },
+    {
+      "id": "tt12361974",
+      "type": "movie",
+      "name": "Liga da Justiça de Zack Snyder",
+      "poster": "https://image.tmdb.org/t/p/w500/lsZ5dmMuvZVNMBrkozvJedujbgU.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/13Nz8EchKRdCgJcKdEoJAnpiVn2.jpg",
+      "description": "Determinado a garantir que o sacrifício final do Superman não foi em vão, Bruce Wayne alinha forças com Diana Prince com planos de recrutar uma equipe de metahumanos para proteger o mundo de uma ameaça de proporções catastróficas que se aproxima.",
+      "releaseInfo": "2021",
+      "genres": [
+        "Ação",
+        "Aventura",
+        "Fantasia"
+      ]
+    },
+    {
+      "id": "tt0185431",
+      "type": "movie",
+      "name": "Little Nick - Um Diabo Diferente",
+      "poster": "https://image.tmdb.org/t/p/w500/uuO5wW534qkBPicTRilPaLumL0A.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/fYKfPWArkWeMcril9JxhVRP9bYk.jpg",
+      "description": "Após dez mil anos de reinado, e já perto de aposentar-se, o Demônio decide no cargo. Revoltados, seus filhos Adrian e Cassius resolvem criar um inferno particular, e elegem Nova York para começar. Porém, a saída de Adrian e Cassius sela o portal do inferno, fazendo com que o Demônio vá perdendo seus poderes. A solução é pedir ao filho caçula, o atrapalhado Nicky, que falante, Nicky começa a experimentar sensações humanas e acaba se apaixonado por Valerie. Enquanto isso, a Terra fica cada vez mais perto de tornar-se um verdadeiro Inferno.",
+      "releaseInfo": "2000",
+      "genres": [
+        "Comédia",
+        "Fantasia"
+      ]
+    },
+    {
+      "id": "tt0427340",
+      "type": "movie",
+      "name": "Mestres do Universo",
+      "poster": "https://image.tmdb.org/t/p/w500/atpb7NKSyM4bJSUY8vQTunzK4Na.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/yQIdU11DYQQp0neGtGtGxbGfRer.jpg",
+      "description": "Adam caiu na Terra quando era criança e perdeu a espada mágica que o ligava a Eternia. Quase 20 anos depois, ele a recupera e retorna ao seu planeta natal para protegê-lo do malvado Esqueleto, mas primeiro precisa desvendar seu passado.",
+      "releaseInfo": "2026",
+      "genres": [
+        "Ação",
+        "Fantasia",
+        "Ficção científica"
+      ]
+    },
+    {
+      "id": "tt17490712",
+      "type": "movie",
+      "name": "Mortal Kombat 2",
+      "poster": "https://image.tmdb.org/t/p/w500/iILiJSRViTEcF23MHhGCbVm3mfW.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/4EAAwpylq313qrDqpCxulUrXBNF.jpg",
+      "description": "Os campeões favoritos dos fãs – agora acompanhados pelo próprio Johnny Cage – são colocados uns contra os outros numa sangrenta e derradeira batalha, sem regras ou limites, para derrotar o governo sombrio de Shao Kahn.",
+      "releaseInfo": "2026",
+      "genres": [
+        "Ação",
+        "Fantasia",
+        "Aventura"
+      ]
+    },
+    {
+      "id": "tt0421715",
+      "type": "movie",
+      "name": "O Curioso Caso de Benjamin Button",
+      "poster": "https://image.tmdb.org/t/p/w500/v9emaesXHtzXcca0tuSPDsSh3K9.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/2fswjyrY3GEzeoVn6mF8pNeNcgf.jpg",
+      "description": "Benjamin Button é um homem que nasce idoso e rejuvenesce à medida que o tempo passa. Doze anos depois de seu nascimento, ele conhece Daisy, uma criança que entra e sai de sua vida enquanto cresce para ser dançarina. Embora tenha todos os tipos de aventuras incomuns, sua relação com Daisy o faz acreditar que os dois se encontrarão no momento certo da vida.",
+      "releaseInfo": "2008",
+      "genres": [
+        "Drama",
+        "Fantasia",
+        "Romance"
+      ]
+    },
+    {
+      "id": "tt0938283",
+      "type": "movie",
+      "name": "O Último Mestre do Ar",
+      "poster": "https://image.tmdb.org/t/p/w500/sQGFIDDScR6tX3KXotHaQywewYU.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/gU5cR9LKtDD8YvzE7T7GvmzCEAA.jpg",
+      "description": "As quatro nações, Ar, Água, Terra e Fogo, viviam em harmonia, até que a nação do Fogo declarou guerra com o objetivo de dominar o mundo. Um século depois, não há perspectiva para o fim da destruição, até que um avatar chamado Aang descobre ter o poder de controlar os quatro elementos. Ele se une aos irmãos Katara e Sokka, da Água, e juntos partem em uma grande e perigosa aventura em busca da paz, para restaurar o equilíbrio e a harmonia.",
+      "releaseInfo": "2010",
+      "genres": [
+        "Ação",
+        "Aventura",
+        "Fantasia"
+      ]
+    },
+    {
+      "id": "tt0119099",
+      "type": "movie",
+      "name": "Possuídos",
+      "poster": "https://image.tmdb.org/t/p/w500/qDXENKGzkYz9jyAtjiua1zp1o6T.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/3UNd9jAE2CaGLAr5MGtzlh178SD.jpg",
+      "description": "Após a execução de um serial killer, John Hobbes (Denzel Washington), um detetive, acredita que parte dos seus problemas terminaram, mas logo repara que pessoas na rua cantam a mesma melodia que o criminoso cantou na câmara de gás. Gradativamente o policial conclui que todos estavam possuídos por Azazel, um anjo amaldiçoado que não tem forma mas que com um simples toque consegue penetrar em quase todas as pessoas. Quando Hobbes é forçado a matar um professor, que estava possuído por Azazel, fica claro que ele precisa proteger as pessoas desta entidade demoníaca.",
+      "releaseInfo": "1998",
+      "genres": [
+        "Crime",
+        "Drama",
+        "Thriller",
+        "Fantasia"
+      ]
+    },
+    {
+      "id": "tt0126029",
+      "type": "movie",
+      "name": "Shrek",
+      "poster": "https://image.tmdb.org/t/p/w500/wxeqfC221YMptRRdzxlijAh7q8l.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/sRvXNDItGlWCqtO3j6wks52FmbD.jpg",
+      "description": "Em um pântano distante vive Shrek, um ogro solitário que vê, sem mais nem menos, sua vida ser invadida por uma série de personagens de contos de fada. Todos eles foram expulsos de suas casas pelo maligno Lorde Farquaad. Determinado a recuperar a tranquilidade, Shrek faz um acordo com Farquaad: todos os personagens poderão retornar aos seus lares se ele e seu amigo Burro resgatarem uma princesa que foi aprisionada por um dragão.",
+      "releaseInfo": "2001",
+      "genres": [
+        "Animação",
+        "Comédia",
+        "Fantasia",
+        "Aventura",
+        "Família"
+      ]
+    },
+    {
+      "id": "tt0298148",
+      "type": "movie",
+      "name": "Shrek 2",
+      "poster": "https://image.tmdb.org/t/p/w500/2yYP0PQjG8zVqturh1BAqu2Tixl.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/8ohobj5lAIbl5XWw11FywS3IRrS.jpg",
+      "description": "Após se casar com a Princesa Fiona, Shrek vive feliz em seu pântano. Ao retornar de sua lua-de-mel Fiona recebe uma carta de seus pais, que não sabem que ela agora é um ogro, convidando-a para um jantar juntamente com seu grande amor, na intenção de conhecê-lo. A muito custo Fiona consegue convencer Shrek a ir visitá-los, tendo ainda a companhia do Burro. Porém os problemas começam quando os pais de Fiona descobrem que ela não se casou com o Príncipe, a quem havia sido prometida, e enviam o Gato de Botas para separá-los.",
+      "releaseInfo": "2004",
+      "genres": [
+        "Animação",
+        "Comédia",
+        "Família",
+        "Fantasia",
+        "Romance"
+      ]
+    },
+    {
+      "id": "tt0892791",
+      "type": "movie",
+      "name": "Shrek Para Sempre",
+      "poster": "https://image.tmdb.org/t/p/w500/iFXVU0ni6YWgQNSPkoGO1Tk5L3g.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/uzzTystB8lL0mRDII5Sfs5HxgkI.jpg",
+      "description": "Shrek faz um pacto com Rumpelstiltskin para sentir-se como um ogro de verdade novamente, mas ele é enganado e enviado para uma versão distorcida de Tão, Tão Distante - onde Rumpelstiltskin é rei, ogros são caçados, e ele e Fiona nunca se encontraram - ele decide restaurar o seu mundo e recuperar seu verdadeiro amor.",
+      "releaseInfo": "2010",
+      "genres": [
+        "Comédia",
+        "Aventura",
+        "Fantasia",
+        "Animação",
+        "Família"
+      ]
+    },
+    {
+      "id": "tt0413267",
+      "type": "movie",
+      "name": "Shrek Terceiro",
+      "poster": "https://image.tmdb.org/t/p/w500/abw1mIJIjG9X3xSEffE9siLcOkN.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/wvXxKpFGXvQJRB0nvvfURhRD3C0.jpg",
+      "description": "O rei Harold, pai de Fiona, morre repentinamente. Com isto Shrek precisa ser coroado rei, algo que ele jamais pensou em ser. Juntamente com o Burro e o Gato de Botas, ele precisa encontrar alguém que possa substituí-lo no cargo de soberano do Reino de Tão, Tão Distante. O principal candidato é Artie, um jovem desprezado por todos em sua escola, que é primo de Fiona.",
+      "releaseInfo": "2007",
+      "genres": [
+        "Fantasia",
+        "Aventura",
+        "Animação",
+        "Comédia",
+        "Família"
+      ]
+    },
+    {
+      "id": "tt28650488",
+      "type": "movie",
+      "name": "Super Mario Galaxy: O Filme",
+      "poster": "https://image.tmdb.org/t/p/w500/b3WeTp42eJSRuE4UZfyPCOJW4c.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/kxQiIJ4gVcD3K6o14MJ72p5yRcE.jpg",
+      "description": "Depois de salvar o Reino dos Cogumelos, Mario e seus amigos se encontram em uma missão intergaláctica para deter um novo vilão ameaçador.",
+      "releaseInfo": "2026",
+      "genres": [
+        "Família",
+        "Comédia",
+        "Aventura",
+        "Fantasia",
+        "Animação"
+      ]
+    },
+    {
+      "id": "tt1637725",
+      "type": "movie",
+      "name": "Ted",
+      "poster": "https://image.tmdb.org/t/p/w500/patvtN6QlClCRZlswIPxDSYJRzW.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/hkAVgWvAMmM8tj9CDEvGqMdNQBE.jpg",
+      "description": "Quando criança, John desejou que seu ursinho Ted ganhasse vida e, surpreendentemente, foi atendido. Porém, agora que é adulto, ele precisa lidar com as consequências de seu pedido, já que Ted não vai parar de atormentar a sua vida.",
+      "releaseInfo": "2012",
+      "genres": [
+        "Comédia",
+        "Fantasia"
+      ]
+    },
+    {
+      "id": "tt2637276",
+      "type": "movie",
+      "name": "Ted 2",
+      "poster": "https://image.tmdb.org/t/p/w500/kblxjPVIXaIQ7iHo5b2LaBOEllD.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/xtHonIIIQXverDQM08TMQXjn9Fe.jpg",
+      "description": "O urso de pelúcia Ted casa-se com Tami-Lynn. O casal pretende ter um bebê, mas para terem direito à inseminação artificial, Ted tem que provar na justiça que é um ser humano. Para alcançar o seu sonho, ele conta com a ajuda da advogada Samantha e do seu grande amigo John.",
+      "releaseInfo": "2015",
+      "genres": [
+        "Comédia",
+        "Fantasia"
+      ]
+    },
+    {
+      "id": "tt3203616",
+      "type": "movie",
+      "name": "Trocando os Pés",
+      "poster": "https://image.tmdb.org/t/p/w500/o0OL6zpJepJW5C6yPsAFRTGqGCg.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/ysSUDoBeG5oIz7e4vkTtsuGBXfe.jpg",
+      "description": "Um solitário sapateiro encontra uma relíquia mágica que possibilita que ele se transforme em qualquer pessoa ao calçar os sapatos dela.",
+      "releaseInfo": "2014",
+      "genres": [
+        "Fantasia",
+        "Comédia",
+        "Drama"
+      ]
+    }
+  ]
+}
