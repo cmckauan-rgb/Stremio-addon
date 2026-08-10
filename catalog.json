@@ -1,0 +1,183 @@
+{
+  "manifest": {
+    "id": "org.meuaddon.tmdb.filmes",
+    "version": "1.0.0",
+    "name": "Catálogo de Filmes Populares",
+    "description": "Addon com lista atualizada de filmes populares via TMDB",
+    "resources": [
+      "catalog"
+    ],
+    "types": [
+      "movie"
+    ],
+    "catalogs": [
+      {
+        "type": "movie",
+        "id": "top_movies",
+        "name": "Filmes Populares"
+      }
+    ]
+  },
+  "metas": [
+    {
+      "id": "tmdb:969681",
+      "type": "movie",
+      "name": "Homem-Aranha: Um Novo Dia",
+      "poster": "https://image.tmdb.org/t/p/w500/x0nvYzQpyJc5pdT9lMnkMuYAg0O.jpg",
+      "description": "É um novo dia para Peter Parker. Combatendo o crime em tempo integral como Homem-Aranha em um mundo que não se lembra mais dele e lidando com a pressão de ver seus antigos amigos seguirem em frente sem sua presença, Peter passa por uma mudança que talvez nem ele tenha o poder de controlar. Mas essa transformação também pode ser a única coisa capaz de deter uma surpreendente nova ameaça à cidade e às pessoas que ele ama: um poderoso vilão que ninguém sequer consegue enxergar.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1368337",
+      "type": "movie",
+      "name": "A Odisseia",
+      "poster": "https://image.tmdb.org/t/p/w500/muMwJAiMtReEHLKpKMWt2rMkYF7.jpg",
+      "description": "Acompanhe a saga de Odisseu, o lendário rei de Ítaca, em sua longa e perigosa jornada de retorno ao lar após a Guerra de Troia. O relato narra seus confrontos com seres míticos, como o ciclope Polifemo, as sedutoras sereias e a ninfa Calipso, enquanto ele luta contra o destino para se reencontrar com sua fiel esposa, Penélope.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:634649",
+      "type": "movie",
+      "name": "Homem-Aranha: Sem Volta Para Casa",
+      "poster": "https://image.tmdb.org/t/p/w500/xaKydnMw6wR1MBAjS5seGPVusbs.jpg",
+      "description": "Peter Parker é desmascarado e não consegue mais separar sua vida normal dos grandes riscos de ser um super-herói. Quando ele pede ajuda ao Doutor Estranho, os riscos se tornam ainda mais perigosos, e o forçam a descobrir o que realmente significa ser o Homem-Aranha...",
+      "releaseInfo": "2021"
+    },
+    {
+      "id": "tmdb:1081003",
+      "type": "movie",
+      "name": "Supergirl",
+      "poster": "https://image.tmdb.org/t/p/w500/qhXfLI1gDWaahzfHT0cb2CH61hO.jpg",
+      "description": "Quando um adversário implacável atinge alguém muito próximo dela, Kara Zor-El relutantemente une forças com uma companheira improvável em uma épica jornada interestelar de vingança e justiça.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1084244",
+      "type": "movie",
+      "name": "Toy Story 5",
+      "poster": "https://image.tmdb.org/t/p/w500/sssrBhdvDcczgMQYDc8oCoSuFEJ.jpg",
+      "description": "O trabalho de Buzz, Woody, Jessie e do resto da gangue fica exponencialmente mais difícil quando eles enfrentam uma nova ameaça à diversão: a tecnologia.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1275779",
+      "type": "movie",
+      "name": "Dia D",
+      "poster": "https://image.tmdb.org/t/p/w500/pmff1wjKrgJi92PPr346lAifzlg.jpg",
+      "description": "A existência de vida extraterrestre torna-se uma realidade inegável para todos os habitantes da Terra em um único instante. O mundo entra em colapso quando uma meteorologista, em plena transmissão ao vivo, é dominada por uma força invisível, perdendo a fala e emitindo sons perturbadores. Enquanto fenômenos inexplicáveis e sinais de controle mental em massa se espalham, um informante tenta expor segredos governamentais guardados por décadas. Diante da prova definitiva de que a humanidade não está sozinha, o pânico e o fascínio tomam conta de uma civilização confrontada pelo desconhecido.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1339713",
+      "type": "movie",
+      "name": "Obsessão",
+      "poster": "https://image.tmdb.org/t/p/w500/wUc6IDf5ChjM1UyQye21qFBeJY0.jpg",
+      "description": "Sem grandes pretensões, um romântico incurável compra um brinquedo que promete realizar desejos únicos. Ele quebra o artefato misterioso enquanto pede para conquistar a crush e consegue exatamente o que desejava, mas descobre que a consequência é sinistra.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1284041",
+      "type": "movie",
+      "name": "A Última Casa",
+      "poster": "https://image.tmdb.org/t/p/w500/hSkzGimU25ncdKuMW1s1h4QsCbF.jpg",
+      "description": "Uma família trancada misteriosamente na própria casa precisa se unir para sobreviver à escassez de recursos e à força sombria que a mantém presa.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1284465",
+      "type": "movie",
+      "name": "A Morte de Robin Hood",
+      "poster": "https://image.tmdb.org/t/p/w500/o0QndnepFPWget2kdKpzh26RBYt.jpg",
+      "description": "Atormentado pelas cicatrizes de uma vida marcada pelo crime, Robin Hood sobrevive por pouco àquela que acreditava ser sua batalha final. Gravemente ferido, ele é encontrado por uma mulher misteriosa que o recolhe das sombras e passa a cuidar de seus ferimentos. Com o corpo fora de combate, cada erro cometido no passado volta para assombrá-lo.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1212763",
+      "type": "movie",
+      "name": "A Morte do Demônio: Em Chamas",
+      "poster": "https://image.tmdb.org/t/p/w500/fteLdvfRnltfLjAEnsl5E3vImnW.jpg",
+      "description": "Após a perda do marido, uma mulher busca consolo com seus sogros em sua casa isolada. À medida que, um a um, eles são transformados em Deadites — transformando o encontro em uma reunião familiar infernal —, ela descobre que os votos que fez em vida... continuam vivos mesmo após a morte.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1315772",
+      "type": "movie",
+      "name": "Minions & Monstros",
+      "poster": "https://image.tmdb.org/t/p/w500/hTowtXrkCY7FJyoj4p91JckrJSE.jpg",
+      "description": "Esta é a frenética, ridícula e totalmente verdadeira história de como os Minions conquistaram Hollywood, se tornaram estrelas de cinema, perderam tudo, libertaram monstros pelo mundo e, depois, se uniram para tentar salvar o planeta do caos que eles mesmos haviam acabado de criar.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1108427",
+      "type": "movie",
+      "name": "Moana",
+      "poster": "https://image.tmdb.org/t/p/w500/eEsiTi19EYBluPQliS3CMnBgqTj.jpg",
+      "description": "Na Polinésia Antiga, quando uma terrível maldição contraída por Maui chega à ilha de um impetuoso chefe, sua filha obstinada responde ao chamado do Oceano para procurar o semideus e consertar as coisas. Adaptação live-action do filme de animação da Disney de 2016 'Moana'",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1375646",
+      "type": "movie",
+      "name": "Zona Zero",
+      "poster": "https://image.tmdb.org/t/p/w500/hWT5fHzVcxq06SuLfAWYVCrue7P.jpg",
+      "description": "De repente, um vírus que sofre mutações rápidas é liberado em uma conferência de biologia, forçando o isolamento imediato do local. A contaminação se espalha rapidamente, e os infectados não apenas atacam, eles evoluem de formas imprevisíveis e cada vez mais perigosas. Presos nesse confinamento, um grupo de sobreviventes precisa lutar pela própria vida enquanto, a cada minuto, as regras do jogo mudam.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1481343",
+      "type": "movie",
+      "name": "A Boca do Diabo",
+      "poster": "https://image.tmdb.org/t/p/w500/2CZecxLrTSmzngWqIGganSMg6gK.jpg",
+      "description": "Cinco amigos exploram as cavernas da Boca do Diabo, na Tailândia, para uma última aventura antes de começar a vida real. Mas logo descobrem que há algo mortal à espreita embaixo d'água.... veloz, silencioso e letal. Na escuridão sufocante, a confiança se desfaz, o pânico se espalha e cada passo errado se torna uma luta pela sobrevivência.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1698863",
+      "type": "movie",
+      "name": "The Odyssey",
+      "poster": "https://image.tmdb.org/t/p/w500/xBHCRB7zLIW41w8QskfwJhm32YF.jpg",
+      "description": "",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:315635",
+      "type": "movie",
+      "name": "Homem-Aranha: De Volta ao Lar",
+      "poster": "https://image.tmdb.org/t/p/w500/1nkwRL17cAGO8A1yu3miRBdvOsl.jpg",
+      "description": "Depois de atuar ao lado dos Vingadores, chegou a hora do pequeno Peter Parker voltar para casa e para a sua vida, já não mais tão normal. Lutando diariamente contra pequenos crimes nas redondezas, ele pensa ter encontrado a missão de sua vida quando o terrível vilão Abutre surge amedrontando a cidade. O problema é que a tarefa não será tão fácil como ele imaginava.",
+      "releaseInfo": "2017"
+    },
+    {
+      "id": "tmdb:454639",
+      "type": "movie",
+      "name": "Mestres do Universo",
+      "poster": "https://image.tmdb.org/t/p/w500/atpb7NKSyM4bJSUY8vQTunzK4Na.jpg",
+      "description": "Adam caiu na Terra quando era criança e perdeu a espada mágica que o ligava a Eternia. Quase 20 anos depois, ele a recupera e retorna ao seu planeta natal para protegê-lo do malvado Esqueleto, mas primeiro precisa desvendar seu passado.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1083381",
+      "type": "movie",
+      "name": "Backrooms: Um Não-Lugar",
+      "poster": "https://image.tmdb.org/t/p/w500/a1pgQeEge47xrS4jGlDwIHiieVK.jpg",
+      "description": "Em 1990, o vendedor de móveis Clark descobre em sua loja um portal para os \"Backrooms\", um labirinto infinito de escritórios surreais. Fascinado, ele convence sua funcionária Kat e o namorado dela a mapearem as anomalias do local. Após o desaparecimento de Clark, sua terapeuta, a Dra. Mary Kline, mergulha na dimensão impossível para resgatá-lo, sendo forçada a confrontar seus próprios traumas enquanto busca uma saída.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:557",
+      "type": "movie",
+      "name": "Homem-Aranha",
+      "poster": "https://image.tmdb.org/t/p/w500/RbZQL5hXmydecu82UHw9ZGyytB.jpg",
+      "description": "Peter Parker é um jovem estudioso que vive com seus tios, Ben e May, desde que seus pais faleceram. Peter tem dificuldade em se relacionar com seus colegas, por ser tímido e por eles o considerarem um nerd. Até que, em uma demonstração científica, um acidente inesperado faz com que uma aranha modificada geneticamente pique Peter. A partir de então seu corpo é quimicamente alterado pela picada da aranha.",
+      "releaseInfo": "2002"
+    },
+    {
+      "id": "tmdb:1307118",
+      "type": "movie",
+      "name": "Soulm8te",
+      "poster": "https://image.tmdb.org/t/p/w500/bNErActDctl6cdUGw9pnjSCmyhQ.jpg",
+      "description": "Um homem adquire um androide com inteligência artificial para lidar com o luto de sua falecida esposa. No entanto, ao tentar criar uma parceira verdadeiramente senciente, ele acaba transformando, inadvertidamente, um robô inofensivo em uma alma gêmea mortal.",
+      "releaseInfo": "2026"
+    }
+  ]
+}
