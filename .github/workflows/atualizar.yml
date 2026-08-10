@@ -2,20 +2,24 @@ name: Atualizar Addon Stremio
 
 on:
   schedule:
-    # Roda automaticamente todo dia à meia-noite
-    - cron: '0 0 * * *'
-  # Permite que você rode manualmente com 1 clique quando quiser
+    # Roda diariamente à meia-noite
+    - cron: "0 0 * * *"
+  # Permite que você rode manualmente com 1 clique
   workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
+    permissions:
+      contents: write  # Permite que a Action faça commits/push
+
     steps:
       - name: Baixar código do repositório
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Configurar Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
           python-version: '3.x'
 
@@ -29,8 +33,8 @@ jobs:
 
       - name: Salvar alterações no GitHub
         run: |
-          git config --global user.name 'github-actions[bot]'
-          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add .
           git diff --staged --quiet || git commit -m "Automated update of catalog and streams"
           git push
