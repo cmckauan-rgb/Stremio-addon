@@ -11,7 +11,7 @@ PROXY_BASE_URL = "https://drive-proxy.cmckauan.workers.dev"
 FOLDER_ID = "1twEX01x0SdhtzoK58klrzP8JoDFdx6gW"
 LANGUAGE = "pt-BR"
 
-# Lista de gêneros igual à declarada no seu manifest.json
+# Lista base de gêneros
 GENEROS_OFICIAIS = [
     "Ação", "Aventura", "Animação", "Cinema TV", "Comédia", "Crime", 
     "Documentário", "Drama", "Família", "Fantasia", "Ficção científica", 
@@ -188,7 +188,7 @@ def processar_filmes():
         else:
             print(f"⚠️ Não identificado no TMDB: '{titulo}'")
 
-        if metas:
+    if metas:
         catalog_data = {"metas": metas}
         
         # 1. Catálogo Geral
@@ -198,14 +198,14 @@ def processar_filmes():
         with open("catalog.json", "w", encoding="utf-8") as f:
             json.dump(catalog_data, f, ensure_ascii=False, indent=2)
 
-        # 2. Descobre TODOS os gêneros presentes nos filmes dinamicamente
+        # 2. Reúne gêneros estáticos e dinâmicos dos filmes
         todos_generos = set(GENEROS_OFICIAIS)
         for m in metas:
             for g in m.get("genres", []):
                 if g:
                     todos_generos.add(g)
 
-        # 3. Gera os arquivos dos gêneros encontrados
+        # 3. Gera os arquivos JSON filtrados por gênero
         pasta_generos = "catalog/movie/meus_filmes"
         for genero in todos_generos:
             metas_genero = [
@@ -224,4 +224,7 @@ def processar_filmes():
                 with open(caminho_encoded, "w", encoding="utf-8") as f:
                     json.dump(dados_genero, f, ensure_ascii=False, indent=2)
 
-        print(f"\n🎉 Sucesso! Catálogo e gêneros atualizados!")
+        print(f"\n🎉 Sucesso! Catálogo e gêneros gerados com sucesso!")
+
+if __name__ == "__main__":
+    processar_filmes()
