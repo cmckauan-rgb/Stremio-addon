@@ -13,9 +13,9 @@ LANGUAGE = "pt-BR"
 
 # Lista de gêneros igual à declarada no seu manifest.json
 GENEROS_OFICIAIS = [
-    "Ação", "Aventura", "Animação", "Comédia", "Crime", "Documentário",
-    "Drama", "Família", "Fantasia", "Ficção científica", "Guerra",
-    "História", "Mistério", "Romance", "Terror", "Thriller"
+    "Ação", "Aventura", "Animação", "Cinema TV", "Comédia", "Crime", 
+    "Documentário", "Drama", "Família", "Fantasia", "Ficção científica", 
+    "Guerra", "História", "Mistério", "Música", "Romance", "Terror", "Thriller"
 ]
 
 if not TMDB_API_KEY:
