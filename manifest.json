@@ -1,15 +1,24 @@
 {
-  "id": "org.meuaddon.proxy",
+  "id": "org.meuaddon.driveproxy",
   "version": "1.0.0",
-  "name": "Meu Servidor Privado",
-  "description": "Filmes do meu servidor proxy",
-  "resources": ["catalog", "stream"],
-  "types": ["movie"],
+  "name": "Meus Filmes Drive Proxy",
+  "description": "Filmes do meu Google Drive via Worker Proxy",
+  "resources": [
+    "catalog",
+    "stream"
+  ],
+  "types": [
+    "movie"
+  ],
   "catalogs": [
     {
       "type": "movie",
       "id": "meus_filmes",
       "name": "Meus Filmes"
     }
+  ],
+  "idPrefixes": [
+    "tmdb:",
+    "tt"
   ]
 }
