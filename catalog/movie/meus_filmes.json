@@ -1,3 +1,2340 @@
 {
-  "metas": []
+  "metas": [
+    {
+      "id": "tmdb:584",
+      "type": "movie",
+      "name": "+ Velozes + Furiosos",
+      "poster": "https://image.tmdb.org/t/p/w500/mx0CB8H78PQu0g9YUWG47hdi93S.jpg",
+      "description": "O ex-policial Brian comete uma grande traição, juntando-se a um amigo ex-presidiário no transporte de dinheiro sujo para uma importadora-exportadora muito suspeita.",
+      "releaseInfo": "2003"
+    },
+    {
+      "id": "tmdb:7840",
+      "type": "movie",
+      "name": "10.000 A.C.",
+      "poster": "https://image.tmdb.org/t/p/w500/yS9WxbISOCzucj7484IohnrBr5b.jpg",
+      "description": "Uma aventura épica que segue o caçador de mamutes D'Leh (Steven Strait), um jovem apaixonado por Evolet (Camilla Belle), em uma viagem por território desconhecido, na tentativa de garantir a segurança de sua tribo. Quando um bando de perigosos guerreiros sequestra sua amada, D'Leh é obrigado a liderar um pequeno grupo de caçadores em uma expedição para resgatá-la.",
+      "releaseInfo": "2008"
+    },
+    {
+      "id": "tmdb:9378",
+      "type": "movie",
+      "name": "13 Fantasmas",
+      "poster": "https://image.tmdb.org/t/p/w500/rVcigGnXNtYQoBAhTWGAS9o03jc.jpg",
+      "description": "Após sua esposa morrer em um incêndio, Arthur e seus dois filhos ficaram sem nada além de um ao outro. Isto é, até Arthur herdar uma casa de vidro e aço de seu tio misterioso. Porém eles logo descobrem que há algo horrível preso atrás das paredes cristalinas da casa. Para deixar a casa com vida, eles devem resolver um quebra-cabeça que contém a chave para sua salvação iminente ou a destruição.",
+      "releaseInfo": "2001"
+    },
+    {
+      "id": "tmdb:300671",
+      "type": "movie",
+      "name": "13 Horas: Os Soldados Secretos de Benghazi",
+      "poster": "https://image.tmdb.org/t/p/w500/K4lEgO47Axbidt5MJo5KljpP3G.jpg",
+      "description": "Seis membros de um grupo de elite da Marinha americana defendem o Consulado dos Estados Unidos em Bengazi, Líbia, alvo de um ataque terrorista que causou a morte do embaixador J. Christopher Stevens em 2012.",
+      "releaseInfo": "2016"
+    },
+    {
+      "id": "tmdb:1288998",
+      "type": "movie",
+      "name": "1978",
+      "poster": "https://image.tmdb.org/t/p/w500/ndJYJc7ZKk87dAg81XYvegEUR8o.jpg",
+      "description": "Durante a final da Copa do Mundo entre Argentina e Holanda, em tempos de ditadura militar, um grupo de torturadores sequestra um grupo de jovens. O que começa como um interrogatório desumano se transforma em um inferno: o grupo errado foi sequestrado.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:347375",
+      "type": "movie",
+      "name": "22 Milhas",
+      "poster": "https://image.tmdb.org/t/p/w500/qgiU6AvEoyuLMnt7KnoubXrKsC.jpg",
+      "description": "Um oficial da inteligência de elite dos Estados Unidos, auxiliado por uma unidade de comando tático ultrassecreta, tenta tirar do país um misterioso policial com informações confidenciais.",
+      "releaseInfo": "2018"
+    },
+    {
+      "id": "tmdb:4513",
+      "type": "movie",
+      "name": "30 Dias de Noite",
+      "poster": "https://image.tmdb.org/t/p/w500/tbG7VEn5dZZQAjSNCPMAHzpf4GQ.jpg",
+      "description": "Barrow, Alasca. Durante os 30 dias do inverno local a cidade fica na mais completa escuridão. Neste período boa parte dos moradores viaja rumo ao sul, mas neste ano a cidade recebeu a visita de seres estranhos: um grupo de vampiros, que pretendem se aproveitar da noite constante para atacar os moradores locais. Para combatê-los um pequeno grupo é reunido, liderado pelo xerife Eben Oleson e por sua ex-esposa Stella.",
+      "releaseInfo": "2007"
+    },
+    {
+      "id": "tmdb:1271",
+      "type": "movie",
+      "name": "300",
+      "poster": "https://image.tmdb.org/t/p/w500/auVn38xLZRTlogkwFuS4Ikeiwrl.jpg",
+      "description": "Em 480 a.C., Leônidas, o rei de Esparta, comanda seu pequeno batalhão de 300 soldados contra um exército de mais de 1 milhão de persas na Batalha das Termópilas.",
+      "releaseInfo": "2007"
+    },
+    {
+      "id": "tmdb:53182",
+      "type": "movie",
+      "name": "300: A Ascensão do Império",
+      "poster": "https://image.tmdb.org/t/p/w500/dSCFqaPcByXMEl6IEWxWW03bhmk.jpg",
+      "description": "Após a morte do pai, Xerxes dá início a uma jornada de vingança e ruma em direção à Grécia, com seu exército sendo liderado por Artemisia. Enquanto os 300 espartanos liderados por Leonidas tantam combater o Deus-Rei, os exércitos do resto da Grécia se unem para uma batalha com as tropas de Artemisia no mar. Temístocles é o responsável por liderar os gregos.",
+      "releaseInfo": "2014"
+    },
+    {
+      "id": "tmdb:7183",
+      "type": "movie",
+      "name": "A Estranha Perfeita",
+      "poster": "https://image.tmdb.org/t/p/w500/pC7s1Ya9GKR4udtGZNmxRNU0aYk.jpg",
+      "description": "Rowena Price é uma repórter investigativa, que teve uma amiga assassinada recentemente. Ela descobre que este fato pode estar relacionado a Harrison Hill, um poderoso executivo de publicidade. Com a ajuda de Miles Haley, Rowena decide se infiltrar disfarçada. Passando-se por Katherine, uma funcionária temporária na agência de Hill, e Veronica, uma garota com quem Hill flerta pela internet, Rowena passa a cercá-lo por todos os lados possíveis. Porém ela logo descobre que não é a única que está trocando de identidade.",
+      "releaseInfo": "2007"
+    },
+    {
+      "id": "tmdb:439079",
+      "type": "movie",
+      "name": "A Freira",
+      "poster": "https://image.tmdb.org/t/p/w500/8RkHWJFDuzm0mrsJUxTbPTnsPe7.jpg",
+      "description": "Presa em um convento na Romênia, uma freira comete suicídio. Para investigar o caso, o Vaticano envia um padre assombrado e uma noviça prestes a se tornar freira. Arriscando suas vidas, a fé e até suas almas, os dois descobrem um segredo profano e se confrontam com uma força do mal que toma a forma de uma freira demoníaca e transforma o convento em um campo de batalha.",
+      "releaseInfo": "2018"
+    },
+    {
+      "id": "tmdb:968051",
+      "type": "movie",
+      "name": "A Freira 2",
+      "poster": "https://image.tmdb.org/t/p/w500/omV2IW2OlFTSw6Hih13hz6lFdvP.jpg",
+      "description": "Quatro anos após os acontecimentos na abadia de St. Carta, a Irmã Irene (Taissa Farmiga) regressa mais uma vez e depara-se com a força demoníaca de Valak, a Freira (Bonnie Aarons).",
+      "releaseInfo": "2023"
+    },
+    {
+      "id": "tmdb:7443",
+      "type": "movie",
+      "name": "A Fuga das Galinhas",
+      "poster": "https://image.tmdb.org/t/p/w500/hp5shw8xyuYId322rT9am3HrKCQ.jpg",
+      "description": "Na década de 50, numa fazenda em Yorkshire, a galinha Ginger busca incessantemente um meio de conseguir escapar do fim trágico que seus donos reservaram para ela e seus semelhantes. Após várias tentativas frustradas, surge na granja o galo Rocky, com uma ambiciosa promessa: ensinar como voar às galinhas. Mas o tempo de Ginger e Rocky é curto: os Tweedy, donos da fazenda, compraram uma máquina que faz tortas de galinha, que em breve entrará em operação e irá dizimar toda a população do local.",
+      "releaseInfo": "2000"
+    },
+    {
+      "id": "tmdb:12220",
+      "type": "movie",
+      "name": "A História de Nós Dois",
+      "poster": "https://image.tmdb.org/t/p/w500/kvlJL5mxb2Tw8Rn8ofUKNT0PAJK.jpg",
+      "description": "Casados há 15 anos, Katie e Ben não estão felizes. Enquanto as crianças passam um tempo fora de casa, eles decidem reavaliar o casamento para resolver de uma vez por todas se permanecem casados ou se separam para sempre.",
+      "releaseInfo": "1999"
+    },
+    {
+      "id": "tmdb:2109",
+      "type": "movie",
+      "name": "A Hora do Rush",
+      "poster": "https://image.tmdb.org/t/p/w500/sdzr7YU2fPoTwjfsO4gN7ri0S5e.jpg",
+      "description": "Quando a filha de um diplomata chinês é sequestrada em Los Angeles, o cônsul chama o inspector Lee em Hong Kong para ajudar o FBI com o caso. O FBI não se importa com Lee e o deixa de lado no Departamento de Polícia de Los Angeles, pedindo ao detetive James Carter que o vigie. Apesar de Lee e Carter não se suportarem, eles resolvem trabalhar juntos para resolver o caso por conta própria ao descobrirem que foram abandonados tanto pelo FBI quanto pela polícia.",
+      "releaseInfo": "1998"
+    },
+    {
+      "id": "tmdb:5175",
+      "type": "movie",
+      "name": "A Hora do Rush 2",
+      "poster": "https://image.tmdb.org/t/p/w500/q8tqJRz8MQ5CS0gtlVB1CH12Wvv.jpg",
+      "description": "Depois que um atentado a bomba na Embaixada dos Estados Unidos em Hong Kong mata dois agentes que investigavam contrabando de dinheiro, os inspetores Lee e James Carter caçam o autor intelectual do ataque. Mas o criminoso Ricky Tan quer assegurar que os dois não resolvam o caso.",
+      "releaseInfo": "2001"
+    },
+    {
+      "id": "tmdb:5174",
+      "type": "movie",
+      "name": "A Hora do Rush 3",
+      "poster": "https://image.tmdb.org/t/p/w500/15tifAGNBdy4cLKDXKD2Iam8OkM.jpg",
+      "description": "O leste encontra o oeste novamente. Depois de um atentado contra o Embaixador Han, Lee e Carter vão para Paris para proteger uma francesa que sabe demais sobre os secretos líderes do Triad. Enquanto isso, eles também precisam lutar contra a máfia chinesa de Paris e um amigo de infância de Lee conforme eles procuram por um envelope que contem a identidade de um poderoso chefão do crime.",
+      "releaseInfo": "2007"
+    },
+    {
+      "id": "tmdb:2501",
+      "type": "movie",
+      "name": "A Identidade Bourne",
+      "poster": "https://image.tmdb.org/t/p/w500/q18OhXWdS0WncHminNK7A7uiEvc.jpg",
+      "description": "Um homem sem memória é resgatado do oceano por um barco de pesca. Sobre si, ele só sabe que tem talento para matar e um chip implantado no quadril. Enquanto busca sua história, tenta escapar de pessoas que, inexplicavelmente, querem matá-lo.",
+      "releaseInfo": "2002"
+    },
+    {
+      "id": "tmdb:259695",
+      "type": "movie",
+      "name": "A Lei da Noite",
+      "poster": "https://image.tmdb.org/t/p/w500/wgpO1htXAHbjNTapIL3UpDKZBOv.jpg",
+      "description": "Boston, década de 1920. Joe Coughlin, filho mais novo de um capitão de polícia, se envolve com o crime organizado. Ele aproveita seus dias rodeado de dinheiro e poder, mas suas escolhas podem levá-lo à prisão, ou até mesmo à morte. Adaptação do livro escrito por Dennis Lehane.",
+      "releaseInfo": "2016"
+    },
+    {
+      "id": "tmdb:75174",
+      "type": "movie",
+      "name": "A Perseguição",
+      "poster": "https://image.tmdb.org/t/p/w500/lkQ20CkCnJTIXQFYK10cuFZ3gO7.jpg",
+      "description": "Ottway trabalha em um lugar isolado no Alasca e seu papel é manter os lobos afastados dos funcionários de sua empresa. Certo dia, quando retornava à cidade para matar a saudade da esposa, o avião cai. Feridos e sem alimentos, os sobreviventes lutam pela vida e tentam reencontrar a civilização. O problema é que o local em que se encontram é dominado por uma alcateia faminta, em número maior e disposta a manter seu território. Agora todos estão em risco absoluto e Ottway conhece como ninguém o inimigo que tem pela frente.",
+      "releaseInfo": "2012"
+    },
+    {
+      "id": "tmdb:2502",
+      "type": "movie",
+      "name": "A Supremacia Bourne",
+      "poster": "https://image.tmdb.org/t/p/w500/zasdli6k1b2JwbYHMK7lGsys5zA.jpg",
+      "description": "Jason Bourne está vivendo na Índia quando é enquadrado por um agente russo, Kirill, pelo roubo de milhões da CIA. Kirill começa a perseguir Bourne com a intenção de assassiná-lo, mas, por engano, mata a namorada de Bourne, Marie. Jurando vingança, Bourne se propõe a provar sua inocência e trazer os culpados à justiça.",
+      "releaseInfo": "2004"
+    },
+    {
+      "id": "tmdb:8967",
+      "type": "movie",
+      "name": "A Árvore da Vida",
+      "poster": "https://image.tmdb.org/t/p/w500/iDt5nvv2TdZsFFuF5JvnEZr6RGB.jpg",
+      "description": "Conta a história que aproxima o foco na relação entre pai e filho de uma família comum, e expande a ótica desta rica relação, ao longo dos séculos, desde o Big Bang até o fim dos tempos, em uma fabulosa viagem pela história da vida e seus mistérios, que culmina na busca pelo amor altruísta e o perdão.",
+      "releaseInfo": "2011"
+    },
+    {
+      "id": "tmdb:21208",
+      "type": "movie",
+      "name": "A Órfã",
+      "poster": "https://image.tmdb.org/t/p/w500/9tdcvT3ZyPBluzmQTevgn503jpg.jpg",
+      "description": "Kate e John Coleman ficam arrasados devido a um trágico aborto. Apesar de já ter 2filhos, o casal decide adotar uma criança. Eles se encantam pela pequena Esther e optam rapidamente por sua adoção. O que eles não sabiam é que estranhos acontecimentos fazem parte do histórico da menina que passa a se tornar, dia após dia, mais misteriosa. Intrigada, Kate desconfia que Esther não é quem aparenta ser, mas devido ao alcoolismo tem dificuldades de provar sua teoria.",
+      "releaseInfo": "2009"
+    },
+    {
+      "id": "tmdb:419704",
+      "type": "movie",
+      "name": "Ad Astra - Rumo às Estrelas",
+      "poster": "https://image.tmdb.org/t/p/w500/wigZBAmNrIhxp2FNGOROUAeHvdh.jpg",
+      "description": "Roy McBride é um engenheiro espacial, portador de um leve grau de autismo, que decide empreender a maior jornada de sua vida: viajar para o espaço, cruzar a galáxia e tentar descobrir o que aconteceu com seu pai, um astronauta que se perdeu há vinte anos atrás no caminho para Netuno.",
+      "releaseInfo": "2019"
+    },
+    {
+      "id": "tmdb:1948",
+      "type": "movie",
+      "name": "Adrenalina",
+      "poster": "https://image.tmdb.org/t/p/w500/ygBQ8FdjFRgv1lDVG7V4Io3NwWg.jpg",
+      "description": "Chev Chelios é um assassino profissional que deseja deixar o ramo de trabalho. Porém ele é envenenado com uma toxina chamada \"Beijing Cocktail\", que afeta a glândula supra-renal. Esta glândula cuida da produção de adrenalina no organismo, com a toxina forçando a diminuição constante dos batimentos cardíacos até sua parada total. Com pouco tempo de vida, Chev decide partir atrás de vingança.",
+      "releaseInfo": "2006"
+    },
+    {
+      "id": "tmdb:15092",
+      "type": "movie",
+      "name": "Adrenalina 2: Alta Voltagem",
+      "poster": "https://image.tmdb.org/t/p/w500/yZzRqVfeKHU05O99kT8sS41Keh7.jpg",
+      "description": "Chev Chelios (Jason Statham) teve seu coração roubado, sendo substituído por uma bateria. Agora ele precisa carregá-la de tempos em tempos, com altas doses de eletricidade, caso contrário morre. Para sobreviver ele precisa encontrar o mafioso chinês responsável por sua atual situação.",
+      "releaseInfo": "2009"
+    },
+    {
+      "id": "tmdb:11003",
+      "type": "movie",
+      "name": "Afinado no Amor",
+      "poster": "https://image.tmdb.org/t/p/w500/fwEKv4yBMnQETB2JqUfhUaAMgXl.jpg",
+      "description": "Estamos em 1985 e Robbie Hart é o mestre de cerimônias definitivo... até que ele é deixado em pleno altar no seu próprio casamento. Completamente despedaçado, ele se transforma no piro pesadelo dos recém-casados – um showman que não consegue fazer nada além de destruir o casamento de outras pessoas. Até o dia em que conhece a doce Julia, uma doce garçonete que começa a recolher os pedaços do seu coração. O único problema é que Robbie só terá a garota dos seus sonhos para sempre se tiver a melhor performance de sua vida.",
+      "releaseInfo": "1998"
+    },
+    {
+      "id": "tmdb:250546",
+      "type": "movie",
+      "name": "Annabelle",
+      "poster": "https://image.tmdb.org/t/p/w500/jnvQCi7cO3f5oAceTrodDjVvQmB.jpg",
+      "description": "Um casal se prepara para a chegada de sua primeira filha e compra para ela uma boneca. Quando sua casa é invadida por membros de uma seita, o casal é violentamente atacado e a boneca, Annabelle, se torna recipiente de uma entidade do mal.",
+      "releaseInfo": "2014"
+    },
+    {
+      "id": "tmdb:396422",
+      "type": "movie",
+      "name": "Annabelle 2: A Criação do Mal",
+      "poster": "https://image.tmdb.org/t/p/w500/AtlcH0f8mEQGKVIBSgV4GgkTZMr.jpg",
+      "description": "Muitos anos após a morte de sua filha, um fabricante de bonecas e sua esposa recebem em sua casa uma freira e seis meninas vindas de um orfanato fechado. O que parecia ser a resposta para suas preces irá se tornar uma maldição conforme as convidadas se tornam alvo da criação possuída, Annabelle.",
+      "releaseInfo": "2017"
+    },
+    {
+      "id": "tmdb:521029",
+      "type": "movie",
+      "name": "Annabelle 3: De Volta para Casa",
+      "poster": "https://image.tmdb.org/t/p/w500/xQesP4oRskVR8fUMvilhY7DUMJt.jpg",
+      "description": "Determinados a impedir que Annabelle cause ainda mais estragos, os demonologistas Ed e Lorraine Warren levam a boneca possuída até a sala de artefatos em sua casa, colocando-a em \"segurança\" em um vidro sagrado e recorrendo à santa bênção de um padre. Mas, uma noite profana de terror os aguarda, pois Annabelle desperta os espíritos malignos da sala, que agora almejam um novo alvo: a filha de 10 anos do casal Warren, Judy, e seus amigos.",
+      "releaseInfo": "2019"
+    },
+    {
+      "id": "tmdb:43566",
+      "type": "movie",
+      "name": "Antes e Depois",
+      "poster": "https://image.tmdb.org/t/p/w500/gSjuWIEZMM1ODFiTmgoyQiFvM6g.jpg",
+      "description": "Em uma pequena cidade na Nova Inglaterra, uma adolescente brutalmente morta e o principal suspeito Jacob Ryan (Edward Furlong), seu namorado, que está desaparecido. Ben Ryan (Liam Neeson), o pai do rapaz, destrói todas as evidências que possam prejudicar seu filho e Carolyn Ryan (Meryl Streep), a mãe e uma conhecida pediatra local, começa a ser discriminada, assim como todo o resto da família, que se desespera em ocultar fatos de uma verdade que eles realmente não sabem qual é.",
+      "releaseInfo": "1996"
+    },
+    {
+      "id": "tmdb:813",
+      "type": "movie",
+      "name": "Apertem os Cintos, o Piloto Sumiu",
+      "poster": "https://image.tmdb.org/t/p/w500/7pPDjwmlNKhOui2CTuSZDBCmGZG.jpg",
+      "description": "O piloto Ted Striker, ex-combatente de guerra, é forçado a assumir os controles de um avião quando a tripulação sucumbe à comida contaminada. Elaine, sua namorada, tem de ser aeromoça e co-piloto. Juntos, eles vão tentar salvar os passageiros e terminar o voo com sucesso, mas existe um problema: ele é neurótico.",
+      "releaseInfo": "1980"
+    },
+    {
+      "id": "tmdb:68734",
+      "type": "movie",
+      "name": "Argo",
+      "poster": "https://image.tmdb.org/t/p/w500/dZqmn3vr80UeSSj4QbVEUI8D7yb.jpg",
+      "description": "Quando a revolução iraniana invade a embaixada dos EUA em Teerã, seis cidadãos americanos escapam. Agora, somente um homem é capaz de tirá-los de trás das linhas inimigas. Tony Mendez é um brilhante agente da CIA que se especializou em fugas impossíveis, mas seu mais recente plano é tão audacioso quando desesperador. Disfarçados como equipe de produção de um filme, Tony e os fugitivos devem se esconder às vistas de todos e o menor deslize pode significar morte instantânea.",
+      "releaseInfo": "2012"
+    },
+    {
+      "id": "tmdb:1301421",
+      "type": "movie",
+      "name": "As Ovelhas Detetives",
+      "poster": "https://image.tmdb.org/t/p/w500/crW4rarCRUVRSRFy3Bufw8Mwf8l.jpg",
+      "description": "George é um pastor que lê romances policiais para suas queridas ovelhas todas as noites, acreditando que elas não conseguem entender. Mas, quando um incidente misterioso interrompe a vida na fazenda, as ovelhas percebem que precisam se tornar as detetives. Ao seguir as pistas e investigar suspeitos humanos, elas provam que até mesmo ovelhas podem ser brilhantes solucionadoras de crimes.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:9603",
+      "type": "movie",
+      "name": "As Patricinhas de Beverly Hills",
+      "poster": "https://image.tmdb.org/t/p/w500/sfgpINIXoGEUkA3n6k7of89bP9x.jpg",
+      "description": "Em Beverly Hills, a adolescente Cher (Alicia Silverstone), filha de uma advogado (Dan Hedaya) muito rico, passa seu tempo em conversas fúteis e fazendo compras com amigas totalmente alienadas como ela. Mas a chegada do enteado de seu pai, Josh (Paul Rudd), muda tudo, primeiro por ele criticá-la de não tomar conhecimento com o \"mundo real\" e em segundo lugar por ela descobrir que está apaixonada por ele.",
+      "releaseInfo": "1995"
+    },
+    {
+      "id": "tmdb:27582",
+      "type": "movie",
+      "name": "Assassino a Preço Fixo",
+      "poster": "https://image.tmdb.org/t/p/w500/AbO2OzFiWt9cEjgZfSOnp75ihGE.jpg",
+      "description": "Arthur Bishop faz parte de um grupo de elite de assassinos e é um dos melhores no negócio, onde exerce as suas funções com precisão. Mas, quando Harry, seu amigo e mentor, é assassinado, Bishop jura vingança. O filho de Harry quer vingança e tem o desejo de aprender e fazer parte do negócio.",
+      "releaseInfo": "2011"
+    },
+    {
+      "id": "tmdb:818397",
+      "type": "movie",
+      "name": "Assassino Sem Rastro",
+      "poster": "https://image.tmdb.org/t/p/w500/emj0dVlz5zSnvOfMZJA2zrWyW6Z.jpg",
+      "description": "Em Assassino Sem Rastro, Alex Lewis é um assassino experiente com reputação de precisão discreta. Preso em um dilema moral, Alex se recusa a concluir um trabalho que viola seu código de ética e deve rapidamente caçar e matar as pessoas que o contrataram antes que eles e o agente do FBI Vincent Serra o encontrem primeiro. Alex tinha o objetivo de se vingar, mas, com uma memória que começa a vacilar, ele é forçado a questionar todas as suas ações, se perdendo na linha entre o certo e o errado.",
+      "releaseInfo": "2022"
+    },
+    {
+      "id": "tmdb:23168",
+      "type": "movie",
+      "name": "Atração Perigosa",
+      "poster": "https://image.tmdb.org/t/p/w500/g1IF1RQasgk0o4CTi6AxdZeSAvR.jpg",
+      "description": "Doug MacRay é o líder de um grupo de ladrões. Um dia, ao realizar um assalto, seu parceiro James faz Claire Keesey refém para facilitar a fuga do grupo, libertando-a logo em seguida. Sabendo que a jovem está traumatizada, Doug se aproxima dela e os dois se apaixonam. Doug tenta abandonar a vida de crimes, mas é forçado a continuar cometendo assaltos.",
+      "releaseInfo": "2010"
+    },
+    {
+      "id": "tmdb:1164",
+      "type": "movie",
+      "name": "Babel",
+      "poster": "https://image.tmdb.org/t/p/w500/bIAEwAxgUZhv7pm29FUnp18VplX.jpg",
+      "description": "Ônibus com turistas atravessa uma região montanhosa do Marrocos. Ali perto dois meninos manejam um rifle que seu pai lhes deu para proteger a pequena criação de cabras da família. Um tiro acidental atinge o ônibus. Este fato afeta a vida de pessoas em vários pontos diferentes do mundo.",
+      "releaseInfo": "2006"
+    },
+    {
+      "id": "tmdb:21301",
+      "type": "movie",
+      "name": "Barbeiragem Total",
+      "poster": "https://image.tmdb.org/t/p/w500/n4sOe401udZJWJEOvKvSs3peZcB.jpg",
+      "description": "South Side, Chicago. Calvin Palmer luta para manter funcionando a Barbearia do Calvin, que foi fundada por seu pai em 1958. Agora a situação fica bem mais complicada com a chegada da Nappy Cutz, uma barbearia super moderna que faz parte de uma franquia, que planeja ser mais do que uma concorrente.",
+      "releaseInfo": "2004"
+    },
+    {
+      "id": "tmdb:16869",
+      "type": "movie",
+      "name": "Bastardos Inglórios",
+      "poster": "https://image.tmdb.org/t/p/w500/6UjYycIR6VLYgggfNpmSPJHmFS0.jpg",
+      "description": "Durante a Segunda Guerra Mundial, na França, um grupo de judeus americanos conhecidos como Bastardos espalha o terror entre o terceiro Reich. Ao mesmo tempo, Shosanna, uma judia que fugiu dos nazistas, planeja vingança quando um evento em seu cinema reunirá os líderes do partido.",
+      "releaseInfo": "2009"
+    },
+    {
+      "id": "tmdb:415",
+      "type": "movie",
+      "name": "Batman & Robin",
+      "poster": "https://image.tmdb.org/t/p/w500/i7hEUpDuMN2LOrCEifFyGSHZQSY.jpg",
+      "description": "A dupla dinâmica enfrenta os supervilões Mr. Freeze e sedutora ecoterrorista Hera Venenosa. Mas, para poder livrar Gotham City das garras dos vilões, Batman e Robin contam com uma nova companheira, a Batgirl.",
+      "releaseInfo": "1997"
+    },
+    {
+      "id": "tmdb:268",
+      "type": "movie",
+      "name": "Batman",
+      "poster": "https://image.tmdb.org/t/p/w500/cij4dd21v2Rk2YtUQbV5kW69WB2.jpg",
+      "description": "Em Gotham City o milionário Bruce Wayne, que quando jovem teve os pais assassinados por bandidos, resolve combater o crime como Batman, o Homem-Morcego. Mas chega o dia em que o vilão Coringa decide dominar a cidade e se torna um grande desafio para o super-herói.",
+      "releaseInfo": "1989"
+    },
+    {
+      "id": "tmdb:414906",
+      "type": "movie",
+      "name": "Batman",
+      "poster": "https://image.tmdb.org/t/p/w500/wd7b4Nv9QBHDTIjc2m7sr0IUMoh.jpg",
+      "description": "Em seu segundo ano de combate ao crime, Batman descobre corrupção em Gotham City que se conecta à sua própria família enquanto enfrenta um serial killer conhecido como Charada.",
+      "releaseInfo": "2022"
+    },
+    {
+      "id": "tmdb:155",
+      "type": "movie",
+      "name": "Batman: O Cavaleiro das Trevas",
+      "poster": "https://image.tmdb.org/t/p/w500/4lj1ikfsSmMZNyfdi8R8Tv5tsgb.jpg",
+      "description": "Após dois anos desde o surgimento do Batman, os criminosos de Gotham City têm muito o que temer. Com a ajuda do tenente James Gordon e do promotor público Harvey Dent, Batman luta contra o crime organizado. Acuados com o combate, os chefes do crime aceitam a proposta feita pelo Coringa e o contratam para combater o Homem-Morcego.",
+      "releaseInfo": "2008"
+    },
+    {
+      "id": "tmdb:49026",
+      "type": "movie",
+      "name": "Batman: O Cavaleiro das Trevas Ressurge",
+      "poster": "https://image.tmdb.org/t/p/w500/j4z01cnbTCaVX69bik1612pSuH6.jpg",
+      "description": "Após ser culpado pela morte de Harvey Dent e passar de herói a vilão, Batman desaparece. As coisas mudam com a chegada de uma ladra misteriosa, a Mulher-Gato, e Bane, um terrorista mascarado, que fazem Batman abandonar seu exílio forçado.",
+      "releaseInfo": "2012"
+    },
+    {
+      "id": "tmdb:272",
+      "type": "movie",
+      "name": "Batman Begins",
+      "poster": "https://image.tmdb.org/t/p/w500/7EyhcdfiLtH0xa6CZkyYuoWL2GJ.jpg",
+      "description": "Marcado pelo assassinato de seus pais quando ainda era criança, o milionário Bruce Wayne decide viajar pelo mundo em busca de encontrar meios que lhe permitam combater a injustiça e provocar medo em seus adversários. Após retornar a Gotham City, sua cidade-natal, ele idealiza seu alter-ego: Batman, um justiceiro mascarado que usa força, inteligência e um arsenal tecnológico para combater o crime.",
+      "releaseInfo": "2005"
+    },
+    {
+      "id": "tmdb:414",
+      "type": "movie",
+      "name": "Batman Eternamente",
+      "poster": "https://image.tmdb.org/t/p/w500/nYiG3u2doARIiuInmAWAlIPVBTM.jpg",
+      "description": "Duas-Caras e Charada, dois excêntricos bandidos, decidem descobrir a identidade do Homem-Morcego para depois matá-lo. Este por sua vez recebe a ajuda de um jovem que tem sede de vingança, por ter perdido a família em um acidente provocado exatamente pelo Duas-Caras.",
+      "releaseInfo": "1995"
+    },
+    {
+      "id": "tmdb:364",
+      "type": "movie",
+      "name": "Batman: O Retorno",
+      "poster": "https://image.tmdb.org/t/p/w500/trmToqPh8XYS6tzI2Nmv5ctfuSI.jpg",
+      "description": "O monstruoso Pinguim, que vive nos arredores de Gotham, se junta ao diabólico empresário Max Shreck para vencer Batman de uma vez por todas. Porém, a secretária de Shreck, Selina Kyle, descobre os planos e se transforma na irresistível Mulher Gato que se alia na destruição de Batman.",
+      "releaseInfo": "1992"
+    },
+    {
+      "id": "tmdb:209112",
+      "type": "movie",
+      "name": "Batman vs Superman: A Origem da Justiça",
+      "poster": "https://image.tmdb.org/t/p/w500/vh6pjeGH0GQupLepPCZn5PylcRg.jpg",
+      "description": "Temendo que as ações de um super-herói divino não tenham sido controladas, o formidável e vigoroso vigilante de Gotham City enfrenta o salvador mais reverenciado e moderno de Metrópolis, enquanto o mundo luta com o tipo de herói que realmente precisa. E com Batman e Superman em guerra um contra o outro, uma nova ameaça rapidamente surge, colocando a humanidade em maior perigo do que nunca antes.",
+      "releaseInfo": "2016"
+    },
+    {
+      "id": "tmdb:866398",
+      "type": "movie",
+      "name": "Beekeeper: Rede de Vingança",
+      "poster": "https://image.tmdb.org/t/p/w500/raNfPn7DGbh1Ffwq4Y9BO1Iektv.jpg",
+      "description": "Clay está em busca de vingança e não vai parar até acabar com o sistema criminoso responsável pela morte de sua amiga. O plano brutal de Clay, um ex-agente de uma organização secreta poderosa conhecida como “Beekeepers”, ganha dimensões nacionais envolvendo governos e as instituições mais influentes do mundo. Determinado a fazer justiça com suas próprias mãos, ele está disposto a tudo e não vai poupar ninguém para concluir seu plano.",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:345920",
+      "type": "movie",
+      "name": "Beleza Oculta",
+      "poster": "https://image.tmdb.org/t/p/w500/l7rwGxhH2ZDaViuxzT0qMPfhfo3.jpg",
+      "description": "Howard entra em depressão após uma tragédia pessoal e passa a escrever cartas para a Morte, o Tempo e o Amor, algo que preocupa seus amigos. Mas o que parece impossível, se torna realidade quando essas três partes do universo decidem responder. Morte, Tempo e Amor vão tentar ensinar o valor da vida para Howard.",
+      "releaseInfo": "2016"
+    },
+    {
+      "id": "tmdb:13053",
+      "type": "movie",
+      "name": "Bolt: Supercão",
+      "poster": "https://image.tmdb.org/t/p/w500/puAIiFICbqLehrE8X884ZbNxI8N.jpg",
+      "description": "Bolt é o astro do maior e mais divertido show de Hollywood. O único problema é que ele acha que é tudo de verdade. Um dia, acidentalmente, o Supercão embarca para a cidade de Nova York e se separa da sua amada dona e coestrela Penny. Agora, na vida real, Bolt entra em ação para encontrar o caminho de volta para casa. Junto ao seu hilário amigo auxiliar Rhino, seu fã número 1, e uma gata esperta chamada Mittens, começam uma incrível jornada em que ele descobre que não precisa de superpoderes par ser um herói.",
+      "releaseInfo": "2008"
+    },
+    {
+      "id": "tmdb:504562",
+      "type": "movie",
+      "name": "Brooklyn - Sem Pai Nem Mãe",
+      "poster": "https://image.tmdb.org/t/p/w500/ph6BDYj1EK7U8Bs7WmRzr7iRyem.jpg",
+      "description": "Nova York, anos 1950. Lionel Essrog é um solitário detetive particular com síndrome de Tourette, o que faz com que volta e meia não tenha controle sobre o que diz. No momento ele está investigando o assassinato de seu amigo e mentor, Frank Minna, mas tem poucas pistas sobre o que aconteceu. Obsessivo, Lionel passa a percorrer vários trechos da cidade em busca de respostas, até encontrar um caminho através da especulação imobiliária em vizinhanças resididas em sua maioria por pobres e negros.",
+      "releaseInfo": "2019"
+    },
+    {
+      "id": "tmdb:8681",
+      "type": "movie",
+      "name": "Busca Implacável",
+      "poster": "https://image.tmdb.org/t/p/w500/q5Lr8E4HSK7Lc4zqWtgtYsM1iJA.jpg",
+      "description": "Bryan Mills é um ex-agente do governo, que deixou o emprego para que pudesse passar mais tempo com Kim, a filha que teve com sua ex-esposa Lenore. Ele passa então a trabalhar com antigos colegas, realizando serviços leves de segurança particular. Um dia Kim pede ao pai autorização para que viaje a Paris com uma amiga, a qual é negada pelo fato de que Bryan sabe bem os perigos que ela correria em um país estranho. Isto não a impede, fazendo a viagem assim mesmo. Só que o temor de Bryan se concretiza, já que logo após a chegada Kim e sua amiga desaparecem.",
+      "releaseInfo": "2008"
+    },
+    {
+      "id": "tmdb:82675",
+      "type": "movie",
+      "name": "Busca Implacável 2",
+      "poster": "https://image.tmdb.org/t/p/w500/laLGcxl36GAxahL5PbUC8qvabzO.jpg",
+      "description": "Em busca de vingança, um chefe do crime de Istambul sequestra um ex-agente da CIA e sua ex-esposa, forçando a filha deles a correr contra o tempo pelas ruas da cidade tentando resgatá-los antes que seja tarde demais.",
+      "releaseInfo": "2012"
+    },
+    {
+      "id": "tmdb:260346",
+      "type": "movie",
+      "name": "Busca Implacável 3",
+      "poster": "https://image.tmdb.org/t/p/w500/wp8JjUImG39nqxYrm4aWVSwKFzO.jpg",
+      "description": "O ex-agente do governo norte-americano Bryan Mills tenta tornar-se um homem família, mas vê tudo ruir quando sua esposa, Lenore, é assassinada. Acusado de ter cometido o crime, ele entra na mira da polícia de Los Angeles. Desolado e caçado, ele tenta encontrar os verdadeiros culpados e proteger a única coisa que lhe resta: a filha Kim.",
+      "releaseInfo": "2014"
+    },
+    {
+      "id": "tmdb:71880",
+      "type": "movie",
+      "name": "Cada um Tem a Gêmea que Merece",
+      "poster": "https://image.tmdb.org/t/p/w500/cklXRmdNUmXSkM0gMAz30pkzGGx.jpg",
+      "description": "Jack, um publicitário de sucesso com uma linda família, enlouquece com a visita de sua irmã gêmea Jill no dia de Ação de Graças. As coisas ficam ainda mais fora de controle quando Jill decide ficar mais tempo.",
+      "releaseInfo": "2011"
+    },
+    {
+      "id": "tmdb:9285",
+      "type": "movie",
+      "name": "Caindo na Estrada",
+      "poster": "https://image.tmdb.org/t/p/w500/2iMiXw4hUL0UqvfXLxPPLptz94X.jpg",
+      "description": "Josh (Breckin Meyer) está em sérios apuros. Uma fita de vídeo que mostra Josh traindo sua namorada foi enviada, por engano, para sua namorada. Agora Josh e mais três amigos precisam partir numa louca viagem, de Nova York até Austin, no Texas, a fim de recuperar a comprometedora fita de vídeo e salvar seu relacionamento.",
+      "releaseInfo": "2000"
+    },
+    {
+      "id": "tmdb:4108",
+      "type": "movie",
+      "name": "Carga Explosiva",
+      "poster": "https://image.tmdb.org/t/p/w500/iajTcyco5MEscLp0ue59lVY2WtH.jpg",
+      "description": "O ex-operador das Forças Especiais Frank Martin vive o que parece ser uma vida tranquila ao longo do Mediterrâneo francês. Na verdade ele é um transportador mercenário levando bens, humanos ou não, de um lugar para outro, sem fazer perguntas sobre que tipo de mercadoria foi contratado para transportar.",
+      "releaseInfo": "2002"
+    },
+    {
+      "id": "tmdb:9335",
+      "type": "movie",
+      "name": "Carga Explosiva 2",
+      "poster": "https://image.tmdb.org/t/p/w500/4Vo1KYTe0LWakRxTwp3scw8Ti6u.jpg",
+      "description": "Frank Martin é um ex-agente das Forças Especiais que trabalha atualmente como transportador de itens valiosos. Frank atualmente trabalha para a poderosa família Billings, como favor a um amigo. Aos poucos ele fica próximo ao pequeno Jack Billings, de 6 anos, a quem leva e traz da escola. Quando Jack é sequestrado Frank é obrigado a mais uma vez pôr suas habilidades em ação, partindo em uma tentativa de resgate.",
+      "releaseInfo": "2005"
+    },
+    {
+      "id": "tmdb:13387",
+      "type": "movie",
+      "name": "Carga Explosiva 3",
+      "poster": "https://image.tmdb.org/t/p/w500/t6ayrfuhmKl6VUOByP7RJL047X1.jpg",
+      "description": "Frank Martin é obrigado a conduzir Valentina, a filha de Leonid Vasilev, o chefe da Agência de Proteção Ambiental da Ucrânia. Ela foi sequestrada por Jonas Johnson, contratado por uma empresa de gerenciamento internacional de resíduos que deseja operar na Ucrânia. Para ter Frank e Valentina sob controle, Jonas prende em seus pulsos um dispositivo que determina que não possam se afastar muito do carro que os conduz, caso contrário o bracelete explode. Contando com a ajuda do inspetor Tarconi, Frank busca um meio de deixar a armadilha.",
+      "releaseInfo": "2008"
+    },
+    {
+      "id": "tmdb:287948",
+      "type": "movie",
+      "name": "Carga Explosiva: O Legado",
+      "poster": "https://image.tmdb.org/t/p/w500/iti0ub1R6JBCfwJarLktNL47HC.jpg",
+      "description": "O jovem mercenário Frank Martin, um ex-soldado de Operações Especiais, vai atrás de um grupo de traficantes de seres humanos na Rússia para tentar salvar o seu pai.",
+      "releaseInfo": "2015"
+    },
+    {
+      "id": "tmdb:920",
+      "type": "movie",
+      "name": "Carros",
+      "poster": "https://image.tmdb.org/t/p/w500/A7nssMRIPauZhEVf2dzwsf4EALO.jpg",
+      "description": "Ao viajar para a Califórnia, o famoso carro de corridas Relâmpago McQueen se perde e vai parar em Radiator Springs, uma cidadezinha na Rota 66. Ele conhece novos amigos e aprende lições que mudam sua forma de encarar a vida.",
+      "releaseInfo": "2006"
+    },
+    {
+      "id": "tmdb:49013",
+      "type": "movie",
+      "name": "Carros 2",
+      "poster": "https://image.tmdb.org/t/p/w500/fIKaabvE40T39nOIngcZPcPJeYe.jpg",
+      "description": "O astro das corridas, Relâmpago McQueen, e o carro-guincho, Mate, viajam para disputar o primeiro Grand Prix Mundial, que irá revelar o carro mais veloz do planeta. Nessa jornada imperdível, Mate se envolve com um grupo de espionagem e vive grandes aventuras com seus amigos.",
+      "releaseInfo": "2011"
+    },
+    {
+      "id": "tmdb:260514",
+      "type": "movie",
+      "name": "Carros 3",
+      "poster": "https://image.tmdb.org/t/p/w500/oEmdfjqQnAWe1t23WiiW0icFhGv.jpg",
+      "description": "Durante mais uma disputa eletrizante nas pistas, o campeão Relâmpago McQueen acelerou demais e acabou perdendo o controle. Agora, após ter capotando várias vezes e quase ter partido dessa para melhor, o vermelhinho vai ter sua vida alterada para sempre. O acidente foi tão grave que, com os estragos, McQueen pode ter que se aposentar de vez.",
+      "releaseInfo": "2017"
+    },
+    {
+      "id": "tmdb:961484",
+      "type": "movie",
+      "name": "Caça Implacável",
+      "poster": "https://image.tmdb.org/t/p/w500/3qcFv1IykbGGdGX1ZkROSzjTA8S.jpg",
+      "description": "Will Spann leva de carro Lisa, prestes a ser sua ex-mulher, a casa dos pais quando, de forma misteriosa, ela desaparece numa bomba de gasolina. Desesperado para a encontrar, Will recorre à Polícia, que não só não o ajuda como desconfia dele. Determinado a encontrar Lisa a qualquer custo, Will mergulha no submundo da cidade enquanto foge das autoridades nesta corrida angustiante contra o tempo.",
+      "releaseInfo": "2022"
+    },
+    {
+      "id": "tmdb:417644",
+      "type": "movie",
+      "name": "CHiPs: O Filme",
+      "poster": "https://image.tmdb.org/t/p/w500/tffkH2F6DmAhud4g4rZqrQ1K48v.jpg",
+      "description": "Os patrulheiros rodoviários Jon Baker e Frank Poncherello têm uma missão: capturar uma gangue de assaltantes de carros exóticos que vem aterrorizando a Califórnia.",
+      "releaseInfo": "2017"
+    },
+    {
+      "id": "tmdb:550",
+      "type": "movie",
+      "name": "Clube da Luta",
+      "poster": "https://image.tmdb.org/t/p/w500/mCICnh7QBH0gzYaTQChBDDVIKdm.jpg",
+      "description": "Um homem deprimido que sofre de insônia conhece um estranho vendedor de sabonetes chamado Tyler Durden. Eles formam um clube clandestino com regras rígidas onde lutam com outros homens cansados de suas vidas mundanas. Mas sua parceria perfeita é comprometida quando Marla chama a atenção de Tyler.",
+      "releaseInfo": "1999"
+    },
+    {
+      "id": "tmdb:9472",
+      "type": "movie",
+      "name": "Com a Bola Toda",
+      "poster": "https://image.tmdb.org/t/p/w500/x5dkT5LwiBXJ100xV2nbjLRBWvp.jpg",
+      "description": "A academia Average Joe e seu dono, Peter La Fleur, estão ambos sem sorte. Uma sofisticada academia concorrente, a Globo-Gym, gerenciada pelo viciado em saúde, White Goodman, está prestes a levar a Average Joe à falência, a menos que Peter consiga levantar cinquenta mil dólares para pagar a sua hipoteca. Para salvar a academia, Peter, um grupo de membros e funcionários da Average Joe entram em um concurso de queimada, que oferece um grande prêmio em dinheiro.",
+      "releaseInfo": "2004"
+    },
+    {
+      "id": "tmdb:1824",
+      "type": "movie",
+      "name": "Como Se Fosse a Primeira Vez",
+      "poster": "https://image.tmdb.org/t/p/w500/h0st50VJ755VG1kzSc2FgwtDHdk.jpg",
+      "description": "Henry Roth vive uma vida invejável em um paraíso havaiano, passando todas as noites com turistas exuberantes à procura de diversão na ilha. É uma bela vida, sem compromissos... até que ele conhece Lucy. Ele e Lucy se dão bem desde o início, mas, no dia seguinte, ela age como se não o conhecesse. Será que ele está levando o troco por todos os anos de cafajeste ou o quê? Na verdade, Lucy sofre de perda de memória recente, então, à noite, todo o seu dia é apagado de sua mente. Mas um homem apaixonado irá tentar de tudo para conquistar a mulher dos seus sonhos, e se isso significa ter que encontrar jeitos criativos de conquistá-la todos os dias, então Henry topa o desafio.",
+      "releaseInfo": "2004"
+    },
+    {
+      "id": "tmdb:228150",
+      "type": "movie",
+      "name": "Corações de Ferro",
+      "poster": "https://image.tmdb.org/t/p/w500/tVZXsjBC9HIoKv6WnAv0nWObbrT.jpg",
+      "description": "Durante o final da Segunda Guerra Mundial, um grupo de cinco soldados americanos é encarregado de atacar os nazistas dentro da própria Alemanha. Apesar de estarem em quantidade inferior e terem poucas armas, eles são liderados pelo enfurecido Wardaddy, sargento que pretende levá-los à vitória, enquanto ensina o novato Norman a lutar.",
+      "releaseInfo": "2014"
+    },
+    {
+      "id": "tmdb:37136",
+      "type": "movie",
+      "name": "Corra que a Polícia Vem Aí!",
+      "poster": "https://image.tmdb.org/t/p/w500/iYCWSKbC4fwzaKEJ9QFx8MsH7bJ.jpg",
+      "description": "Leslie Nielsen interpreta o tira cabeça-dura Frank Debrin, que tenta acabar com um brilhante plano para assassinar a Rainha Elizabeth. Priscilla Presley, O.J. Simpson, um castor empalhado, dois times de baseball e uma curiosa variedade de piadas e situações hilariantes farão seu medidor de risadas estourar.",
+      "releaseInfo": "1988"
+    },
+    {
+      "id": "tmdb:1035259",
+      "type": "movie",
+      "name": "Corra Que a Polícia Vem Aí!",
+      "poster": "https://image.tmdb.org/t/p/w500/vDN8VDEQjh8QBEeT7C6Ml5Uqln8.jpg",
+      "description": "Apenas um homem tem as habilidades necessárias para liderar o Esquadrão Policial e salvar o mundo.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:37137",
+      "type": "movie",
+      "name": "Corra que a Polícia Vem Aí! 2½",
+      "poster": "https://image.tmdb.org/t/p/w500/vm2sW0g0wMYCFNGvyBDAtxtjW6S.jpg",
+      "description": "O tenente Frank Drebin precisa descobrir como deter o infame plano de Quentin Hapsburg, que planeja destruir o meio ambiente. Nesta hilariante sequência, estão de volta também Jane, a mulher que consegue derreter um sanduíche de queijo em 20 passos, e o destemido capitão Ed Hocken.",
+      "releaseInfo": "1991"
+    },
+    {
+      "id": "tmdb:36593",
+      "type": "movie",
+      "name": "Corra que a Polícia Vem Aí! 33⅓: O Insulto Final",
+      "poster": "https://image.tmdb.org/t/p/w500/aMjd4C0wOZwYzFK7Vb3cL9OQd5F.jpg",
+      "description": "Na última parte da trilogia, o Tenente Frank Drebin é acionado novamente. Desta vez, a cerimônia do Oscar corre o risco de ir pelos ares, e o policial mais maluco da história é o único capaz de prender o responsável. Mesmo enferrujado e ainda aposentado, Frank assume mais uma divertida missão.",
+      "releaseInfo": "1994"
+    },
+    {
+      "id": "tmdb:604685",
+      "type": "movie",
+      "name": "Covil de Ladrões 2",
+      "poster": "https://image.tmdb.org/t/p/w500/2hBGNRmYek4SR437ZdembHIPchw.jpg",
+      "description": "Big Nick está de volta à caça na Europa e se aproximando de Donnie, que está envolvido no mundo traiçoeiro e imprevisível dos ladrões de diamantes e da infame máfia dos Panteras, enquanto eles planejam um grande assalto à maior bolsa de diamantes do mundo.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:308266",
+      "type": "movie",
+      "name": "Cães de Guerra",
+      "poster": "https://image.tmdb.org/t/p/w500/uv9g0yF3z10tWWq24OQewQf6r5e.jpg",
+      "description": "Após uma experiência mal sucedida em fazer negócios com o governo, dois amigos moradores de Miami Beach, que levam uma vida tranquila e que só queriam dinheiro para sustentar seu vício em maconha, descobrem que existe um mercado ilícito em expansão com a venda de armas para o exterior. Ao fechar um contrato de 300 milhões de dólares, eles terão de ir para o Afeganistão acompanhar a explosiva transação pessoalmente.",
+      "releaseInfo": "2016"
+    },
+    {
+      "id": "tmdb:22803",
+      "type": "movie",
+      "name": "Código de Conduta",
+      "poster": "https://image.tmdb.org/t/p/w500/yBGojH2UbkEHJJyPgtaKWIi7lfx.jpg",
+      "description": "Quando um dos suspeitos do assassinato de sua mulher e filha é solto, Clyde quer vingança e decide fazer justiça com as próprias mãos. Clyde é preso e dentro da cadeia organiza uma matança para desmascarar o sistema judicial corrupto.",
+      "releaseInfo": "2009"
+    },
+    {
+      "id": "tmdb:146239",
+      "type": "movie",
+      "name": "De Repente Pai",
+      "poster": "https://image.tmdb.org/t/p/w500/4iviSGM2KWEUDhU4m8ujyN9MI6K.jpg",
+      "description": "Nesta comédia comovente, o fracassado David Wozniak descobre que é na verdade um sucesso em um assunto: ele é pai de 533 crianças através de doações feitas há vinte anos! David logo descobre que o choque de sua vida pode ser a melhor coisa que já lhe aconteceu. Ao longo do caminho, ele descobre não só o seu verdadeiro eu, mas também o pai que ele poderia se tornar.",
+      "releaseInfo": "2013"
+    },
+    {
+      "id": "tmdb:303991",
+      "type": "movie",
+      "name": "Demolição",
+      "poster": "https://image.tmdb.org/t/p/w500/a357EfYN4gJxX99LR3f3nlQya6i.jpg",
+      "description": "Um homem bem sucedido, que trabalha em um grande banco de investimentos, entra em processo de colapso emocional depois de perder a sua esposa em um trágico acidente de carro, do qual sobreviveu. Um dia, ele recebe uma ligação da atendente de uma empresa para qual ele continuamente envia cartas de reclamação. Ele não sabe, mas este encontro poderá mudar o rumo da sua vida daquele momento em diante.",
+      "releaseInfo": "2016"
+    },
+    {
+      "id": "tmdb:48138",
+      "type": "movie",
+      "name": "Desconhecido",
+      "poster": "https://image.tmdb.org/t/p/w500/gI9sCrVmDPYthCeOk6UGAxr8D3t.jpg",
+      "description": "Martin Harris acabou de sair de um coma de quatro dias, fruto de um acidente de carro em Berlim. Ao acordar, descobre que sua esposa não o reconhece e, para piorar, existe um outro homem usando sua identidade. Ignorado pelas autoridades e na mira de assassinos, sua única chance de desvendar este mistério é contar com Gina, uma motorista de táxi que poderá ajudá-lo a provar que ele não está louco.",
+      "releaseInfo": "2011"
+    },
+    {
+      "id": "tmdb:353070",
+      "type": "movie",
+      "name": "Despedida em Grande Estilo",
+      "poster": "https://image.tmdb.org/t/p/w500/6nge1qOYikif7e6dN80KOQuRTtT.jpg",
+      "description": "Willie, Joe e Albert são amigos há décadas. Eles levam uma vida pacata, mas sofrem com problemas financeiros. Quando Willie testemunha o assalto milionário a um banco, decide chamar Joe e Albert para elaborarem o seu próprio assalto. É a vez de os idosos se rebelarem contra a exploração dos bancos.",
+      "releaseInfo": "2017"
+    },
+    {
+      "id": "tmdb:840464",
+      "type": "movie",
+      "name": "Destruição Final 2",
+      "poster": "https://image.tmdb.org/t/p/w500/s6nzVekLSd1y0vGjLz8WPfC1Sau.jpg",
+      "description": "Tendo encontrado a segurança do bunker da Groenlândia depois que o cometa Clarke dizimou a Terra, a família Garrity deve agora arriscar tudo para embarcar em uma jornada angustiante através do deserto da Europa para encontrar um novo lar.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:2034",
+      "type": "movie",
+      "name": "Dia de Treinamento",
+      "poster": "https://image.tmdb.org/t/p/w500/ju2TUNXdCosCMOWXJA1BxtylyOj.jpg",
+      "description": "Jake Hoyt, um jovem policial de Los Angeles, entra para a equipe de narcóticos da polícia e recebe como oficial de treinamento e parcerio Alonzo Harris, um policial veterano e corrupto. Com o passar do dia, o jovem é exposto a todo tipo de corrupção e é ainda acusado de assassinato, acontecimentos que são orquestrados por Alonzo a fim de encobrir um engano cometido por ele junto à máfia russa, que pode fazer com que ele seja morto se não conseguir uma grande quantia de dinheiro até a meia-noite.",
+      "releaseInfo": "2001"
+    },
+    {
+      "id": "tmdb:11635",
+      "type": "movie",
+      "name": "Dias Incríveis",
+      "poster": "https://image.tmdb.org/t/p/w500/puogBeaTUJLxMURi6ghIIBNen2B.jpg",
+      "description": "Mitch, Frank e Beanie são três homens com cerca de trinta anos que estão desiludidos com suas vidas. Decididos a recuperar as glórias do passado, eles decidem retornar à universidade onde estudaram. Lá eles montam uma nova irmandade, formada por ex-alunos do local e outros alunos rejeitados, e tentam escapar do diretor Pritchard.",
+      "releaseInfo": "2003"
+    },
+    {
+      "id": "tmdb:136400",
+      "type": "movie",
+      "name": "Dose Dupla",
+      "poster": "https://image.tmdb.org/t/p/w500/u5X9qjUfIZDmlVJXJ7xJVyyHZFa.jpg",
+      "description": "Bobby e Stig são dois agentes à paisana escalados para roubar um banco que serve de fachada para Máfia. O detalhe é que um não sabe da real identidade do outro. Quando eles descobrem, o mandande da tarefa demite ambos, deixando a dupla a mercê dos bandidos.",
+      "releaseInfo": "2013"
+    },
+    {
+      "id": "tmdb:438631",
+      "type": "movie",
+      "name": "Duna",
+      "poster": "https://image.tmdb.org/t/p/w500/uzERcfV2rSHNhW5eViQiO9hNiA7.jpg",
+      "description": "Em um futuro distante, planetas são comandados por casas nobres que fazem parte de um império feudal intergalático. Paul Atreides é um jovem cuja família toma o controle do planeta deserto Arrakis, também conhecido como Duna. A única fonte da especiaria Melange, a substância mais importante do cosmos, Arrakis se mostra ser um planeta nem um pouco fácil de governar.",
+      "releaseInfo": "2021"
+    },
+    {
+      "id": "tmdb:693134",
+      "type": "movie",
+      "name": "Duna: Parte Dois",
+      "poster": "https://image.tmdb.org/t/p/w500/8LJJjLjAzAwXS40S5mx79PJ2jSs.jpg",
+      "description": "A jornada de Paul Atreides continua. Ele está determinado a buscar vingança contra aqueles que destruíram sua família e seu lar. Com a ajuda de Chani e dos Fremen, ele embarca em uma jornada espiritual, mística e marcial. Se torna Muad'Dib, o líder messiânico dos Fremen, enquanto luta para evitar um futuro sombrio que ele testemunhou em visões. No entanto, suas ações inadvertidamente desencadeiam uma Guerra Santa em seu nome, que se espalha pelo universo conhecido. Enquanto enfrenta escolhas difíceis entre o amor por Chani e o destino de seu povo, Paul precisa usar suas habilidades e conhecimentos para evitar o terrível futuro que previu.",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:8848",
+      "type": "movie",
+      "name": "Efeito Dominó",
+      "poster": "https://image.tmdb.org/t/p/w500/2V1qr9Ts1UCUuhPYBNh8TCut91P.jpg",
+      "description": "Em setembro de 1971 foi construído um túnel para dentro da caixa-forte de um banco na Baker Street, em Londres. De lá foram roubados diversos cofres de dinheiro e jóias, no valor de milhões de libras. O assalto esteve em destaque na imprensa por uns dias, mas logo desapareceu devido à obstrução à mesma pelo governo do Reino Unido. Esta é a história do que estava escondido nos cofres e qual era sua relação com a família real.",
+      "releaseInfo": "2008"
+    },
+    {
+      "id": "tmdb:10184",
+      "type": "movie",
+      "name": "Ele Não Está Tão a Fim de Você",
+      "poster": "https://image.tmdb.org/t/p/w500/nUNvLGc3QeywVlRU5LSDj8mAn43.jpg",
+      "description": "Amigos e amantes tentam percorrer o seu caminho através das complexidades das relações modernas, muitas vezes ignorando as verdadeiras intenções do sexo oposto.",
+      "releaseInfo": "2009"
+    },
+    {
+      "id": "tmdb:297",
+      "type": "movie",
+      "name": "Encontro Marcado",
+      "poster": "https://image.tmdb.org/t/p/w500/xpIVnmEHEYq70tVMjtITfyvw6XB.jpg",
+      "description": "Quando o Anjo da Morte chega à Terra para buscar um magnata da mídia, suas experiências como mortal o levam a se apaixonar pela filha do milionário. A Morte então decide fazer um acordo com o empresário para que ambos possam permanecer mais tempo na Terra.",
+      "releaseInfo": "1998"
+    },
+    {
+      "id": "tmdb:628",
+      "type": "movie",
+      "name": "Entrevista com o Vampiro",
+      "poster": "https://image.tmdb.org/t/p/w500/oKqRTSEeOaO6x4pqc5y36qnnHsq.jpg",
+      "description": "Na São Francisco dos anos 1990, um jornalista entrevista um jovem que afirma ser vampiro, narrando suas experiências dos últimos 200 anos. Em flash-back, conhecemos Louis de Pointe du Lac (Brad Pitt), um homem que perdeu a mulher, morta durante o parto, e também a vontade de viver. Com a ajuda de uma criatura da noite, Lestat de Lioncourt (Tom Cruise), ele se torna um vampiro e precisa aprender uma nova forma de vida.",
+      "releaseInfo": "1994"
+    },
+    {
+      "id": "tmdb:50546",
+      "type": "movie",
+      "name": "Esposa de Mentirinha",
+      "poster": "https://image.tmdb.org/t/p/w500/glC4pDnSieQ9NGU501rfVIqUCTB.jpg",
+      "description": "Infeliz em sua tentativa de casamento, Danny passa a vivenciar relacionamentos sem compromisso para driblar a carência. Assim, ele toca sua vida como cirurgião plástico bem sucedido, tendo sua melhor amiga Katherine, mãe solteira de um casal, como fiel escudeira. Quando conhece a jovem Palmer e a paixão toma conta de ambos, ele inventa, para tentar conquistá-la, que é marido de Katherine, pai das crianças e que vai se separar.",
+      "releaseInfo": "2011"
+    },
+    {
+      "id": "tmdb:34544",
+      "type": "movie",
+      "name": "Esquadrão Classe A",
+      "poster": "https://image.tmdb.org/t/p/w500/wkHFuOIOtZJrtql8gSSvbLtEcNk.jpg",
+      "description": "O Coronel Hannibal Smith (Liam Neeson) e seus amigos mercenários são acionados para fazer um serviço secreto para um agente do Governo americano, mas uma militar de alta patente, a Tenente Sosa (Jessica Biel), antigo caso de Cara de Pau (Bradley Cooper), os proíbe de prosseguir na missão, que envolve falsificação de dólares em Bagdá e uma provável conspiração.",
+      "releaseInfo": "2010"
+    },
+    {
+      "id": "tmdb:297761",
+      "type": "movie",
+      "name": "Esquadrão Suicida",
+      "poster": "https://image.tmdb.org/t/p/w500/6hU2HAUpgBZ295sYzSkr8F5VxbS.jpg",
+      "description": "Um time dos mais perigosos e encarcerados supervilões são contratados por uma agência secreta do governo, para combater uma poderosa entidade. No entanto, quando eles percebem que não foram escolhidos apenas para ter sucesso, mas também por sua óbvia culpa quando inevitavelmente falharem, terão que decidir se vale a pena ou não continuar correndo risco de morte.",
+      "releaseInfo": "2016"
+    },
+    {
+      "id": "tmdb:739405",
+      "type": "movie",
+      "name": "Esquema de Risco: Operação Fortune",
+      "poster": "https://image.tmdb.org/t/p/w500/fLxXvMcpsK8fGKguP3wZ7Urb2ao.jpg",
+      "description": "O agente secreto Orson Fortune e seus companheiros recrutam uma das maiores estrelas de Hollywood para ajudá-los em uma missão importante - e arriscada.  Quando a venda de uma nova tecnologia de armamento mortal ameaça perturbar a ordem mundial, todos os recursos se mostram necessários para combater esse inimigo.",
+      "releaseInfo": "2023"
+    },
+    {
+      "id": "tmdb:87428",
+      "type": "movie",
+      "name": "Este é o Meu Garoto",
+      "poster": "https://image.tmdb.org/t/p/w500/avc0QOU93qnpH9b9ocDGBwL68Qr.jpg",
+      "description": "Na adolescência, Donny teve um filho, Todd, e o criou até completar 18 anos. Agora Donny ressurge pouco antes do casamento de Todd depois de anos separados, fazendo com que o mundo do futuro noivo desmorone.",
+      "releaseInfo": "2012"
+    },
+    {
+      "id": "tmdb:3563",
+      "type": "movie",
+      "name": "Eu os Declaro Marido... e Larry",
+      "poster": "https://image.tmdb.org/t/p/w500/aIlsFdoLkSixeqwqcSKi19xAT2w.jpg",
+      "description": "Chuck Levine e Larry Valentine são o orgulho do Corpo de Bombeiros do Brooklyn, sendo também muito amigos e dispostos a ajudar um ao outro. Chuck é agradecido a Larry por ter salvo sua vida no trabalho e só pensa em curtir a vida. Já Larry é preocupado com o futuro e, devido a problemas burocráticos, não consegue colocar seus dois filhos como beneficiários de seu seguro de vida. Devido a isso Larry pede a Chuck que seja seu parceiro em alguns formulários, sendo que ninguém mais saberá disto. Entretanto uma burocrata zeloso desconfia do casal, o que faz com que eles tenham que se revelar para a cidade e improvisar como um apaixonado casal, que vive sob o mesmo teto.",
+      "releaseInfo": "2007"
+    },
+    {
+      "id": "tmdb:6479",
+      "type": "movie",
+      "name": "Eu Sou a Lenda",
+      "poster": "https://image.tmdb.org/t/p/w500/j2jb6DwNCPIU2LtUrJ9zoQIGvSz.jpg",
+      "description": "Robert Neville é um brilhante cientista e o único sobrevivente de uma epidemia que transformou os humanos em mutantes sedentos por sangue. Andando pela cidade de Nova York, ele procura por outros possíveis sobreviventes e tenta achar a cura da praga usando seu próprio sangue, que é imune.",
+      "releaseInfo": "2007"
+    },
+    {
+      "id": "tmdb:9352",
+      "type": "movie",
+      "name": "Eurotrip: Passaporte para a Confusão",
+      "poster": "https://image.tmdb.org/t/p/w500/rnzfFPhJZLdJS40nzvhNyfZ0ahD.jpg",
+      "description": "Depois de um rompimento brutal em uma festa de formatura do colegial, o apaixonado adolescente de Ohio, Scott Thomas, vai em uma busca na Europa para encontrar seu amigo alemão Mieke. Junto dele estão seu amigo desmiolado e um par de gêmeos que eles encontram em Paris. A busca de Scott não é fácil, no entanto, os mochileiros se envolvem em muitas situações burlescas quando pulam de um país para o outro.",
+      "releaseInfo": "2004"
+    },
+    {
+      "id": "tmdb:911430",
+      "type": "movie",
+      "name": "F1: O Filme",
+      "poster": "https://image.tmdb.org/t/p/w500/fMcY5hpVZQ0cLKHvFM1mo6GrAr0.jpg",
+      "description": "Sonny Hayes, a lenda do automobilismo, é persuadido a deixar a aposentadoria para liderar uma equipe de Fórmula 1 em dificuldades—e ser mentor de um jovem piloto famoso—enquanto busca mais uma oportunidade de glória.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:1181540",
+      "type": "movie",
+      "name": "Família à Prova de Balas",
+      "poster": "https://image.tmdb.org/t/p/w500/2UMu5YDcrj5Jhu0ZlQcceAR6pOf.jpg",
+      "description": "Ray Hayes queria uma vida tranquila com sua família, mas seu passado o alcança. Forçado a retornar a um mundo criminoso e violento por causa de uma antiga dívida, Ray terá que proteger o que mais ama: sua família.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:139567",
+      "type": "movie",
+      "name": "Fogo Contra Fogo",
+      "poster": "https://image.tmdb.org/t/p/w500/3lFE3QKLAHioqce64zoSkqvSA0f.jpg",
+      "description": "Jeremy testemunha um assassinato brutal e identifica o autor do crime, Hagan. Mas Hagan demonstra que o conhece citando seu nome completo, número de identidade e endereço. Jeremy é então forçado a entrar para o programa de proteção a testemunhas.",
+      "releaseInfo": "2012"
+    },
+    {
+      "id": "tmdb:738652",
+      "type": "movie",
+      "name": "Fogo Cruzado",
+      "poster": "https://image.tmdb.org/t/p/w500/5tKdjKZT1oUG16n5jefPD4XObZw.jpg",
+      "description": "Fugindo de um assassino letal, um astuto vigarista inventa um esquema para se esconder dentro de uma delegacia de polícia de uma pequena cidade. No entanto, quando o assassino aparece na delegacia, um policial novato desavisado se vê preso na mira.",
+      "releaseInfo": "2021"
+    },
+    {
+      "id": "tmdb:359724",
+      "type": "movie",
+      "name": "Ford vs Ferrari",
+      "poster": "https://image.tmdb.org/t/p/w500/t8L9dqNMclXJHP0TesPsPS2RvB1.jpg",
+      "description": "O designer de carros americano Carroll Shelby e o destemido piloto britânico Ken Miles juntos combatem a interferência corporativa e as leis da física para construir um carro de corrida revolucionário e enfrentar Enzo Ferrari nas 24 horas de Le Mans na França em 1966.",
+      "releaseInfo": "2019"
+    },
+    {
+      "id": "tmdb:18823",
+      "type": "movie",
+      "name": "Fúria de Titãs",
+      "poster": "https://image.tmdb.org/t/p/w500/mo0clKzmkQ4cEogZrkbip8nrfd7.jpg",
+      "description": "Perseu descobre que é o filho mortal de Zeus, mas recusa-se a aceitar tal condição. Contudo, para salvar a cidade de Argos da fúria dos deuses do olimpo e da vingança de seu tio Hades, ele vai ter que enfrentar uma perigosa jornada contra terríveis criaturas como a Medusa para salvar os simples mortais e a bela Andrômeda do sacrifício para o monstro Kraken.",
+      "releaseInfo": "2010"
+    },
+    {
+      "id": "tmdb:57165",
+      "type": "movie",
+      "name": "Fúria de Titãs 2",
+      "poster": "https://image.tmdb.org/t/p/w500/yf5sWg9T7mT8PTkg3kOdtzhH7P6.jpg",
+      "description": "Dez anos depois de derrotar o Kraken, Perseu vive em paz com seu filho Helios. Mas os Deuses perdem o controle sobre os Titãs, que estão presos. Perseu é chamado novamente, agora para resgatar seu pai, Zeus, vencer os Titãs e salvar a humanidade.",
+      "releaseInfo": "2012"
+    },
+    {
+      "id": "tmdb:18501",
+      "type": "movie",
+      "name": "Gamer",
+      "poster": "https://image.tmdb.org/t/p/w500/lMRW0oO8ptAn4Ciqr4Ojawa6GOB.jpg",
+      "description": "Um novo jogo de videogame é a grande febre do momento. Através dele milhões de internautas podem assistir um grupo de condenados lutando para sobreviver como se fossem personagens virtuais, sendo controlados por jogadores. Kable é a grande estrela do jogo, sendo comandado por um adolescente. Em meio à batalha, Kable precisa usar suas habilidades para vencer o jogo e derrubar o sistema que o aprisiona.",
+      "releaseInfo": "2009"
+    },
+    {
+      "id": "tmdb:38365",
+      "type": "movie",
+      "name": "Gente Grande",
+      "poster": "https://image.tmdb.org/t/p/w500/ppU2xJnlKdW3F01AtC9wMuXRZCg.jpg",
+      "description": "A morte do treinador de basquete da infância de velhos amigos os reúne no mesmo lugar que celebraram um campeonato anos atrás. Os amigos, acompanhados de suas esposas e filhos, descobrem que idade não significa o mesmo que maturidade.",
+      "releaseInfo": "2010"
+    },
+    {
+      "id": "tmdb:109418",
+      "type": "movie",
+      "name": "Gente Grande 2",
+      "poster": "https://image.tmdb.org/t/p/w500/fKYW0oKPvy6HF8x5egL1ljC36xb.jpg",
+      "description": "Lenny Feder e sua família se mudam para sua cidade natal para ficar perto dos amigos, mas acabam tendo que enfrentar alguns fantasmas do passado, como a covardia diante de valentões e o famigerado bullying na escola.",
+      "releaseInfo": "2013"
+    },
+    {
+      "id": "tmdb:39254",
+      "type": "movie",
+      "name": "Gigantes de Aço",
+      "poster": "https://image.tmdb.org/t/p/w500/pp74uUjwQTknGPqNrerj4FvU0ce.jpg",
+      "description": "Em um futuro próximo, as máquinas substituem os seres humanos no ringue. As lutas de boxe, nesse contexto, acontecem entre robôs de alta tecnologia e Charlie, um ex-lutador frustrado, não consegue se adaptar a isso. Quando tudo parece perdido, ele se une ao filho para construir um competidor imbatível.",
+      "releaseInfo": "2011"
+    },
+    {
+      "id": "tmdb:113655",
+      "type": "movie",
+      "name": "Golpe de Gênio",
+      "poster": "https://image.tmdb.org/t/p/w500/D6ZLgdoiPYvrcTsDOQxpa7RzbO.jpg",
+      "description": "Matt (Dallas Roberts) e Sam (Jeremy Renner) são dois amigos que creem no enriquecimento, graças a uma brilhante invenção. Mesmo já tendo perdido todas as suas economias, a dupla continua investindo em seus inventos. Até que um certo dia, sua nova criação pode se tornar um grande sucesso e transformar a vida de ambos.",
+      "releaseInfo": "2009"
+    },
+    {
+      "id": "tmdb:256591",
+      "type": "movie",
+      "name": "Golpe Duplo",
+      "poster": "https://image.tmdb.org/t/p/w500/obLLUR92vv2fr5JC0YrGXRu4c7k.jpg",
+      "description": "Nicky é um trapaceiro profissional que acaba sendo escolhido como vítima por uma iniciante na profissão, Jess. Esperto como é, ele se deixa cair no golpe para desmascará-la no momento certo. Decepcionada, a ambiciosa Jess insiste para que Nicky lhe ensine seu método de trabalho e a aceite em sua equipe. Após uma certa relutância, Nicky concorda. Mas o problema maior é que ele também acaba se envolvendo romanticamente com ela, o que vai de encontro a uma de suas principais regras.",
+      "releaseInfo": "2015"
+    },
+    {
+      "id": "tmdb:72190",
+      "type": "movie",
+      "name": "Guerra Mundial Z",
+      "poster": "https://image.tmdb.org/t/p/w500/2Sdz5gGrwN92pRanlJKeUqkIjRk.jpg",
+      "description": "Um vírus letal se espalha rapidamente e transforma seres humanos em zumbis. O ex-agente da ONU Gerry Lane é chamado para investigar a epidemia que está acabando com a humanidade, iniciando uma verdadeira corrida contra o tempo.",
+      "releaseInfo": "2013"
+    },
+    {
+      "id": "tmdb:8960",
+      "type": "movie",
+      "name": "Hancock",
+      "poster": "https://image.tmdb.org/t/p/w500/7DyuV2G0hLEqHeueDfOqhZ2DVut.jpg",
+      "description": "Hancock, um super-herói desajeitado, protege os cidadãos de Los Angeles mas causa danos colaterais a cada ato heroico que realiza. Hancock não se importa com o que as pessoas pensam. Entretanto, após salvar a vida de um executivo, ele conhece a bela esposa dele e descobre que, apesar de tudo, é um homem sensível.",
+      "releaseInfo": "2008"
+    },
+    {
+      "id": "tmdb:557",
+      "type": "movie",
+      "name": "Homem-Aranha",
+      "poster": "https://image.tmdb.org/t/p/w500/RbZQL5hXmydecu82UHw9ZGyytB.jpg",
+      "description": "Peter Parker é um jovem estudioso que vive com seus tios, Ben e May, desde que seus pais faleceram. Peter tem dificuldade em se relacionar com seus colegas, por ser tímido e por eles o considerarem um nerd. Até que, em uma demonstração científica, um acidente inesperado faz com que uma aranha modificada geneticamente pique Peter. A partir de então seu corpo é quimicamente alterado pela picada da aranha.",
+      "releaseInfo": "2002"
+    },
+    {
+      "id": "tmdb:558",
+      "type": "movie",
+      "name": "Homem-Aranha 2",
+      "poster": "https://image.tmdb.org/t/p/w500/xB05Gyeo2w4RBwt7nZlPkjZzt9X.jpg",
+      "description": "Dois anos se passaram desde que o tranquilo Peter Parker separou-se do grande amor de sua vida, Mary Jane Watson, e decidiu assumir o compromisso e a responsabilidade de seguir sendo o Homem-Aranha. Peter enfrenta novos desafios enquanto aprende a lidar com \"seu dom e sua maldição\", tentando desesperadamente harmonizar suas duas identidades: A do super-herói aracnídeo, o Homem-Aranha, e a do estudante universitário.",
+      "releaseInfo": "2004"
+    },
+    {
+      "id": "tmdb:559",
+      "type": "movie",
+      "name": "Homem-Aranha 3",
+      "poster": "https://image.tmdb.org/t/p/w500/5831VrgpYNPEokBwxurLVpQ3twM.jpg",
+      "description": "O relacionamento entre Peter Parker e Mary Jane parece estar dando certo, mas outros problemas começam a surgir. A roupa de Homem-Aranha torna-se preta e acaba controlando Peter, que apesar de aumentar seus poderes, revela o lado obscuro de sua personalidade. Os vilões Venon e Homem-Areia tentam destruir o super-herói.",
+      "releaseInfo": "2007"
+    },
+    {
+      "id": "tmdb:634649",
+      "type": "movie",
+      "name": "Homem-Aranha: Sem Volta Para Casa",
+      "poster": "https://image.tmdb.org/t/p/w500/xaKydnMw6wR1MBAjS5seGPVusbs.jpg",
+      "description": "Peter Parker é desmascarado e não consegue mais separar sua vida normal dos grandes riscos de ser um super-herói. Quando ele pede ajuda ao Doutor Estranho, os riscos se tornam ainda mais perigosos, e o forçam a descobrir o que realmente significa ser o Homem-Aranha...",
+      "releaseInfo": "2021"
+    },
+    {
+      "id": "tmdb:11978",
+      "type": "movie",
+      "name": "Homens de Honra",
+      "poster": "https://image.tmdb.org/t/p/w500/gv6BZRbfJGxBp9tFFKMuXuJGwTe.jpg",
+      "description": "Carl Brashear, um jovem negro, entra para a Marinha americana nos 50, época em que o racismo prevalecia no país. O jovem enfrenta o preconceito de seus colegas brancos e de seu instrutor, mas sua coragem e determinação conquistam o respeito de todos.",
+      "releaseInfo": "2000"
+    },
+    {
+      "id": "tmdb:296524",
+      "type": "movie",
+      "name": "Horizonte Profundo: Desastre no Golfo",
+      "poster": "https://image.tmdb.org/t/p/w500/qxs766YfzREsaBRw9WdoiqaD8VD.jpg",
+      "description": "Baseada em eventos reais, a história se passa no Golfo do México, na plataforma de perfuração marítima Deepwater Horizon. Diante de um dos piores vazamentos de petróleo na história dos EUA, Mike Williams e os demais trabalhadores embarcados lutam para escapar com vida do terrível acidente.",
+      "releaseInfo": "2016"
+    },
+    {
+      "id": "tmdb:536437",
+      "type": "movie",
+      "name": "Hypnotic: Ameaça Invisível",
+      "poster": "https://image.tmdb.org/t/p/w500/qU5OoGW31ahW9ANZU5tIwmPydKC.jpg",
+      "description": "Um detetive se envolve em um mistério envolvendo sua filha desaparecida e um programa secreto do governo enquanto investiga uma série de crimes que distorcem a realidade.",
+      "releaseInfo": "2023"
+    },
+    {
+      "id": "tmdb:637649",
+      "type": "movie",
+      "name": "Infiltrado",
+      "poster": "https://image.tmdb.org/t/p/w500/rNz8wy63GAabztAUkO4xMGk3upx.jpg",
+      "description": "Harry, conhecido apenas como H, é um homem misterioso que trabalha para uma empresa de carros-fortes e movimenta grandes quantias de dinheiro pela cidade de Los Angeles. Quando, ao impedir um assalto, ele surpreende a todos com suas habilidades de combate, suas verdadeiras intenções começam a ser questionadas e um plano maior é revelado.",
+      "releaseInfo": "2021"
+    },
+    {
+      "id": "tmdb:4477",
+      "type": "movie",
+      "name": "Inimigo Íntimo",
+      "poster": "https://image.tmdb.org/t/p/w500/phJXOEoYdaOzJ5CaL3tb1zdUBCc.jpg",
+      "description": "Líder do IRA foge para a Nova York, onde um amigo, para protegê-lo, o coloca morando na casa de um íntegro policial de origem irlandesa, que desconhece sua identidade. Assim, o recém-chegado se integra na família e articula a compra de armamento pesado para levar ao seu país.",
+      "releaseInfo": "1997"
+    },
+    {
+      "id": "tmdb:44943",
+      "type": "movie",
+      "name": "Invasão do Mundo: Batalha de Los Angeles",
+      "poster": "https://image.tmdb.org/t/p/w500/lHEBl738DXaFGeyq7lRsSqTdNaU.jpg",
+      "description": "Uma chuva de meteoros repentinamente atinge a Terra. Logo se descobre que na verdade são naves alienígenas, que desejam exterminar os seres humanos a qualquer custo. A cidade de Los Angeles é alvo de uma das principais batalhas, dentre as várias que ocorrem ao redor do planeta. Nela está envolvido o sargento Michael Nantz, que teve sua aposentadoria cancelada devido à gravidade dos ataques e ainda sofre o trauma de ter perdido vários homens em sua última missão. Obedecendo ordens do tenente William Martinez, ele tenta ajudar no que pode para eliminar o invasor extraterrestre.",
+      "releaseInfo": "2011"
+    },
+    {
+      "id": "tmdb:11652",
+      "type": "movie",
+      "name": "Invencível",
+      "poster": "https://image.tmdb.org/t/p/w500/47IqeypJmXilXFxHM1N1EiqZ1jA.jpg",
+      "description": "Vince Papale vê seu maior sonho se tornar realidade ao entrar para o Philadelphia Eagles. Aos 30 anos, ele consegue fazer um teste para o seu time de futebol americano favorito, tornando-se o mais velho novato na história da Liga.",
+      "releaseInfo": "2006"
+    },
+    {
+      "id": "tmdb:10009",
+      "type": "movie",
+      "name": "Irmão Urso",
+      "poster": "https://image.tmdb.org/t/p/w500/pFRQgHiZwHTX7LmHEI0hwocuBC3.jpg",
+      "description": "Em busca de vingança por seu pai ter sido morto por um urso, o índio Kenai acaba sendo amaldiçoado pelos espíritos da floresta e é transformado em um urso. Obrigado a viver sob a nova pele, ele começa a ver a realidade sob a ótica dos animais. Logo faz amizade com outro urso, Koda, mas se vê em apuros quando seu próprio irmão começa a caçá-lo.",
+      "releaseInfo": "2003"
+    },
+    {
+      "id": "tmdb:10010",
+      "type": "movie",
+      "name": "Irmão Urso 2",
+      "poster": "https://image.tmdb.org/t/p/w500/r4kOIrwYMXInmFH8eaJ6kDoAkUW.jpg",
+      "description": "A primavera chegou e Kenai acordou de sua primeira hibernação com um apetite voraz. Ele e seu irmão mais novo, Koda, estão animadíssimos para cair na floresta e saborear os melhores frutos. Durante essa jornada, Nita, uma antiga amiga de infância de Kenai, reaparece. Crescida, Nita precisa se casar seguindo as tradições de sua tribo. Mas os Grandes Espíritos tem outros planos para ela e somente Kenai poderá ajudá-la.",
+      "releaseInfo": "2006"
+    },
+    {
+      "id": "tmdb:324668",
+      "type": "movie",
+      "name": "Jason Bourne",
+      "poster": "https://image.tmdb.org/t/p/w500/9wcchetvkyCRi1UYPIinrzXBdsN.jpg",
+      "description": "Afastado da CIA há 10 anos, o agente Jason Bourne retorna ao campo de batalha para enfrentar uma rede sinistra que utiliza tecnologia e terror para se manter no poder.",
+      "releaseInfo": "2016"
+    },
+    {
+      "id": "tmdb:1535",
+      "type": "movie",
+      "name": "Jogo de Espiões",
+      "poster": "https://image.tmdb.org/t/p/w500/8eRA7GVsO3qvwu4sU0idFR0Qce3.jpg",
+      "description": "Agente da CIA prestes a se aposentar é convocado para resgatar seu protegido que foi preso por espionagem na China. Em meio ao embarque, relembra como o recrutou e treinou, seus tempos turbulentos como agentes e ainda a mulher que traiu a amizade deles.",
+      "releaseInfo": "2001"
+    },
+    {
+      "id": "tmdb:265208",
+      "type": "movie",
+      "name": "Carta Selvagem",
+      "poster": "https://image.tmdb.org/t/p/w500/mNCBOnQITpRkaMRyq8KyfyDFQEx.jpg",
+      "description": "Nick Wild, guarda-costas em Las Vegas, tem habilidades profissionais letais e problemas pessoas com o jogo. Após seu amigo ser espancado um sádico bandido, Nick decide se vingar e descobre que ele é filho de um poderoso chefe da máfia. Nick mergulha no mundo do crime e acaba perseguido pela máfia, tendo apenas uma chance de mudar sua sorte.",
+      "releaseInfo": "2015"
+    },
+    {
+      "id": "tmdb:941109",
+      "type": "movie",
+      "name": "Jogo Sujo",
+      "poster": "https://image.tmdb.org/t/p/w500/2fXF4GY6eoyjRLjtreVJGajT9WV.jpg",
+      "description": "Um ladrão profissional se lança no maior roubo de sua vida. Parker, Grofield, Zen e uma equipe talentosa embarcam num roubo que os coloca contra a máfia de Nova York num golpe sagaz e intenso.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:232672",
+      "type": "movie",
+      "name": "Juntos e Misturados",
+      "poster": "https://image.tmdb.org/t/p/w500/tD0UJtt237FAST3rD1htrGLBKAH.jpg",
+      "description": "Após um encontro desastroso, os pais solteiros Lauren e Jim concordam apenas com uma coisa, eles nunca vão querer se encontrar de novo. Mas quando ambos, separadamente, têm a oportunidade de viajar com suas famílias para as férias dos seus sonhos, acabam tendo que dividir a mesma suíte em um luxuoso resort safari africano por uma semana inteira...",
+      "releaseInfo": "2014"
+    },
+    {
+      "id": "tmdb:438674",
+      "type": "movie",
+      "name": "Justiça Brutal",
+      "poster": "https://image.tmdb.org/t/p/w500/fbZi8jRG0tZTdXx3GH6CZthkFzc.jpg",
+      "description": "O veterano policial Brett Ridgeman (Mel Gibson) e seu parceiro mais jovem e volátil, Anthony Lurasetti (Vince Vaughn), são suspensos quando um vídeo de suas táticas de trabalho brutais vira notícia. Sem dinheiro e sem opções, eles decidem entrar para o mundo do crime. Porém, o que eles encontram na criminalidade é algo muito mais obscuro do que esperavam.",
+      "releaseInfo": "2019"
+    },
+    {
+      "id": "tmdb:1011477",
+      "type": "movie",
+      "name": "Karatê Kid: Lendas",
+      "poster": "https://image.tmdb.org/t/p/w500/gnuSSOVBVWlKL8dFEGKRoOiiKTS.jpg",
+      "description": "Li Fong, um prodígio do kung fu, se muda para Nova York com a mãe. Ele tenta ficar longe de brigas enquanto se adapta ao novo país, mas sua paixão pelo combate o leva a se inscrever em um torneio de artes marciais.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:614917",
+      "type": "movie",
+      "name": "King Richard: Criando Campeãs",
+      "poster": "https://image.tmdb.org/t/p/w500/KUdG6W99PfHe3wzuBWgfsHUuM.jpg",
+      "description": "Richard Williams é treinador de suas filhas, Venus e Serena, que em breve se tornarão duas das mais lendárias tenistas da história.",
+      "releaseInfo": "2021"
+    },
+    {
+      "id": "tmdb:9502",
+      "type": "movie",
+      "name": "Kung Fu Panda",
+      "poster": "https://image.tmdb.org/t/p/w500/1YMs3zCt5kICK28RvVgDL1UUtkA.jpg",
+      "description": "Po é um panda que trabalha na loja de macarrão da sua família e sonha em transformar-se em um mestre de kung fu. Seu sonho se torna realidade quando, inesperadamente, ele deve cumprir uma profecia antiga e estudar a arte marcial com seus ídolos, os Cinco Furiosos. Po precisa de toda a sabedoria, força e habilidade que conseguir reunir para proteger seu povo de um leopardo da neve malvado.",
+      "releaseInfo": "2008"
+    },
+    {
+      "id": "tmdb:49444",
+      "type": "movie",
+      "name": "Kung Fu Panda 2",
+      "poster": "https://image.tmdb.org/t/p/w500/dSF0v3XPCzKb30zv3fLeuoJuTRv.jpg",
+      "description": "Po vive o sonho de ser o dragão guerreiro, protegendo o Vale da Paz ao lado dos mestres Shifu, Tigresa, Macaco, Víbora, Louva-deus e Garça. Sua vida pacata chega ao fim quando surge um novo inimigo, o lorde Chen, que possui uma arma secreta capaz de permitir a conquista da China e provocar o fim do kung fu. Para impedi-lo, Po e os Cinco Furiosos precisam cruzar o país e derrotá-lo.",
+      "releaseInfo": "2011"
+    },
+    {
+      "id": "tmdb:140300",
+      "type": "movie",
+      "name": "Kung Fu Panda 3",
+      "poster": "https://image.tmdb.org/t/p/w500/ztaU1LyB4IpBSvdZ0p1RntQkfhQ.jpg",
+      "description": "Em uma visita a uma vila secreta com o pai, Po forma um exército de pandas para combater um espírito maligno que ameaça a China.",
+      "releaseInfo": "2016"
+    },
+    {
+      "id": "tmdb:44912",
+      "type": "movie",
+      "name": "Lanterna Verde",
+      "poster": "https://image.tmdb.org/t/p/w500/xfZ1p8nNavu5sbLcyrB1FgOYK23.jpg",
+      "description": "Hal Jordan, um vaidoso piloto de testes, recebe um poderoso anel e é recrutado por um esquadrão intergaláctico chamado Lanterna Verde para lutar contra um feroz inimigo que ameaça acabar com o equilíbrio do universo.",
+      "releaseInfo": "2011"
+    },
+    {
+      "id": "tmdb:65291",
+      "type": "movie",
+      "name": "Lanterna Verde: Cavaleiros Esmeralda",
+      "poster": "https://image.tmdb.org/t/p/w500/qyeoW0JGhdt0tULJuBKC7ip1t0E.jpg",
+      "description": "Prestes a ganhar seu primeiro longa-metragem live action, o herói Lanterna Verde tem novas aventuras animadas chegando ao mercado de vídeo, sempre em lançamentos com visual de tirar o fôlego. Aqui ele prepara uma jovem pupila para seguir seus passos, relatando a ela as aventuras de diversos outros Lanternas Verdes espalhados pela galáxia, em contos que mostram toda a coragem e honra dos integrantes desta seleta dinastia.",
+      "releaseInfo": "2011"
+    },
+    {
+      "id": "tmdb:887357",
+      "type": "movie",
+      "name": "Lanterna Verde: Cuidado Com Meu Poder",
+      "poster": "https://image.tmdb.org/t/p/w500/9jKuuMoCuAlu0NHvPSHzabkmXtz.jpg",
+      "description": "O veterano da Marinha John Stewart é escolhido para se tornar um membro da Tropa dos Lanternas Verdes após a aparente morte de Hal Jordan, embarcando em uma missão que mudará sua vida para sempre. Ao lado do Arqueiro Verde e da Mulher-Gavião, John é arrastado para uma guerra galáctica, marcada por origens chocantes e consequências catastróficas.",
+      "releaseInfo": "2022"
+    },
+    {
+      "id": "tmdb:17445",
+      "type": "movie",
+      "name": "Lanterna Verde: Primeiro Vôo",
+      "poster": "https://image.tmdb.org/t/p/w500/ifUEtuvQeIrVh9ajaxMWKBBsDwx.jpg",
+      "description": "Depois de receber das mãos de uma lienígena um anel eu lhe dá poderes sobre-humanos, o piloto Hal Jordan entra para a Tropa dos Lanternas Verdes, onde é supervisionado pelo respeitado Sinestro, Quando Jordan descobre que seu supervisor é na verdade o cabeça de uma conspiração que ameaça a filosofia e as tradições da Tropa, ele busca dominar rapidamente seus novos poderes para combater os traidores e manter a ordem no universo.",
+      "releaseInfo": "2009"
+    },
+    {
+      "id": "tmdb:791373",
+      "type": "movie",
+      "name": "Liga da Justiça de Zack Snyder",
+      "poster": "https://image.tmdb.org/t/p/w500/lsZ5dmMuvZVNMBrkozvJedujbgU.jpg",
+      "description": "Determinado a garantir que o sacrifício final do Superman não foi em vão, Bruce Wayne alinha forças com Diana Prince com planos de recrutar uma equipe de metahumanos para proteger o mundo de uma ameaça de proporções catastróficas que se aproxima.",
+      "releaseInfo": "2021"
+    },
+    {
+      "id": "tmdb:98357",
+      "type": "movie",
+      "name": "Linha de Ação",
+      "poster": "https://image.tmdb.org/t/p/w500/t3pIua7aJ715CYP3LzgWXGPEVRg.jpg",
+      "description": "Um ex-policial é envolvido em um escândalo após ser chamado pelo prefeito de Nova York para seguir a esposa do político que desconfia de infidelidade da mulher. Ao perceber que foi enganado, o detetive sai em busca de justiça.",
+      "releaseInfo": "2013"
+    },
+    {
+      "id": "tmdb:204082",
+      "type": "movie",
+      "name": "Linha de Frente",
+      "poster": "https://image.tmdb.org/t/p/w500/eDkJozkyJ2izomuyeo0H4tSGpVd.jpg",
+      "description": "Phil Broker é um ex-agente do Departamento de Combate a Narcóticos, nos Estados Unidos. Tentando escapar de seu passado, ele se muda para uma tranquila cidade do interior. Com o tempo, percebe que a comunidade não é tão pacata assim e terá que enfrentar um grupo de traficantes liderados por Gator.",
+      "releaseInfo": "2013"
+    },
+    {
+      "id": "tmdb:9678",
+      "type": "movie",
+      "name": "Little Nick - Um Diabo Diferente",
+      "poster": "https://image.tmdb.org/t/p/w500/uuO5wW534qkBPicTRilPaLumL0A.jpg",
+      "description": "Após dez mil anos de reinado, e já perto de aposentar-se, o Demônio decide no cargo. Revoltados, seus filhos Adrian e Cassius resolvem criar um inferno particular, e elegem Nova York para começar. Porém, a saída de Adrian e Cassius sela o portal do inferno, fazendo com que o Demônio vá perdendo seus poderes. A solução é pedir ao filho caçula, o atrapalhado Nicky, que falante, Nicky começa a experimentar sensações humanas e acaba se apaixonado por Valerie. Enquanto isso, a Terra fica cada vez mais perto de tornar-se um verdadeiro Inferno.",
+      "releaseInfo": "2000"
+    },
+    {
+      "id": "tmdb:877817",
+      "type": "movie",
+      "name": "Lobos",
+      "poster": "https://image.tmdb.org/t/p/w500/5LvefZZsapIsOIckLZHbYlwCAkm.jpg",
+      "description": "Dois solucionadores rivais se cruzam quando ambos são chamados para encobrir o erro de uma importante figura pública de Nova York. Durante uma noite conturbada, eles terão que deixar de lado suas diferenças e egos para concluir o serviço.",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:9567",
+      "type": "movie",
+      "name": "Lágrimas do Sol",
+      "poster": "https://image.tmdb.org/t/p/w500/cdc7y9p1SDa7riYOkyAevJTXxTC.jpg",
+      "description": "O governo nigeriano está falido e o país está à beira de uma guerra civil. O Tenente A.K. Waters é responsável por liderar uma equipe de soldados para a selva para resgatarem a Dra. Lena Kendricks. Quando Waters e sua equipe localizam Kendricks, ela conta que não deixará seus pacientes para serem abatidos por rebeldes. A equipe provoca a ira das forças dos Estados Unidos e da Nigéria quando lado a lado com Kendricks tenta proteger os refugiados.",
+      "releaseInfo": "2003"
+    },
+    {
+      "id": "tmdb:10030",
+      "type": "movie",
+      "name": "Maldita Sorte",
+      "poster": "https://image.tmdb.org/t/p/w500/zauSy5HbzTSoA6cKnMYIr3DTSnR.jpg",
+      "description": "Para que a mulher de seus sonhos não se apaixone por outro homem, Charlie tem que quebrar a maldição que o tornou popular entre as mulheres solteiras: durma com Charlie uma vez e o próximo homem que você encontrar será seu verdadeiro amor.",
+      "releaseInfo": "2007"
+    },
+    {
+      "id": "tmdb:13051",
+      "type": "movie",
+      "name": "Max Payne",
+      "poster": "https://image.tmdb.org/t/p/w500/w1Hq5B2wXsbv7G8mA3MIWbjDpQh.jpg",
+      "description": "Max Payne é um policial indisciplinado de Nova York, que está decidido a encontrar os responsáveis pelo brutal assassinato de sua esposa, seu bebê e de seu parceiro. O desejo de vingança faz com que ele se aprofunde cada vez mais no submundo obscuro de mafiosos, sendo obrigado a enfrentar até mesmo inimigos do além em uma batalha sobrenatural por justiça.",
+      "releaseInfo": "2008"
+    },
+    {
+      "id": "tmdb:345940",
+      "type": "movie",
+      "name": "Megatubarão",
+      "poster": "https://image.tmdb.org/t/p/w500/wrJkShDPK4TcV0nHix3HASEmkul.jpg",
+      "description": "Na fossa mais profunda do Oceano Pacífico, a tripulação de um submarino fica presa dentro do local após ser atacada por uma criatura pré-histórica que se achava estar extinta, um tubarão de mais de 20 metros de comprimento, o Megalodon. Para salvá-los, um oceanógrafo chinês contrata Jonas Taylor, um mergulhador especializado em resgates em água profundas que já encontrou com a criatura anteriormente.",
+      "releaseInfo": "2018"
+    },
+    {
+      "id": "tmdb:615656",
+      "type": "movie",
+      "name": "Megatubarão 2",
+      "poster": "https://image.tmdb.org/t/p/w500/x3uhIodq56mlGBwpDTZ52trGb35.jpg",
+      "description": "Um mergulho exploratório nas profundezas do oceano de uma ousada equipe de pesquisa se transforma em caos quando uma operação de mineração malévola ameaça sua missão e os força a uma batalha de alto risco pela sobrevivência.",
+      "releaseInfo": "2023"
+    },
+    {
+      "id": "tmdb:454639",
+      "type": "movie",
+      "name": "Mestres do Universo",
+      "poster": "https://image.tmdb.org/t/p/w500/atpb7NKSyM4bJSUY8vQTunzK4Na.jpg",
+      "description": "Adam caiu na Terra quando era criança e perdeu a espada mágica que o ligava a Eternia. Quase 20 anos depois, ele a recupera e retorna ao seu planeta natal para protegê-lo do malvado Esqueleto, mas primeiro precisa desvendar seu passado.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:20352",
+      "type": "movie",
+      "name": "Meu Malvado Favorito",
+      "poster": "https://image.tmdb.org/t/p/w500/rYZzutMXxvirK9gK01iLo3Blaj3.jpg",
+      "description": "Um homem que adora todas as coisas diabólicas, o supervilão Gru traça um plano para roubar a lua. Rodeado de um exército de pequenos ajudantes e seu arsenal de armas e máquinas de guerra, Gru se prepara para destruir quem atravessar seu caminho. Mas ele não esperava pelo seu maior desafio: três adoráveis órfãs que querem ter Gru como pai.",
+      "releaseInfo": "2010"
+    },
+    {
+      "id": "tmdb:93456",
+      "type": "movie",
+      "name": "Meu Malvado Favorito 2",
+      "poster": "https://image.tmdb.org/t/p/w500/7mYMq6OQyum1wAiUI7i6w78YKEO.jpg",
+      "description": "Gru mudou radicalmente sua vida e se dedica às filhotas Agnes, Edith e Margo, deixando de lado os tempos de vilão. Ele só não contava que seu passado fosse responsável pelo seu recrutamento pela Liga Antivilões para salvar o mundo na companhia da agente Lucy. Juntos, eles precisam localizar o criminoso que roubou a fórmula PX41 e Gru desconfia que seu antigo concorrente El Macho possa ser o responsável.",
+      "releaseInfo": "2013"
+    },
+    {
+      "id": "tmdb:324852",
+      "type": "movie",
+      "name": "Meu Malvado Favorito 3",
+      "poster": "https://image.tmdb.org/t/p/w500/6z0KlRIrXfkgNz3IJOCAQxdVXAg.jpg",
+      "description": "O ex-ator mirim e astro de TV, Balthazar Bratt, foi um típico malvado bem-sucedido nos anos 80 e agora está de volta à ativa. Ele vai aterrorizar a vida de Gru, Agnes, Margo, Edith, Dr. Nefario e os atrapalhados Minions. Em meio a tudo isso, Gru também vai encontrar o seu irmão gêmeo, Drew.",
+      "releaseInfo": "2017"
+    },
+    {
+      "id": "tmdb:519182",
+      "type": "movie",
+      "name": "Meu Malvado Favorito 4",
+      "poster": "https://image.tmdb.org/t/p/w500/s8BefU3RIJrfipTpsDtOiatlp8j.jpg",
+      "description": "Nesta sequência, o vilão mais amado do planeta retorna e agora Gru, Lucy, Margo, Edith e Agnes dão as boas-vindas a um novo membro da família: Gru Jr., que pretende atormentar seu pai. Enquanto se adapta com o pequeno, Gru enfrenta um novo inimigo, Maxime Le Mal, forçando sua namorada Valentina e a família a fugir do perigo.",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:936075",
+      "type": "movie",
+      "name": "Michael",
+      "poster": "https://image.tmdb.org/t/p/w500/gXh43JopeO8BlA661BvlkR6yeqs.jpg",
+      "description": "A história da vida de Michael Jackson além da música, traçando sua jornada desde a descoberta de seu talento extraordinário como líder dos Jackson Five até o artista visionário cuja ambição criativa impulsionou uma busca implacável para se tornar o maior artista do mundo.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:211672",
+      "type": "movie",
+      "name": "Minions",
+      "poster": "https://image.tmdb.org/t/p/w500/caq9Xi6b1sZNREfzFBO2tRIBzWn.jpg",
+      "description": "Seres amarelos milenares, os minions têm uma missão: servir os maiores vilões. Em depressão desde a morte de seu antigo mestre, eles tentam encontrar um novo chefe. Três voluntários, Kevin, Stuart e Bob, vão até uma convenção de vilões nos Estados Unidos e lá se encantam com Scarlet Overkill, que ambiciona ser a primeira mulher a dominar o mundo.",
+      "releaseInfo": "2015"
+    },
+    {
+      "id": "tmdb:438148",
+      "type": "movie",
+      "name": "Minions 2: A Origem de Gru",
+      "poster": "https://image.tmdb.org/t/p/w500/iTP3mMw0AoqmScYzDoMmYeKxYe.jpg",
+      "description": "A continuação das aventuras dos Minions, sempre em busca de um líder tirânico. Dessa vez, eles ajudam um Gru ainda criança, descobrindo como ser vilão.",
+      "releaseInfo": "2022"
+    },
+    {
+      "id": "tmdb:931285",
+      "type": "movie",
+      "name": "Mortal Kombat 2",
+      "poster": "https://image.tmdb.org/t/p/w500/iILiJSRViTEcF23MHhGCbVm3mfW.jpg",
+      "description": "Os campeões favoritos dos fãs – agora acompanhados pelo próprio Johnny Cage – são colocados uns contra os outros numa sangrenta e derradeira batalha, sem regras ou limites, para derrotar o governo sombrio de Shao Kahn.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:634528",
+      "type": "movie",
+      "name": "Na Mira do Perigo",
+      "poster": "https://image.tmdb.org/t/p/w500/vW2My12kmNQ6P4877alchnQHTp8.jpg",
+      "description": "Um fazendeiro na fronteira do Arizona se torna o improvável defensor de um jovem mexicano que foge desesperadamente dos assassinos do cartel que o perseguiram até os EUA.",
+      "releaseInfo": "2021"
+    },
+    {
+      "id": "tmdb:293",
+      "type": "movie",
+      "name": "Nada É Para Sempre",
+      "poster": "https://image.tmdb.org/t/p/w500/xZVLjVLheYzbJGbo2zIuHlwG0Yu.jpg",
+      "description": "O filme é baseado na novela homônima de Norman MacLean e narra a verdadeira história de dois jovens Norman e Paul que cresceram pescando trutas em Montana. Um deles é revoltado com o pai, o Reverendo MacLean, enquanto o outro tem seus pés no chão. A família vive várias aventuras, os irmãos seguem cada um seu caminho, mas alguma coisa os faz retornar sempre à pescaria. Afinal, o rio parece ter algo a dizer aos MacLean.",
+      "releaseInfo": "1992"
+    },
+    {
+      "id": "tmdb:600",
+      "type": "movie",
+      "name": "Nascido Para Matar",
+      "poster": "https://image.tmdb.org/t/p/w500/qHm54HjL1F6CFVyYOz6Q2HAPTfS.jpg",
+      "description": "Um sargento treina de forma fanática e sádica os recrutas em uma base de treinamentos, na intenção de transformá-los em máquinas de guerra para combater na Guerra do Vietnã. Após serem transformados em fuzileiros navais, eles são enviados para a guerra e quando lá chegam se deparam com seus horrores.",
+      "releaseInfo": "1987"
+    },
+    {
+      "id": "tmdb:239573",
+      "type": "movie",
+      "name": "Negócios Fora de Controle",
+      "poster": "https://image.tmdb.org/t/p/w500/tU4U3FR7WoDWphFakkIuiktOb99.jpg",
+      "description": "Dan Trunkman é dono de uma pequena empresa e viaja com os dois sócios para a Europa, onde o trio fechará um grande negócio. Atingidos por acontecimentos inesperados, porém, eles deixam o trabalho de lado e se perdem em paradas não planejadas.",
+      "releaseInfo": "2015"
+    },
+    {
+      "id": "tmdb:241554",
+      "type": "movie",
+      "name": "Noite Sem Fim",
+      "poster": "https://image.tmdb.org/t/p/w500/r6syWDxxJjeN1DToLPIhdBZ444n.jpg",
+      "description": "O mafioso e pistoleiro do Brooklyn Jimmy Conlon descobre que seu filho Mike está em perigo, e deve escolher entre a família do crime que escolheu e a família real que abandonou há muito tempo. Com Mike foragido, a única penitência de Conlon para os erros do passado pode ser evitar que o filho tenha o mesmo destino que o dele.",
+      "releaseInfo": "2015"
+    },
+    {
+      "id": "tmdb:529485",
+      "type": "movie",
+      "name": "O Caminho de Volta",
+      "poster": "https://image.tmdb.org/t/p/w500/htwqnN0zyM1zpY9DgO7dWwq4m2S.jpg",
+      "description": "História sobre o técnico de um time basquete de um colégio de ensino médio que anteriormente foi atleta do mesmo esporte. Por conta de vícios, sua carreira promissora como jogador foi tragicamente ao fim, assim como seu relacionamento com sua esposa e a fundação de sua família. Ao tornar-se treinador do time de escola, o ex-atleta tenta encontrar estímulos para seguir em frente e refazer sua vida.",
+      "releaseInfo": "2020"
+    },
+    {
+      "id": "tmdb:302946",
+      "type": "movie",
+      "name": "O Contador",
+      "poster": "https://image.tmdb.org/t/p/w500/vgJt4ADIjm5U2y3oPLu6kXEXOCY.jpg",
+      "description": "O matemático Christian Wolff sente-se muito mais à vontade lidando com números do que com pessoas. Atualmente, trabalha como contador autônomo para uma das maiores organizações criminosas do mundo. Com a receita federal no encalço, ele resolve mudar de ares e atender um novo cliente, uma empresa de equipamentos robóticos onde um dos funcionários descobriu um desvio gigantesco de recursos. À medida que Christian se aprofunda nos registros da empresa e se aproxima da verdade, o número de cadáveres começa a crescer rapidamente.",
+      "releaseInfo": "2016"
+    },
+    {
+      "id": "tmdb:9455",
+      "type": "movie",
+      "name": "O Corruptor",
+      "poster": "https://image.tmdb.org/t/p/w500/m02qOBHBu0JEVh9oDkWBw0qIxTe.jpg",
+      "description": "Nick Chen é um detetive especialista em artes marciais e, com o seu colega Danny Wallace, tenta evitar que diversas gangues de Chinatown, em Nova York, aniquilem umas às outras. Eles têm que controlar não só os gângsters com sede de poder, mas também a tentação ao suborno e a corrupção dos bandidos que dividem e conquistam as forças policiais. Chen e Wallace lutam para estabelecer a lei e evitar mais derramamento de sangue, o que parece ser uma batalha perdida.",
+      "releaseInfo": "1999"
+    },
+    {
+      "id": "tmdb:4922",
+      "type": "movie",
+      "name": "O Curioso Caso de Benjamin Button",
+      "poster": "https://image.tmdb.org/t/p/w500/v9emaesXHtzXcca0tuSPDsSh3K9.jpg",
+      "description": "Benjamin Button é um homem que nasce idoso e rejuvenesce à medida que o tempo passa. Doze anos depois de seu nascimento, ele conhece Daisy, uma criança que entra e sai de sua vida enquanto cresce para ser dançarina. Embora tenha todos os tipos de aventuras incomuns, sua relação com Daisy o faz acreditar que os dois se encontrarão no momento certo da vida.",
+      "releaseInfo": "2008"
+    },
+    {
+      "id": "tmdb:72387",
+      "type": "movie",
+      "name": "O Código",
+      "poster": "https://image.tmdb.org/t/p/w500/oAW1cpxsJh4QS5nsS18VpVBeaKI.jpg",
+      "description": "Luke é um ex-policial durão que salvou uma menina oriental das mãos de bandidos dentro de um trem do metrô. O único problema é que ele não fazia ideia de que ela era portadora de uma informação extremamente importante, capaz de mobilizar a máfia russa, chinesa e ainda policiais corruptos. Agora, ele também tem o que todos querem e vai defender com a própria vida para que a justiça seja feita, nem que para isso seja necessário começar uma guerra urbana.",
+      "releaseInfo": "2012"
+    },
+    {
+      "id": "tmdb:388399",
+      "type": "movie",
+      "name": "O Dia do Atentado",
+      "poster": "https://image.tmdb.org/t/p/w500/8gWuVoGaMQFFp9Cu0AMRJ5GsoVg.jpg",
+      "description": "O sargento de polícia Tommy Saunders, o agente especial do FBI Richard DesLauriers e o comissário Ed Davis buscam os responsáveis pelo atentado da Maratona de Boston, em 2013.",
+      "releaseInfo": "2016"
+    },
+    {
+      "id": "tmdb:1314481",
+      "type": "movie",
+      "name": "O Diabo Veste Prada 2",
+      "poster": "https://image.tmdb.org/t/p/w500/50yWyY981TyUHhoxxSEKwO70FmQ.jpg",
+      "description": "Miranda Priestly navega por sua carreira em meio ao declínio das publicações tradicionais de revistas. Ela se confronta com Emily Charlton, sua ex-assistente, agora uma influente executiva de um grupo de luxo, que detém verbas publicitárias de que Miranda Priestly precisa desesperadamente.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1930",
+      "type": "movie",
+      "name": "O Espetacular Homem-Aranha",
+      "poster": "https://image.tmdb.org/t/p/w500/gxSsFBCFuDhVQMCuIDoZcmHOqlY.jpg",
+      "description": "Peter Parker está tentando saber mais sobre sua origem. Ele encontra uma pasta que pertenceu ao seu pai e quer descobrir por que seus pais desapareceram. Sua busca o leva a Oscorp e ao dr. Curt Connors, que tem como alterego o letal Lagarto.",
+      "releaseInfo": "2012"
+    },
+    {
+      "id": "tmdb:102382",
+      "type": "movie",
+      "name": "O Espetacular Homem-Aranha 2: A Ameaça de Electro",
+      "poster": "https://image.tmdb.org/t/p/w500/cyMz4OfmNqpuQ02QQOQCbGxQjwK.jpg",
+      "description": "O jovem Peter Parker está fascinado com as habilidades que adquiriu como Homem-Aranha. Agora, ele precisa lidar com dois problemas: o retorno de um velho amigo, Harry Osborn, e a chegada de um vilão mais forte e poderoso, Electro.",
+      "releaseInfo": "2014"
+    },
+    {
+      "id": "tmdb:193756",
+      "type": "movie",
+      "name": "O Grande Herói",
+      "poster": "https://image.tmdb.org/t/p/w500/cxoVXitidlXPIvwhnAsCTNo17Ui.jpg",
+      "description": "Marcus Luttrell, oficial da marinha norte-americana , é enviado ao Afeganistão em busca de um homem de confiança de Osama Bin Laden. Quando ele se depara com um homem idoso e três crianças, ele recebe ordens para matar os quatro, mas Marcus não tem coragem de fazê-lo. O paradeiro dos americanos é descoberto e logo toda a equipe é atacada por 250 homens armados, enviados pela Al Qaeda.",
+      "releaseInfo": "2013"
+    },
+    {
+      "id": "tmdb:64689",
+      "type": "movie",
+      "name": "O Homem da Máfia",
+      "poster": "https://image.tmdb.org/t/p/w500/1rUbQu5P0rkDsTGLU2f2AGMm9HV.jpg",
+      "description": "Nova Orleans. Um assalto a um jogo de pôquer ilegal, cujos participantes eram integrantes da máfia, abala o submundo do crime. O matador profissional Jackie Coogan (Brad Pitt) logo é contratado para investigar o caso, já que os chefões da máfia desejam que os responsáveis sejam punidos, mas sem estardalhaço. Entretanto, a hesitação de alguns dos participantes coloca a situação ainda mais fora de controle. Dirigido por Andrew Dominik (O Assassinato de Jesse James pelo Covarde Robert Ford) e com Richard Jenkins, Ray Liotta e James Gandolfini no elenco.",
+      "releaseInfo": "2012"
+    },
+    {
+      "id": "tmdb:49521",
+      "type": "movie",
+      "name": "O Homem de Aço",
+      "poster": "https://image.tmdb.org/t/p/w500/cheo9jDPfyW1GevfPjXtnO91KNe.jpg",
+      "description": "Um garoto descobre que não é deste planeta e que tem poderes extraordinários. Quando se torna adolescente, viaja para descobrir de onde veio e para o quê foi enviado a fazer. Mas o herói nele deve emergir se quiser salvar o mundo da aniquilação e se tornar o símbolo de esperança para toda a humanidade.",
+      "releaseInfo": "2013"
+    },
+    {
+      "id": "tmdb:60308",
+      "type": "movie",
+      "name": "O Homem Que Mudou o Jogo",
+      "poster": "https://image.tmdb.org/t/p/w500/kNloN3TqTBDd1Fcl980LzpWDhzY.jpg",
+      "description": "O gerente geral da Oakland A, Billy Beane, desafia o sistema e a sabedoria convencional quando é forçado a recompor sua pequena equipe com um orçamento baixo. Apesar da oposição da velha guarda, a mídia, fãs e o próprio gerente de campo, Beane – com a ajuda de um economista jovem, formado em Yale – cria uma lista de desajustados... e acaba mudando para sempre o modo como o baseball é jogado.",
+      "releaseInfo": "2011"
+    },
+    {
+      "id": "tmdb:49040",
+      "type": "movie",
+      "name": "O Legado Bourne",
+      "poster": "https://image.tmdb.org/t/p/w500/nVNG7ObNVdQF5h2ySzpcXtGgMnH.jpg",
+      "description": "Eric Byer é encarregado de apagar os rastros que possam incriminar o governo em projetos sigilosos. Um deles é o Outcome, projeto que pretende suprimir a dor e aumentar a sensibilidade, inteligência e força dos agentes por meio de remédios. Com o fim do Outcome, os agente passam a ser eliminados a mando do próprio governo. No entanto, Aaron Cross consegue escapar e vai à casa da Dra. Martha Shearing atrás de respostas. Juntos, eles precisam sobreviver enquanto Aaron sofre da abstinência forçada.",
+      "releaseInfo": "2012"
+    },
+    {
+      "id": "tmdb:20504",
+      "type": "movie",
+      "name": "O Livro de Eli",
+      "poster": "https://image.tmdb.org/t/p/w500/hUS4hknUZGJKqdFWf04eNSaaRfC.jpg",
+      "description": "Trinta anos depois da guerra ter dizimado o mundo, um guerreiro solitário chamado Eli caminha por horizontes arruinados dando esperança para os que restaram. Apenas um outro homem compreende o poder de um livro que Eli carrega e está determinado a se apoderar dele. Apesar de Eli preferir a paz, ele arriscará a sua vida para proteger a sua carga preciosa, pois precisa cumprir o seu destino de ajudar a restaurar a humanidade.",
+      "releaseInfo": "2010"
+    },
+    {
+      "id": "tmdb:9032",
+      "type": "movie",
+      "name": "O Paizão",
+      "poster": "https://image.tmdb.org/t/p/w500/ci7KJRsHS1FfGAbF0BgIHEsnaTe.jpg",
+      "description": "Sonny Koufax tem 32 anos de idade e passou toda a sua vida fugindo das responsabilidades. Mas quando sua namorada decide trocá-lo por um homem muito mais velho, ele resolve provar que está pronto para uma vida adulta com o objetivo de reconquistar o seu grande amor. Desesperado, Sonny adota um menino de cinco anos, Julian, para tentar impressionar a ex-namorada. Sem jeito para ser pai, aos poucos Sonny aprende a lidar com a nova situação e passa a gostar da criança.",
+      "releaseInfo": "1999"
+    },
+    {
+      "id": "tmdb:388",
+      "type": "movie",
+      "name": "O Plano Perfeito",
+      "poster": "https://image.tmdb.org/t/p/w500/76z8q24vMul7IPguc0QUODF3THk.jpg",
+      "description": "Assaltantes vestidos com uniformes de pintor invadem um movimentado banco em Nova York e fazem reféns. A polícia chega ao local esperando resolver a situação rapidamente, mas os detetives Frazier e Mitchell se surpreendem com a inteligência e a frieza do líder dos bandidos, Dalton Russell, que parece estar sempre um passo à frente das ações da polícia.",
+      "releaseInfo": "2006"
+    },
+    {
+      "id": "tmdb:18487",
+      "type": "movie",
+      "name": "O Sequestro do Metrô 1 2 3",
+      "poster": "https://image.tmdb.org/t/p/w500/dDQeUJBEeeMYbAVhO35ybBkstDS.jpg",
+      "description": "Walter Garber é um executivo da companhia de metrô da cidade de Nova York que, devido a uma suspeita de suborno, foi rebaixado para a função de coordenador de tráfego. Quando um dos trens do metrô, o Pelham 1 2 3, é sequestrado por um misterioso grupo, é ele quem mantém contato com Ryder, líder dos sequestradores. Ryder exige que a prefeitura lhe pague US$ 10 milhões em uma hora, caso contrário matará um refém a cada minuto extra. A polícia envia à sede do metrô o negociador Camonetti, mas Ryder exige que Garber continue na função.",
+      "releaseInfo": "2009"
+    },
+    {
+      "id": "tmdb:5125",
+      "type": "movie",
+      "name": "O Suspeito",
+      "poster": "https://image.tmdb.org/t/p/w500/jCmXyCwjQAO585gKgHNCbgXiZxb.jpg",
+      "description": "Isabella está à espera do marido que está retornando aos Estados Unidos após uma conferência, mas, antes de desembarcar, Anwar El-Ibrahimi é retido por autoridades do governo e ninguém o encontra. Corrine Whitman, que investiga a morte de cidadãos americanos em um atentado terrorista, desconfia que ele esteja envolvido com um grupo perigoso no Egito, seu país natal. Anwar é levado para fora dos Estados Unidos, onde passa a ser torturado com o objetivo de revelar as informações que sabe.",
+      "releaseInfo": "2007"
+    },
+    {
+      "id": "tmdb:2503",
+      "type": "movie",
+      "name": "O Ultimato Bourne",
+      "poster": "https://image.tmdb.org/t/p/w500/cCmkrXF2CL9rx9BnQHDGDhQv4pD.jpg",
+      "description": "Procurado pela CIA, o assassino Jason Bourne viaja pelo mundo tentando reconstruir o próprio passado e descobrir a verdadeira identidade.",
+      "releaseInfo": "2007"
+    },
+    {
+      "id": "tmdb:38317",
+      "type": "movie",
+      "name": "O Zelador Animal",
+      "poster": "https://image.tmdb.org/t/p/w500/k8XEkCbaBwjdHMhBgG3PLEmY0sv.jpg",
+      "description": "Griffin, o zelador de um zoológico, é dispensado pela namorada que o subestima por sua profissão. Tempos depois, a bela reaparece desejando uma nova chance com o amado. No zoológico, cansados de ouvir as lamentações amorosas de Griffin, os animais decidem começar a conversar com ele.",
+      "releaseInfo": "2011"
+    },
+    {
+      "id": "tmdb:9333",
+      "type": "movie",
+      "name": "O Último Matador",
+      "poster": "https://image.tmdb.org/t/p/w500/2n5hyCORjuW5So6HobrTOa8NVOt.jpg",
+      "description": "John Smith é um misterioso pistoleiro que, após sua última façanha, conhece a cidade de Jericó, no Texas. Um lugar que mais parece uma cidade-fantasma desde que duas violentas gangues expulsaram todas as pessoas decentes. Smith percebe a oportunidade de jogar uma gangue contra a outra e ganhar uma bolada de dinheiro como matador de aluguel. Num jogo perigoso, John toma a lei em suas próprias mãos e arrisca sua vida para realizar o serviço.",
+      "releaseInfo": "1996"
+    },
+    {
+      "id": "tmdb:10196",
+      "type": "movie",
+      "name": "O Último Mestre do Ar",
+      "poster": "https://image.tmdb.org/t/p/w500/sQGFIDDScR6tX3KXotHaQywewYU.jpg",
+      "description": "As quatro nações, Ar, Água, Terra e Fogo, viviam em harmonia, até que a nação do Fogo declarou guerra com o objetivo de dominar o mundo. Um século depois, não há perspectiva para o fim da destruição, até que um avatar chamado Aang descobre ter o poder de controlar os quatro elementos. Ele se une aos irmãos Katara e Sokka, da Água, e juntos partem em uma grande e perigosa aventura em busca da paz, para restaurar o equilíbrio e a harmonia.",
+      "releaseInfo": "2010"
+    },
+    {
+      "id": "tmdb:1339713",
+      "type": "movie",
+      "name": "Obsessão",
+      "poster": "https://image.tmdb.org/t/p/w500/wUc6IDf5ChjM1UyQye21qFBeJY0.jpg",
+      "description": "Sem grandes pretensões, um romântico incurável compra um brinquedo que promete realizar desejos únicos. Ele quebra o artefato misterioso enquanto pede para conquistar a crush e consegue exatamente o que desejava, mas descobre que a consequência é sinistra.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:2001",
+      "type": "movie",
+      "name": "Os Donos da Noite",
+      "poster": "https://image.tmdb.org/t/p/w500/7w7nbyTJUAa8Pyuv0WzMBL8FofN.jpg",
+      "description": "Em 1988, a polícia de Nova York declara guerra ao tráfico de drogas. Bobby Green tenta se manter em território neutro, mas gerencia uma boate frequentada por gângsteres, e tanto seu irmão quanto seu pai trabalham na polícia.",
+      "releaseInfo": "2007"
+    },
+    {
+      "id": "tmdb:49021",
+      "type": "movie",
+      "name": "Os Especialistas",
+      "poster": "https://image.tmdb.org/t/p/w500/bA571EuifSbOhXjMNBMfqTCUD9o.jpg",
+      "description": "O agente especial Danny (Jason Statham), embora quisesse desistir de seu profissionalismo na arte de matar, foi forçado a fazer um último serviço para garantir a sobrevivência de seu antigo parceiro de missões secretas Hunter (Robet De Niro). Para isso, ele deverá vingar um poderoso xeque do petróleo que teve seu três filhos assassinados por três agentes das forças especiais britânicas SAS. Contudo, Spike (Clive Owen), um poderoso ex-membro do grupo, está disposto a defender seus antigos parceiros e não medirá esforços para eliminar seu novo oponente.",
+      "releaseInfo": "2011"
+    },
+    {
+      "id": "tmdb:116741",
+      "type": "movie",
+      "name": "Os Estagiários",
+      "poster": "https://image.tmdb.org/t/p/w500/eJ2yNRyP3QJ36lO81f19ep98eWw.jpg",
+      "description": "Billy (Vince Vaughn) e Nick (Owen Wilson) são grandes amigos e trabalham juntos como vendedores de relógios. Eles são pegos de surpresa quando seu chefe (John Goodman) fecha a empresa, por acreditar que o negócio esteja ultrapassado. Com problemas financeiros, eles conseguem a inscrição em uma seleção de estágio no Google. Mesmo sem terem a garantia que serão contratados, eles partem para a sede da empresa e lá precisam lidar com a diferença de idade entre eles e os demais competidores.",
+      "releaseInfo": "2013"
+    },
+    {
+      "id": "tmdb:9806",
+      "type": "movie",
+      "name": "Os Incríveis",
+      "poster": "https://image.tmdb.org/t/p/w500/z8k5EhZZTLsCRF8NWjSe6snWNZg.jpg",
+      "description": "Beto Pêra e sua mulher Helena estavam entre os maiores super-heróis do mundo, salvando inúmeras vidas e combatendo o mal diariamente. Quinze anos depois, eles foram forçados a adotar novas identidades e a mudar-se para o subúrbio, onde vivem como cidadãos comuns com seus três filhos, Violeta, Flecha e Zezé. Louco para voltar à ação, Beto tem a sua chance quando uma misteriosa ligação o intima a comparecer a uma ilha distante para receber uma missão ultra-secreta. Ele logo descobre que só uma família inteira de super-heróis será capaz de salvar o mundo e impedir sua total destruição.",
+      "releaseInfo": "2004"
+    },
+    {
+      "id": "tmdb:260513",
+      "type": "movie",
+      "name": "Os Incríveis 2",
+      "poster": "https://image.tmdb.org/t/p/w500/6et98yxnctR6uH16x3uJuIVKsPf.jpg",
+      "description": "Helena é chamada para liderar uma campanha para trazer os superheróis de volta. Enquanto Roberto deve enfrentar os desafios heroicos do dia a dia da vida doméstica. Mas quando um novo vilão aparece com um plano brilhante e perigoso, a família Pêra enfrenta o desafio juntos  com Gelado do lado deles.",
+      "releaseInfo": "2018"
+    },
+    {
+      "id": "tmdb:27578",
+      "type": "movie",
+      "name": "Os Mercenários",
+      "poster": "https://image.tmdb.org/t/p/w500/67xVbBwIO6Pq4p9KS22sZ4k3bmQ.jpg",
+      "description": "Um grupo de mercenários, liderado por Barney Ross, e seus homens de confiança aceitam uma missão que parece ser rotineira: uma operação secreta, a mando da Igreja, para invadir o país sul-americano de Vilena e derrubar seu ditador. Não demora muito para o grupo perceber que a missão é uma operação suicida. Presos em uma perigosa teia de traições, mas sabendo que um inocente está em perigo, Barney e seus homens decidem finalizar o trabalho.",
+      "releaseInfo": "2010"
+    },
+    {
+      "id": "tmdb:76163",
+      "type": "movie",
+      "name": "Os Mercenários 2",
+      "poster": "https://image.tmdb.org/t/p/w500/7aaQYcUInTneXo7B8jJNwTxnQe6.jpg",
+      "description": "O grupo de mercenários se unem para evitar que um criminoso roube uma grande quantidade de plutônio, que possibilitaria a produção de armas nucleares. Após o assassinato de um amigo e o sumiço do mapa que leva ao plutônio, o grupo sai em busca de vingança.",
+      "releaseInfo": "2012"
+    },
+    {
+      "id": "tmdb:138103",
+      "type": "movie",
+      "name": "Os Mercenários 3",
+      "poster": "https://image.tmdb.org/t/p/w500/gz7NHfeX2Ns5uISksirOlPtJrua.jpg",
+      "description": "Barney e sua trupe de mercenários resgatam Doc, um dos integrantes do grupo, que estava preso há oito anos. Ao participarem de uma missão, os mercenários são surpreendidos quando reencontram Conrad, um comerciante de armas impiedoso, que Barney pensava ter matado. Novos membros, mais jovens e mais rápidos, entram para equipe e um novo duelo começa.",
+      "releaseInfo": "2014"
+    },
+    {
+      "id": "tmdb:299054",
+      "type": "movie",
+      "name": "Os Mercenários 4",
+      "poster": "https://image.tmdb.org/t/p/w500/mVgPlKHUxXJhD9H0cCMzwJO4Ssv.jpg",
+      "description": "A equipe enfrenta um traficante de armas que comanda um enorme exército privado. Munidos com todas as armas inimagináveis, os Mercenários são a última linha de defesa do mundo.",
+      "releaseInfo": "2023"
+    },
+    {
+      "id": "tmdb:27581",
+      "type": "movie",
+      "name": "Os Outros Caras",
+      "poster": "https://image.tmdb.org/t/p/w500/gHzt2VR585107h4E1f8yva0s2P0.jpg",
+      "description": "Os detetives da polícia de Nova York, Gamble e Hoitz, não fazem manchetes com o seu trabalho diário atrás de uma escrivaninha. Gamble aprecia a sua função, mas Hoitz está ansioso para voltar para as ruas. Quando um caso aparentemente insignificante acaba se revelando um grande negócio, os dois policiais têm a oportunidade de finalmente provar a seus companheiros que eles têm capacidade.",
+      "releaseInfo": "2010"
+    },
+    {
+      "id": "tmdb:252838",
+      "type": "movie",
+      "name": "Padrinhos Ltda.",
+      "poster": "https://image.tmdb.org/t/p/w500/nGPLTJ9CFUDaCC365ZxW2zk70qb.jpg",
+      "description": "Um homem está preparando a sua cerimônia de casamento, mas ele não tem padrinhos para convidar. Para fingir que tem amigos, ele contrata desconhecidos para se passarem por padrinhos, mas este grupo atrapalhado vai colocar os planos de seu casamento em risco.",
+      "releaseInfo": "2015"
+    },
+    {
+      "id": "tmdb:119283",
+      "type": "movie",
+      "name": "Parker",
+      "poster": "https://image.tmdb.org/t/p/w500/1Y5UhkU2u6Ubqp0RP2TZjeXuVJq.jpg",
+      "description": "Parker é um talentoso ladrão que é traído por pessoas de seu grupo e acaba quase morto. Ele, no entanto, acaba sobrevivendo ao atentado e despertará disposto a se vingar dos bandidos. Conhecendo o plano para um importante roubo na Flórida, Parker se passa por um milionário em busca de um imóvel na região. É quando conhece Leslie, uma corretora de imóveis em dificuldades financeiras que acaba se metendo no meio dos planos do criminoso.",
+      "releaseInfo": "2013"
+    },
+    {
+      "id": "tmdb:9522",
+      "type": "movie",
+      "name": "Penetras Bons de Bico",
+      "poster": "https://image.tmdb.org/t/p/w500/sRxkUMVx1QfuGeBMOWsT8pv68vW.jpg",
+      "description": "John Beckwith e Jeremy Grey são dois inseparáveis conquistadores que entram como penetras em festas de casamento para aproveitarem-se do clima de romance no ar, conhecendo e seduzindo todas as mulheres que vêem pela frente. Mas a história destes penetras começa a mudar quando, no maior casamento do ano, John se apaixona por Claire Clearly, a adorável filha de um importante político. Enquanto John se esforça para manter as mentiras que contou e conquistar o coração da menina, Jeremy vai ter que se livrar da irmã mimada de Claire, Gloria, que está absolutamente alucinada pelo rapaz.",
+      "releaseInfo": "2005"
+    },
+    {
+      "id": "tmdb:286217",
+      "type": "movie",
+      "name": "Perdido em Marte",
+      "poster": "https://image.tmdb.org/t/p/w500/fG3S4zdgnsaF77tJGK3rA9tHBu4.jpg",
+      "description": "O astronauta Mark Watney é enviado a uma missão em Marte. Após uma severa tempestade ele é dado como morto, abandonado pelos colegas e acorda sozinho no misterioso planeta com escassos suprimentos, sem saber como reencontrar os companheiros ou retornar à Terra.",
+      "releaseInfo": "2015"
+    },
+    {
+      "id": "tmdb:328111",
+      "type": "movie",
+      "name": "Pets: A Vida Secreta dos Bichos",
+      "poster": "https://image.tmdb.org/t/p/w500/xKpQ8fDDu1qCvBl5bF2vpsZPSUj.jpg",
+      "description": "Max é um cachorrinho que mora em um apartamento de Manhattan. Quando seu dono traz para casa um vira-lata desleixado chamado Duke, Max não gosta nada, já que o seu tempo de bichinho de estimação favorito parece ter acabado. Mas logo eles vão ter que colocar as divergências de lado pois um coelhinho branco adorável chamado Snowball está construindo um exército de animais abandonados determinados a se vingar de todos os pets que tem dono.",
+      "releaseInfo": "2016"
+    },
+    {
+      "id": "tmdb:412117",
+      "type": "movie",
+      "name": "Pets: A Vida Secreta dos Bichos 2",
+      "poster": "https://image.tmdb.org/t/p/w500/lLfEOjuzNK7c8c0PpQL3UDZRde0.jpg",
+      "description": "Max se vê enganado por Katie no primeiro trailer da animação e acaba dentro de uma clínica veterinária onde os pets não parecem nada normais. Nesta sequência, o protagonista ainda terá que se acostumar com um recém-chegado à família.",
+      "releaseInfo": "2019"
+    },
+    {
+      "id": "tmdb:257344",
+      "type": "movie",
+      "name": "Pixels",
+      "poster": "https://image.tmdb.org/t/p/w500/d26S5EfVXLNxRXqyFy1yyl3qRq3.jpg",
+      "description": "Uma raça alienígena cria monstros inspirados em videogames da década de 1980 para conquistar a Terra, e cinco especialistas em jogos da época são convocados para combater o plano dos extraterrestres e salvar o planeta.",
+      "releaseInfo": "2015"
+    },
+    {
+      "id": "tmdb:1029575",
+      "type": "movie",
+      "name": "Plano em Família",
+      "poster": "https://image.tmdb.org/t/p/w500/3CezGI4ORSgVKk5Ch3UUWtL7SET.jpg",
+      "description": "Dan Morgan é muitas coisas: um marido dedicado, um pai amoroso, um reconhecido vendedor de carros. Ele também é um ex-assassino. E quando seu passado encontra seu presente, ele é forçado a levar sua desavisada família em uma viagem diferente de qualquer outra.",
+      "releaseInfo": "2023"
+    },
+    {
+      "id": "tmdb:1363123",
+      "type": "movie",
+      "name": "Plano em Família 2",
+      "poster": "https://image.tmdb.org/t/p/w500/aLgvLNWETZ2wtPzU3E7lavEpCJw.jpg",
+      "description": "Agora que os dias de assassino de Dan ficaram para trás, tudo o que ele quer no Natal é passar um tempo de qualidade com os filhos. Mas quando descobre que a filha tem seus próprios planos, ele marca uma viagem em família para Londres, colocando todos na mira de um inimigo inesperado.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:9404",
+      "type": "movie",
+      "name": "Police Story 4: Primeiro Impacto",
+      "poster": "https://image.tmdb.org/t/p/w500/isCnmtLE2YnpEadEivtzE5Clhl6.jpg",
+      "description": "CIA e KGB unem forças para deter um perigoso traficante internacional de armas nucleares, e precisam de um rosto novo que não chame atenção para capturá-lo. O policial Jackie, de Hong Kong, é o escolhido para a missão.",
+      "releaseInfo": "1996"
+    },
+    {
+      "id": "tmdb:168530",
+      "type": "movie",
+      "name": "Policial em Apuros",
+      "poster": "https://image.tmdb.org/t/p/w500/b0fok58kIjQoS7y3NK6sf5VzTXG.jpg",
+      "description": "Ben trabalha como segurança em um colégio, e namora a bela Angela. Quando o namoro se torna sério, ele pensa em se casar com ela, mas antes tem que enfrentar o irmão protetor dela, James, um policial linha dura. Para entregar a mão de sua irmã a Ben, James faz uma proposta: os dois vão sair em patrulha juntos, durante 24h. Se ele provar ser digno de entrar na família, receberá a aprovação para o casamento.",
+      "releaseInfo": "2014"
+    },
+    {
+      "id": "tmdb:323675",
+      "type": "movie",
+      "name": "Policial em Apuros 2",
+      "poster": "https://image.tmdb.org/t/p/w500/an6rrT8pzrANjis0hnv52DMBR7q.jpg",
+      "description": "Sequência da dupla Ben e James em uma nova patrulha juntos. Com o seu casamento se aproximando, Ben precisa rumar para Miame com James, que está prestes a se tornar o seu cunhado, para resolver um caso.  Os dois precisam derrubar um traficante local que está fornecendo produtos para traficantes de Atlanta.",
+      "releaseInfo": "2016"
+    },
+    {
+      "id": "tmdb:9411",
+      "type": "movie",
+      "name": "Possuídos",
+      "poster": "https://image.tmdb.org/t/p/w500/qDXENKGzkYz9jyAtjiua1zp1o6T.jpg",
+      "description": "Após a execução de um serial killer, John Hobbes (Denzel Washington), um detetive, acredita que parte dos seus problemas terminaram, mas logo repara que pessoas na rua cantam a mesma melodia que o criminoso cantou na câmara de gás. Gradativamente o policial conclui que todos estavam possuídos por Azazel, um anjo amaldiçoado que não tem forma mas que com um simples toque consegue penetrar em quase todas as pessoas. Quando Hobbes é forçado a matar um professor, que estava possuído por Azazel, fica claro que ele precisa proteger as pessoas desta entidade demoníaca.",
+      "releaseInfo": "1998"
+    },
+    {
+      "id": "tmdb:87826",
+      "type": "movie",
+      "name": "Professor Peso Pesado",
+      "poster": "https://image.tmdb.org/t/p/w500/2YlfMvheZcM1l28peRHQzaJsT0d.jpg",
+      "description": "Scott Voss é um simples professor de biologia que tenta impedir que sua escola, para conter gastos, deixe de oferecer uma disciplina eletiva que considera importante. Sem saber o que fazer, ele decide se tornar um lutador de artes marciais mistas para tentar juntar uma boa quantidade de dinheiro.",
+      "releaseInfo": "2012"
+    },
+    {
+      "id": "tmdb:57214",
+      "type": "movie",
+      "name": "Projeto X: Uma Festa Fora de Controle",
+      "poster": "https://image.tmdb.org/t/p/w500/yZcrard3hundE2NpgBaJdel3gAw.jpg",
+      "description": "Três garotos no último ano do colégio decidem fazer uma festa de aniversário para serem reconhecidos. Porém no decorrer da festa as coisas saem de controle.",
+      "releaseInfo": "2012"
+    },
+    {
+      "id": "tmdb:57214",
+      "type": "movie",
+      "name": "Projeto X: Uma Festa Fora de Controle",
+      "poster": "https://image.tmdb.org/t/p/w500/yZcrard3hundE2NpgBaJdel3gAw.jpg",
+      "description": "Três garotos no último ano do colégio decidem fazer uma festa de aniversário para serem reconhecidos. Porém no decorrer da festa as coisas saem de controle.",
+      "releaseInfo": "2012"
+    },
+    {
+      "id": "tmdb:136418",
+      "type": "movie",
+      "name": "Redenção",
+      "poster": "https://image.tmdb.org/t/p/w500/mtXFVL5kaNBBS08KWkDeLEsk89n.jpg",
+      "description": "Joey Jones é um veterano do exército norte-americano que lutou na Guerra do Afeganistão. Após ter sua namorada, que estava grávida, assassinada, ele usa seus contatos com a máfia chinesa para encontrar a pessoa responsável pelo crime.",
+      "releaseInfo": "2013"
+    },
+    {
+      "id": "tmdb:1197306",
+      "type": "movie",
+      "name": "Resgate Implacável",
+      "poster": "https://image.tmdb.org/t/p/w500/1w01rEQRYvIoSs5Is9cQDJhiUel.jpg",
+      "description": "Ele quer viver uma vida simples e ser um bom pai para sua filha. Mas quando a filha adolescente de seu chefe, Jenny, desaparece, ele é chamado para reempregar as habilidades que o tornaram uma figura lendária nas operações secretas.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:10851",
+      "type": "movie",
+      "name": "Revólver",
+      "poster": "https://image.tmdb.org/t/p/w500/rzpUAdFdZr8Zoxx0LZrl1da0e15.jpg",
+      "description": "Jake Green é um jogador audacioso e sem bom senso que passou sete anos na prisão por um crime que não cometeu depois de ter caído nas armadilhas do maldoso chefão do crime Dorothy Macha. Agora que Jake está livre, vai se vingar do chefão criminoso com a ajuda de Avi e Zach.",
+      "releaseInfo": "2005"
+    },
+    {
+      "id": "tmdb:13809",
+      "type": "movie",
+      "name": "Rock'N'Rolla: A Grande Roubada",
+      "poster": "https://image.tmdb.org/t/p/w500/1r0rKBB7LIVGS9S2xDgO7W5Sfsd.jpg",
+      "description": "Uri Omovich é um bilionário russo que está realizando uma alta transação com Lenny Cole, um gângster à moda antiga que sabe como cuidar de seus subalternos e dos políticos locais. Para festejar o acordo feito, Uri empresta a Lenny seu quadro favorito, mas o quadro desaparece do escritório de Lenny, o que inicia uma grande busca por seu paradeiro. Isto faz com que diversos criminosos da cidade se envolvam, entre eles One Two, um bandido de rua, e Archie, o braço direito de Lenny.",
+      "releaseInfo": "2008"
+    },
+    {
+      "id": "tmdb:330459",
+      "type": "movie",
+      "name": "Rogue One: Uma História Star Wars",
+      "poster": "https://image.tmdb.org/t/p/w500/74C2YX0NLWnozVMRS56d5CKDdEv.jpg",
+      "description": "Ainda criança, Jyn Erso foi afastada de seu pai, devido à exigência do diretor Krennic de que ele trabalhasse na construção da arma mais poderosa do Império, a Estrela da Morte. Criada por Saw Gerrera, ela teve que aprender a sobreviver por conta própria ao completar 16 anos. Já adulta, Jyn é resgatada da prisão pela Aliança Rebelde, que deseja ter acesso a uma mensagem enviada por seu pai a Gerrera. Com a promessa de liberdade ao término da missão, ela aceita trabalhar para os rebeldes ao lado do capitão Cassian Andor e do robô K-2SO.",
+      "releaseInfo": "2016"
+    },
+    {
+      "id": "tmdb:413362",
+      "type": "movie",
+      "name": "Roman J. Israel",
+      "poster": "https://image.tmdb.org/t/p/w500/ciq2V1G4dj3GLFBfQGY1gqvPcbK.jpg",
+      "description": "Roman J. Israel é um advogado determinado e honesto, que sofre psicologicamente por sempre ver os outros ganharem crédito por seu bom trabalho. Depois que um dos sócios de uma grande firma morre, ele é convidado a assumir a direção no lugar do executivo. O que ele não imaginava é que descobriria um esquema dos mais sujos nos bastidores do poder - e que, caso ele não tome medidas drásticas, os danos serão irreversíveis.",
+      "releaseInfo": "2017"
+    },
+    {
+      "id": "tmdb:18785",
+      "type": "movie",
+      "name": "Se Beber, Não Case!",
+      "poster": "https://image.tmdb.org/t/p/w500/m0tQyMdp3fy5ooUOQkJMd1fQKBJ.jpg",
+      "description": "Dois dias antes de seu casamento, Doug e três amigos vão de carro até Las Vegas para uma louca e memorável despedida de solteiro. Quando os três padrinhos acordam na manhã seguinte, eles não conseguem se lembrar de nada e notam que Doug desapareceu. Com pouco tempo de sobra, os amigos tentam refazer a noite anterior e encontrar Doug para que possam levá-lo de volta a Los Angeles a tempo de chegar ao altar.",
+      "releaseInfo": "2009"
+    },
+    {
+      "id": "tmdb:45243",
+      "type": "movie",
+      "name": "Se Beber, Não Case! Parte II",
+      "poster": "https://image.tmdb.org/t/p/w500/lvwO6R9RImeq3UBbh6DPWG3Iiqw.jpg",
+      "description": "Phil, Stu, Alan e Doug viajam à exótica Tailândia para o casamento de Stu. O que poderia dar errado? Dois anos depois da desastrosa despedida de solteiro de Doug em Las Vegas, agora é a vez de Stu. Ele decide se casar na Tailândia, país de sua futura mulher. Com medo de que os incidentes da despedida de solteiro em Las Vegas se repitam, Stu organiza muito bem a comemoração, mas nada sai como o esperado, e as confusões prometem ser inimagináveis.",
+      "releaseInfo": "2011"
+    },
+    {
+      "id": "tmdb:109439",
+      "type": "movie",
+      "name": "Se Beber, Não Case! Parte III",
+      "poster": "https://image.tmdb.org/t/p/w500/6SOnmTK0XoEcc7AoyXoce76to3Y.jpg",
+      "description": "Faz dois anos desde que o quarteto, conhecido como Wolfpack, quase escapou de um desastre em Bangkok. Agora, Phil, Stu e Doug vivem felizes em casa, mas Alan não. Ainda sem rumo na vida, Alan não tem tomado seus remédios e está vivendo sob impulsos naturais. Está nas mãos dos amigos ajudá-lo com sua crise pessoal, embarcando em uma viagem para o lugar onde tudo começou: Las Vegas.",
+      "releaseInfo": "2013"
+    },
+    {
+      "id": "tmdb:256961",
+      "type": "movie",
+      "name": "Segurança de Shopping 2",
+      "poster": "https://image.tmdb.org/t/p/w500/dJ52hQePdIAUVcDEIMmeTUr4vhY.jpg",
+      "description": "Nesta sequência, o segurança Paul Blart (Kevin James) é contratado para trabalhar em um importante evento de arte na cidade de Las Vegas. Os colegas e os profissionais do cassino duvidam das competências dele, mas logo Blart poderá comprovar as suas capacidades contra um grupo de ladrões de obras de arte.",
+      "releaseInfo": "2015"
+    },
+    {
+      "id": "tmdb:807",
+      "type": "movie",
+      "name": "Seven - Os Sete Crimes Capitais",
+      "poster": "https://image.tmdb.org/t/p/w500/dZXYPSEaXCeigR2GEuZoukNmLTf.jpg",
+      "description": "Quando, a ponto de se aposentar, o detetive William Somerset aborda o último caso com a ajuda do recém-transferido David Mills, eles descobrem uma série de assassinatos. Logo percebem que estão lidando com um assassino que tem como alvo pessoas que ele acredita representar os sete pecados capitais.",
+      "releaseInfo": "1995"
+    },
+    {
+      "id": "tmdb:13523",
+      "type": "movie",
+      "name": "Sex Drive: Rumo ao Sexo",
+      "poster": "https://image.tmdb.org/t/p/w500/6D5FuwuZR7BEAbiyNfLKuV5KGN.jpg",
+      "description": "Ian Lafferty é um garoto de 18 anos que parte em uma viagem atravessando os Estados Unidos com seus amigos Lance e Felicia para perder a virgindade com uma garota sensacional que ele conheceu na Internet. Porém, a jornada repleta de contratempos acaba se tornando uma experiência que irá mudar o seu mundo e virar de ponta cabeça tudo o que ele sabe sobre a vida.",
+      "releaseInfo": "2008"
+    },
+    {
+      "id": "tmdb:808",
+      "type": "movie",
+      "name": "Shrek",
+      "poster": "https://image.tmdb.org/t/p/w500/wxeqfC221YMptRRdzxlijAh7q8l.jpg",
+      "description": "Em um pântano distante vive Shrek, um ogro solitário que vê, sem mais nem menos, sua vida ser invadida por uma série de personagens de contos de fada. Todos eles foram expulsos de suas casas pelo maligno Lorde Farquaad. Determinado a recuperar a tranquilidade, Shrek faz um acordo com Farquaad: todos os personagens poderão retornar aos seus lares se ele e seu amigo Burro resgatarem uma princesa que foi aprisionada por um dragão.",
+      "releaseInfo": "2001"
+    },
+    {
+      "id": "tmdb:809",
+      "type": "movie",
+      "name": "Shrek 2",
+      "poster": "https://image.tmdb.org/t/p/w500/2yYP0PQjG8zVqturh1BAqu2Tixl.jpg",
+      "description": "Após se casar com a Princesa Fiona, Shrek vive feliz em seu pântano. Ao retornar de sua lua-de-mel Fiona recebe uma carta de seus pais, que não sabem que ela agora é um ogro, convidando-a para um jantar juntamente com seu grande amor, na intenção de conhecê-lo. A muito custo Fiona consegue convencer Shrek a ir visitá-los, tendo ainda a companhia do Burro. Porém os problemas começam quando os pais de Fiona descobrem que ela não se casou com o Príncipe, a quem havia sido prometida, e enviam o Gato de Botas para separá-los.",
+      "releaseInfo": "2004"
+    },
+    {
+      "id": "tmdb:10192",
+      "type": "movie",
+      "name": "Shrek Para Sempre",
+      "poster": "https://image.tmdb.org/t/p/w500/iFXVU0ni6YWgQNSPkoGO1Tk5L3g.jpg",
+      "description": "Shrek faz um pacto com Rumpelstiltskin para sentir-se como um ogro de verdade novamente, mas ele é enganado e enviado para uma versão distorcida de Tão, Tão Distante - onde Rumpelstiltskin é rei, ogros são caçados, e ele e Fiona nunca se encontraram - ele decide restaurar o seu mundo e recuperar seu verdadeiro amor.",
+      "releaseInfo": "2010"
+    },
+    {
+      "id": "tmdb:810",
+      "type": "movie",
+      "name": "Shrek Terceiro",
+      "poster": "https://image.tmdb.org/t/p/w500/abw1mIJIjG9X3xSEffE9siLcOkN.jpg",
+      "description": "O rei Harold, pai de Fiona, morre repentinamente. Com isto Shrek precisa ser coroado rei, algo que ele jamais pensou em ser. Juntamente com o Burro e o Gato de Botas, ele precisa encontrar alguém que possa substituí-lo no cargo de soberano do Reino de Tão, Tão Distante. O principal candidato é Artie, um jovem desprezado por todos em sua escola, que é primo de Fiona.",
+      "releaseInfo": "2007"
+    },
+    {
+      "id": "tmdb:190859",
+      "type": "movie",
+      "name": "Sniper Americano",
+      "poster": "https://image.tmdb.org/t/p/w500/mAXzc2oDTTYcnn6IGHlSXvmXloG.jpg",
+      "description": "Chris Kyle é um atirador de elite das forças especiais da marinha dos Estados Unidos. Durante a Guerra do Iraque, sua missão é proteger seus companheiros e seu dever faz dele um dos maiores atiradores da história norte-americana. Sua precisão salva inúmeras vidas, mas também o torna um alvo preferencial. Quando Kyle finalmente volta para casa, ele descobre que não tem como deixar a guerra para trás.",
+      "releaseInfo": "2014"
+    },
+    {
+      "id": "tmdb:844417",
+      "type": "movie",
+      "name": "Sombras de um Crime",
+      "poster": "https://image.tmdb.org/t/p/w500/rfHUBpJj7W7gpIv0ohDfIPizuL0.jpg",
+      "description": "O detetive Phillip Marlowe se envolve em uma investigação com uma família rica em Bay City, Califórnia, depois que uma mulher misteriosa o contrata para encontrar seu ex-amante.",
+      "releaseInfo": "2023"
+    },
+    {
+      "id": "tmdb:787",
+      "type": "movie",
+      "name": "Sr. & Sra. Smith",
+      "poster": "https://image.tmdb.org/t/p/w500/7mTudJmBLUrRxkbABfFeXJFv8I7.jpg",
+      "description": "John e Jane Smith aparentemente parecem formar um casal normal, mas na realidade ambos mantêm um segredo. Os dois são assassinos de aluguel contratados por empresas rivais. A verdade só vem à tona quando John e Jane, sem saber, recebem uma missão para eliminar o mesmo alvo e mais tarde descobrem que devem matar um ao outro.",
+      "releaseInfo": "2005"
+    },
+    {
+      "id": "tmdb:181812",
+      "type": "movie",
+      "name": "Star Wars: A Ascensão Skywalker",
+      "poster": "https://image.tmdb.org/t/p/w500/uLlrDUtFG2tKtDcJN6kBznlqqsp.jpg",
+      "description": "Com o retorno do Imperador Palpatine, todos voltam a temer seu poder e, com isso, a Resistência toma a frente da batalha que ditará os rumos da galáxia. Treinando para ser uma completa Jedi, Rey ainda se encontra em conflito com seu passado e futuro, mas teme pelas respostas que pode conseguir a partir de sua complexa ligação com Kylo Ren, que também se encontra em conflito pela Força.",
+      "releaseInfo": "2019"
+    },
+    {
+      "id": "tmdb:1893",
+      "type": "movie",
+      "name": "Star Wars: Episódio I - A Ameaça Fantasma",
+      "poster": "https://image.tmdb.org/t/p/w500/gNk8UNAumXlfCdtaxDqsQe7ZGlt.jpg",
+      "description": "Enquanto resgatam a Rainha Amidala, governante de um planeta pacífico invadido por forças ameaçadoras, os Cavaleiros Jedi Obi-Wan Kenobi e Qui-Gon Jinn descobrem Anakin Skywalker, uma criança prodígio de 9 anos excepcionalmente poderosa na Força.",
+      "releaseInfo": "1999"
+    },
+    {
+      "id": "tmdb:1894",
+      "type": "movie",
+      "name": "Star Wars: Episódio II - Ataque dos Clones",
+      "poster": "https://image.tmdb.org/t/p/w500/9m1nJ2MfTG5QEmjOCg0b4YCo4W8.jpg",
+      "description": "Com a missão de proteger a Senadora Amidala, Anakin Skywalker descobre o seu amor por ela, do mesmo modo que vai conhecendo seu lado sombrio. Obi-Wan Kenobi descobre um exército de clones à medida que a Galáxia caminha para uma grande guerra.",
+      "releaseInfo": "2002"
+    },
+    {
+      "id": "tmdb:1895",
+      "type": "movie",
+      "name": "Star Wars: Episódio III - A Vingança dos Sith",
+      "poster": "https://image.tmdb.org/t/p/w500/nuF5yWtTJEEAd4Qa6cVkYz1XCST.jpg",
+      "description": "As Guerras Clônicas estão em pleno andamento e Anakin Skywalker mantém um elo de lealdade com Palpatine, ao mesmo tempo em que luta para que seu casamento com Padmé Amidala não seja afetado por esta situação. Seduzido por promessas de poder, Anakin se aproxima cada vez mais de Darth Sidious até se tornar o temível Darth Vader. Juntos eles tramam um plano para aniquilar de uma vez por todas com os cavaleiros jedi.",
+      "releaseInfo": "2005"
+    },
+    {
+      "id": "tmdb:11",
+      "type": "movie",
+      "name": "Guerra nas Estrelas",
+      "poster": "https://image.tmdb.org/t/p/w500/dw7X9YPjjAfIxKHW04V64Bb9TB0.jpg",
+      "description": "A princesa Leia é mantida refém pelas forças imperiais comandadas por Darth Vader. Luke Skywalker e Han Solo precisam libertá-la e restaurar a liberdade e a justiça na galáxia.",
+      "releaseInfo": "1977"
+    },
+    {
+      "id": "tmdb:1891",
+      "type": "movie",
+      "name": "Guerra nas Estrelas: O Império Contra-Ataca",
+      "poster": "https://image.tmdb.org/t/p/w500/dLGT8b4Ut10z44uYLaip4QiwKta.jpg",
+      "description": "As forças imperais comandadas por Darth Vader lançam um ataque contra os membros da resistência, que são obrigados a fugir. Enquanto isso Luke Skywalker tenta encontrar o Mestre Yoda, que poderá ensiná-lo a dominar a \"Força\" e torná-lo um cavaleiro jedi. No entanto, Darth Vader planeja levá-lo para o lado negro da \"Força\".",
+      "releaseInfo": "1980"
+    },
+    {
+      "id": "tmdb:1892",
+      "type": "movie",
+      "name": "Guerra nas Estrelas: O Retorno de Jedi",
+      "poster": "https://image.tmdb.org/t/p/w500/llaJ35p5e23ygDbqd0H3otJLWsA.jpg",
+      "description": "O imperador está supervisionando a construção de uma nova Estrela da Morte. Enquanto isso Luke Skywalker liberta Han Solo e a Princesa Leia das mãos de Jaba. Luke só se tornará um cavaleiro jedi quando destruir Darth Vader, que ainda pretende atraí-lo para o lado sombrio da Força.",
+      "releaseInfo": "1983"
+    },
+    {
+      "id": "tmdb:140607",
+      "type": "movie",
+      "name": "Star Wars: O Despertar da Força",
+      "poster": "https://image.tmdb.org/t/p/w500/lqMDbo4rXnakFgc4C6LzPv6pG7F.jpg",
+      "description": "A queda de Darth Vader e do Império levou ao surgimento de uma nova força sombria: a Primeira Ordem. Eles procuram o jedi Luke Skywalker, desaparecido. A resistência tenta desesperadamente encontrá-lo antes para salvar a galáxia.",
+      "releaseInfo": "2015"
+    },
+    {
+      "id": "tmdb:181808",
+      "type": "movie",
+      "name": "Star Wars: Os Últimos Jedi",
+      "poster": "https://image.tmdb.org/t/p/w500/5dGufuaIG5vNcxPm8QPij5MSPeQ.jpg",
+      "description": "A tranquila e solitária vida de Luke Skywalker sofre uma reviravolta quando ele conhece Rey, uma jovem que mostra fortes sinais da Força. O desejo dela de aprender o estilo dos Jedi força Luke a tomar uma decisão que mudará sua vida para sempre. Enquanto isso, Kylo Ren e o General Hux lideram a Primeira Ordem para um ataque total contra Leia e a Resistência pela supremacia da galáxia.",
+      "releaseInfo": "2017"
+    },
+    {
+      "id": "tmdb:1226863",
+      "type": "movie",
+      "name": "Super Mario Galaxy: O Filme",
+      "poster": "https://image.tmdb.org/t/p/w500/b3WeTp42eJSRuE4UZfyPCOJW4c.jpg",
+      "description": "Depois de salvar o Reino dos Cogumelos, Mario e seus amigos se encontram em uma missão intergaláctica para deter um novo vilão ameaçador.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1081003",
+      "type": "movie",
+      "name": "Supergirl",
+      "poster": "https://image.tmdb.org/t/p/w500/qhXfLI1gDWaahzfHT0cb2CH61hO.jpg",
+      "description": "Quando um adversário implacável atinge alguém muito próximo dela, Kara Zor-El relutantemente une forças com uma companheira improvável em uma épica jornada interestelar de vingança e justiça.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:1061474",
+      "type": "movie",
+      "name": "Superman",
+      "poster": "https://image.tmdb.org/t/p/w500/v8ezJI3qfEv4OYq8AWSp4inFIwE.jpg",
+      "description": "Superman, um jovem repórter de Metrópolis, embarca em uma jornada para reconciliar sua herança kryptoniana com sua criação humana como Clark Kent.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:8536",
+      "type": "movie",
+      "name": "Superman II: A Aventura Continua",
+      "poster": "https://image.tmdb.org/t/p/w500/7hLV6QIIQ2m5QtEoASjrr6HLfgH.jpg",
+      "description": "Três criminosos fugitivos do planeta Krypton, que possuem os mesmos poderes do Superman na Terra, testam a coragem do Homem de Aço. Liderados pelo General Zod, os Kryptonianos assumem o controle da Casa Branca e fazem parceria com Lex Luthor para destruir o Superman e governar o mundo. Mas Superman, que se tornou humano para se aproximar de Lois, percebe que tem a responsabilidade de salvar o planeta.",
+      "releaseInfo": "1980"
+    },
+    {
+      "id": "tmdb:9531",
+      "type": "movie",
+      "name": "Superman III",
+      "poster": "https://image.tmdb.org/t/p/w500/18Q76YwMaficmfz9u5lINybh0uP.jpg",
+      "description": "Superman enfrenta agora um diabólico super computador, programado por um gênio da informática que pretende dominar o mundo.",
+      "releaseInfo": "1983"
+    },
+    {
+      "id": "tmdb:11411",
+      "type": "movie",
+      "name": "Superman IV: Em Busca da Paz",
+      "poster": "https://image.tmdb.org/t/p/w500/AgPJ7SGp7RxESgS6UKmHVIgelOt.jpg",
+      "description": "Lex Luthor desenvolve um homem com a mesma estrutura molecular de Superman, portanto, com os mesmos poderes. A criatura está programada para destruir o Homem de Aço e, quando o duelo tem início, o confronto se torna uma grande ameaça à paz mundial.",
+      "releaseInfo": "1987"
+    },
+    {
+      "id": "tmdb:1924",
+      "type": "movie",
+      "name": "Superman: O Filme",
+      "poster": "https://image.tmdb.org/t/p/w500/sm6BLvYCSe4pUpW2UrCKSsS1o0B.jpg",
+      "description": "Jor-El, um renomado cientista, prevê a destruição do seu planeta e alerta o governo, que não lhe dá credito. Assim, decide salvar seu filho, mandando-o ao planeta Terra, onde terá superpoderes. Na Terra, ele usa o nome de Clark Kent e, já adulto, trabalha como repórter em um jornal, não demonstra ter superpoderes. Mas quando uma situação inesperada põe em risco a vida de Lois Lane, uma colega de trabalho, ele é obrigado a se revelar para o público, ficando conhecido popularmente como Superman. Descontente com o surgimento de um super-herói na cidade, Lex Luthor, um gênio do mal, o obriga a se desdobrar para evitar a morte de milhões de pessoas.",
+      "releaseInfo": "1978"
+    },
+    {
+      "id": "tmdb:1452",
+      "type": "movie",
+      "name": "Superman: O Retorno",
+      "poster": "https://image.tmdb.org/t/p/w500/jLmb769DnH3UjSDThwmCNVnr6t9.jpg",
+      "description": "Superman retorna à Terra após cinco anos de ausência e descobre que Lois Lane seguiu com sua vida, sendo agora mãe de uma criança e que Lex Luthor saiu da prisão e planejava botar em prática um plano que causará a morte de bilhões de pessoas.",
+      "releaseInfo": "2006"
+    },
+    {
+      "id": "tmdb:72105",
+      "type": "movie",
+      "name": "Ted",
+      "poster": "https://image.tmdb.org/t/p/w500/patvtN6QlClCRZlswIPxDSYJRzW.jpg",
+      "description": "Quando criança, John desejou que seu ursinho Ted ganhasse vida e, surpreendentemente, foi atendido. Porém, agora que é adulto, ele precisa lidar com as consequências de seu pedido, já que Ted não vai parar de atormentar a sua vida.",
+      "releaseInfo": "2012"
+    },
+    {
+      "id": "tmdb:214756",
+      "type": "movie",
+      "name": "Ted 2",
+      "poster": "https://image.tmdb.org/t/p/w500/kblxjPVIXaIQ7iHo5b2LaBOEllD.jpg",
+      "description": "O urso de pelúcia Ted casa-se com Tami-Lynn. O casal pretende ter um bebê, mas para terem direito à inseminação artificial, Ted tem que provar na justiça que é um ser humano. Para alcançar o seu sonho, ele conta com a ajuda da advogada Samantha e do seu grande amigo John.",
+      "releaseInfo": "2015"
+    },
+    {
+      "id": "tmdb:274855",
+      "type": "movie",
+      "name": "Tempestade: Planeta em Fúria",
+      "poster": "https://image.tmdb.org/t/p/w500/g4FjMmJGIagHlNjbBppQyg6xaaj.jpg",
+      "description": "E se, após mais de uma década de desastres naturais devastadores, nós descobríssemos uma forma de controlar a mãe natureza e a destruição que ela carrega? Quando uma mudança catastrófica do clima ameaça a sobrevivência da terra, os governos mundiais se unem e criam o Projeto Dutch Boy: uma rede global de satélites ao redor do planeta armados com tecnologias de geo-engenharia desenvolvidas para impedir os desastres naturais. Após proteger o planeta com sucesso por dois anos, algo começa a dar errado. Dois irmão afastados são encarregados de resolver um defeito no funcionamento do programa antes que uma tempestade mundial acabe com tudo.",
+      "releaseInfo": "2017"
+    },
+    {
+      "id": "tmdb:23742",
+      "type": "movie",
+      "name": "Tiras em Apuros",
+      "poster": "https://image.tmdb.org/t/p/w500/n7jukP3epnOIMMVWEpj95pRvrWX.jpg",
+      "description": "Os policiais Jimmy Monroe e Paul Hodges têm que usar suas armas na troca de tiros com um matador. Eles concordam em contar até três e abrir fogo. Mas espere, quer dizer \"1, 2 e atiram\" ou \"1, 2, 3 e aí atiram\"? Os socos doem a valer, mas seu estomago vai doer mesmo de tanto rir (ou existe outra possibilidade?) quando o astro Bruce Willis e o comediante Tracy Morgan somam forças para atuar como uma dupla de policiais parceiros nada comum. Kevin Smith conduz esses longos braços da lei na investigação sobre um cartão de baseball raro roubado (Jimmy precisa bancar o casamento de sua filha), uma caçada que os colocará frente a frente com o perigoso submundo das drogas. Mas esses tiras sabem muito bem o que fazer quando estão em apuros!",
+      "releaseInfo": "2010"
+    },
+    {
+      "id": "tmdb:5375",
+      "type": "movie",
+      "name": "Titio Noel",
+      "poster": "https://image.tmdb.org/t/p/w500/vJkiT0PPVw74CwZEa7mtV9q6zfq.jpg",
+      "description": "O Papai Noel tem um irmão. Fred Claus, que viveu sua vida inteira atrás da grande sombra de seu irmão. Ele tentou, mas nunca poderia preencher as expectativas do exemplo deixado pelo mais novo Papai Noel.Agora o trambiqueiro Fred acabou na cadeia e após ter sua fiança paga, ele precisa ir para o Pólo Norte pagar sua dívida fabricando brinquedos.",
+      "releaseInfo": "2007"
+    },
+    {
+      "id": "tmdb:1273221",
+      "type": "movie",
+      "name": "Todo Mundo em Pânico",
+      "poster": "https://image.tmdb.org/t/p/w500/y9yJd2qIIwhZcllHeKHsz5eRvNr.jpg",
+      "description": "Vinte e seis anos depois de escaparem de um assassino mascarado suspeitosamente familiar, o Quarteto Fantástico está de volta à mira do criminoso, e nenhuma propriedade intelectual de filmes de terror está a salvo.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:9506",
+      "type": "movie",
+      "name": "Tratamento de Choque",
+      "poster": "https://image.tmdb.org/t/p/w500/JJNO1aXRF6K8mmdO7erTnXjJ40.jpg",
+      "description": "Dave Buznik (Adam Sandler) é um pacato empresário que é condenado por um crime e sentenciado a realizar um tratamento para controlar seu temperamento. O encarregado de realizar este tratamento é o Dr. Buddy Rydell (Jack Nicholson), um louco psiquiatra que tem seus próprios problemas de temperamento e parece ser o único capaz de tirar Buznik do sério.",
+      "releaseInfo": "2003"
+    },
+    {
+      "id": "tmdb:238215",
+      "type": "movie",
+      "name": "Trocando os Pés",
+      "poster": "https://image.tmdb.org/t/p/w500/o0OL6zpJepJW5C6yPsAFRTGqGCg.jpg",
+      "description": "Um solitário sapateiro encontra uma relíquia mágica que possibilita que ele se transforme em qualquer pessoa ao calçar os sapatos dela.",
+      "releaseInfo": "2014"
+    },
+    {
+      "id": "tmdb:533533",
+      "type": "movie",
+      "name": "Tron: Ares",
+      "poster": "https://image.tmdb.org/t/p/w500/zRjRAxrPA4JFadT6SQaV3N10ZcO.jpg",
+      "description": "Um programa de IA altamente avançado chamado Ares (Jared Leto) que é enviado do mundo digital (A Grade) para o mundo real em uma missão perigosa, sendo o primeiro encontro da humanidade com inteligência artificial que transcende o ciberespaço, explorando temas de consciência e a linha tênue entre homem e máquina em meio a uma corrida tecnológica entre duas empresas, Dillinger e Encon",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:20526",
+      "type": "movie",
+      "name": "Tron: O Legado",
+      "poster": "https://image.tmdb.org/t/p/w500/kHSIHeYvcP8NTjESmxh9vMAk15E.jpg",
+      "description": "Quando Flynn, o maior criador de videogames do planeta, envia uma mensagem de um incrível mundo digital, seu filho descobre o caminho e embarca numa jornada pessoal para salvar seu pai desaparecido há anos. Com a ajuda da destemida guerreira Quorra, pai e filho se aventuram num universo cibernético incrível e travam a batalha definitiva do bem x mal.",
+      "releaseInfo": "2010"
+    },
+    {
+      "id": "tmdb:97",
+      "type": "movie",
+      "name": "Tron: Uma Odisseia Eletrônica",
+      "poster": "https://image.tmdb.org/t/p/w500/1xTQHQxApZnnA7yPU31VgEggO6f.jpg",
+      "description": "Quando o talentoso engenheiro de computação Kevin Flynn descobre que Ed Dillinger, um executivo da sua empresa, está roubando seu projeto, tenta invadir o sistema. No entanto, Flynn é transportado para o mundo digital em um programa antagônico.",
+      "releaseInfo": "1982"
+    },
+    {
+      "id": "tmdb:7347",
+      "type": "movie",
+      "name": "Tropa de Elite",
+      "poster": "https://image.tmdb.org/t/p/w500/jpG8AVzRQabzjHeJ7JWbuXe9T1n.jpg",
+      "description": "Rio de Janeiro, 1997. Nascimento, capitão da Tropa de Elite do Rio de Janeiro, é designado para chefiar uma das equipes que tem como missão \"apaziguar\" o Morro do Turano por um motivo que ele considera insensato. Mas ele tem que cumprir as ordens enquanto procura por um substituto. Sua mulher, Rosane, está no final da gravidez e todos os dias lhe pede para sair da linha de frente do batalhão. Pressionado, o capitão sente os efeitos do estresse.Neste clima, é chamado para mais uma emergência num morro. Em meio a um tiroteio em um baile funk, Nascimento e sua equipe têm que resgatar dois aspirantes a oficiais da PM: Neto e Matias. Ansiosos por entrar em ação e impressionados com a eficiência de seus salvadores, os dois se candidatam ao curso de formação da Tropa de Elite.",
+      "releaseInfo": "2007"
+    },
+    {
+      "id": "tmdb:47931",
+      "type": "movie",
+      "name": "Tropa de Elite 2: O Inimigo Agora é Outro",
+      "poster": "https://image.tmdb.org/t/p/w500/gW2JzWuOKHkKOr33slfBEQJYYeS.jpg",
+      "description": "O destino da cidade do Rio de Janeiro e de Nascimento se cruzam em \"Tropa de Elite 2\", quando suas obrigações de pai se chocam com as de policial. Mais maduro, estratégico e solitário, o agora Coronel Nascimento faz o bope crescer e coloca o tráfico de drogas de joelho. Isto apenas para descobrir que na segurança pública do Rio de Janeiro nada é o que parece. O sistema se reinventa e descobre como lucrar sem o intermédio do tráfico. Em perseguição ao caminho trilhado pelo sistema, Nascimento vai além dos limites do quartel, revelando as ligações das milícias com o Estado. E o preço por essa descoberta é alto: o inimigo agora é outro.",
+      "releaseInfo": "2010"
+    },
+    {
+      "id": "tmdb:7446",
+      "type": "movie",
+      "name": "Trovão Tropical",
+      "poster": "https://image.tmdb.org/t/p/w500/wy7GVLCGTmOgbGvIMChVMNOMNao.jpg",
+      "description": "Tugg Speedman, Kirk Lazarus e Jeff Portnoy são grandes astros de Hollywood, que acertaram suas presenças em \"Trovão Tropical\", novo filme do diretor inglês Damien Cockburn. O projeto é a adaptação da biografia de \"4 Folhas\" Tayback, um veterano da Guerra do Vietnã. A equipe vai ao próprio Vietnã para realizar as filmagens, mas logo o ego dos atores principais causa problemas. Tentando controlar o trio, Damien decide rodar as cenas em plena floresta, sem imaginar os perigos que sua decisão traria.",
+      "releaseInfo": "2008"
+    },
+    {
+      "id": "tmdb:652",
+      "type": "movie",
+      "name": "Tróia",
+      "poster": "https://image.tmdb.org/t/p/w500/iKp2NxUkqPVSPN2FdXUn9gxj4Nn.jpg",
+      "description": "Quando Páris, o príncipe de Troia, se apaixona por Helena, rainha de Esparta, o rei inicia uma guerra de anos entre os dois reinos. Para vencer, Esparta conta com Aquiles, um guerreiro lendário que comanda um exército próprio.",
+      "releaseInfo": "2004"
+    },
+    {
+      "id": "tmdb:22794",
+      "type": "movie",
+      "name": "Tá Chovendo Hambúrguer",
+      "poster": "https://image.tmdb.org/t/p/w500/czEUatnzoLXjCDZjTKHyjcKBTFy.jpg",
+      "description": "As invenções de Flint nunca deram certo. Contudo, sua vida melhora quando ele cria uma máquina que faz com que chova comida do céu, mas tudo se descontrola quando a máquina começa a desencadear tornados de esparguete e almôndegas gigantes!",
+      "releaseInfo": "2009"
+    },
+    {
+      "id": "tmdb:109451",
+      "type": "movie",
+      "name": "Tá Chovendo Hambúrguer 2",
+      "poster": "https://image.tmdb.org/t/p/w500/jyIWUZCtt3pRxi727NxFjhcdzNd.jpg",
+      "description": "Flint e seus amigos são obrigados a deixar Boca da Maré após a desastrosa tempestade de comida atingir a cidade. Sem muitas opções, ele aceita o convite de seu ídolo, Chester V., e se junta a Live Corp, uma empresa que reúne os inventores mais brilhantes do mundo. No entanto, ao descobrir que sua máquina ainda está funcionando e agora cria perigosas comidas animalescas mutantes, Flint decide retornar e tentar salvar o mundo.",
+      "releaseInfo": "2013"
+    },
+    {
+      "id": "tmdb:1248226",
+      "type": "movie",
+      "name": "Um Dia Fora de Controle",
+      "poster": "https://image.tmdb.org/t/p/w500/auLOTlulof19GSPrNomyG7myfzN.jpg",
+      "description": "Quando o contador desempregado Brian leva seu filho para brincar com o filho de Jeff, pai que fica em casa, ele espera um dia tranquilo. Em vez disso, eles acabam perseguidos por mercenários, e Brian — totalmente despreparado — precisa sobreviver a um obstáculo absurdo atrás do outro. A vida de pai de família vira um caos de filme de ação nesta aventura hilária.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:14177",
+      "type": "movie",
+      "name": "Um Salão do Barulho",
+      "poster": "https://image.tmdb.org/t/p/w500/tyUw1b0sLbqOoizUsoT1RcfdlG9.jpg",
+      "description": "Atlanta. Gina Norris (Queen Latifah) é uma excelente cabeleireira que trabalha no salão do afetado Jorge (Kevin Bacon), que tem mais empáfia do que profissionalismo. Gina sempre sonhou ter seu salão. Um dia, após ser insultada por Jorge, que ainda ficou com o crédito do seu trabalho, ela decide que era hora de pedir demissão e transformar seu sonho em realidade. Gina abre seu salão de beleza com a ajuda de Lynn (Alicia Silverstone), uma ótima cabeleireira que nunca teve chance com o Jorge, que só permitia que ela lavasse os cabelos. Logo o salão da Gina vai ficando conhecido, no entanto quando ela começa a pegar as clientes de Jorge ele planeja se vingar. Mas ele não tem idéia do que Gina e as outras cabeleireiras são capazes de fazer.",
+      "releaseInfo": "2005"
+    },
+    {
+      "id": "tmdb:326423",
+      "type": "movie",
+      "name": "Um Salão do Barulho 3",
+      "poster": "https://image.tmdb.org/t/p/w500/8Wis3WRAb8BjfSiz2ATMDBXFtpC.jpg",
+      "description": "Dez anos se passaram após a última ida a barbearia de Calvin (Ice Cube). Seus amigos de longa data, como Eddie (Cedric the Entertainer) e J.D. (Anthony Anderson) continuam os mesmos. No entanto, uma onda de violência começa a tomar conta do bairro, fazendo com que os moradores se juntem novamente para salvar a comunidade.",
+      "releaseInfo": "2016"
+    },
+    {
+      "id": "tmdb:31962",
+      "type": "movie",
+      "name": "Uma Luz na Escuridão",
+      "poster": "https://image.tmdb.org/t/p/w500/wMErY9THNrk9M63iUSb1bs8yPvE.jpg",
+      "description": "Uma secretária se apaixona por seu novo chefe misterioso e insiste em ir para a Alemanha como espiã da Segunda Guerra Mundial.",
+      "releaseInfo": "1992"
+    },
+    {
+      "id": "tmdb:618588",
+      "type": "movie",
+      "name": "Uma Prova de Coragem",
+      "poster": "https://image.tmdb.org/t/p/w500/nOHhj3fHzq1lmHf8NfHwTj8zV9p.jpg",
+      "description": "Michael Light e uma equipe de atletas competem no Adventure Racing World Championship. À medida que são levados ao limite da resistência, um cão chamado Arthur aparece e redefine o que realmente significa vitória, lealdade e amizade.",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tmdb:10611",
+      "type": "movie",
+      "name": "Uma Turma do Barulho",
+      "poster": "https://image.tmdb.org/t/p/w500/mnw4b9YyKHTdEzaleqCgXbSnrXU.jpg",
+      "description": "Calvin pe um candidato a empresário com grandes projetos. E dirigir a barbearia que herdou de seu pai, definitivamente, não é um deles. Embora a loja seja um ponto tradicional na vizinhança, onde figuras ecléticas e hilárias encontram-se para contar piadas, compartilhar um pouco de suas vidas (e da vida alheia, é claro!) Calvin a vê apenas como um fardo que ele tem de carregar. Assim, o rapaz decide vender a barbearia para um agiota local. Depois do negócio fechado, contudo, Calvin aos poucos percebe quanta falta lhe faz o alegre movimento diário da loja. Mais que isso: Calvin descobre que é capaz de fazer qualquer coisa para recuperar não apenas uma barbeariam, mas tudo o que aquela representa em sua vida.",
+      "releaseInfo": "2002"
+    },
+    {
+      "id": "tmdb:335787",
+      "type": "movie",
+      "name": "Uncharted: Fora do Mapa",
+      "poster": "https://image.tmdb.org/t/p/w500/qNAPgepJ4NHNA74ThVsxQEOUceJ.jpg",
+      "description": "Nathan Drake e seu parceiro canastrão Victor \"Sully\" Sullivan embarcam em uma perigosa busca para encontrar o maior tesouro jamais encontrado. Enquanto isso, eles também rastreiam pistas que podem levar ao irmão perdido de Nathan.",
+      "releaseInfo": "2022"
+    },
+    {
+      "id": "tmdb:82992",
+      "type": "movie",
+      "name": "Velozes & Furiosos 6",
+      "poster": "https://image.tmdb.org/t/p/w500/h8SD0Kkqv3PUBneQX9tFsDrFu8.jpg",
+      "description": "Desde que o golpe de Dom e Brian no Rio de Janeiro deixou o grupo com US$100 milhões, a equipe se espalhou pelo mundo. Um dia, Hobbs pede a Dom que reúna um grupo de elite em Londres e apreenda uma organização de mercenários nas ruas, cujo mentor é apoiado por Letty, a antiga namorada de Dom que ele acreditava estar morta. A recompensa? Absolvição a todos eles para poderem voltar para as suas casas e tornarem suas famílias completas novamente.",
+      "releaseInfo": "2013"
+    },
+    {
+      "id": "tmdb:51497",
+      "type": "movie",
+      "name": "Velozes & Furiosos 5: Operação Rio",
+      "poster": "https://image.tmdb.org/t/p/w500/5BKmQMUPOEtDFDCBW8jrUCI9ZbI.jpg",
+      "description": "Desde que o ex-policial Brian O'Conner e Mia Torretto libertaram Dom da prisão, eles viajam pelas fronteiras para fugir das autoridades. No Rio de Janeiro, eles fazem um último trabalho antes que possam ganhar sua liberdade definitiva. Montando sua equipe de elite de pilotos de carro, Brian e Dom sabem que têm de enfrentar o empresário corrupto que quer vê-los mortos, antes que o agente federal em sua trilha os encontre.",
+      "releaseInfo": "2011"
+    },
+    {
+      "id": "tmdb:168259",
+      "type": "movie",
+      "name": "Velozes & Furiosos 7",
+      "poster": "https://image.tmdb.org/t/p/w500/spydMyyD81HjGJVwZvjajkrWW1h.jpg",
+      "description": "Após os acontecimentos em Londres, Dom, Brian, Letty e o resto da equipe têm a chance de voltar para os Estados Unidos e recomeçar suas vidas. Mas a tranquilidade do grupo é destruída quando Deckard Shaw, um assassino profissional, quer vingança pelo acidente que deixou seu irmão em coma. Agora, a equipe tem de unir forças para deter um vilão novo e ainda mais perigoso. Dessa vez, não se trata apenas de uma questão de velocidade: a corrida é pela sobrevivência.",
+      "releaseInfo": "2015"
+    },
+    {
+      "id": "tmdb:337339",
+      "type": "movie",
+      "name": "Velozes & Furiosos 8",
+      "poster": "https://image.tmdb.org/t/p/w500/1wcMoiMZ2VxrrWswuarI7g9m9nN.jpg",
+      "description": "Depois que Brian e Mia se aposentaram, e o resto da equipe foi exonerado, Dom e Letty estão em lua de mel e levam uma vida pacata e completamente normal. Mas a adrenalina do passado volta com tudo quando uma mulher misteriosa faz com que Dom retorne ao mundo do crime e da velocidade.",
+      "releaseInfo": "2017"
+    },
+    {
+      "id": "tmdb:385128",
+      "type": "movie",
+      "name": "Velozes & Furiosos 9",
+      "poster": "https://image.tmdb.org/t/p/w500/6TuEPZ3ItlBO8WmH8BmY2aGLhes.jpg",
+      "description": "Dominic Toretto e sua família precisam enfrentar o seu irmão mais novo Jakob, um assassino mortal que está trabalhando com uma antiga inimiga, a cyber-terrorista Cipher.",
+      "releaseInfo": "2021"
+    },
+    {
+      "id": "tmdb:9799",
+      "type": "movie",
+      "name": "Velozes e Furiosos",
+      "poster": "https://image.tmdb.org/t/p/w500/rKaaYM4CtuJZFdOA0SZWbaMNHbn.jpg",
+      "description": "Um investigador da polícia se infiltra em uma turma de rachas suspeita de roubar caminhões, mas acaba apaixonando-se pela irmã do líder.",
+      "releaseInfo": "2001"
+    },
+    {
+      "id": "tmdb:13804",
+      "type": "movie",
+      "name": "Velozes e Furiosos 4",
+      "poster": "https://image.tmdb.org/t/p/w500/7sjbAOmNFtfTyZ6KFC9t9FDDOcK.jpg",
+      "description": "Dominic Toretto descobre que sua amada Letty foi assassinada e resolve procurar pelo autor do crime. Enquanto isso, o agente Brian O'Conner está em busca de um traficante de drogas. Eles percebem que talvez procurem a mesma pessoa.",
+      "releaseInfo": "2009"
+    },
+    {
+      "id": "tmdb:9615",
+      "type": "movie",
+      "name": "Velozes e Furiosos: Desafio em Tóquio",
+      "poster": "https://image.tmdb.org/t/p/w500/1kzW2GImY1YVmLRx3NLhXFBfLLO.jpg",
+      "description": "Sean Boswell é um piloto de rua que desafia seu rival e bate o carro no fim da corrida. Então, Sean decide se mudar para o Japão em companhia de seu pai para evitar a prisão nos Estados Unidos, já que os rachas não são nada populares com as autoridades. Em Tóquio, ele começa a aprender um excitante e perigoso estilo novo de competir nas ruas. Só que os riscos ficam ainda mais altos quando Sean decide competir com o campeão local e acaba se apaixonando pela namorada dele.",
+      "releaseInfo": "2006"
+    },
+    {
+      "id": "tmdb:395992",
+      "type": "movie",
+      "name": "Vida",
+      "poster": "https://image.tmdb.org/t/p/w500/bKacW7BlSPHYvklyhSHvJrNl1CO.jpg",
+      "description": "Um time de cientistas a bordo da Estação Espacial Internacional cuja missão de descoberta se transforma em medo puro quando eles encontram uma forma de vida em desenvolvimento que causou a extinção da vida em Marte e agora ameaça a tripulação e a vida na Terra.",
+      "releaseInfo": "2017"
+    },
+    {
+      "id": "tmdb:1949",
+      "type": "movie",
+      "name": "Zodíaco",
+      "poster": "https://image.tmdb.org/t/p/w500/jFmlV5vUzOt1PgJ82efOhNsWcWX.jpg",
+      "description": "Durante os anos 60 e 70, o medo aumenta em São Francisco com os ataques de um assassino maníaco chamado Zodíaco. Investigadores e jornalistas tentam descobrir a identidade do assassino e levá-lo à justiça. Enquanto isso, Zodíaco provoca as autoridades com mensagens crípticas, cifras e telefonemas ameaçadores.",
+      "releaseInfo": "2007"
+    },
+    {
+      "id": "tmdb:10661",
+      "type": "movie",
+      "name": "Zohan: Um Agente Bom de Corte",
+      "poster": "https://image.tmdb.org/t/p/w500/mT81xdLGdexnLfPqiNjjZ2BR82u.jpg",
+      "description": "Zohan Dvir é um agente do alto comando militar de Israel que finge sua própria morte em um ataque de seu arquinimigo, o terrorista Fantasma, para realizar o sonho de sua vida: tornar-se cabeleireiro em Nova York. Ao chegar nos Estados Unidos sua 1ª parada é no salão de seu ídolo Paul Mitchell, onde assume a identidade de Scrappy Coco. Ridicularizado por seu jeito antiquado, Zohan não consegue o emprego sonhado. Ele busca então se adaptar à vida na nova cidade, até ser descoberto por seus antigos inimigos.",
+      "releaseInfo": "2008"
+    },
+    {
+      "id": "tmdb:11074",
+      "type": "movie",
+      "name": "Zona de Perigo",
+      "poster": "https://image.tmdb.org/t/p/w500/40fmdc0apEKe8r36RRqBTqKELVS.jpg",
+      "description": "Um ex-detetive está convencido de que seu pai foi vítima de um assassino em série e decide provar que o culpado é um policial, mas sua caçada obsessiva prejudica sua relação com outro parceiro.",
+      "releaseInfo": "1993"
+    },
+    {
+      "id": "tmdb:1402",
+      "type": "movie",
+      "name": "À Procura da Felicidade",
+      "poster": "https://image.tmdb.org/t/p/w500/vHGC2sSh7pBWXY0qzMdPD7fcjzS.jpg",
+      "description": "Chris enfrenta sérios problemas financeiros e Linda, sua esposa, decide partir. Ele agora é pai solteiro e precisa cuidar de Christopher, seu filho de 5 anos. Chris tenta usar sua habilidade como vendedor para conseguir um emprego melhor, mas só consegue um estágio não remunerado. Seus problemas financeiros não podem esperar uma promoção e eles acabam despejados. Chris e Christopher passam a dormir em abrigos ou onde quer que consigam um refúgio, mantendo a esperança de que dias melhores virão.",
+      "releaseInfo": "2006"
+    },
+    {
+      "id": "tmdb:760161",
+      "type": "movie",
+      "name": "Órfã 2: A Origem",
+      "poster": "https://image.tmdb.org/t/p/w500/okgBTByIqwRotmfg3ljUBAyVmcW.jpg",
+      "description": "Lena Klammer orquestra uma fuga brilhante de uma unidade psiquiátrica russa e viaja para os Estados Unidos, representando a filha desaparecida de uma família rica. Mas a nova vida de Lena como \"Esther\" vem com uma ruga inesperada e a coloca contra uma mãe que protegerá sua família a qualquer custo.",
+      "releaseInfo": "2022"
+    }
+  ]
 }
