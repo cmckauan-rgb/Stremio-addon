@@ -1,0 +1,17 @@
+{
+  "meta": {
+    "id": "tt2293640",
+    "type": "movie",
+    "name": "Minions",
+    "poster": "https://image.tmdb.org/t/p/w500/caq9Xi6b1sZNREfzFBO2tRIBzWn.jpg",
+    "background": "https://image.tmdb.org/t/p/w1280/wKrxeY6lbu7KFBsWVcMH6M8avwr.jpg",
+    "description": "Seres amarelos milenares, os minions têm uma missão: servir os maiores vilões. Em depressão desde a morte de seu antigo mestre, eles tentam encontrar um novo chefe. Três voluntários, Kevin, Stuart e Bob, vão até uma convenção de vilões nos Estados Unidos e lá se encantam com Scarlet Overkill, que ambiciona ser a primeira mulher a dominar o mundo.",
+    "releaseInfo": "2015",
+    "genres": [
+      "Família",
+      "Animação",
+      "Aventura",
+      "Comédia"
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "id": "tt18392014",
+    "type": "movie",
+    "name": "Jogo Sujo",
+    "poster": "https://image.tmdb.org/t/p/w500/2fXF4GY6eoyjRLjtreVJGajT9WV.jpg",
+    "background": "https://image.tmdb.org/t/p/w1280/k6tdiMTO39RQj3dhfspuzprfoe0.jpg",
+    "description": "Um ladrão profissional se lança no maior roubo de sua vida. Parker, Grofield, Zen e uma equipe talentosa embarcam num roubo que os coloca contra a máfia de Nova York num golpe sagaz e intenso.",
+    "releaseInfo": "2025",
+    "genres": [
+      "Crime",
+      "Ação",
+      "Thriller"
+    ]
+  }
+}

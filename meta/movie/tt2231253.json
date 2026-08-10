@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "id": "tt2231253",
+    "type": "movie",
+    "name": "Carta Selvagem",
+    "poster": "https://image.tmdb.org/t/p/w500/mNCBOnQITpRkaMRyq8KyfyDFQEx.jpg",
+    "background": "https://image.tmdb.org/t/p/w1280/9Xna1fmRkTyAfMSonokrwblYXUS.jpg",
+    "description": "Nick Wild, guarda-costas em Las Vegas, tem habilidades profissionais letais e problemas pessoas com o jogo. Após seu amigo ser espancado um sádico bandido, Nick decide se vingar e descobre que ele é filho de um poderoso chefe da máfia. Nick mergulha no mundo do crime e acaba perseguido pela máfia, tendo apenas uma chance de mudar sua sorte.",
+    "releaseInfo": "2015",
+    "genres": [
+      "Thriller",
+      "Crime",
+      "Ação"
+    ]
+  }
+}

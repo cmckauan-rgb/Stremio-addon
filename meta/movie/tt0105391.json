@@ -1,0 +1,17 @@
+{
+  "meta": {
+    "id": "tt0105391",
+    "type": "movie",
+    "name": "Uma Luz na Escuridão",
+    "poster": "https://image.tmdb.org/t/p/w500/wMErY9THNrk9M63iUSb1bs8yPvE.jpg",
+    "background": "https://image.tmdb.org/t/p/w1280/8rdRjdlQMYNdwDX38VkTH4BXorI.jpg",
+    "description": "Uma secretária se apaixona por seu novo chefe misterioso e insiste em ir para a Alemanha como espiã da Segunda Guerra Mundial.",
+    "releaseInfo": "1992",
+    "genres": [
+      "Drama",
+      "Romance",
+      "Thriller",
+      "Guerra"
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "id": "tt0145487",
+    "type": "movie",
+    "name": "Homem-Aranha",
+    "poster": "https://image.tmdb.org/t/p/w500/RbZQL5hXmydecu82UHw9ZGyytB.jpg",
+    "background": "https://image.tmdb.org/t/p/w1280/zQ8AxTPiCiS5nnwXpwTBPBHSaa5.jpg",
+    "description": "Peter Parker é um jovem estudioso que vive com seus tios, Ben e May, desde que seus pais faleceram. Peter tem dificuldade em se relacionar com seus colegas, por ser tímido e por eles o considerarem um nerd. Até que, em uma demonstração científica, um acidente inesperado faz com que uma aranha modificada geneticamente pique Peter. A partir de então seu corpo é quimicamente alterado pela picada da aranha.",
+    "releaseInfo": "2002",
+    "genres": [
+      "Ação",
+      "Ficção científica"
+    ]
+  }
+}

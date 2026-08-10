@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "id": "tt14257582",
+    "type": "movie",
+    "name": "Lobos",
+    "poster": "https://image.tmdb.org/t/p/w500/5LvefZZsapIsOIckLZHbYlwCAkm.jpg",
+    "background": "https://image.tmdb.org/t/p/w1280/nSVwus6Vcnw06zqKAa1ioacrpUF.jpg",
+    "description": "Dois solucionadores rivais se cruzam quando ambos são chamados para encobrir o erro de uma importante figura pública de Nova York. Durante uma noite conturbada, eles terão que deixar de lado suas diferenças e egos para concluir o serviço.",
+    "releaseInfo": "2024",
+    "genres": [
+      "Crime",
+      "Comédia"
+    ]
+  }
+}

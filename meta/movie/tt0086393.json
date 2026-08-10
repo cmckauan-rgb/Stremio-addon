@@ -1,0 +1,17 @@
+{
+  "meta": {
+    "id": "tt0086393",
+    "type": "movie",
+    "name": "Superman III",
+    "poster": "https://image.tmdb.org/t/p/w500/18Q76YwMaficmfz9u5lINybh0uP.jpg",
+    "background": "https://image.tmdb.org/t/p/w1280/ui3oiC5mdwxTPZSLBvqoBqckTQ4.jpg",
+    "description": "Superman enfrenta agora um diabólico super computador, programado por um gênio da informática que pretende dominar o mundo.",
+    "releaseInfo": "1983",
+    "genres": [
+      "Comédia",
+      "Ficção científica",
+      "Ação",
+      "Aventura"
+    ]
+  }
+}

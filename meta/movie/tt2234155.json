@@ -1,0 +1,14 @@
+{
+  "meta": {
+    "id": "tt2234155",
+    "type": "movie",
+    "name": "Os Estagiários",
+    "poster": "https://image.tmdb.org/t/p/w500/eJ2yNRyP3QJ36lO81f19ep98eWw.jpg",
+    "background": "https://image.tmdb.org/t/p/w1280/kms4PhWfP1Q2jidPLOf26qm0paJ.jpg",
+    "description": "Billy (Vince Vaughn) e Nick (Owen Wilson) são grandes amigos e trabalham juntos como vendedores de relógios. Eles são pegos de surpresa quando seu chefe (John Goodman) fecha a empresa, por acreditar que o negócio esteja ultrapassado. Com problemas financeiros, eles conseguem a inscrição em uma seleção de estágio no Google. Mesmo sem terem a garantia que serão contratados, eles partem para a sede da empresa e lá precisam lidar com a diferença de idade entre eles e os demais competidores.",
+    "releaseInfo": "2013",
+    "genres": [
+      "Comédia"
+    ]
+  }
+}

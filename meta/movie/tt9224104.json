@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "id": "tt9224104",
+    "type": "movie",
+    "name": "Megatubarão 2",
+    "poster": "https://image.tmdb.org/t/p/w500/x3uhIodq56mlGBwpDTZ52trGb35.jpg",
+    "background": "https://image.tmdb.org/t/p/w1280/5mzr6JZbrqnqD8rCEvPhuCE5Fw2.jpg",
+    "description": "Um mergulho exploratório nas profundezas do oceano de uma ousada equipe de pesquisa se transforma em caos quando uma operação de mineração malévola ameaça sua missão e os força a uma batalha de alto risco pela sobrevivência.",
+    "releaseInfo": "2023",
+    "genres": [
+      "Ação",
+      "Ficção científica",
+      "Terror"
+    ]
+  }
+}

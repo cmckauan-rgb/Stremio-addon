@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "id": "tt0137523",
+    "type": "movie",
+    "name": "Clube da Luta",
+    "poster": "https://image.tmdb.org/t/p/w500/mCICnh7QBH0gzYaTQChBDDVIKdm.jpg",
+    "background": "https://image.tmdb.org/t/p/w1280/c6OLXfKAk5BKeR6broC8pYiCquX.jpg",
+    "description": "Um homem deprimido que sofre de insônia conhece um estranho vendedor de sabonetes chamado Tyler Durden. Eles formam um clube clandestino com regras rígidas onde lutam com outros homens cansados de suas vidas mundanas. Mas sua parceria perfeita é comprometida quando Marla chama a atenção de Tyler.",
+    "releaseInfo": "1999",
+    "genres": [
+      "Drama",
+      "Thriller"
+    ]
+  }
+}

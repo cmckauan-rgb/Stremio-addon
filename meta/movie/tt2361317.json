@@ -1,0 +1,17 @@
+{
+  "meta": {
+    "id": "tt2361317",
+    "type": "movie",
+    "name": "A Lei da Noite",
+    "poster": "https://image.tmdb.org/t/p/w500/wgpO1htXAHbjNTapIL3UpDKZBOv.jpg",
+    "background": "https://image.tmdb.org/t/p/w1280/vClMoGPBTt2mh1NFthtBCZlwO2r.jpg",
+    "description": "Boston, década de 1920. Joe Coughlin, filho mais novo de um capitão de polícia, se envolve com o crime organizado. Ele aproveita seus dias rodeado de dinheiro e poder, mas suas escolhas podem levá-lo à prisão, ou até mesmo à morte. Adaptação do livro escrito por Dennis Lehane.",
+    "releaseInfo": "2016",
+    "genres": [
+      "Ação",
+      "Crime",
+      "Drama",
+      "Thriller"
+    ]
+  }
+}

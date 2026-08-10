@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "id": "tt3203616",
+    "type": "movie",
+    "name": "Trocando os Pés",
+    "poster": "https://image.tmdb.org/t/p/w500/o0OL6zpJepJW5C6yPsAFRTGqGCg.jpg",
+    "background": "https://image.tmdb.org/t/p/w1280/ysSUDoBeG5oIz7e4vkTtsuGBXfe.jpg",
+    "description": "Um solitário sapateiro encontra uma relíquia mágica que possibilita que ele se transforme em qualquer pessoa ao calçar os sapatos dela.",
+    "releaseInfo": "2014",
+    "genres": [
+      "Fantasia",
+      "Comédia",
+      "Drama"
+    ]
+  }
+}

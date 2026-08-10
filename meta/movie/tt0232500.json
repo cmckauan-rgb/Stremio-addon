@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "id": "tt0232500",
+    "type": "movie",
+    "name": "Velozes e Furiosos",
+    "poster": "https://image.tmdb.org/t/p/w500/rKaaYM4CtuJZFdOA0SZWbaMNHbn.jpg",
+    "background": "https://image.tmdb.org/t/p/w1280/jY9ef5nqY4xIIMu3yzW3qamUCoi.jpg",
+    "description": "Um investigador da polícia se infiltra em uma turma de rachas suspeita de roubar caminhões, mas acaba apaixonando-se pela irmã do líder.",
+    "releaseInfo": "2001",
+    "genres": [
+      "Ação",
+      "Crime",
+      "Thriller"
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "id": "tt3291150",
+    "type": "movie",
+    "name": "Os Mercenários 4",
+    "poster": "https://image.tmdb.org/t/p/w500/mVgPlKHUxXJhD9H0cCMzwJO4Ssv.jpg",
+    "background": "https://image.tmdb.org/t/p/w1280/rMvPXy8PUjj1o8o1pzgQbdNCsvj.jpg",
+    "description": "A equipe enfrenta um traficante de armas que comanda um enorme exército privado. Munidos com todas as armas inimagináveis, os Mercenários são a última linha de defesa do mundo.",
+    "releaseInfo": "2023",
+    "genres": [
+      "Ação",
+      "Aventura",
+      "Thriller"
+    ]
+  }
+}

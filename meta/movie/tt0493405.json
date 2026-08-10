@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "id": "tt0493405",
+    "type": "movie",
+    "name": "CHiPs: O Filme",
+    "poster": "https://image.tmdb.org/t/p/w500/tffkH2F6DmAhud4g4rZqrQ1K48v.jpg",
+    "background": "https://image.tmdb.org/t/p/w1280/nz88EJ2iL1h6K9mpji9RlhYnlWc.jpg",
+    "description": "Os patrulheiros rodoviários Jon Baker e Frank Poncherello têm uma missão: capturar uma gangue de assaltantes de carros exóticos que vem aterrorizando a Califórnia.",
+    "releaseInfo": "2017",
+    "genres": [
+      "Ação",
+      "Comédia",
+      "Crime"
+    ]
+  }
+}

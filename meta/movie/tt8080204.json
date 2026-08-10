@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "id": "tt8080204",
+    "type": "movie",
+    "name": "Hypnotic: Ameaça Invisível",
+    "poster": "https://image.tmdb.org/t/p/w500/qU5OoGW31ahW9ANZU5tIwmPydKC.jpg",
+    "background": "https://image.tmdb.org/t/p/w1280/d1Vu0DRCeJ43YX98UKMi9xJNwrR.jpg",
+    "description": "Um detetive se envolve em um mistério envolvendo sua filha desaparecida e um programa secreto do governo enquanto investiga uma série de crimes que distorcem a realidade.",
+    "releaseInfo": "2023",
+    "genres": [
+      "Mistério",
+      "Ficção científica",
+      "Thriller"
+    ]
+  }
+}

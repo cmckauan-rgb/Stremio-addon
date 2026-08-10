@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "id": "tt1637725",
+    "type": "movie",
+    "name": "Ted",
+    "poster": "https://image.tmdb.org/t/p/w500/patvtN6QlClCRZlswIPxDSYJRzW.jpg",
+    "background": "https://image.tmdb.org/t/p/w1280/hkAVgWvAMmM8tj9CDEvGqMdNQBE.jpg",
+    "description": "Quando criança, John desejou que seu ursinho Ted ganhasse vida e, surpreendentemente, foi atendido. Porém, agora que é adulto, ele precisa lidar com as consequências de seu pedido, já que Ted não vai parar de atormentar a sua vida.",
+    "releaseInfo": "2012",
+    "genres": [
+      "Comédia",
+      "Fantasia"
+    ]
+  }
+}

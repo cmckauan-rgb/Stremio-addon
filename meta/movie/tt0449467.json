@@ -1,0 +1,14 @@
+{
+  "meta": {
+    "id": "tt0449467",
+    "type": "movie",
+    "name": "Babel",
+    "poster": "https://image.tmdb.org/t/p/w500/bIAEwAxgUZhv7pm29FUnp18VplX.jpg",
+    "background": "https://image.tmdb.org/t/p/w1280/9YoLdWeBSxAdR6BqQ5uS88d3FWO.jpg",
+    "description": "Ônibus com turistas atravessa uma região montanhosa do Marrocos. Ali perto dois meninos manejam um rifle que seu pai lhes deu para proteger a pequena criação de cabras da família. Um tiro acidental atinge o ônibus. Este fato afeta a vida de pessoas em vários pontos diferentes do mundo.",
+    "releaseInfo": "2006",
+    "genres": [
+      "Drama"
+    ]
+  }
+}

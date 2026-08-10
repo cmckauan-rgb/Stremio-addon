@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "id": "tt0443706",
+    "type": "movie",
+    "name": "Zodíaco",
+    "poster": "https://image.tmdb.org/t/p/w500/jFmlV5vUzOt1PgJ82efOhNsWcWX.jpg",
+    "background": "https://image.tmdb.org/t/p/w1280/3zCPI4JFc54xvLaJ71oI2KoP3az.jpg",
+    "description": "Durante os anos 60 e 70, o medo aumenta em São Francisco com os ataques de um assassino maníaco chamado Zodíaco. Investigadores e jornalistas tentam descobrir a identidade do assassino e levá-lo à justiça. Enquanto isso, Zodíaco provoca as autoridades com mensagens crípticas, cifras e telefonemas ameaçadores.",
+    "releaseInfo": "2007",
+    "genres": [
+      "Crime",
+      "Mistério",
+      "Thriller"
+    ]
+  }
+}

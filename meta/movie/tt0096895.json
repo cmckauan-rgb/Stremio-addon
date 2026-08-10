@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "id": "tt0096895",
+    "type": "movie",
+    "name": "Batman",
+    "poster": "https://image.tmdb.org/t/p/w500/cij4dd21v2Rk2YtUQbV5kW69WB2.jpg",
+    "background": "https://image.tmdb.org/t/p/w1280/rBN6GPKUDZ6ZKAQiEZegZ0DZb6V.jpg",
+    "description": "Em Gotham City o milionário Bruce Wayne, que quando jovem teve os pais assassinados por bandidos, resolve combater o crime como Batman, o Homem-Morcego. Mas chega o dia em que o vilão Coringa decide dominar a cidade e se torna um grande desafio para o super-herói.",
+    "releaseInfo": "1989",
+    "genres": [
+      "Fantasia",
+      "Ação",
+      "Crime"
+    ]
+  }
+}

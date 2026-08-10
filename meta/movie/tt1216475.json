@@ -1,0 +1,17 @@
+{
+  "meta": {
+    "id": "tt1216475",
+    "type": "movie",
+    "name": "Carros 2",
+    "poster": "https://image.tmdb.org/t/p/w500/fIKaabvE40T39nOIngcZPcPJeYe.jpg",
+    "background": "https://image.tmdb.org/t/p/w1280/robYRZk9LxJTwD7GlZCginji5k.jpg",
+    "description": "O astro das corridas, Relâmpago McQueen, e o carro-guincho, Mate, viajam para disputar o primeiro Grand Prix Mundial, que irá revelar o carro mais veloz do planeta. Nessa jornada imperdível, Mate se envolve com um grupo de espionagem e vive grandes aventuras com seus amigos.",
+    "releaseInfo": "2011",
+    "genres": [
+      "Animação",
+      "Família",
+      "Aventura",
+      "Comédia"
+    ]
+  }
+}

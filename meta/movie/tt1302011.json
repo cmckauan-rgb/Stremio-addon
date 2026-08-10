@@ -1,0 +1,17 @@
+{
+  "meta": {
+    "id": "tt1302011",
+    "type": "movie",
+    "name": "Kung Fu Panda 2",
+    "poster": "https://image.tmdb.org/t/p/w500/dSF0v3XPCzKb30zv3fLeuoJuTRv.jpg",
+    "background": "https://image.tmdb.org/t/p/w1280/reHkSQwiYKK4SabnGDY1FWKie82.jpg",
+    "description": "Po vive o sonho de ser o dragão guerreiro, protegendo o Vale da Paz ao lado dos mestres Shifu, Tigresa, Macaco, Víbora, Louva-deus e Garça. Sua vida pacata chega ao fim quando surge um novo inimigo, o lorde Chen, que possui uma arma secreta capaz de permitir a conquista da China e provocar o fim do kung fu. Para impedi-lo, Po e os Cinco Furiosos precisam cruzar o país e derrotá-lo.",
+    "releaseInfo": "2011",
+    "genres": [
+      "Animação",
+      "Família",
+      "Comédia",
+      "Ação"
+    ]
+  }
+}

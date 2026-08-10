@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "id": "tt1013752",
+    "type": "movie",
+    "name": "Velozes e Furiosos 4",
+    "poster": "https://image.tmdb.org/t/p/w500/7sjbAOmNFtfTyZ6KFC9t9FDDOcK.jpg",
+    "background": "https://image.tmdb.org/t/p/w1280/25HepicRtrzZ3MVCqhfoxGDbHjw.jpg",
+    "description": "Dominic Toretto descobre que sua amada Letty foi assassinada e resolve procurar pelo autor do crime. Enquanto isso, o agente Brian O'Conner está em busca de um traficante de drogas. Eles percebem que talvez procurem a mesma pessoa.",
+    "releaseInfo": "2009",
+    "genres": [
+      "Ação",
+      "Crime",
+      "Thriller"
+    ]
+  }
+}

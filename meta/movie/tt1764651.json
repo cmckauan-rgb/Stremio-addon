@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "id": "tt1764651",
+    "type": "movie",
+    "name": "Os Mercenários 2",
+    "poster": "https://image.tmdb.org/t/p/w500/7aaQYcUInTneXo7B8jJNwTxnQe6.jpg",
+    "background": "https://image.tmdb.org/t/p/w1280/ihKsZZYMbyHXC1L7s90WDLITdC5.jpg",
+    "description": "O grupo de mercenários se unem para evitar que um criminoso roube uma grande quantidade de plutônio, que possibilitaria a produção de armas nucleares. Após o assassinato de um amigo e o sumiço do mapa que leva ao plutônio, o grupo sai em busca de vingança.",
+    "releaseInfo": "2012",
+    "genres": [
+      "Ação",
+      "Aventura",
+      "Thriller"
+    ]
+  }
+}

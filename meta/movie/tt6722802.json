@@ -1,0 +1,14 @@
+{
+  "meta": {
+    "id": "tt6722802",
+    "type": "movie",
+    "name": "Sombras de um Crime",
+    "poster": "https://image.tmdb.org/t/p/w500/rfHUBpJj7W7gpIv0ohDfIPizuL0.jpg",
+    "background": "https://image.tmdb.org/t/p/w1280/1KpCjh3hedCEX8mvxtldU0Z2IiE.jpg",
+    "description": "O detetive Phillip Marlowe se envolve em uma investigação com uma família rica em Bay City, Califórnia, depois que uma mulher misteriosa o contrata para encontrar seu ex-amante.",
+    "releaseInfo": "2023",
+    "genres": [
+      "Crime"
+    ]
+  }
+}

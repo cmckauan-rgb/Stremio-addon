@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "id": "tt2312718",
+    "type": "movie",
+    "name": "Linha de Frente",
+    "poster": "https://image.tmdb.org/t/p/w500/eDkJozkyJ2izomuyeo0H4tSGpVd.jpg",
+    "background": "https://image.tmdb.org/t/p/w1280/kT8orKwz2bmRdHBLnG44yucYtFy.jpg",
+    "description": "Phil Broker é um ex-agente do Departamento de Combate a Narcóticos, nos Estados Unidos. Tentando escapar de seu passado, ele se muda para uma tranquila cidade do interior. Com o tempo, percebe que a comunidade não é tão pacata assim e terá que enfrentar um grupo de traficantes liderados por Gator.",
+    "releaseInfo": "2013",
+    "genres": [
+      "Ação",
+      "Thriller"
+    ]
+  }
+}

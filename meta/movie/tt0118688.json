@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "id": "tt0118688",
+    "type": "movie",
+    "name": "Batman & Robin",
+    "poster": "https://image.tmdb.org/t/p/w500/i7hEUpDuMN2LOrCEifFyGSHZQSY.jpg",
+    "background": "https://image.tmdb.org/t/p/w1280/kEuQWHte2erRpAICrYqkAZaZAAY.jpg",
+    "description": "A dupla dinâmica enfrenta os supervilões Mr. Freeze e sedutora ecoterrorista Hera Venenosa. Mas, para poder livrar Gotham City das garras dos vilões, Batman e Robin contam com uma nova companheira, a Batgirl.",
+    "releaseInfo": "1997",
+    "genres": [
+      "Ação",
+      "Ficção científica",
+      "Aventura"
+    ]
+  }
+}

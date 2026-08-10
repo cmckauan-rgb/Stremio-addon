@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "id": "tt1111422",
+    "type": "movie",
+    "name": "O Sequestro do Metrô 1 2 3",
+    "poster": "https://image.tmdb.org/t/p/w500/dDQeUJBEeeMYbAVhO35ybBkstDS.jpg",
+    "background": "https://image.tmdb.org/t/p/w1280/kBWPHSszi8jKLqW5tMaQV1bISB2.jpg",
+    "description": "Walter Garber é um executivo da companhia de metrô da cidade de Nova York que, devido a uma suspeita de suborno, foi rebaixado para a função de coordenador de tráfego. Quando um dos trens do metrô, o Pelham 1 2 3, é sequestrado por um misterioso grupo, é ele quem mantém contato com Ryder, líder dos sequestradores. Ryder exige que a prefeitura lhe pague US$ 10 milhões em uma hora, caso contrário matará um refém a cada minuto extra. A polícia envia à sede do metrô o negociador Camonetti, mas Ryder exige que Garber continue na função.",
+    "releaseInfo": "2009",
+    "genres": [
+      "Crime",
+      "Thriller",
+      "Ação"
+    ]
+  }
+}

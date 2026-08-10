@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "id": "tt0467197",
+    "type": "movie",
+    "name": "Max Payne",
+    "poster": "https://image.tmdb.org/t/p/w500/w1Hq5B2wXsbv7G8mA3MIWbjDpQh.jpg",
+    "background": "https://image.tmdb.org/t/p/w1280/8tXo6o4cYzFxKYZPEKamWhkvN7x.jpg",
+    "description": "Max Payne é um policial indisciplinado de Nova York, que está decidido a encontrar os responsáveis pelo brutal assassinato de sua esposa, seu bebê e de seu parceiro. O desejo de vingança faz com que ele se aprofunde cada vez mais no submundo obscuro de mafiosos, sendo obrigado a enfrentar até mesmo inimigos do além em uma batalha sobrenatural por justiça.",
+    "releaseInfo": "2008",
+    "genres": [
+      "Crime",
+      "Ação",
+      "Drama"
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "id": "tt0416449",
+    "type": "movie",
+    "name": "300",
+    "poster": "https://image.tmdb.org/t/p/w500/auVn38xLZRTlogkwFuS4Ikeiwrl.jpg",
+    "background": "https://image.tmdb.org/t/p/w1280/lgBZlJ1LHQel5nneNQMoesmvc7l.jpg",
+    "description": "Em 480 a.C., Leônidas, o rei de Esparta, comanda seu pequeno batalhão de 300 soldados contra um exército de mais de 1 milhão de persas na Batalha das Termópilas.",
+    "releaseInfo": "2007",
+    "genres": [
+      "Ação",
+      "Aventura",
+      "Guerra"
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "id": "tt2120120",
+    "type": "movie",
+    "name": "Pixels",
+    "poster": "https://image.tmdb.org/t/p/w500/d26S5EfVXLNxRXqyFy1yyl3qRq3.jpg",
+    "background": "https://image.tmdb.org/t/p/w1280/6UFnKzVzFqKDjs4iCVLJdneK3ch.jpg",
+    "description": "Uma raça alienígena cria monstros inspirados em videogames da década de 1980 para conquistar a Terra, e cinco especialistas em jogos da época são convocados para combater o plano dos extraterrestres e salvar o planeta.",
+    "releaseInfo": "2015",
+    "genres": [
+      "Ação",
+      "Comédia",
+      "Ficção científica"
+    ]
+  }
+}

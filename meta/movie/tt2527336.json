@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "id": "tt2527336",
+    "type": "movie",
+    "name": "Star Wars: Os Últimos Jedi",
+    "poster": "https://image.tmdb.org/t/p/w500/5dGufuaIG5vNcxPm8QPij5MSPeQ.jpg",
+    "background": "https://image.tmdb.org/t/p/w1280/bIUaCtWaRgd78SnoHJDI8TNf7Sd.jpg",
+    "description": "A tranquila e solitária vida de Luke Skywalker sofre uma reviravolta quando ele conhece Rey, uma jovem que mostra fortes sinais da Força. O desejo dela de aprender o estilo dos Jedi força Luke a tomar uma decisão que mudará sua vida para sempre. Enquanto isso, Kylo Ren e o General Hux lideram a Primeira Ordem para um ataque total contra Leia e a Resistência pela supremacia da galáxia.",
+    "releaseInfo": "2017",
+    "genres": [
+      "Aventura",
+      "Ação",
+      "Ficção científica"
+    ]
+  }
+}
