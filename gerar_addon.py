@@ -25,7 +25,6 @@ def buscar_arquivos_do_proxy():
 
     print(f"🔗 Conectando ao Proxy: {url_pasta}")
     
-    # Tentativa 1: Via API POST (Padrão Cloudflare Worker Index)
     try:
         res = requests.post(f"{PROXY_BASE_URL}/", json={"id": FOLDER_ID}, headers=headers, timeout=15)
         if res.status_code == 200:
@@ -37,7 +36,6 @@ def buscar_arquivos_do_proxy():
     except Exception as e:
         print(f"Tentativa POST falhou: {e}")
 
-    # Tentativa 2: Via GET na rota de pasta
     try:
         res = requests.get(url_pasta, headers=headers, timeout=15)
         if res.status_code == 200:
@@ -45,7 +43,6 @@ def buscar_arquivos_do_proxy():
                 dados = res.json()
                 return dados.get("files", dados.get("items", []))
             
-            # Se for resposta HTML
             soup = BeautifulSoup(res.text, "html.parser")
             arquivos = []
             for a in soup.find_all("a", href=True):
@@ -80,9 +77,7 @@ def extrair_info_nome(nome_arquivo):
     return titulo, ano, tmdb_id
 
 def buscar_tmdb(titulo, ano=None, tmdb_id=None):
-    """Busca metadados na API do TMDB e recupera o ID do IMDb se disponível"""
-    tmdb_data = None
-
+    """Busca metadados na API do TMDB com gêneros e ID do IMDb"""
     if tmdb_id:
         url = f"https://api.themoviedb.org/3/movie/{tmdb_id}?api_key={TMDB_API_KEY}&language={LANGUAGE}&append_to_response=external_ids"
         res = requests.get(url)
@@ -99,7 +94,7 @@ def buscar_tmdb(titulo, ano=None, tmdb_id=None):
         resultados = dados.get("results", [])
         if resultados:
             tmdb_data = resultados[0]
-            # Faz uma requisição adicional para pegar o ID do IMDb e detalhes completos
+            # Busca os detalhes completos para obter a lista de gêneros traduzida e ID externo
             url_detalhes = f"https://api.themoviedb.org/3/movie/{tmdb_data['id']}?api_key={TMDB_API_KEY}&language={LANGUAGE}&append_to_response=external_ids"
             res_det = requests.get(url_detalhes)
             if res_det.status_code == 200:
@@ -125,7 +120,6 @@ def processar_filmes():
         nome_arq = item.get("name") or item.get("title", "")
         file_id = item.get("id")
         
-        # Filtra apenas extensões de vídeo
         if not nome_arq or not any(nome_arq.lower().endswith(ext) for ext in ['.mkv', '.mp4', '.avi', '.webm']):
             continue
             
@@ -135,27 +129,27 @@ def processar_filmes():
         info_tmdb = buscar_tmdb(titulo, ano, tmdb_id)
         
         if info_tmdb:
-            # Prefere usar o ID do IMDb (ex: tt0145487) para compatibilidade perfeita no Stremio
             imdb_id = info_tmdb.get("imdb_id") or info_tmdb.get("external_ids", {}).get("imdb_id")
-            if imdb_id:
-                movie_id = imdb_id
-            else:
-                movie_id = f"tmdb:{info_tmdb.get('id')}"
+            movie_id = imdb_id if imdb_id else f"tmdb:{info_tmdb.get('id')}"
 
             poster_path = info_tmdb.get("poster_path")
             poster_url = f"https://image.tmdb.org/t/p/w500{poster_path}" if poster_path else None
             
-            # Metadados para o Catálogo
+            # Extrai os nomes dos gêneros
+            generos = [g.get("name") for g in info_tmdb.get("genres", []) if g.get("name")]
+            
+            # Metadados com suporte a gêneros
             metas.append({
                 "id": movie_id,
                 "type": "movie",
                 "name": info_tmdb.get("title") or titulo,
                 "poster": poster_url,
                 "description": info_tmdb.get("overview", "Sem sinopse disponível."),
-                "releaseInfo": (info_tmdb.get("release_date") or "")[:4]
+                "releaseInfo": (info_tmdb.get("release_date") or "")[:4],
+                "genres": generos
             })
             
-            # Dados do Stream (Botão de Play)
+            # Rota do botão de Play
             stream_data = {
                 "streams": [
                     {
@@ -166,11 +160,10 @@ def processar_filmes():
                 ]
             }
             
-            # Salva o arquivo de stream correspondente ao ID do filme
             with open(f"stream/movie/{movie_id}.json", "w", encoding="utf-8") as f:
                 json.dump(stream_data, f, ensure_ascii=False, indent=2)
                 
-            print(f"✅ Mapeado: {info_tmdb.get('title')} -> ID: {movie_id}")
+            print(f"✅ Mapeado: {info_tmdb.get('title')} | Gêneros: {', '.join(generos)}")
         else:
             print(f"⚠️ Não identificado no TMDB: '{titulo}'")
 
@@ -183,7 +176,7 @@ def processar_filmes():
         with open("catalog.json", "w", encoding="utf-8") as f:
             json.dump(catalog_data, f, ensure_ascii=False, indent=2)
 
-        print(f"\n🎉 Sucesso! {len(metas)} filmes processados com ID nativo do Stremio!")
+        print(f"\n🎉 Sucesso! Catálogo atualizado com gêneros!")
 
 if __name__ == "__main__":
     processar_filmes()
