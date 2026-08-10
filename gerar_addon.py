@@ -1,106 +1,92 @@
 import os
-import re
 import json
 import requests
 
-# Configurações do seu proxy e chave
-PROXY_URL = "https://drive-proxy.cmckauan.workers.dev"
+# 1. Obter a chave da API das variáveis de ambiente (Configurada nos Secrets do GitHub)
 TMDB_API_KEY = os.environ.get("TMDB_API_KEY")
 
-def buscar_tmdb_filme(nome_limpo, ano=None, tmdb_id=None):
-    """Busca os metadados do filme na API do TMDB"""
-    if tmdb_id:
-        url = f"https://api.themoviedb.org/3/movie/{tmdb_id}?api_key={TMDB_API_KEY}&language=pt-BR"
-        res = requests.get(url).json()
-        if "id" in res:
-            return res
+if not TMDB_API_KEY:
+    print("ERRO: A variável TMDB_API_KEY não foi encontrada!")
+    exit(1)
 
-    url = f"https://api.themoviedb.org/3/search/movie?api_key={TMDB_API_KEY}&query={nome_limpo}&language=pt-BR"
-    if ano:
-        url += f"&year={ano}"
+# 2. Configurações da API do TMDB
+BASE_URL = "https://api.themoviedb.org/3"
+LANGUAGE = "pt-BR"
+
+def buscar_filmes_populares():
+    """Busca filmes populares no TMDB e formata para o Stremio"""
+    url = f"{BASE_URL}/movie/popular?api_key={TMDB_API_KEY}&language={LANGUAGE}&page=1"
     
-    res = requests.get(url).json()
-    if res.get("results"):
-        return res["results"][0]
-    return None
+    response = requests.get(url)
+    
+    print(f"Status Code da API: {response.status_code}")
+    
+    if response.status_code != 200:
+        print(f"Erro ao acessar TMDB: {response.text}")
+        return []
 
-def processar_filmes():
-    # Tenta obter a lista de filmes direto do proxy
-    # O script assume a estrutura de arquivos no diretório /FILMES/
-    filmes_url = f"{PROXY_URL}/FILMES/"
-    print("Processando catálogo de filmes...")
+    dados = response.json()
+    resultados = dados.get("results", [])
+    
+    print(f"Total de filmes retornados pela API: {len(resultados)}")
+    
+    metas = []
+    for item in resultados:
+        # Pega a imagem do poster no TMDB
+        poster_path = item.get("poster_path")
+        poster_url = f"https://image.tmdb.org/t/p/w500{poster_path}" if poster_path else None
 
-    # Garante que as pastas de saída existam no repositório
-    os.makedirs("catalog/movie", exist_ok=True)
-    os.makedirs("stream/movie", exist_ok=True)
-
-    catalog_metas = []
-
-    # Fazemos uma requisição ao proxy para capturar os links/HTML dos arquivos
-    try:
-        html = requests.get(filmes_url).text
-        # Procura por links de arquivos com extensão de vídeo (.mkv, .mp4, .avi)
-        arquivos = re.findall(r'href="([^"]+\.(?:mkv|mp4|avi))"', html)
-        if not arquivos:
-            # Alternativa: regex para capturar links em formato de texto/JSON do worker
-            arquivos = re.findall(r'([^\/\s"]+\.(?:mkv|mp4|avi))', html)
-    except Exception as e:
-        print(f"Erro ao acessar proxy: {e}")
-        arquivos = []
-
-    for arq in set(arquivos):
-        # Decodifica URL encoding se houver (%20 -> espaço)
-        nome_arquivo = requests.utils.unquote(arq)
+        # Monta o objeto no formato aceito pelo Stremio
+        meta_item = {
+            "id": f"tmdb:{item.get('id')}",
+            "type": "movie",
+            "name": item.get("title"),
+            "poster": poster_url,
+            "description": item.get("overview", "Sem descrição disponível."),
+            "releaseInfo": item.get("release_date", "")[:4] if item.get("release_date") else ""
+        }
+        metas.append(meta_item)
         
-        # Tenta extrair ID do TMDB direto do nome do arquivo (ex: - id 300571)
-        tmdb_match = re.search(r'- id (\d+)', nome_arquivo)
-        tmdb_id = tmdb_match.group(1) if tmdb_match else None
+    return metas
 
-        # Tenta extrair o ano (ex: (2021) ou 2021)
-        ano_match = re.search(r'\(?(\d{4})\)?', nome_arquivo)
-        ano = ano_match.group(1) if ano_match else None
-
-        # Limpa o nome removendo extensões, IDs e anos para fazer a busca
-        nome_limpo = re.sub(r'\.(mkv|mp4|avi)$', '', nome_arquivo)
-        nome_limpo = re.sub(r'- id \d+', '', nome_limpo)
-        nome_limpo = re.sub(r'\(?\d{4}\)?', '', nome_limpo).strip()
-
-        dados = buscar_tmdb_filme(nome_limpo, ano, tmdb_id)
-
-        if dados:
-            movie_id = f"tmdb:{dados['id']}"
-            poster = f"https://image.tmdb.org/t/p/w500{dados.get('poster_path')}" if dados.get('poster_path') else ""
-            
-            # Adiciona ao catálogo geral
-            catalog_metas.append({
-                "id": movie_id,
+def gerar_manifesto():
+    """Gera a estrutura base do Addon para o Stremio"""
+    return {
+        "id": "org.meuaddon.tmdb.filmes",
+        "version": "1.0.0",
+        "name": "Catálogo de Filmes Populares",
+        "description": "Addon com lista atualizada de filmes populares via TMDB",
+        "resources": ["catalog"],
+        "types": ["movie"],
+        "catalogs": [
+            {
                 "type": "movie",
-                "name": dados.get('title', nome_limpo),
-                "poster": poster,
-                "description": dados.get('overview', 'Sem sinopse disponível.')
-            })
-
-            # Monta a URL direta do vídeo apontando para o seu proxy
-            stream_url = f"{PROXY_URL}/FILMES/{requests.utils.quote(nome_arquivo)}"
-
-            # Cria o JSON individual de stream para o Stremio
-            stream_payload = {
-                "streams": [
-                    {
-                        "title": "Assistir em HD (Seu Proxy)",
-                        "url": stream_url
-                    }
-                ]
+                "id": "top_movies",
+                "name": "Filmes Populares"
             }
+        ]
+    }
 
-            with open(f"stream/movie/{movie_id}.json", "w", encoding="utf-8") as f:
-                json.dump(stream_payload, f, indent=2, ensure_ascii=False)
+def main():
+    print("Iniciando a busca de filmes...")
+    filmes = buscar_filmes_populares()
+    
+    if not filmes:
+        print("AVISO: Nenhum filme foi retornado. Verifique a chave TMDB_API_KEY.")
+        return
 
-    # Atualiza o arquivo catalog/movie/meus_filmes.json
-    with open("catalog/movie/meus_filmes.json", "w", encoding="utf-8") as f:
-        json.dump({"metas": catalog_metas}, f, indent=2, ensure_ascii=False)
+    # Monta a estrutura final do JSON
+    addon_data = {
+        "manifest": gerar_manifesto(),
+        "metas": filmes
+    }
 
-    print("Gerador concluído com sucesso!")
+    # Salva o arquivo catalog.json
+    nome_arquivo = "catalog.json"
+    with open(nome_arquivo, "w", encoding="utf-8") as f:
+        json.dump(addon_data, f, ensure_ascii=False, indent=2)
+
+    print(f"Sucesso! {len(filmes)} filmes salvos no arquivo {nome_arquivo}.")
 
 if __name__ == "__main__":
-    processar_filmes()
+    main()
