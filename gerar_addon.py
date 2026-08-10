@@ -77,7 +77,7 @@ def extrair_info_nome(nome_arquivo):
     return titulo, ano, tmdb_id
 
 def buscar_tmdb(titulo, ano=None, tmdb_id=None):
-    """Busca metadados na API do TMDB com gêneros e ID do IMDb"""
+    """Busca metadados na API do TMDB garantindo external_ids"""
     if tmdb_id:
         url = f"https://api.themoviedb.org/3/movie/{tmdb_id}?api_key={TMDB_API_KEY}&language={LANGUAGE}&append_to_response=external_ids"
         res = requests.get(url)
@@ -94,7 +94,6 @@ def buscar_tmdb(titulo, ano=None, tmdb_id=None):
         resultados = dados.get("results", [])
         if resultados:
             tmdb_data = resultados[0]
-            # Busca os detalhes completos para obter a lista de gêneros traduzida e ID externo
             url_detalhes = f"https://api.themoviedb.org/3/movie/{tmdb_data['id']}?api_key={TMDB_API_KEY}&language={LANGUAGE}&append_to_response=external_ids"
             res_det = requests.get(url_detalhes)
             if res_det.status_code == 200:
@@ -113,8 +112,11 @@ def processar_filmes():
     print(f"📦 Total de itens encontrados no Proxy: {len(arquivos)}\n")
 
     metas = []
+    
+    # Garantir a criação das pastas necessárias
     os.makedirs("catalog/movie", exist_ok=True)
     os.makedirs("stream/movie", exist_ok=True)
+    os.makedirs("meta/movie", exist_ok=True)
 
     for item in arquivos:
         nome_arq = item.get("name") or item.get("title", "")
@@ -135,21 +137,34 @@ def processar_filmes():
             poster_path = info_tmdb.get("poster_path")
             poster_url = f"https://image.tmdb.org/t/p/w500{poster_path}" if poster_path else None
             
-            # Extrai os nomes dos gêneros
+            backdrop_path = info_tmdb.get("backdrop_path")
+            background_url = f"https://image.tmdb.org/t/p/w1280{backdrop_path}" if backdrop_path else None
+
             generos = [g.get("name") for g in info_tmdb.get("genres", []) if g.get("name")]
-            
-            # Metadados com suporte a gêneros
-            metas.append({
+            overview = info_tmdb.get("overview", "Sem sinopse disponível.")
+            release_date = (info_tmdb.get("release_date") or "")[:4]
+            name_title = info_tmdb.get("title") or titulo
+
+            # Estrutura completa de Metadados
+            meta_item = {
                 "id": movie_id,
                 "type": "movie",
-                "name": info_tmdb.get("title") or titulo,
+                "name": name_title,
                 "poster": poster_url,
-                "description": info_tmdb.get("overview", "Sem sinopse disponível."),
-                "releaseInfo": (info_tmdb.get("release_date") or "")[:4],
+                "background": background_url,
+                "description": overview,
+                "releaseInfo": release_date,
                 "genres": generos
-            })
+            }
+
+            metas.append(meta_item)
             
-            # Rota do botão de Play
+            # Gera também o arquivo local de meta/{movie_id}.json para o Stremio conseguir ler filmes sem IMDb ID
+            meta_response = {"meta": meta_item}
+            with open(f"meta/movie/{movie_id}.json", "w", encoding="utf-8") as f:
+                json.dump(meta_response, f, ensure_ascii=False, indent=2)
+
+            # Rota de Streams (Links dos vídeos)
             stream_data = {
                 "streams": [
                     {
@@ -163,7 +178,7 @@ def processar_filmes():
             with open(f"stream/movie/{movie_id}.json", "w", encoding="utf-8") as f:
                 json.dump(stream_data, f, ensure_ascii=False, indent=2)
                 
-            print(f"✅ Mapeado: {info_tmdb.get('title')} | Gêneros: {', '.join(generos)}")
+            print(f"✅ Mapeado: {name_title} ({movie_id}) | Gêneros: {', '.join(generos)}")
         else:
             print(f"⚠️ Não identificado no TMDB: '{titulo}'")
 
@@ -176,7 +191,7 @@ def processar_filmes():
         with open("catalog.json", "w", encoding="utf-8") as f:
             json.dump(catalog_data, f, ensure_ascii=False, indent=2)
 
-        print(f"\n🎉 Sucesso! Catálogo atualizado com gêneros!")
+        print(f"\n🎉 Sucesso! Catálogo atualizado com suporte a metadados locais e streams!")
 
 if __name__ == "__main__":
     processar_filmes()
