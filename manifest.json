@@ -1,15 +1,16 @@
 {
   "id": "org.meuaddon.driveproxy",
-  "version": "1.0.0",
-  "name": "Meus Filmes Drive Proxy",
-  "description": "Filmes do meu Google Drive via Worker Proxy",
+  "version": "1.1.0",
+  "name": "Meus Filmes e Séries",
+  "description": "Filmes e Séries do meu Google Drive via Worker Proxy",
   "resources": [
     "catalog",
     "meta",
     "stream"
   ],
   "types": [
-    "movie"
+    "movie",
+    "series"
   ],
   "catalogs": [
     {
@@ -20,24 +21,24 @@
         {
           "name": "genre",
           "options": [
-            "Ação",
-            "Aventura",
-            "Animação",
-            "Cinema TV",
-            "Comédia",
-            "Crime",
-            "Documentário",
-            "Drama",
-            "Família",
-            "Fantasia",
-            "Ficção científica",
-            "Guerra",
-            "História",
-            "Mistério",
-            "Música",
-            "Romance",
-            "Terror",
-            "Thriller"
+            "Ação", "Aventura", "Animação", "Cinema TV", "Comédia", "Crime",
+            "Documentário", "Drama", "Família", "Fantasia", "Ficção científica",
+            "Guerra", "História", "Mistério", "Música", "Romance", "Terror", "Thriller"
+          ],
+          "isRequired": false
+        }
+      ]
+    },
+    {
+      "type": "series",
+      "id": "minhas_series",
+      "name": "Minhas Séries",
+      "extra": [
+        {
+          "name": "genre",
+          "options": [
+            "Ação", "Aventura", "Animação", "Comédia", "Crime", "Documentário",
+            "Drama", "Família", "Kids", "Mistério", "Reality", "Sci-Fi & Fantasy", "Soap", "Talk"
           ],
           "isRequired": false
         }
