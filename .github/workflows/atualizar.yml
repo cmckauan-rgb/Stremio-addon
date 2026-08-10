@@ -2,9 +2,9 @@ name: Atualizar Addon Stremio
 
 on:
   schedule:
-    # Roda diariamente à meia-noite
+    # Roda automaticamente todo dia à meia-noite (horário UTC)
     - cron: "0 0 * * *"
-  # Permite que você rode manualmente com 1 clique
+  # Permite rodar manualmente a qualquer momento na aba Actions
   workflow_dispatch:
 
 jobs:
@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
 
     permissions:
-      contents: write  # Permite que a Action faça commits/push
+      contents: write # Dá permissão para o robô fazer commits e enviar alterações para o repositório
 
     steps:
       - name: Baixar código do repositório
@@ -21,15 +21,18 @@ jobs:
       - name: Configurar Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.x'
+          python-version: '3.11'
 
       - name: Instalar dependências
-        run: pip install requests
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests beautifulsoup4
 
       - name: Executar script de atualização
         env:
           TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
-        run: python gerar_addon.py
+        run: |
+          python gerar_addon.py
 
       - name: Salvar alterações no GitHub
         run: |
