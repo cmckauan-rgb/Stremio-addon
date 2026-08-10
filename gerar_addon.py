@@ -188,38 +188,40 @@ def processar_filmes():
         else:
             print(f"⚠️ Não identificado no TMDB: '{titulo}'")
 
-    if metas:
+        if metas:
         catalog_data = {"metas": metas}
         
-        # 1. Catálogo Geral (sem filtro)
+        # 1. Catálogo Geral
         with open("catalog/movie/meus_filmes.json", "w", encoding="utf-8") as f:
             json.dump(catalog_data, f, ensure_ascii=False, indent=2)
 
         with open("catalog.json", "w", encoding="utf-8") as f:
             json.dump(catalog_data, f, ensure_ascii=False, indent=2)
 
-        # 2. Geração dos arquivos filtrados por cada gênero
+        # 2. Descobre TODOS os gêneros presentes nos filmes dinamicamente
+        todos_generos = set(GENEROS_OFICIAIS)
+        for m in metas:
+            for g in m.get("genres", []):
+                if g:
+                    todos_generos.add(g)
+
+        # 3. Gera os arquivos dos gêneros encontrados
         pasta_generos = "catalog/movie/meus_filmes"
-        for genero in GENEROS_OFICIAIS:
+        for genero in todos_generos:
             metas_genero = [
                 m for m in metas 
                 if any(g.lower() == genero.lower() for g in m.get("genres", []))
             ]
             dados_genero = {"metas": metas_genero}
             
-            # Salva o arquivo normal (ex: genre=Animação.json)
             caminho_normal = os.path.join(pasta_generos, f"genre={genero}.json")
             with open(caminho_normal, "w", encoding="utf-8") as f:
                 json.dump(dados_genero, f, ensure_ascii=False, indent=2)
                 
-            # Salva também a versão em URL Encode (ex: genre=Anima%C3%A7%C3%A3o.json)
             genero_encoded = quote(genero)
             if genero_encoded != genero:
                 caminho_encoded = os.path.join(pasta_generos, f"genre={genero_encoded}.json")
                 with open(caminho_encoded, "w", encoding="utf-8") as f:
                     json.dump(dados_genero, f, ensure_ascii=False, indent=2)
 
-        print(f"\n🎉 Sucesso! Catálogo e arquivos de gêneros gerados com sucesso!")
-
-if __name__ == "__main__":
-    processar_filmes()
+        print(f"\n🎉 Sucesso! Catálogo e gêneros atualizados!")
