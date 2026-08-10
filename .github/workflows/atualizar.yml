@@ -1,0 +1,36 @@
+name: Atualizar Addon Stremio
+
+on:
+  schedule:
+    # Roda automaticamente todo dia à meia-noite
+    - cron: '0 0 * * *'
+  # Permite que você rode manualmente com 1 clique quando quiser
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Baixar código do repositório
+        uses: actions/checkout@v3
+
+      - name: Configurar Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Instalar dependências
+        run: pip install requests
+
+      - name: Executar script de atualização
+        env:
+          TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
+        run: python gerar_addon.py
+
+      - name: Salvar alterações no GitHub
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add .
+          git diff --staged --quiet || git commit -m "Automated update of catalog and streams"
+          git push
