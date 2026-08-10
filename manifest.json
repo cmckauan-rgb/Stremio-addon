@@ -5,6 +5,7 @@
   "description": "Filmes do meu Google Drive via Worker Proxy",
   "resources": [
     "catalog",
+    "meta",
     "stream"
   ],
   "types": [
