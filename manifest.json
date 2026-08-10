@@ -14,7 +14,31 @@
     {
       "type": "movie",
       "id": "meus_filmes",
-      "name": "Meus Filmes"
+      "name": "Meus Filmes",
+      "extra": [
+        {
+          "name": "genre",
+          "options": [
+            "Ação",
+            "Aventura",
+            "Animação",
+            "Comédia",
+            "Crime",
+            "Documentário",
+            "Drama",
+            "Família",
+            "Fantasia",
+            "Ficção científica",
+            "Guerra",
+            "História",
+            "Mistério",
+            "Romance",
+            "Terror",
+            "Thriller"
+          ],
+          "isRequired": false
+        }
+      ]
     }
   ],
   "idPrefixes": [
