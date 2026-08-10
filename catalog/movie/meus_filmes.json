@@ -1,7 +1,7 @@
 {
   "metas": [
     {
-      "id": "tmdb:584",
+      "id": "tt0322259",
       "type": "movie",
       "name": "+ Velozes + Furiosos",
       "poster": "https://image.tmdb.org/t/p/w500/mx0CB8H78PQu0g9YUWG47hdi93S.jpg",
@@ -9,7 +9,7 @@
       "releaseInfo": "2003"
     },
     {
-      "id": "tmdb:7840",
+      "id": "tt0443649",
       "type": "movie",
       "name": "10.000 A.C.",
       "poster": "https://image.tmdb.org/t/p/w500/yS9WxbISOCzucj7484IohnrBr5b.jpg",
@@ -17,7 +17,7 @@
       "releaseInfo": "2008"
     },
     {
-      "id": "tmdb:9378",
+      "id": "tt0245674",
       "type": "movie",
       "name": "13 Fantasmas",
       "poster": "https://image.tmdb.org/t/p/w500/rVcigGnXNtYQoBAhTWGAS9o03jc.jpg",
@@ -25,7 +25,7 @@
       "releaseInfo": "2001"
     },
     {
-      "id": "tmdb:300671",
+      "id": "tt4172430",
       "type": "movie",
       "name": "13 Horas: Os Soldados Secretos de Benghazi",
       "poster": "https://image.tmdb.org/t/p/w500/K4lEgO47Axbidt5MJo5KljpP3G.jpg",
@@ -33,7 +33,7 @@
       "releaseInfo": "2016"
     },
     {
-      "id": "tmdb:1288998",
+      "id": "tt33304396",
       "type": "movie",
       "name": "1978",
       "poster": "https://image.tmdb.org/t/p/w500/ndJYJc7ZKk87dAg81XYvegEUR8o.jpg",
@@ -41,7 +41,7 @@
       "releaseInfo": "2025"
     },
     {
-      "id": "tmdb:347375",
+      "id": "tt4560436",
       "type": "movie",
       "name": "22 Milhas",
       "poster": "https://image.tmdb.org/t/p/w500/qgiU6AvEoyuLMnt7KnoubXrKsC.jpg",
@@ -49,7 +49,7 @@
       "releaseInfo": "2018"
     },
     {
-      "id": "tmdb:4513",
+      "id": "tt0389722",
       "type": "movie",
       "name": "30 Dias de Noite",
       "poster": "https://image.tmdb.org/t/p/w500/tbG7VEn5dZZQAjSNCPMAHzpf4GQ.jpg",
@@ -57,7 +57,7 @@
       "releaseInfo": "2007"
     },
     {
-      "id": "tmdb:1271",
+      "id": "tt0416449",
       "type": "movie",
       "name": "300",
       "poster": "https://image.tmdb.org/t/p/w500/auVn38xLZRTlogkwFuS4Ikeiwrl.jpg",
@@ -65,7 +65,7 @@
       "releaseInfo": "2007"
     },
     {
-      "id": "tmdb:53182",
+      "id": "tt1253863",
       "type": "movie",
       "name": "300: A Ascensão do Império",
       "poster": "https://image.tmdb.org/t/p/w500/dSCFqaPcByXMEl6IEWxWW03bhmk.jpg",
@@ -73,7 +73,7 @@
       "releaseInfo": "2014"
     },
     {
-      "id": "tmdb:7183",
+      "id": "tt0457433",
       "type": "movie",
       "name": "A Estranha Perfeita",
       "poster": "https://image.tmdb.org/t/p/w500/pC7s1Ya9GKR4udtGZNmxRNU0aYk.jpg",
@@ -81,7 +81,7 @@
       "releaseInfo": "2007"
     },
     {
-      "id": "tmdb:439079",
+      "id": "tt5814060",
       "type": "movie",
       "name": "A Freira",
       "poster": "https://image.tmdb.org/t/p/w500/8RkHWJFDuzm0mrsJUxTbPTnsPe7.jpg",
@@ -89,7 +89,7 @@
       "releaseInfo": "2018"
     },
     {
-      "id": "tmdb:968051",
+      "id": "tt10160976",
       "type": "movie",
       "name": "A Freira 2",
       "poster": "https://image.tmdb.org/t/p/w500/omV2IW2OlFTSw6Hih13hz6lFdvP.jpg",
@@ -97,7 +97,7 @@
       "releaseInfo": "2023"
     },
     {
-      "id": "tmdb:7443",
+      "id": "tt0120630",
       "type": "movie",
       "name": "A Fuga das Galinhas",
       "poster": "https://image.tmdb.org/t/p/w500/hp5shw8xyuYId322rT9am3HrKCQ.jpg",
@@ -105,7 +105,7 @@
       "releaseInfo": "2000"
     },
     {
-      "id": "tmdb:12220",
+      "id": "tt0160916",
       "type": "movie",
       "name": "A História de Nós Dois",
       "poster": "https://image.tmdb.org/t/p/w500/kvlJL5mxb2Tw8Rn8ofUKNT0PAJK.jpg",
@@ -113,7 +113,7 @@
       "releaseInfo": "1999"
     },
     {
-      "id": "tmdb:2109",
+      "id": "tt0120812",
       "type": "movie",
       "name": "A Hora do Rush",
       "poster": "https://image.tmdb.org/t/p/w500/sdzr7YU2fPoTwjfsO4gN7ri0S5e.jpg",
@@ -121,7 +121,7 @@
       "releaseInfo": "1998"
     },
     {
-      "id": "tmdb:5175",
+      "id": "tt0266915",
       "type": "movie",
       "name": "A Hora do Rush 2",
       "poster": "https://image.tmdb.org/t/p/w500/q8tqJRz8MQ5CS0gtlVB1CH12Wvv.jpg",
@@ -129,7 +129,7 @@
       "releaseInfo": "2001"
     },
     {
-      "id": "tmdb:5174",
+      "id": "tt0293564",
       "type": "movie",
       "name": "A Hora do Rush 3",
       "poster": "https://image.tmdb.org/t/p/w500/15tifAGNBdy4cLKDXKD2Iam8OkM.jpg",
@@ -137,7 +137,7 @@
       "releaseInfo": "2007"
     },
     {
-      "id": "tmdb:2501",
+      "id": "tt0258463",
       "type": "movie",
       "name": "A Identidade Bourne",
       "poster": "https://image.tmdb.org/t/p/w500/q18OhXWdS0WncHminNK7A7uiEvc.jpg",
@@ -145,7 +145,7 @@
       "releaseInfo": "2002"
     },
     {
-      "id": "tmdb:259695",
+      "id": "tt2361317",
       "type": "movie",
       "name": "A Lei da Noite",
       "poster": "https://image.tmdb.org/t/p/w500/wgpO1htXAHbjNTapIL3UpDKZBOv.jpg",
@@ -153,7 +153,7 @@
       "releaseInfo": "2016"
     },
     {
-      "id": "tmdb:75174",
+      "id": "tt1601913",
       "type": "movie",
       "name": "A Perseguição",
       "poster": "https://image.tmdb.org/t/p/w500/lkQ20CkCnJTIXQFYK10cuFZ3gO7.jpg",
@@ -161,7 +161,7 @@
       "releaseInfo": "2012"
     },
     {
-      "id": "tmdb:2502",
+      "id": "tt0372183",
       "type": "movie",
       "name": "A Supremacia Bourne",
       "poster": "https://image.tmdb.org/t/p/w500/zasdli6k1b2JwbYHMK7lGsys5zA.jpg",
@@ -169,7 +169,7 @@
       "releaseInfo": "2004"
     },
     {
-      "id": "tmdb:8967",
+      "id": "tt0478304",
       "type": "movie",
       "name": "A Árvore da Vida",
       "poster": "https://image.tmdb.org/t/p/w500/iDt5nvv2TdZsFFuF5JvnEZr6RGB.jpg",
@@ -177,7 +177,7 @@
       "releaseInfo": "2011"
     },
     {
-      "id": "tmdb:21208",
+      "id": "tt1148204",
       "type": "movie",
       "name": "A Órfã",
       "poster": "https://image.tmdb.org/t/p/w500/9tdcvT3ZyPBluzmQTevgn503jpg.jpg",
@@ -185,7 +185,7 @@
       "releaseInfo": "2009"
     },
     {
-      "id": "tmdb:419704",
+      "id": "tt2935510",
       "type": "movie",
       "name": "Ad Astra - Rumo às Estrelas",
       "poster": "https://image.tmdb.org/t/p/w500/wigZBAmNrIhxp2FNGOROUAeHvdh.jpg",
@@ -193,7 +193,7 @@
       "releaseInfo": "2019"
     },
     {
-      "id": "tmdb:1948",
+      "id": "tt0479884",
       "type": "movie",
       "name": "Adrenalina",
       "poster": "https://image.tmdb.org/t/p/w500/ygBQ8FdjFRgv1lDVG7V4Io3NwWg.jpg",
@@ -201,7 +201,7 @@
       "releaseInfo": "2006"
     },
     {
-      "id": "tmdb:15092",
+      "id": "tt1121931",
       "type": "movie",
       "name": "Adrenalina 2: Alta Voltagem",
       "poster": "https://image.tmdb.org/t/p/w500/yZzRqVfeKHU05O99kT8sS41Keh7.jpg",
@@ -209,7 +209,7 @@
       "releaseInfo": "2009"
     },
     {
-      "id": "tmdb:11003",
+      "id": "tt0120888",
       "type": "movie",
       "name": "Afinado no Amor",
       "poster": "https://image.tmdb.org/t/p/w500/fwEKv4yBMnQETB2JqUfhUaAMgXl.jpg",
@@ -217,7 +217,7 @@
       "releaseInfo": "1998"
     },
     {
-      "id": "tmdb:250546",
+      "id": "tt3322940",
       "type": "movie",
       "name": "Annabelle",
       "poster": "https://image.tmdb.org/t/p/w500/jnvQCi7cO3f5oAceTrodDjVvQmB.jpg",
@@ -225,7 +225,7 @@
       "releaseInfo": "2014"
     },
     {
-      "id": "tmdb:396422",
+      "id": "tt5140878",
       "type": "movie",
       "name": "Annabelle 2: A Criação do Mal",
       "poster": "https://image.tmdb.org/t/p/w500/AtlcH0f8mEQGKVIBSgV4GgkTZMr.jpg",
@@ -233,7 +233,7 @@
       "releaseInfo": "2017"
     },
     {
-      "id": "tmdb:521029",
+      "id": "tt8350360",
       "type": "movie",
       "name": "Annabelle 3: De Volta para Casa",
       "poster": "https://image.tmdb.org/t/p/w500/xQesP4oRskVR8fUMvilhY7DUMJt.jpg",
@@ -241,7 +241,7 @@
       "releaseInfo": "2019"
     },
     {
-      "id": "tmdb:43566",
+      "id": "tt0115645",
       "type": "movie",
       "name": "Antes e Depois",
       "poster": "https://image.tmdb.org/t/p/w500/gSjuWIEZMM1ODFiTmgoyQiFvM6g.jpg",
@@ -249,7 +249,7 @@
       "releaseInfo": "1996"
     },
     {
-      "id": "tmdb:813",
+      "id": "tt0080339",
       "type": "movie",
       "name": "Apertem os Cintos, o Piloto Sumiu",
       "poster": "https://image.tmdb.org/t/p/w500/7pPDjwmlNKhOui2CTuSZDBCmGZG.jpg",
@@ -257,7 +257,7 @@
       "releaseInfo": "1980"
     },
     {
-      "id": "tmdb:68734",
+      "id": "tt1024648",
       "type": "movie",
       "name": "Argo",
       "poster": "https://image.tmdb.org/t/p/w500/dZqmn3vr80UeSSj4QbVEUI8D7yb.jpg",
@@ -265,7 +265,7 @@
       "releaseInfo": "2012"
     },
     {
-      "id": "tmdb:1301421",
+      "id": "tt32565993",
       "type": "movie",
       "name": "As Ovelhas Detetives",
       "poster": "https://image.tmdb.org/t/p/w500/crW4rarCRUVRSRFy3Bufw8Mwf8l.jpg",
@@ -273,7 +273,7 @@
       "releaseInfo": "2026"
     },
     {
-      "id": "tmdb:9603",
+      "id": "tt0112697",
       "type": "movie",
       "name": "As Patricinhas de Beverly Hills",
       "poster": "https://image.tmdb.org/t/p/w500/sfgpINIXoGEUkA3n6k7of89bP9x.jpg",
@@ -281,7 +281,7 @@
       "releaseInfo": "1995"
     },
     {
-      "id": "tmdb:27582",
+      "id": "tt0472399",
       "type": "movie",
       "name": "Assassino a Preço Fixo",
       "poster": "https://image.tmdb.org/t/p/w500/AbO2OzFiWt9cEjgZfSOnp75ihGE.jpg",
@@ -289,7 +289,7 @@
       "releaseInfo": "2011"
     },
     {
-      "id": "tmdb:818397",
+      "id": "tt11827628",
       "type": "movie",
       "name": "Assassino Sem Rastro",
       "poster": "https://image.tmdb.org/t/p/w500/emj0dVlz5zSnvOfMZJA2zrWyW6Z.jpg",
@@ -297,7 +297,7 @@
       "releaseInfo": "2022"
     },
     {
-      "id": "tmdb:23168",
+      "id": "tt0840361",
       "type": "movie",
       "name": "Atração Perigosa",
       "poster": "https://image.tmdb.org/t/p/w500/g1IF1RQasgk0o4CTi6AxdZeSAvR.jpg",
@@ -305,7 +305,7 @@
       "releaseInfo": "2010"
     },
     {
-      "id": "tmdb:1164",
+      "id": "tt0449467",
       "type": "movie",
       "name": "Babel",
       "poster": "https://image.tmdb.org/t/p/w500/bIAEwAxgUZhv7pm29FUnp18VplX.jpg",
@@ -313,7 +313,7 @@
       "releaseInfo": "2006"
     },
     {
-      "id": "tmdb:21301",
+      "id": "tt0337579",
       "type": "movie",
       "name": "Barbeiragem Total",
       "poster": "https://image.tmdb.org/t/p/w500/n4sOe401udZJWJEOvKvSs3peZcB.jpg",
@@ -321,7 +321,7 @@
       "releaseInfo": "2004"
     },
     {
-      "id": "tmdb:16869",
+      "id": "tt0361748",
       "type": "movie",
       "name": "Bastardos Inglórios",
       "poster": "https://image.tmdb.org/t/p/w500/6UjYycIR6VLYgggfNpmSPJHmFS0.jpg",
@@ -329,7 +329,7 @@
       "releaseInfo": "2009"
     },
     {
-      "id": "tmdb:415",
+      "id": "tt0118688",
       "type": "movie",
       "name": "Batman & Robin",
       "poster": "https://image.tmdb.org/t/p/w500/i7hEUpDuMN2LOrCEifFyGSHZQSY.jpg",
@@ -337,7 +337,7 @@
       "releaseInfo": "1997"
     },
     {
-      "id": "tmdb:268",
+      "id": "tt0096895",
       "type": "movie",
       "name": "Batman",
       "poster": "https://image.tmdb.org/t/p/w500/cij4dd21v2Rk2YtUQbV5kW69WB2.jpg",
@@ -345,7 +345,7 @@
       "releaseInfo": "1989"
     },
     {
-      "id": "tmdb:414906",
+      "id": "tt1877830",
       "type": "movie",
       "name": "Batman",
       "poster": "https://image.tmdb.org/t/p/w500/wd7b4Nv9QBHDTIjc2m7sr0IUMoh.jpg",
@@ -353,7 +353,7 @@
       "releaseInfo": "2022"
     },
     {
-      "id": "tmdb:155",
+      "id": "tt0468569",
       "type": "movie",
       "name": "Batman: O Cavaleiro das Trevas",
       "poster": "https://image.tmdb.org/t/p/w500/4lj1ikfsSmMZNyfdi8R8Tv5tsgb.jpg",
@@ -361,7 +361,7 @@
       "releaseInfo": "2008"
     },
     {
-      "id": "tmdb:49026",
+      "id": "tt1345836",
       "type": "movie",
       "name": "Batman: O Cavaleiro das Trevas Ressurge",
       "poster": "https://image.tmdb.org/t/p/w500/j4z01cnbTCaVX69bik1612pSuH6.jpg",
@@ -369,7 +369,7 @@
       "releaseInfo": "2012"
     },
     {
-      "id": "tmdb:272",
+      "id": "tt0372784",
       "type": "movie",
       "name": "Batman Begins",
       "poster": "https://image.tmdb.org/t/p/w500/7EyhcdfiLtH0xa6CZkyYuoWL2GJ.jpg",
@@ -377,7 +377,7 @@
       "releaseInfo": "2005"
     },
     {
-      "id": "tmdb:414",
+      "id": "tt0112462",
       "type": "movie",
       "name": "Batman Eternamente",
       "poster": "https://image.tmdb.org/t/p/w500/nYiG3u2doARIiuInmAWAlIPVBTM.jpg",
@@ -385,7 +385,7 @@
       "releaseInfo": "1995"
     },
     {
-      "id": "tmdb:364",
+      "id": "tt0103776",
       "type": "movie",
       "name": "Batman: O Retorno",
       "poster": "https://image.tmdb.org/t/p/w500/trmToqPh8XYS6tzI2Nmv5ctfuSI.jpg",
@@ -393,7 +393,7 @@
       "releaseInfo": "1992"
     },
     {
-      "id": "tmdb:209112",
+      "id": "tt2975590",
       "type": "movie",
       "name": "Batman vs Superman: A Origem da Justiça",
       "poster": "https://image.tmdb.org/t/p/w500/vh6pjeGH0GQupLepPCZn5PylcRg.jpg",
@@ -401,7 +401,7 @@
       "releaseInfo": "2016"
     },
     {
-      "id": "tmdb:866398",
+      "id": "tt15314262",
       "type": "movie",
       "name": "Beekeeper: Rede de Vingança",
       "poster": "https://image.tmdb.org/t/p/w500/raNfPn7DGbh1Ffwq4Y9BO1Iektv.jpg",
@@ -409,7 +409,7 @@
       "releaseInfo": "2024"
     },
     {
-      "id": "tmdb:345920",
+      "id": "tt4682786",
       "type": "movie",
       "name": "Beleza Oculta",
       "poster": "https://image.tmdb.org/t/p/w500/l7rwGxhH2ZDaViuxzT0qMPfhfo3.jpg",
@@ -417,7 +417,7 @@
       "releaseInfo": "2016"
     },
     {
-      "id": "tmdb:13053",
+      "id": "tt0397892",
       "type": "movie",
       "name": "Bolt: Supercão",
       "poster": "https://image.tmdb.org/t/p/w500/puAIiFICbqLehrE8X884ZbNxI8N.jpg",
@@ -425,7 +425,7 @@
       "releaseInfo": "2008"
     },
     {
-      "id": "tmdb:504562",
+      "id": "tt0385887",
       "type": "movie",
       "name": "Brooklyn - Sem Pai Nem Mãe",
       "poster": "https://image.tmdb.org/t/p/w500/ph6BDYj1EK7U8Bs7WmRzr7iRyem.jpg",
@@ -433,7 +433,7 @@
       "releaseInfo": "2019"
     },
     {
-      "id": "tmdb:8681",
+      "id": "tt0936501",
       "type": "movie",
       "name": "Busca Implacável",
       "poster": "https://image.tmdb.org/t/p/w500/q5Lr8E4HSK7Lc4zqWtgtYsM1iJA.jpg",
@@ -441,7 +441,7 @@
       "releaseInfo": "2008"
     },
     {
-      "id": "tmdb:82675",
+      "id": "tt1397280",
       "type": "movie",
       "name": "Busca Implacável 2",
       "poster": "https://image.tmdb.org/t/p/w500/laLGcxl36GAxahL5PbUC8qvabzO.jpg",
@@ -449,7 +449,7 @@
       "releaseInfo": "2012"
     },
     {
-      "id": "tmdb:260346",
+      "id": "tt2446042",
       "type": "movie",
       "name": "Busca Implacável 3",
       "poster": "https://image.tmdb.org/t/p/w500/wp8JjUImG39nqxYrm4aWVSwKFzO.jpg",
@@ -457,7 +457,7 @@
       "releaseInfo": "2014"
     },
     {
-      "id": "tmdb:71880",
+      "id": "tt0810913",
       "type": "movie",
       "name": "Cada um Tem a Gêmea que Merece",
       "poster": "https://image.tmdb.org/t/p/w500/cklXRmdNUmXSkM0gMAz30pkzGGx.jpg",
@@ -465,7 +465,7 @@
       "releaseInfo": "2011"
     },
     {
-      "id": "tmdb:9285",
+      "id": "tt0215129",
       "type": "movie",
       "name": "Caindo na Estrada",
       "poster": "https://image.tmdb.org/t/p/w500/2iMiXw4hUL0UqvfXLxPPLptz94X.jpg",
@@ -473,7 +473,7 @@
       "releaseInfo": "2000"
     },
     {
-      "id": "tmdb:4108",
+      "id": "tt0293662",
       "type": "movie",
       "name": "Carga Explosiva",
       "poster": "https://image.tmdb.org/t/p/w500/iajTcyco5MEscLp0ue59lVY2WtH.jpg",
@@ -481,7 +481,7 @@
       "releaseInfo": "2002"
     },
     {
-      "id": "tmdb:9335",
+      "id": "tt0388482",
       "type": "movie",
       "name": "Carga Explosiva 2",
       "poster": "https://image.tmdb.org/t/p/w500/4Vo1KYTe0LWakRxTwp3scw8Ti6u.jpg",
@@ -489,7 +489,7 @@
       "releaseInfo": "2005"
     },
     {
-      "id": "tmdb:13387",
+      "id": "tt1129442",
       "type": "movie",
       "name": "Carga Explosiva 3",
       "poster": "https://image.tmdb.org/t/p/w500/t6ayrfuhmKl6VUOByP7RJL047X1.jpg",
@@ -497,7 +497,7 @@
       "releaseInfo": "2008"
     },
     {
-      "id": "tmdb:287948",
+      "id": "tt2938956",
       "type": "movie",
       "name": "Carga Explosiva: O Legado",
       "poster": "https://image.tmdb.org/t/p/w500/iti0ub1R6JBCfwJarLktNL47HC.jpg",
@@ -505,7 +505,7 @@
       "releaseInfo": "2015"
     },
     {
-      "id": "tmdb:920",
+      "id": "tt0317219",
       "type": "movie",
       "name": "Carros",
       "poster": "https://image.tmdb.org/t/p/w500/A7nssMRIPauZhEVf2dzwsf4EALO.jpg",
@@ -513,7 +513,7 @@
       "releaseInfo": "2006"
     },
     {
-      "id": "tmdb:49013",
+      "id": "tt1216475",
       "type": "movie",
       "name": "Carros 2",
       "poster": "https://image.tmdb.org/t/p/w500/fIKaabvE40T39nOIngcZPcPJeYe.jpg",
@@ -521,7 +521,7 @@
       "releaseInfo": "2011"
     },
     {
-      "id": "tmdb:260514",
+      "id": "tt3606752",
       "type": "movie",
       "name": "Carros 3",
       "poster": "https://image.tmdb.org/t/p/w500/oEmdfjqQnAWe1t23WiiW0icFhGv.jpg",
@@ -529,7 +529,7 @@
       "releaseInfo": "2017"
     },
     {
-      "id": "tmdb:961484",
+      "id": "tt10242388",
       "type": "movie",
       "name": "Caça Implacável",
       "poster": "https://image.tmdb.org/t/p/w500/3qcFv1IykbGGdGX1ZkROSzjTA8S.jpg",
@@ -537,7 +537,7 @@
       "releaseInfo": "2022"
     },
     {
-      "id": "tmdb:417644",
+      "id": "tt0493405",
       "type": "movie",
       "name": "CHiPs: O Filme",
       "poster": "https://image.tmdb.org/t/p/w500/tffkH2F6DmAhud4g4rZqrQ1K48v.jpg",
@@ -545,7 +545,7 @@
       "releaseInfo": "2017"
     },
     {
-      "id": "tmdb:550",
+      "id": "tt0137523",
       "type": "movie",
       "name": "Clube da Luta",
       "poster": "https://image.tmdb.org/t/p/w500/mCICnh7QBH0gzYaTQChBDDVIKdm.jpg",
@@ -553,7 +553,7 @@
       "releaseInfo": "1999"
     },
     {
-      "id": "tmdb:9472",
+      "id": "tt0364725",
       "type": "movie",
       "name": "Com a Bola Toda",
       "poster": "https://image.tmdb.org/t/p/w500/x5dkT5LwiBXJ100xV2nbjLRBWvp.jpg",
@@ -561,7 +561,7 @@
       "releaseInfo": "2004"
     },
     {
-      "id": "tmdb:1824",
+      "id": "tt0343660",
       "type": "movie",
       "name": "Como Se Fosse a Primeira Vez",
       "poster": "https://image.tmdb.org/t/p/w500/h0st50VJ755VG1kzSc2FgwtDHdk.jpg",
@@ -569,7 +569,7 @@
       "releaseInfo": "2004"
     },
     {
-      "id": "tmdb:228150",
+      "id": "tt2713180",
       "type": "movie",
       "name": "Corações de Ferro",
       "poster": "https://image.tmdb.org/t/p/w500/tVZXsjBC9HIoKv6WnAv0nWObbrT.jpg",
@@ -577,7 +577,7 @@
       "releaseInfo": "2014"
     },
     {
-      "id": "tmdb:37136",
+      "id": "tt0095705",
       "type": "movie",
       "name": "Corra que a Polícia Vem Aí!",
       "poster": "https://image.tmdb.org/t/p/w500/iYCWSKbC4fwzaKEJ9QFx8MsH7bJ.jpg",
@@ -585,7 +585,7 @@
       "releaseInfo": "1988"
     },
     {
-      "id": "tmdb:1035259",
+      "id": "tt3402138",
       "type": "movie",
       "name": "Corra Que a Polícia Vem Aí!",
       "poster": "https://image.tmdb.org/t/p/w500/vDN8VDEQjh8QBEeT7C6Ml5Uqln8.jpg",
@@ -593,7 +593,7 @@
       "releaseInfo": "2025"
     },
     {
-      "id": "tmdb:37137",
+      "id": "tt0102510",
       "type": "movie",
       "name": "Corra que a Polícia Vem Aí! 2½",
       "poster": "https://image.tmdb.org/t/p/w500/vm2sW0g0wMYCFNGvyBDAtxtjW6S.jpg",
@@ -601,7 +601,7 @@
       "releaseInfo": "1991"
     },
     {
-      "id": "tmdb:36593",
+      "id": "tt0110622",
       "type": "movie",
       "name": "Corra que a Polícia Vem Aí! 33⅓: O Insulto Final",
       "poster": "https://image.tmdb.org/t/p/w500/aMjd4C0wOZwYzFK7Vb3cL9OQd5F.jpg",
@@ -609,7 +609,7 @@
       "releaseInfo": "1994"
     },
     {
-      "id": "tmdb:604685",
+      "id": "tt8008948",
       "type": "movie",
       "name": "Covil de Ladrões 2",
       "poster": "https://image.tmdb.org/t/p/w500/2hBGNRmYek4SR437ZdembHIPchw.jpg",
@@ -617,7 +617,7 @@
       "releaseInfo": "2025"
     },
     {
-      "id": "tmdb:308266",
+      "id": "tt2005151",
       "type": "movie",
       "name": "Cães de Guerra",
       "poster": "https://image.tmdb.org/t/p/w500/uv9g0yF3z10tWWq24OQewQf6r5e.jpg",
@@ -625,7 +625,7 @@
       "releaseInfo": "2016"
     },
     {
-      "id": "tmdb:22803",
+      "id": "tt1197624",
       "type": "movie",
       "name": "Código de Conduta",
       "poster": "https://image.tmdb.org/t/p/w500/yBGojH2UbkEHJJyPgtaKWIi7lfx.jpg",
@@ -633,7 +633,7 @@
       "releaseInfo": "2009"
     },
     {
-      "id": "tmdb:146239",
+      "id": "tt2387559",
       "type": "movie",
       "name": "De Repente Pai",
       "poster": "https://image.tmdb.org/t/p/w500/4iviSGM2KWEUDhU4m8ujyN9MI6K.jpg",
@@ -641,7 +641,7 @@
       "releaseInfo": "2013"
     },
     {
-      "id": "tmdb:303991",
+      "id": "tt1172049",
       "type": "movie",
       "name": "Demolição",
       "poster": "https://image.tmdb.org/t/p/w500/a357EfYN4gJxX99LR3f3nlQya6i.jpg",
@@ -649,7 +649,7 @@
       "releaseInfo": "2016"
     },
     {
-      "id": "tmdb:48138",
+      "id": "tt1401152",
       "type": "movie",
       "name": "Desconhecido",
       "poster": "https://image.tmdb.org/t/p/w500/gI9sCrVmDPYthCeOk6UGAxr8D3t.jpg",
@@ -657,7 +657,7 @@
       "releaseInfo": "2011"
     },
     {
-      "id": "tmdb:353070",
+      "id": "tt2568862",
       "type": "movie",
       "name": "Despedida em Grande Estilo",
       "poster": "https://image.tmdb.org/t/p/w500/6nge1qOYikif7e6dN80KOQuRTtT.jpg",
@@ -665,7 +665,7 @@
       "releaseInfo": "2017"
     },
     {
-      "id": "tmdb:840464",
+      "id": "tt14850054",
       "type": "movie",
       "name": "Destruição Final 2",
       "poster": "https://image.tmdb.org/t/p/w500/s6nzVekLSd1y0vGjLz8WPfC1Sau.jpg",
@@ -673,7 +673,7 @@
       "releaseInfo": "2026"
     },
     {
-      "id": "tmdb:2034",
+      "id": "tt0139654",
       "type": "movie",
       "name": "Dia de Treinamento",
       "poster": "https://image.tmdb.org/t/p/w500/ju2TUNXdCosCMOWXJA1BxtylyOj.jpg",
@@ -681,7 +681,7 @@
       "releaseInfo": "2001"
     },
     {
-      "id": "tmdb:11635",
+      "id": "tt0302886",
       "type": "movie",
       "name": "Dias Incríveis",
       "poster": "https://image.tmdb.org/t/p/w500/puogBeaTUJLxMURi6ghIIBNen2B.jpg",
@@ -689,7 +689,7 @@
       "releaseInfo": "2003"
     },
     {
-      "id": "tmdb:136400",
+      "id": "tt1272878",
       "type": "movie",
       "name": "Dose Dupla",
       "poster": "https://image.tmdb.org/t/p/w500/u5X9qjUfIZDmlVJXJ7xJVyyHZFa.jpg",
@@ -697,7 +697,7 @@
       "releaseInfo": "2013"
     },
     {
-      "id": "tmdb:438631",
+      "id": "tt1160419",
       "type": "movie",
       "name": "Duna",
       "poster": "https://image.tmdb.org/t/p/w500/uzERcfV2rSHNhW5eViQiO9hNiA7.jpg",
@@ -705,7 +705,7 @@
       "releaseInfo": "2021"
     },
     {
-      "id": "tmdb:693134",
+      "id": "tt15239678",
       "type": "movie",
       "name": "Duna: Parte Dois",
       "poster": "https://image.tmdb.org/t/p/w500/8LJJjLjAzAwXS40S5mx79PJ2jSs.jpg",
@@ -713,7 +713,7 @@
       "releaseInfo": "2024"
     },
     {
-      "id": "tmdb:8848",
+      "id": "tt0200465",
       "type": "movie",
       "name": "Efeito Dominó",
       "poster": "https://image.tmdb.org/t/p/w500/2V1qr9Ts1UCUuhPYBNh8TCut91P.jpg",
@@ -721,7 +721,7 @@
       "releaseInfo": "2008"
     },
     {
-      "id": "tmdb:10184",
+      "id": "tt1001508",
       "type": "movie",
       "name": "Ele Não Está Tão a Fim de Você",
       "poster": "https://image.tmdb.org/t/p/w500/nUNvLGc3QeywVlRU5LSDj8mAn43.jpg",
@@ -729,7 +729,7 @@
       "releaseInfo": "2009"
     },
     {
-      "id": "tmdb:297",
+      "id": "tt0119643",
       "type": "movie",
       "name": "Encontro Marcado",
       "poster": "https://image.tmdb.org/t/p/w500/xpIVnmEHEYq70tVMjtITfyvw6XB.jpg",
@@ -737,7 +737,7 @@
       "releaseInfo": "1998"
     },
     {
-      "id": "tmdb:628",
+      "id": "tt0110148",
       "type": "movie",
       "name": "Entrevista com o Vampiro",
       "poster": "https://image.tmdb.org/t/p/w500/oKqRTSEeOaO6x4pqc5y36qnnHsq.jpg",
@@ -745,7 +745,7 @@
       "releaseInfo": "1994"
     },
     {
-      "id": "tmdb:50546",
+      "id": "tt1564367",
       "type": "movie",
       "name": "Esposa de Mentirinha",
       "poster": "https://image.tmdb.org/t/p/w500/glC4pDnSieQ9NGU501rfVIqUCTB.jpg",
@@ -753,7 +753,7 @@
       "releaseInfo": "2011"
     },
     {
-      "id": "tmdb:34544",
+      "id": "tt0429493",
       "type": "movie",
       "name": "Esquadrão Classe A",
       "poster": "https://image.tmdb.org/t/p/w500/wkHFuOIOtZJrtql8gSSvbLtEcNk.jpg",
@@ -761,7 +761,7 @@
       "releaseInfo": "2010"
     },
     {
-      "id": "tmdb:297761",
+      "id": "tt1386697",
       "type": "movie",
       "name": "Esquadrão Suicida",
       "poster": "https://image.tmdb.org/t/p/w500/6hU2HAUpgBZ295sYzSkr8F5VxbS.jpg",
@@ -769,7 +769,7 @@
       "releaseInfo": "2016"
     },
     {
-      "id": "tmdb:739405",
+      "id": "tt7985704",
       "type": "movie",
       "name": "Esquema de Risco: Operação Fortune",
       "poster": "https://image.tmdb.org/t/p/w500/fLxXvMcpsK8fGKguP3wZ7Urb2ao.jpg",
@@ -777,7 +777,7 @@
       "releaseInfo": "2023"
     },
     {
-      "id": "tmdb:87428",
+      "id": "tt1232200",
       "type": "movie",
       "name": "Este é o Meu Garoto",
       "poster": "https://image.tmdb.org/t/p/w500/avc0QOU93qnpH9b9ocDGBwL68Qr.jpg",
@@ -785,7 +785,7 @@
       "releaseInfo": "2012"
     },
     {
-      "id": "tmdb:3563",
+      "id": "tt0762107",
       "type": "movie",
       "name": "Eu os Declaro Marido... e Larry",
       "poster": "https://image.tmdb.org/t/p/w500/aIlsFdoLkSixeqwqcSKi19xAT2w.jpg",
@@ -793,7 +793,7 @@
       "releaseInfo": "2007"
     },
     {
-      "id": "tmdb:6479",
+      "id": "tt0480249",
       "type": "movie",
       "name": "Eu Sou a Lenda",
       "poster": "https://image.tmdb.org/t/p/w500/j2jb6DwNCPIU2LtUrJ9zoQIGvSz.jpg",
@@ -801,7 +801,7 @@
       "releaseInfo": "2007"
     },
     {
-      "id": "tmdb:9352",
+      "id": "tt0356150",
       "type": "movie",
       "name": "Eurotrip: Passaporte para a Confusão",
       "poster": "https://image.tmdb.org/t/p/w500/rnzfFPhJZLdJS40nzvhNyfZ0ahD.jpg",
@@ -809,7 +809,7 @@
       "releaseInfo": "2004"
     },
     {
-      "id": "tmdb:911430",
+      "id": "tt16311594",
       "type": "movie",
       "name": "F1: O Filme",
       "poster": "https://image.tmdb.org/t/p/w500/fMcY5hpVZQ0cLKHvFM1mo6GrAr0.jpg",
@@ -817,7 +817,7 @@
       "releaseInfo": "2025"
     },
     {
-      "id": "tmdb:1181540",
+      "id": "tt28026215",
       "type": "movie",
       "name": "Família à Prova de Balas",
       "poster": "https://image.tmdb.org/t/p/w500/2UMu5YDcrj5Jhu0ZlQcceAR6pOf.jpg",
@@ -825,7 +825,7 @@
       "releaseInfo": "2025"
     },
     {
-      "id": "tmdb:139567",
+      "id": "tt1925431",
       "type": "movie",
       "name": "Fogo Contra Fogo",
       "poster": "https://image.tmdb.org/t/p/w500/3lFE3QKLAHioqce64zoSkqvSA0f.jpg",
@@ -833,7 +833,7 @@
       "releaseInfo": "2012"
     },
     {
-      "id": "tmdb:738652",
+      "id": "tt5748448",
       "type": "movie",
       "name": "Fogo Cruzado",
       "poster": "https://image.tmdb.org/t/p/w500/5tKdjKZT1oUG16n5jefPD4XObZw.jpg",
@@ -841,7 +841,7 @@
       "releaseInfo": "2021"
     },
     {
-      "id": "tmdb:359724",
+      "id": "tt1950186",
       "type": "movie",
       "name": "Ford vs Ferrari",
       "poster": "https://image.tmdb.org/t/p/w500/t8L9dqNMclXJHP0TesPsPS2RvB1.jpg",
@@ -849,7 +849,7 @@
       "releaseInfo": "2019"
     },
     {
-      "id": "tmdb:18823",
+      "id": "tt0800320",
       "type": "movie",
       "name": "Fúria de Titãs",
       "poster": "https://image.tmdb.org/t/p/w500/mo0clKzmkQ4cEogZrkbip8nrfd7.jpg",
@@ -857,7 +857,7 @@
       "releaseInfo": "2010"
     },
     {
-      "id": "tmdb:57165",
+      "id": "tt1646987",
       "type": "movie",
       "name": "Fúria de Titãs 2",
       "poster": "https://image.tmdb.org/t/p/w500/yf5sWg9T7mT8PTkg3kOdtzhH7P6.jpg",
@@ -865,7 +865,7 @@
       "releaseInfo": "2012"
     },
     {
-      "id": "tmdb:18501",
+      "id": "tt1034032",
       "type": "movie",
       "name": "Gamer",
       "poster": "https://image.tmdb.org/t/p/w500/lMRW0oO8ptAn4Ciqr4Ojawa6GOB.jpg",
@@ -873,7 +873,7 @@
       "releaseInfo": "2009"
     },
     {
-      "id": "tmdb:38365",
+      "id": "tt1375670",
       "type": "movie",
       "name": "Gente Grande",
       "poster": "https://image.tmdb.org/t/p/w500/ppU2xJnlKdW3F01AtC9wMuXRZCg.jpg",
@@ -881,7 +881,7 @@
       "releaseInfo": "2010"
     },
     {
-      "id": "tmdb:109418",
+      "id": "tt2191701",
       "type": "movie",
       "name": "Gente Grande 2",
       "poster": "https://image.tmdb.org/t/p/w500/fKYW0oKPvy6HF8x5egL1ljC36xb.jpg",
@@ -889,7 +889,7 @@
       "releaseInfo": "2013"
     },
     {
-      "id": "tmdb:39254",
+      "id": "tt0433035",
       "type": "movie",
       "name": "Gigantes de Aço",
       "poster": "https://image.tmdb.org/t/p/w500/pp74uUjwQTknGPqNrerj4FvU0ce.jpg",
@@ -897,7 +897,7 @@
       "releaseInfo": "2011"
     },
     {
-      "id": "tmdb:113655",
+      "id": "tt0991174",
       "type": "movie",
       "name": "Golpe de Gênio",
       "poster": "https://image.tmdb.org/t/p/w500/D6ZLgdoiPYvrcTsDOQxpa7RzbO.jpg",
@@ -905,7 +905,7 @@
       "releaseInfo": "2009"
     },
     {
-      "id": "tmdb:256591",
+      "id": "tt2381941",
       "type": "movie",
       "name": "Golpe Duplo",
       "poster": "https://image.tmdb.org/t/p/w500/obLLUR92vv2fr5JC0YrGXRu4c7k.jpg",
@@ -913,7 +913,7 @@
       "releaseInfo": "2015"
     },
     {
-      "id": "tmdb:72190",
+      "id": "tt0816711",
       "type": "movie",
       "name": "Guerra Mundial Z",
       "poster": "https://image.tmdb.org/t/p/w500/2Sdz5gGrwN92pRanlJKeUqkIjRk.jpg",
@@ -921,7 +921,7 @@
       "releaseInfo": "2013"
     },
     {
-      "id": "tmdb:8960",
+      "id": "tt0448157",
       "type": "movie",
       "name": "Hancock",
       "poster": "https://image.tmdb.org/t/p/w500/7DyuV2G0hLEqHeueDfOqhZ2DVut.jpg",
@@ -929,7 +929,7 @@
       "releaseInfo": "2008"
     },
     {
-      "id": "tmdb:557",
+      "id": "tt0145487",
       "type": "movie",
       "name": "Homem-Aranha",
       "poster": "https://image.tmdb.org/t/p/w500/RbZQL5hXmydecu82UHw9ZGyytB.jpg",
@@ -937,7 +937,7 @@
       "releaseInfo": "2002"
     },
     {
-      "id": "tmdb:558",
+      "id": "tt0316654",
       "type": "movie",
       "name": "Homem-Aranha 2",
       "poster": "https://image.tmdb.org/t/p/w500/xB05Gyeo2w4RBwt7nZlPkjZzt9X.jpg",
@@ -945,7 +945,7 @@
       "releaseInfo": "2004"
     },
     {
-      "id": "tmdb:559",
+      "id": "tt0413300",
       "type": "movie",
       "name": "Homem-Aranha 3",
       "poster": "https://image.tmdb.org/t/p/w500/5831VrgpYNPEokBwxurLVpQ3twM.jpg",
@@ -953,7 +953,7 @@
       "releaseInfo": "2007"
     },
     {
-      "id": "tmdb:634649",
+      "id": "tt10872600",
       "type": "movie",
       "name": "Homem-Aranha: Sem Volta Para Casa",
       "poster": "https://image.tmdb.org/t/p/w500/xaKydnMw6wR1MBAjS5seGPVusbs.jpg",
@@ -961,7 +961,7 @@
       "releaseInfo": "2021"
     },
     {
-      "id": "tmdb:11978",
+      "id": "tt0203019",
       "type": "movie",
       "name": "Homens de Honra",
       "poster": "https://image.tmdb.org/t/p/w500/gv6BZRbfJGxBp9tFFKMuXuJGwTe.jpg",
@@ -969,7 +969,7 @@
       "releaseInfo": "2000"
     },
     {
-      "id": "tmdb:296524",
+      "id": "tt1860357",
       "type": "movie",
       "name": "Horizonte Profundo: Desastre no Golfo",
       "poster": "https://image.tmdb.org/t/p/w500/qxs766YfzREsaBRw9WdoiqaD8VD.jpg",
@@ -977,7 +977,7 @@
       "releaseInfo": "2016"
     },
     {
-      "id": "tmdb:536437",
+      "id": "tt8080204",
       "type": "movie",
       "name": "Hypnotic: Ameaça Invisível",
       "poster": "https://image.tmdb.org/t/p/w500/qU5OoGW31ahW9ANZU5tIwmPydKC.jpg",
@@ -985,7 +985,7 @@
       "releaseInfo": "2023"
     },
     {
-      "id": "tmdb:637649",
+      "id": "tt11083552",
       "type": "movie",
       "name": "Infiltrado",
       "poster": "https://image.tmdb.org/t/p/w500/rNz8wy63GAabztAUkO4xMGk3upx.jpg",
@@ -993,7 +993,7 @@
       "releaseInfo": "2021"
     },
     {
-      "id": "tmdb:4477",
+      "id": "tt0118972",
       "type": "movie",
       "name": "Inimigo Íntimo",
       "poster": "https://image.tmdb.org/t/p/w500/phJXOEoYdaOzJ5CaL3tb1zdUBCc.jpg",
@@ -1001,7 +1001,7 @@
       "releaseInfo": "1997"
     },
     {
-      "id": "tmdb:44943",
+      "id": "tt1217613",
       "type": "movie",
       "name": "Invasão do Mundo: Batalha de Los Angeles",
       "poster": "https://image.tmdb.org/t/p/w500/lHEBl738DXaFGeyq7lRsSqTdNaU.jpg",
@@ -1009,7 +1009,7 @@
       "releaseInfo": "2011"
     },
     {
-      "id": "tmdb:11652",
+      "id": "tt0445990",
       "type": "movie",
       "name": "Invencível",
       "poster": "https://image.tmdb.org/t/p/w500/47IqeypJmXilXFxHM1N1EiqZ1jA.jpg",
@@ -1017,7 +1017,7 @@
       "releaseInfo": "2006"
     },
     {
-      "id": "tmdb:10009",
+      "id": "tt0328880",
       "type": "movie",
       "name": "Irmão Urso",
       "poster": "https://image.tmdb.org/t/p/w500/pFRQgHiZwHTX7LmHEI0hwocuBC3.jpg",
@@ -1025,7 +1025,7 @@
       "releaseInfo": "2003"
     },
     {
-      "id": "tmdb:10010",
+      "id": "tt0465925",
       "type": "movie",
       "name": "Irmão Urso 2",
       "poster": "https://image.tmdb.org/t/p/w500/r4kOIrwYMXInmFH8eaJ6kDoAkUW.jpg",
@@ -1033,7 +1033,7 @@
       "releaseInfo": "2006"
     },
     {
-      "id": "tmdb:324668",
+      "id": "tt4196776",
       "type": "movie",
       "name": "Jason Bourne",
       "poster": "https://image.tmdb.org/t/p/w500/9wcchetvkyCRi1UYPIinrzXBdsN.jpg",
@@ -1041,7 +1041,7 @@
       "releaseInfo": "2016"
     },
     {
-      "id": "tmdb:1535",
+      "id": "tt0266987",
       "type": "movie",
       "name": "Jogo de Espiões",
       "poster": "https://image.tmdb.org/t/p/w500/8eRA7GVsO3qvwu4sU0idFR0Qce3.jpg",
@@ -1049,7 +1049,7 @@
       "releaseInfo": "2001"
     },
     {
-      "id": "tmdb:265208",
+      "id": "tt2231253",
       "type": "movie",
       "name": "Carta Selvagem",
       "poster": "https://image.tmdb.org/t/p/w500/mNCBOnQITpRkaMRyq8KyfyDFQEx.jpg",
@@ -1057,7 +1057,7 @@
       "releaseInfo": "2015"
     },
     {
-      "id": "tmdb:941109",
+      "id": "tt18392014",
       "type": "movie",
       "name": "Jogo Sujo",
       "poster": "https://image.tmdb.org/t/p/w500/2fXF4GY6eoyjRLjtreVJGajT9WV.jpg",
@@ -1065,7 +1065,7 @@
       "releaseInfo": "2025"
     },
     {
-      "id": "tmdb:232672",
+      "id": "tt1086772",
       "type": "movie",
       "name": "Juntos e Misturados",
       "poster": "https://image.tmdb.org/t/p/w500/tD0UJtt237FAST3rD1htrGLBKAH.jpg",
@@ -1073,7 +1073,7 @@
       "releaseInfo": "2014"
     },
     {
-      "id": "tmdb:438674",
+      "id": "tt6491178",
       "type": "movie",
       "name": "Justiça Brutal",
       "poster": "https://image.tmdb.org/t/p/w500/fbZi8jRG0tZTdXx3GH6CZthkFzc.jpg",
@@ -1081,7 +1081,7 @@
       "releaseInfo": "2019"
     },
     {
-      "id": "tmdb:1011477",
+      "id": "tt1674782",
       "type": "movie",
       "name": "Karatê Kid: Lendas",
       "poster": "https://image.tmdb.org/t/p/w500/gnuSSOVBVWlKL8dFEGKRoOiiKTS.jpg",
@@ -1089,7 +1089,7 @@
       "releaseInfo": "2025"
     },
     {
-      "id": "tmdb:614917",
+      "id": "tt9620288",
       "type": "movie",
       "name": "King Richard: Criando Campeãs",
       "poster": "https://image.tmdb.org/t/p/w500/KUdG6W99PfHe3wzuBWgfsHUuM.jpg",
@@ -1097,7 +1097,7 @@
       "releaseInfo": "2021"
     },
     {
-      "id": "tmdb:9502",
+      "id": "tt0441773",
       "type": "movie",
       "name": "Kung Fu Panda",
       "poster": "https://image.tmdb.org/t/p/w500/1YMs3zCt5kICK28RvVgDL1UUtkA.jpg",
@@ -1105,7 +1105,7 @@
       "releaseInfo": "2008"
     },
     {
-      "id": "tmdb:49444",
+      "id": "tt1302011",
       "type": "movie",
       "name": "Kung Fu Panda 2",
       "poster": "https://image.tmdb.org/t/p/w500/dSF0v3XPCzKb30zv3fLeuoJuTRv.jpg",
@@ -1113,7 +1113,7 @@
       "releaseInfo": "2011"
     },
     {
-      "id": "tmdb:140300",
+      "id": "tt2267968",
       "type": "movie",
       "name": "Kung Fu Panda 3",
       "poster": "https://image.tmdb.org/t/p/w500/ztaU1LyB4IpBSvdZ0p1RntQkfhQ.jpg",
@@ -1121,7 +1121,7 @@
       "releaseInfo": "2016"
     },
     {
-      "id": "tmdb:44912",
+      "id": "tt1133985",
       "type": "movie",
       "name": "Lanterna Verde",
       "poster": "https://image.tmdb.org/t/p/w500/xfZ1p8nNavu5sbLcyrB1FgOYK23.jpg",
@@ -1129,7 +1129,7 @@
       "releaseInfo": "2011"
     },
     {
-      "id": "tmdb:65291",
+      "id": "tt1683043",
       "type": "movie",
       "name": "Lanterna Verde: Cavaleiros Esmeralda",
       "poster": "https://image.tmdb.org/t/p/w500/qyeoW0JGhdt0tULJuBKC7ip1t0E.jpg",
@@ -1137,7 +1137,7 @@
       "releaseInfo": "2011"
     },
     {
-      "id": "tmdb:887357",
+      "id": "tt20192230",
       "type": "movie",
       "name": "Lanterna Verde: Cuidado Com Meu Poder",
       "poster": "https://image.tmdb.org/t/p/w500/9jKuuMoCuAlu0NHvPSHzabkmXtz.jpg",
@@ -1145,7 +1145,7 @@
       "releaseInfo": "2022"
     },
     {
-      "id": "tmdb:17445",
+      "id": "tt1384590",
       "type": "movie",
       "name": "Lanterna Verde: Primeiro Vôo",
       "poster": "https://image.tmdb.org/t/p/w500/ifUEtuvQeIrVh9ajaxMWKBBsDwx.jpg",
@@ -1153,7 +1153,7 @@
       "releaseInfo": "2009"
     },
     {
-      "id": "tmdb:791373",
+      "id": "tt12361974",
       "type": "movie",
       "name": "Liga da Justiça de Zack Snyder",
       "poster": "https://image.tmdb.org/t/p/w500/lsZ5dmMuvZVNMBrkozvJedujbgU.jpg",
@@ -1161,7 +1161,7 @@
       "releaseInfo": "2021"
     },
     {
-      "id": "tmdb:98357",
+      "id": "tt1235522",
       "type": "movie",
       "name": "Linha de Ação",
       "poster": "https://image.tmdb.org/t/p/w500/t3pIua7aJ715CYP3LzgWXGPEVRg.jpg",
@@ -1169,7 +1169,7 @@
       "releaseInfo": "2013"
     },
     {
-      "id": "tmdb:204082",
+      "id": "tt2312718",
       "type": "movie",
       "name": "Linha de Frente",
       "poster": "https://image.tmdb.org/t/p/w500/eDkJozkyJ2izomuyeo0H4tSGpVd.jpg",
@@ -1177,7 +1177,7 @@
       "releaseInfo": "2013"
     },
     {
-      "id": "tmdb:9678",
+      "id": "tt0185431",
       "type": "movie",
       "name": "Little Nick - Um Diabo Diferente",
       "poster": "https://image.tmdb.org/t/p/w500/uuO5wW534qkBPicTRilPaLumL0A.jpg",
@@ -1185,7 +1185,7 @@
       "releaseInfo": "2000"
     },
     {
-      "id": "tmdb:877817",
+      "id": "tt14257582",
       "type": "movie",
       "name": "Lobos",
       "poster": "https://image.tmdb.org/t/p/w500/5LvefZZsapIsOIckLZHbYlwCAkm.jpg",
@@ -1193,7 +1193,7 @@
       "releaseInfo": "2024"
     },
     {
-      "id": "tmdb:9567",
+      "id": "tt0314353",
       "type": "movie",
       "name": "Lágrimas do Sol",
       "poster": "https://image.tmdb.org/t/p/w500/cdc7y9p1SDa7riYOkyAevJTXxTC.jpg",
@@ -1201,7 +1201,7 @@
       "releaseInfo": "2003"
     },
     {
-      "id": "tmdb:10030",
+      "id": "tt0452625",
       "type": "movie",
       "name": "Maldita Sorte",
       "poster": "https://image.tmdb.org/t/p/w500/zauSy5HbzTSoA6cKnMYIr3DTSnR.jpg",
@@ -1209,7 +1209,7 @@
       "releaseInfo": "2007"
     },
     {
-      "id": "tmdb:13051",
+      "id": "tt0467197",
       "type": "movie",
       "name": "Max Payne",
       "poster": "https://image.tmdb.org/t/p/w500/w1Hq5B2wXsbv7G8mA3MIWbjDpQh.jpg",
@@ -1217,7 +1217,7 @@
       "releaseInfo": "2008"
     },
     {
-      "id": "tmdb:345940",
+      "id": "tt4779682",
       "type": "movie",
       "name": "Megatubarão",
       "poster": "https://image.tmdb.org/t/p/w500/wrJkShDPK4TcV0nHix3HASEmkul.jpg",
@@ -1225,7 +1225,7 @@
       "releaseInfo": "2018"
     },
     {
-      "id": "tmdb:615656",
+      "id": "tt9224104",
       "type": "movie",
       "name": "Megatubarão 2",
       "poster": "https://image.tmdb.org/t/p/w500/x3uhIodq56mlGBwpDTZ52trGb35.jpg",
@@ -1233,7 +1233,7 @@
       "releaseInfo": "2023"
     },
     {
-      "id": "tmdb:454639",
+      "id": "tt0427340",
       "type": "movie",
       "name": "Mestres do Universo",
       "poster": "https://image.tmdb.org/t/p/w500/atpb7NKSyM4bJSUY8vQTunzK4Na.jpg",
@@ -1241,7 +1241,7 @@
       "releaseInfo": "2026"
     },
     {
-      "id": "tmdb:20352",
+      "id": "tt1323594",
       "type": "movie",
       "name": "Meu Malvado Favorito",
       "poster": "https://image.tmdb.org/t/p/w500/rYZzutMXxvirK9gK01iLo3Blaj3.jpg",
@@ -1249,7 +1249,7 @@
       "releaseInfo": "2010"
     },
     {
-      "id": "tmdb:93456",
+      "id": "tt1690953",
       "type": "movie",
       "name": "Meu Malvado Favorito 2",
       "poster": "https://image.tmdb.org/t/p/w500/7mYMq6OQyum1wAiUI7i6w78YKEO.jpg",
@@ -1257,7 +1257,7 @@
       "releaseInfo": "2013"
     },
     {
-      "id": "tmdb:324852",
+      "id": "tt3469046",
       "type": "movie",
       "name": "Meu Malvado Favorito 3",
       "poster": "https://image.tmdb.org/t/p/w500/6z0KlRIrXfkgNz3IJOCAQxdVXAg.jpg",
@@ -1265,7 +1265,7 @@
       "releaseInfo": "2017"
     },
     {
-      "id": "tmdb:519182",
+      "id": "tt7510222",
       "type": "movie",
       "name": "Meu Malvado Favorito 4",
       "poster": "https://image.tmdb.org/t/p/w500/s8BefU3RIJrfipTpsDtOiatlp8j.jpg",
@@ -1273,7 +1273,7 @@
       "releaseInfo": "2024"
     },
     {
-      "id": "tmdb:936075",
+      "id": "tt11378946",
       "type": "movie",
       "name": "Michael",
       "poster": "https://image.tmdb.org/t/p/w500/gXh43JopeO8BlA661BvlkR6yeqs.jpg",
@@ -1281,7 +1281,7 @@
       "releaseInfo": "2026"
     },
     {
-      "id": "tmdb:211672",
+      "id": "tt2293640",
       "type": "movie",
       "name": "Minions",
       "poster": "https://image.tmdb.org/t/p/w500/caq9Xi6b1sZNREfzFBO2tRIBzWn.jpg",
@@ -1289,7 +1289,7 @@
       "releaseInfo": "2015"
     },
     {
-      "id": "tmdb:438148",
+      "id": "tt5113044",
       "type": "movie",
       "name": "Minions 2: A Origem de Gru",
       "poster": "https://image.tmdb.org/t/p/w500/iTP3mMw0AoqmScYzDoMmYeKxYe.jpg",
@@ -1297,7 +1297,7 @@
       "releaseInfo": "2022"
     },
     {
-      "id": "tmdb:931285",
+      "id": "tt17490712",
       "type": "movie",
       "name": "Mortal Kombat 2",
       "poster": "https://image.tmdb.org/t/p/w500/iILiJSRViTEcF23MHhGCbVm3mfW.jpg",
@@ -1305,7 +1305,7 @@
       "releaseInfo": "2026"
     },
     {
-      "id": "tmdb:634528",
+      "id": "tt6902332",
       "type": "movie",
       "name": "Na Mira do Perigo",
       "poster": "https://image.tmdb.org/t/p/w500/vW2My12kmNQ6P4877alchnQHTp8.jpg",
@@ -1313,7 +1313,7 @@
       "releaseInfo": "2021"
     },
     {
-      "id": "tmdb:293",
+      "id": "tt0105265",
       "type": "movie",
       "name": "Nada É Para Sempre",
       "poster": "https://image.tmdb.org/t/p/w500/xZVLjVLheYzbJGbo2zIuHlwG0Yu.jpg",
@@ -1321,7 +1321,7 @@
       "releaseInfo": "1992"
     },
     {
-      "id": "tmdb:600",
+      "id": "tt0093058",
       "type": "movie",
       "name": "Nascido Para Matar",
       "poster": "https://image.tmdb.org/t/p/w500/qHm54HjL1F6CFVyYOz6Q2HAPTfS.jpg",
@@ -1329,7 +1329,7 @@
       "releaseInfo": "1987"
     },
     {
-      "id": "tmdb:239573",
+      "id": "tt2358925",
       "type": "movie",
       "name": "Negócios Fora de Controle",
       "poster": "https://image.tmdb.org/t/p/w500/tU4U3FR7WoDWphFakkIuiktOb99.jpg",
@@ -1337,7 +1337,7 @@
       "releaseInfo": "2015"
     },
     {
-      "id": "tmdb:241554",
+      "id": "tt2199571",
       "type": "movie",
       "name": "Noite Sem Fim",
       "poster": "https://image.tmdb.org/t/p/w500/r6syWDxxJjeN1DToLPIhdBZ444n.jpg",
@@ -1345,7 +1345,7 @@
       "releaseInfo": "2015"
     },
     {
-      "id": "tmdb:529485",
+      "id": "tt8544498",
       "type": "movie",
       "name": "O Caminho de Volta",
       "poster": "https://image.tmdb.org/t/p/w500/htwqnN0zyM1zpY9DgO7dWwq4m2S.jpg",
@@ -1353,7 +1353,7 @@
       "releaseInfo": "2020"
     },
     {
-      "id": "tmdb:302946",
+      "id": "tt2140479",
       "type": "movie",
       "name": "O Contador",
       "poster": "https://image.tmdb.org/t/p/w500/vgJt4ADIjm5U2y3oPLu6kXEXOCY.jpg",
@@ -1361,7 +1361,7 @@
       "releaseInfo": "2016"
     },
     {
-      "id": "tmdb:9455",
+      "id": "tt0142192",
       "type": "movie",
       "name": "O Corruptor",
       "poster": "https://image.tmdb.org/t/p/w500/m02qOBHBu0JEVh9oDkWBw0qIxTe.jpg",
@@ -1369,7 +1369,7 @@
       "releaseInfo": "1999"
     },
     {
-      "id": "tmdb:4922",
+      "id": "tt0421715",
       "type": "movie",
       "name": "O Curioso Caso de Benjamin Button",
       "poster": "https://image.tmdb.org/t/p/w500/v9emaesXHtzXcca0tuSPDsSh3K9.jpg",
@@ -1377,7 +1377,7 @@
       "releaseInfo": "2008"
     },
     {
-      "id": "tmdb:72387",
+      "id": "tt1656190",
       "type": "movie",
       "name": "O Código",
       "poster": "https://image.tmdb.org/t/p/w500/oAW1cpxsJh4QS5nsS18VpVBeaKI.jpg",
@@ -1385,7 +1385,7 @@
       "releaseInfo": "2012"
     },
     {
-      "id": "tmdb:388399",
+      "id": "tt4572514",
       "type": "movie",
       "name": "O Dia do Atentado",
       "poster": "https://image.tmdb.org/t/p/w500/8gWuVoGaMQFFp9Cu0AMRJ5GsoVg.jpg",
@@ -1393,7 +1393,7 @@
       "releaseInfo": "2016"
     },
     {
-      "id": "tmdb:1314481",
+      "id": "tt33612209",
       "type": "movie",
       "name": "O Diabo Veste Prada 2",
       "poster": "https://image.tmdb.org/t/p/w500/50yWyY981TyUHhoxxSEKwO70FmQ.jpg",
@@ -1401,7 +1401,7 @@
       "releaseInfo": "2026"
     },
     {
-      "id": "tmdb:1930",
+      "id": "tt0948470",
       "type": "movie",
       "name": "O Espetacular Homem-Aranha",
       "poster": "https://image.tmdb.org/t/p/w500/gxSsFBCFuDhVQMCuIDoZcmHOqlY.jpg",
@@ -1409,7 +1409,7 @@
       "releaseInfo": "2012"
     },
     {
-      "id": "tmdb:102382",
+      "id": "tt1872181",
       "type": "movie",
       "name": "O Espetacular Homem-Aranha 2: A Ameaça de Electro",
       "poster": "https://image.tmdb.org/t/p/w500/cyMz4OfmNqpuQ02QQOQCbGxQjwK.jpg",
@@ -1417,7 +1417,7 @@
       "releaseInfo": "2014"
     },
     {
-      "id": "tmdb:193756",
+      "id": "tt1091191",
       "type": "movie",
       "name": "O Grande Herói",
       "poster": "https://image.tmdb.org/t/p/w500/cxoVXitidlXPIvwhnAsCTNo17Ui.jpg",
@@ -1425,7 +1425,7 @@
       "releaseInfo": "2013"
     },
     {
-      "id": "tmdb:64689",
+      "id": "tt1764234",
       "type": "movie",
       "name": "O Homem da Máfia",
       "poster": "https://image.tmdb.org/t/p/w500/1rUbQu5P0rkDsTGLU2f2AGMm9HV.jpg",
@@ -1433,7 +1433,7 @@
       "releaseInfo": "2012"
     },
     {
-      "id": "tmdb:49521",
+      "id": "tt0770828",
       "type": "movie",
       "name": "O Homem de Aço",
       "poster": "https://image.tmdb.org/t/p/w500/cheo9jDPfyW1GevfPjXtnO91KNe.jpg",
@@ -1441,7 +1441,7 @@
       "releaseInfo": "2013"
     },
     {
-      "id": "tmdb:60308",
+      "id": "tt1210166",
       "type": "movie",
       "name": "O Homem Que Mudou o Jogo",
       "poster": "https://image.tmdb.org/t/p/w500/kNloN3TqTBDd1Fcl980LzpWDhzY.jpg",
@@ -1449,7 +1449,7 @@
       "releaseInfo": "2011"
     },
     {
-      "id": "tmdb:49040",
+      "id": "tt1194173",
       "type": "movie",
       "name": "O Legado Bourne",
       "poster": "https://image.tmdb.org/t/p/w500/nVNG7ObNVdQF5h2ySzpcXtGgMnH.jpg",
@@ -1457,7 +1457,7 @@
       "releaseInfo": "2012"
     },
     {
-      "id": "tmdb:20504",
+      "id": "tt1037705",
       "type": "movie",
       "name": "O Livro de Eli",
       "poster": "https://image.tmdb.org/t/p/w500/hUS4hknUZGJKqdFWf04eNSaaRfC.jpg",
@@ -1465,7 +1465,7 @@
       "releaseInfo": "2010"
     },
     {
-      "id": "tmdb:9032",
+      "id": "tt0142342",
       "type": "movie",
       "name": "O Paizão",
       "poster": "https://image.tmdb.org/t/p/w500/ci7KJRsHS1FfGAbF0BgIHEsnaTe.jpg",
@@ -1473,7 +1473,7 @@
       "releaseInfo": "1999"
     },
     {
-      "id": "tmdb:388",
+      "id": "tt0454848",
       "type": "movie",
       "name": "O Plano Perfeito",
       "poster": "https://image.tmdb.org/t/p/w500/76z8q24vMul7IPguc0QUODF3THk.jpg",
@@ -1481,7 +1481,7 @@
       "releaseInfo": "2006"
     },
     {
-      "id": "tmdb:18487",
+      "id": "tt1111422",
       "type": "movie",
       "name": "O Sequestro do Metrô 1 2 3",
       "poster": "https://image.tmdb.org/t/p/w500/dDQeUJBEeeMYbAVhO35ybBkstDS.jpg",
@@ -1489,7 +1489,7 @@
       "releaseInfo": "2009"
     },
     {
-      "id": "tmdb:5125",
+      "id": "tt0804522",
       "type": "movie",
       "name": "O Suspeito",
       "poster": "https://image.tmdb.org/t/p/w500/jCmXyCwjQAO585gKgHNCbgXiZxb.jpg",
@@ -1497,7 +1497,7 @@
       "releaseInfo": "2007"
     },
     {
-      "id": "tmdb:2503",
+      "id": "tt0440963",
       "type": "movie",
       "name": "O Ultimato Bourne",
       "poster": "https://image.tmdb.org/t/p/w500/cCmkrXF2CL9rx9BnQHDGDhQv4pD.jpg",
@@ -1505,7 +1505,7 @@
       "releaseInfo": "2007"
     },
     {
-      "id": "tmdb:38317",
+      "id": "tt1222817",
       "type": "movie",
       "name": "O Zelador Animal",
       "poster": "https://image.tmdb.org/t/p/w500/k8XEkCbaBwjdHMhBgG3PLEmY0sv.jpg",
@@ -1513,7 +1513,7 @@
       "releaseInfo": "2011"
     },
     {
-      "id": "tmdb:9333",
+      "id": "tt0116830",
       "type": "movie",
       "name": "O Último Matador",
       "poster": "https://image.tmdb.org/t/p/w500/2n5hyCORjuW5So6HobrTOa8NVOt.jpg",
@@ -1521,7 +1521,7 @@
       "releaseInfo": "1996"
     },
     {
-      "id": "tmdb:10196",
+      "id": "tt0938283",
       "type": "movie",
       "name": "O Último Mestre do Ar",
       "poster": "https://image.tmdb.org/t/p/w500/sQGFIDDScR6tX3KXotHaQywewYU.jpg",
@@ -1529,7 +1529,7 @@
       "releaseInfo": "2010"
     },
     {
-      "id": "tmdb:1339713",
+      "id": "tt37287335",
       "type": "movie",
       "name": "Obsessão",
       "poster": "https://image.tmdb.org/t/p/w500/wUc6IDf5ChjM1UyQye21qFBeJY0.jpg",
@@ -1537,7 +1537,7 @@
       "releaseInfo": "2026"
     },
     {
-      "id": "tmdb:2001",
+      "id": "tt0498399",
       "type": "movie",
       "name": "Os Donos da Noite",
       "poster": "https://image.tmdb.org/t/p/w500/7w7nbyTJUAa8Pyuv0WzMBL8FofN.jpg",
@@ -1545,7 +1545,7 @@
       "releaseInfo": "2007"
     },
     {
-      "id": "tmdb:49021",
+      "id": "tt1448755",
       "type": "movie",
       "name": "Os Especialistas",
       "poster": "https://image.tmdb.org/t/p/w500/bA571EuifSbOhXjMNBMfqTCUD9o.jpg",
@@ -1553,7 +1553,7 @@
       "releaseInfo": "2011"
     },
     {
-      "id": "tmdb:116741",
+      "id": "tt2234155",
       "type": "movie",
       "name": "Os Estagiários",
       "poster": "https://image.tmdb.org/t/p/w500/eJ2yNRyP3QJ36lO81f19ep98eWw.jpg",
@@ -1561,7 +1561,7 @@
       "releaseInfo": "2013"
     },
     {
-      "id": "tmdb:9806",
+      "id": "tt0317705",
       "type": "movie",
       "name": "Os Incríveis",
       "poster": "https://image.tmdb.org/t/p/w500/z8k5EhZZTLsCRF8NWjSe6snWNZg.jpg",
@@ -1569,7 +1569,7 @@
       "releaseInfo": "2004"
     },
     {
-      "id": "tmdb:260513",
+      "id": "tt3606756",
       "type": "movie",
       "name": "Os Incríveis 2",
       "poster": "https://image.tmdb.org/t/p/w500/6et98yxnctR6uH16x3uJuIVKsPf.jpg",
@@ -1577,7 +1577,7 @@
       "releaseInfo": "2018"
     },
     {
-      "id": "tmdb:27578",
+      "id": "tt1320253",
       "type": "movie",
       "name": "Os Mercenários",
       "poster": "https://image.tmdb.org/t/p/w500/67xVbBwIO6Pq4p9KS22sZ4k3bmQ.jpg",
@@ -1585,7 +1585,7 @@
       "releaseInfo": "2010"
     },
     {
-      "id": "tmdb:76163",
+      "id": "tt1764651",
       "type": "movie",
       "name": "Os Mercenários 2",
       "poster": "https://image.tmdb.org/t/p/w500/7aaQYcUInTneXo7B8jJNwTxnQe6.jpg",
@@ -1593,7 +1593,7 @@
       "releaseInfo": "2012"
     },
     {
-      "id": "tmdb:138103",
+      "id": "tt2333784",
       "type": "movie",
       "name": "Os Mercenários 3",
       "poster": "https://image.tmdb.org/t/p/w500/gz7NHfeX2Ns5uISksirOlPtJrua.jpg",
@@ -1601,7 +1601,7 @@
       "releaseInfo": "2014"
     },
     {
-      "id": "tmdb:299054",
+      "id": "tt3291150",
       "type": "movie",
       "name": "Os Mercenários 4",
       "poster": "https://image.tmdb.org/t/p/w500/mVgPlKHUxXJhD9H0cCMzwJO4Ssv.jpg",
@@ -1609,7 +1609,7 @@
       "releaseInfo": "2023"
     },
     {
-      "id": "tmdb:27581",
+      "id": "tt1386588",
       "type": "movie",
       "name": "Os Outros Caras",
       "poster": "https://image.tmdb.org/t/p/w500/gHzt2VR585107h4E1f8yva0s2P0.jpg",
@@ -1617,7 +1617,7 @@
       "releaseInfo": "2010"
     },
     {
-      "id": "tmdb:252838",
+      "id": "tt0884732",
       "type": "movie",
       "name": "Padrinhos Ltda.",
       "poster": "https://image.tmdb.org/t/p/w500/nGPLTJ9CFUDaCC365ZxW2zk70qb.jpg",
@@ -1625,7 +1625,7 @@
       "releaseInfo": "2015"
     },
     {
-      "id": "tmdb:119283",
+      "id": "tt1904996",
       "type": "movie",
       "name": "Parker",
       "poster": "https://image.tmdb.org/t/p/w500/1Y5UhkU2u6Ubqp0RP2TZjeXuVJq.jpg",
@@ -1633,7 +1633,7 @@
       "releaseInfo": "2013"
     },
     {
-      "id": "tmdb:9522",
+      "id": "tt0396269",
       "type": "movie",
       "name": "Penetras Bons de Bico",
       "poster": "https://image.tmdb.org/t/p/w500/sRxkUMVx1QfuGeBMOWsT8pv68vW.jpg",
@@ -1641,7 +1641,7 @@
       "releaseInfo": "2005"
     },
     {
-      "id": "tmdb:286217",
+      "id": "tt3659388",
       "type": "movie",
       "name": "Perdido em Marte",
       "poster": "https://image.tmdb.org/t/p/w500/fG3S4zdgnsaF77tJGK3rA9tHBu4.jpg",
@@ -1649,7 +1649,7 @@
       "releaseInfo": "2015"
     },
     {
-      "id": "tmdb:328111",
+      "id": "tt2709768",
       "type": "movie",
       "name": "Pets: A Vida Secreta dos Bichos",
       "poster": "https://image.tmdb.org/t/p/w500/xKpQ8fDDu1qCvBl5bF2vpsZPSUj.jpg",
@@ -1657,7 +1657,7 @@
       "releaseInfo": "2016"
     },
     {
-      "id": "tmdb:412117",
+      "id": "tt5113040",
       "type": "movie",
       "name": "Pets: A Vida Secreta dos Bichos 2",
       "poster": "https://image.tmdb.org/t/p/w500/lLfEOjuzNK7c8c0PpQL3UDZRde0.jpg",
@@ -1665,7 +1665,7 @@
       "releaseInfo": "2019"
     },
     {
-      "id": "tmdb:257344",
+      "id": "tt2120120",
       "type": "movie",
       "name": "Pixels",
       "poster": "https://image.tmdb.org/t/p/w500/d26S5EfVXLNxRXqyFy1yyl3qRq3.jpg",
@@ -1673,7 +1673,7 @@
       "releaseInfo": "2015"
     },
     {
-      "id": "tmdb:1029575",
+      "id": "tt16431870",
       "type": "movie",
       "name": "Plano em Família",
       "poster": "https://image.tmdb.org/t/p/w500/3CezGI4ORSgVKk5Ch3UUWtL7SET.jpg",
@@ -1681,7 +1681,7 @@
       "releaseInfo": "2023"
     },
     {
-      "id": "tmdb:1363123",
+      "id": "tt34276058",
       "type": "movie",
       "name": "Plano em Família 2",
       "poster": "https://image.tmdb.org/t/p/w500/aLgvLNWETZ2wtPzU3E7lavEpCJw.jpg",
@@ -1689,7 +1689,7 @@
       "releaseInfo": "2025"
     },
     {
-      "id": "tmdb:9404",
+      "id": "tt0116704",
       "type": "movie",
       "name": "Police Story 4: Primeiro Impacto",
       "poster": "https://image.tmdb.org/t/p/w500/isCnmtLE2YnpEadEivtzE5Clhl6.jpg",
@@ -1697,7 +1697,7 @@
       "releaseInfo": "1996"
     },
     {
-      "id": "tmdb:168530",
+      "id": "tt1408253",
       "type": "movie",
       "name": "Policial em Apuros",
       "poster": "https://image.tmdb.org/t/p/w500/b0fok58kIjQoS7y3NK6sf5VzTXG.jpg",
@@ -1705,7 +1705,7 @@
       "releaseInfo": "2014"
     },
     {
-      "id": "tmdb:323675",
+      "id": "tt2869728",
       "type": "movie",
       "name": "Policial em Apuros 2",
       "poster": "https://image.tmdb.org/t/p/w500/an6rrT8pzrANjis0hnv52DMBR7q.jpg",
@@ -1713,7 +1713,7 @@
       "releaseInfo": "2016"
     },
     {
-      "id": "tmdb:9411",
+      "id": "tt0119099",
       "type": "movie",
       "name": "Possuídos",
       "poster": "https://image.tmdb.org/t/p/w500/qDXENKGzkYz9jyAtjiua1zp1o6T.jpg",
@@ -1721,7 +1721,7 @@
       "releaseInfo": "1998"
     },
     {
-      "id": "tmdb:87826",
+      "id": "tt1648179",
       "type": "movie",
       "name": "Professor Peso Pesado",
       "poster": "https://image.tmdb.org/t/p/w500/2YlfMvheZcM1l28peRHQzaJsT0d.jpg",
@@ -1729,7 +1729,7 @@
       "releaseInfo": "2012"
     },
     {
-      "id": "tmdb:57214",
+      "id": "tt1636826",
       "type": "movie",
       "name": "Projeto X: Uma Festa Fora de Controle",
       "poster": "https://image.tmdb.org/t/p/w500/yZcrard3hundE2NpgBaJdel3gAw.jpg",
@@ -1737,7 +1737,7 @@
       "releaseInfo": "2012"
     },
     {
-      "id": "tmdb:57214",
+      "id": "tt1636826",
       "type": "movie",
       "name": "Projeto X: Uma Festa Fora de Controle",
       "poster": "https://image.tmdb.org/t/p/w500/yZcrard3hundE2NpgBaJdel3gAw.jpg",
@@ -1745,7 +1745,7 @@
       "releaseInfo": "2012"
     },
     {
-      "id": "tmdb:136418",
+      "id": "tt1893256",
       "type": "movie",
       "name": "Redenção",
       "poster": "https://image.tmdb.org/t/p/w500/mtXFVL5kaNBBS08KWkDeLEsk89n.jpg",
@@ -1753,7 +1753,7 @@
       "releaseInfo": "2013"
     },
     {
-      "id": "tmdb:1197306",
+      "id": "tt9150192",
       "type": "movie",
       "name": "Resgate Implacável",
       "poster": "https://image.tmdb.org/t/p/w500/1w01rEQRYvIoSs5Is9cQDJhiUel.jpg",
@@ -1761,7 +1761,7 @@
       "releaseInfo": "2025"
     },
     {
-      "id": "tmdb:10851",
+      "id": "tt0365686",
       "type": "movie",
       "name": "Revólver",
       "poster": "https://image.tmdb.org/t/p/w500/rzpUAdFdZr8Zoxx0LZrl1da0e15.jpg",
@@ -1769,7 +1769,7 @@
       "releaseInfo": "2005"
     },
     {
-      "id": "tmdb:13809",
+      "id": "tt1032755",
       "type": "movie",
       "name": "Rock'N'Rolla: A Grande Roubada",
       "poster": "https://image.tmdb.org/t/p/w500/1r0rKBB7LIVGS9S2xDgO7W5Sfsd.jpg",
@@ -1777,7 +1777,7 @@
       "releaseInfo": "2008"
     },
     {
-      "id": "tmdb:330459",
+      "id": "tt3748528",
       "type": "movie",
       "name": "Rogue One: Uma História Star Wars",
       "poster": "https://image.tmdb.org/t/p/w500/74C2YX0NLWnozVMRS56d5CKDdEv.jpg",
@@ -1785,7 +1785,7 @@
       "releaseInfo": "2016"
     },
     {
-      "id": "tmdb:413362",
+      "id": "tt6000478",
       "type": "movie",
       "name": "Roman J. Israel",
       "poster": "https://image.tmdb.org/t/p/w500/ciq2V1G4dj3GLFBfQGY1gqvPcbK.jpg",
@@ -1793,7 +1793,7 @@
       "releaseInfo": "2017"
     },
     {
-      "id": "tmdb:18785",
+      "id": "tt1119646",
       "type": "movie",
       "name": "Se Beber, Não Case!",
       "poster": "https://image.tmdb.org/t/p/w500/m0tQyMdp3fy5ooUOQkJMd1fQKBJ.jpg",
@@ -1801,7 +1801,7 @@
       "releaseInfo": "2009"
     },
     {
-      "id": "tmdb:45243",
+      "id": "tt1411697",
       "type": "movie",
       "name": "Se Beber, Não Case! Parte II",
       "poster": "https://image.tmdb.org/t/p/w500/lvwO6R9RImeq3UBbh6DPWG3Iiqw.jpg",
@@ -1809,7 +1809,7 @@
       "releaseInfo": "2011"
     },
     {
-      "id": "tmdb:109439",
+      "id": "tt1951261",
       "type": "movie",
       "name": "Se Beber, Não Case! Parte III",
       "poster": "https://image.tmdb.org/t/p/w500/6SOnmTK0XoEcc7AoyXoce76to3Y.jpg",
@@ -1817,7 +1817,7 @@
       "releaseInfo": "2013"
     },
     {
-      "id": "tmdb:256961",
+      "id": "tt3450650",
       "type": "movie",
       "name": "Segurança de Shopping 2",
       "poster": "https://image.tmdb.org/t/p/w500/dJ52hQePdIAUVcDEIMmeTUr4vhY.jpg",
@@ -1825,7 +1825,7 @@
       "releaseInfo": "2015"
     },
     {
-      "id": "tmdb:807",
+      "id": "tt0114369",
       "type": "movie",
       "name": "Seven - Os Sete Crimes Capitais",
       "poster": "https://image.tmdb.org/t/p/w500/dZXYPSEaXCeigR2GEuZoukNmLTf.jpg",
@@ -1833,7 +1833,7 @@
       "releaseInfo": "1995"
     },
     {
-      "id": "tmdb:13523",
+      "id": "tt1135985",
       "type": "movie",
       "name": "Sex Drive: Rumo ao Sexo",
       "poster": "https://image.tmdb.org/t/p/w500/6D5FuwuZR7BEAbiyNfLKuV5KGN.jpg",
@@ -1841,7 +1841,7 @@
       "releaseInfo": "2008"
     },
     {
-      "id": "tmdb:808",
+      "id": "tt0126029",
       "type": "movie",
       "name": "Shrek",
       "poster": "https://image.tmdb.org/t/p/w500/wxeqfC221YMptRRdzxlijAh7q8l.jpg",
@@ -1849,7 +1849,7 @@
       "releaseInfo": "2001"
     },
     {
-      "id": "tmdb:809",
+      "id": "tt0298148",
       "type": "movie",
       "name": "Shrek 2",
       "poster": "https://image.tmdb.org/t/p/w500/2yYP0PQjG8zVqturh1BAqu2Tixl.jpg",
@@ -1857,7 +1857,7 @@
       "releaseInfo": "2004"
     },
     {
-      "id": "tmdb:10192",
+      "id": "tt0892791",
       "type": "movie",
       "name": "Shrek Para Sempre",
       "poster": "https://image.tmdb.org/t/p/w500/iFXVU0ni6YWgQNSPkoGO1Tk5L3g.jpg",
@@ -1865,7 +1865,7 @@
       "releaseInfo": "2010"
     },
     {
-      "id": "tmdb:810",
+      "id": "tt0413267",
       "type": "movie",
       "name": "Shrek Terceiro",
       "poster": "https://image.tmdb.org/t/p/w500/abw1mIJIjG9X3xSEffE9siLcOkN.jpg",
@@ -1873,7 +1873,7 @@
       "releaseInfo": "2007"
     },
     {
-      "id": "tmdb:190859",
+      "id": "tt2179136",
       "type": "movie",
       "name": "Sniper Americano",
       "poster": "https://image.tmdb.org/t/p/w500/mAXzc2oDTTYcnn6IGHlSXvmXloG.jpg",
@@ -1881,7 +1881,7 @@
       "releaseInfo": "2014"
     },
     {
-      "id": "tmdb:844417",
+      "id": "tt6722802",
       "type": "movie",
       "name": "Sombras de um Crime",
       "poster": "https://image.tmdb.org/t/p/w500/rfHUBpJj7W7gpIv0ohDfIPizuL0.jpg",
@@ -1889,7 +1889,7 @@
       "releaseInfo": "2023"
     },
     {
-      "id": "tmdb:787",
+      "id": "tt0356910",
       "type": "movie",
       "name": "Sr. & Sra. Smith",
       "poster": "https://image.tmdb.org/t/p/w500/7mTudJmBLUrRxkbABfFeXJFv8I7.jpg",
@@ -1897,7 +1897,7 @@
       "releaseInfo": "2005"
     },
     {
-      "id": "tmdb:181812",
+      "id": "tt2527338",
       "type": "movie",
       "name": "Star Wars: A Ascensão Skywalker",
       "poster": "https://image.tmdb.org/t/p/w500/uLlrDUtFG2tKtDcJN6kBznlqqsp.jpg",
@@ -1905,7 +1905,7 @@
       "releaseInfo": "2019"
     },
     {
-      "id": "tmdb:1893",
+      "id": "tt0120915",
       "type": "movie",
       "name": "Star Wars: Episódio I - A Ameaça Fantasma",
       "poster": "https://image.tmdb.org/t/p/w500/gNk8UNAumXlfCdtaxDqsQe7ZGlt.jpg",
@@ -1913,7 +1913,7 @@
       "releaseInfo": "1999"
     },
     {
-      "id": "tmdb:1894",
+      "id": "tt0121765",
       "type": "movie",
       "name": "Star Wars: Episódio II - Ataque dos Clones",
       "poster": "https://image.tmdb.org/t/p/w500/9m1nJ2MfTG5QEmjOCg0b4YCo4W8.jpg",
@@ -1921,7 +1921,7 @@
       "releaseInfo": "2002"
     },
     {
-      "id": "tmdb:1895",
+      "id": "tt0121766",
       "type": "movie",
       "name": "Star Wars: Episódio III - A Vingança dos Sith",
       "poster": "https://image.tmdb.org/t/p/w500/nuF5yWtTJEEAd4Qa6cVkYz1XCST.jpg",
@@ -1929,7 +1929,7 @@
       "releaseInfo": "2005"
     },
     {
-      "id": "tmdb:11",
+      "id": "tt0076759",
       "type": "movie",
       "name": "Guerra nas Estrelas",
       "poster": "https://image.tmdb.org/t/p/w500/dw7X9YPjjAfIxKHW04V64Bb9TB0.jpg",
@@ -1937,7 +1937,7 @@
       "releaseInfo": "1977"
     },
     {
-      "id": "tmdb:1891",
+      "id": "tt0080684",
       "type": "movie",
       "name": "Guerra nas Estrelas: O Império Contra-Ataca",
       "poster": "https://image.tmdb.org/t/p/w500/dLGT8b4Ut10z44uYLaip4QiwKta.jpg",
@@ -1945,7 +1945,7 @@
       "releaseInfo": "1980"
     },
     {
-      "id": "tmdb:1892",
+      "id": "tt0086190",
       "type": "movie",
       "name": "Guerra nas Estrelas: O Retorno de Jedi",
       "poster": "https://image.tmdb.org/t/p/w500/llaJ35p5e23ygDbqd0H3otJLWsA.jpg",
@@ -1953,7 +1953,7 @@
       "releaseInfo": "1983"
     },
     {
-      "id": "tmdb:140607",
+      "id": "tt2488496",
       "type": "movie",
       "name": "Star Wars: O Despertar da Força",
       "poster": "https://image.tmdb.org/t/p/w500/lqMDbo4rXnakFgc4C6LzPv6pG7F.jpg",
@@ -1961,7 +1961,7 @@
       "releaseInfo": "2015"
     },
     {
-      "id": "tmdb:181808",
+      "id": "tt2527336",
       "type": "movie",
       "name": "Star Wars: Os Últimos Jedi",
       "poster": "https://image.tmdb.org/t/p/w500/5dGufuaIG5vNcxPm8QPij5MSPeQ.jpg",
@@ -1969,7 +1969,7 @@
       "releaseInfo": "2017"
     },
     {
-      "id": "tmdb:1226863",
+      "id": "tt28650488",
       "type": "movie",
       "name": "Super Mario Galaxy: O Filme",
       "poster": "https://image.tmdb.org/t/p/w500/b3WeTp42eJSRuE4UZfyPCOJW4c.jpg",
@@ -1977,7 +1977,7 @@
       "releaseInfo": "2026"
     },
     {
-      "id": "tmdb:1081003",
+      "id": "tt8814476",
       "type": "movie",
       "name": "Supergirl",
       "poster": "https://image.tmdb.org/t/p/w500/qhXfLI1gDWaahzfHT0cb2CH61hO.jpg",
@@ -1985,7 +1985,7 @@
       "releaseInfo": "2026"
     },
     {
-      "id": "tmdb:1061474",
+      "id": "tt5950044",
       "type": "movie",
       "name": "Superman",
       "poster": "https://image.tmdb.org/t/p/w500/v8ezJI3qfEv4OYq8AWSp4inFIwE.jpg",
@@ -1993,7 +1993,7 @@
       "releaseInfo": "2025"
     },
     {
-      "id": "tmdb:8536",
+      "id": "tt0081573",
       "type": "movie",
       "name": "Superman II: A Aventura Continua",
       "poster": "https://image.tmdb.org/t/p/w500/7hLV6QIIQ2m5QtEoASjrr6HLfgH.jpg",
@@ -2001,7 +2001,7 @@
       "releaseInfo": "1980"
     },
     {
-      "id": "tmdb:9531",
+      "id": "tt0086393",
       "type": "movie",
       "name": "Superman III",
       "poster": "https://image.tmdb.org/t/p/w500/18Q76YwMaficmfz9u5lINybh0uP.jpg",
@@ -2009,7 +2009,7 @@
       "releaseInfo": "1983"
     },
     {
-      "id": "tmdb:11411",
+      "id": "tt0094074",
       "type": "movie",
       "name": "Superman IV: Em Busca da Paz",
       "poster": "https://image.tmdb.org/t/p/w500/AgPJ7SGp7RxESgS6UKmHVIgelOt.jpg",
@@ -2017,7 +2017,7 @@
       "releaseInfo": "1987"
     },
     {
-      "id": "tmdb:1924",
+      "id": "tt0078346",
       "type": "movie",
       "name": "Superman: O Filme",
       "poster": "https://image.tmdb.org/t/p/w500/sm6BLvYCSe4pUpW2UrCKSsS1o0B.jpg",
@@ -2025,7 +2025,7 @@
       "releaseInfo": "1978"
     },
     {
-      "id": "tmdb:1452",
+      "id": "tt0348150",
       "type": "movie",
       "name": "Superman: O Retorno",
       "poster": "https://image.tmdb.org/t/p/w500/jLmb769DnH3UjSDThwmCNVnr6t9.jpg",
@@ -2033,7 +2033,7 @@
       "releaseInfo": "2006"
     },
     {
-      "id": "tmdb:72105",
+      "id": "tt1637725",
       "type": "movie",
       "name": "Ted",
       "poster": "https://image.tmdb.org/t/p/w500/patvtN6QlClCRZlswIPxDSYJRzW.jpg",
@@ -2041,7 +2041,7 @@
       "releaseInfo": "2012"
     },
     {
-      "id": "tmdb:214756",
+      "id": "tt2637276",
       "type": "movie",
       "name": "Ted 2",
       "poster": "https://image.tmdb.org/t/p/w500/kblxjPVIXaIQ7iHo5b2LaBOEllD.jpg",
@@ -2049,7 +2049,7 @@
       "releaseInfo": "2015"
     },
     {
-      "id": "tmdb:274855",
+      "id": "tt1981128",
       "type": "movie",
       "name": "Tempestade: Planeta em Fúria",
       "poster": "https://image.tmdb.org/t/p/w500/g4FjMmJGIagHlNjbBppQyg6xaaj.jpg",
@@ -2057,7 +2057,7 @@
       "releaseInfo": "2017"
     },
     {
-      "id": "tmdb:23742",
+      "id": "tt1385867",
       "type": "movie",
       "name": "Tiras em Apuros",
       "poster": "https://image.tmdb.org/t/p/w500/n7jukP3epnOIMMVWEpj95pRvrWX.jpg",
@@ -2065,7 +2065,7 @@
       "releaseInfo": "2010"
     },
     {
-      "id": "tmdb:5375",
+      "id": "tt0486583",
       "type": "movie",
       "name": "Titio Noel",
       "poster": "https://image.tmdb.org/t/p/w500/vJkiT0PPVw74CwZEa7mtV9q6zfq.jpg",
@@ -2073,7 +2073,7 @@
       "releaseInfo": "2007"
     },
     {
-      "id": "tmdb:1273221",
+      "id": "tt32093575",
       "type": "movie",
       "name": "Todo Mundo em Pânico",
       "poster": "https://image.tmdb.org/t/p/w500/y9yJd2qIIwhZcllHeKHsz5eRvNr.jpg",
@@ -2081,7 +2081,7 @@
       "releaseInfo": "2026"
     },
     {
-      "id": "tmdb:9506",
+      "id": "tt0305224",
       "type": "movie",
       "name": "Tratamento de Choque",
       "poster": "https://image.tmdb.org/t/p/w500/JJNO1aXRF6K8mmdO7erTnXjJ40.jpg",
@@ -2089,7 +2089,7 @@
       "releaseInfo": "2003"
     },
     {
-      "id": "tmdb:238215",
+      "id": "tt3203616",
       "type": "movie",
       "name": "Trocando os Pés",
       "poster": "https://image.tmdb.org/t/p/w500/o0OL6zpJepJW5C6yPsAFRTGqGCg.jpg",
@@ -2097,7 +2097,7 @@
       "releaseInfo": "2014"
     },
     {
-      "id": "tmdb:533533",
+      "id": "tt6604188",
       "type": "movie",
       "name": "Tron: Ares",
       "poster": "https://image.tmdb.org/t/p/w500/zRjRAxrPA4JFadT6SQaV3N10ZcO.jpg",
@@ -2105,7 +2105,7 @@
       "releaseInfo": "2025"
     },
     {
-      "id": "tmdb:20526",
+      "id": "tt1104001",
       "type": "movie",
       "name": "Tron: O Legado",
       "poster": "https://image.tmdb.org/t/p/w500/kHSIHeYvcP8NTjESmxh9vMAk15E.jpg",
@@ -2113,7 +2113,7 @@
       "releaseInfo": "2010"
     },
     {
-      "id": "tmdb:97",
+      "id": "tt0084827",
       "type": "movie",
       "name": "Tron: Uma Odisseia Eletrônica",
       "poster": "https://image.tmdb.org/t/p/w500/1xTQHQxApZnnA7yPU31VgEggO6f.jpg",
@@ -2121,7 +2121,7 @@
       "releaseInfo": "1982"
     },
     {
-      "id": "tmdb:7347",
+      "id": "tt0861739",
       "type": "movie",
       "name": "Tropa de Elite",
       "poster": "https://image.tmdb.org/t/p/w500/jpG8AVzRQabzjHeJ7JWbuXe9T1n.jpg",
@@ -2129,7 +2129,7 @@
       "releaseInfo": "2007"
     },
     {
-      "id": "tmdb:47931",
+      "id": "tt1555149",
       "type": "movie",
       "name": "Tropa de Elite 2: O Inimigo Agora é Outro",
       "poster": "https://image.tmdb.org/t/p/w500/gW2JzWuOKHkKOr33slfBEQJYYeS.jpg",
@@ -2137,7 +2137,7 @@
       "releaseInfo": "2010"
     },
     {
-      "id": "tmdb:7446",
+      "id": "tt0942385",
       "type": "movie",
       "name": "Trovão Tropical",
       "poster": "https://image.tmdb.org/t/p/w500/wy7GVLCGTmOgbGvIMChVMNOMNao.jpg",
@@ -2145,7 +2145,7 @@
       "releaseInfo": "2008"
     },
     {
-      "id": "tmdb:652",
+      "id": "tt0332452",
       "type": "movie",
       "name": "Tróia",
       "poster": "https://image.tmdb.org/t/p/w500/iKp2NxUkqPVSPN2FdXUn9gxj4Nn.jpg",
@@ -2153,7 +2153,7 @@
       "releaseInfo": "2004"
     },
     {
-      "id": "tmdb:22794",
+      "id": "tt0844471",
       "type": "movie",
       "name": "Tá Chovendo Hambúrguer",
       "poster": "https://image.tmdb.org/t/p/w500/czEUatnzoLXjCDZjTKHyjcKBTFy.jpg",
@@ -2161,7 +2161,7 @@
       "releaseInfo": "2009"
     },
     {
-      "id": "tmdb:109451",
+      "id": "tt1985966",
       "type": "movie",
       "name": "Tá Chovendo Hambúrguer 2",
       "poster": "https://image.tmdb.org/t/p/w500/jyIWUZCtt3pRxi727NxFjhcdzNd.jpg",
@@ -2169,7 +2169,7 @@
       "releaseInfo": "2013"
     },
     {
-      "id": "tmdb:1248226",
+      "id": "tt31425731",
       "type": "movie",
       "name": "Um Dia Fora de Controle",
       "poster": "https://image.tmdb.org/t/p/w500/auLOTlulof19GSPrNomyG7myfzN.jpg",
@@ -2177,7 +2177,7 @@
       "releaseInfo": "2025"
     },
     {
-      "id": "tmdb:14177",
+      "id": "tt0388500",
       "type": "movie",
       "name": "Um Salão do Barulho",
       "poster": "https://image.tmdb.org/t/p/w500/tyUw1b0sLbqOoizUsoT1RcfdlG9.jpg",
@@ -2185,7 +2185,7 @@
       "releaseInfo": "2005"
     },
     {
-      "id": "tmdb:326423",
+      "id": "tt3628584",
       "type": "movie",
       "name": "Um Salão do Barulho 3",
       "poster": "https://image.tmdb.org/t/p/w500/8Wis3WRAb8BjfSiz2ATMDBXFtpC.jpg",
@@ -2193,7 +2193,7 @@
       "releaseInfo": "2016"
     },
     {
-      "id": "tmdb:31962",
+      "id": "tt0105391",
       "type": "movie",
       "name": "Uma Luz na Escuridão",
       "poster": "https://image.tmdb.org/t/p/w500/wMErY9THNrk9M63iUSb1bs8yPvE.jpg",
@@ -2201,7 +2201,7 @@
       "releaseInfo": "1992"
     },
     {
-      "id": "tmdb:618588",
+      "id": "tt10720352",
       "type": "movie",
       "name": "Uma Prova de Coragem",
       "poster": "https://image.tmdb.org/t/p/w500/nOHhj3fHzq1lmHf8NfHwTj8zV9p.jpg",
@@ -2209,7 +2209,7 @@
       "releaseInfo": "2024"
     },
     {
-      "id": "tmdb:10611",
+      "id": "tt0303714",
       "type": "movie",
       "name": "Uma Turma do Barulho",
       "poster": "https://image.tmdb.org/t/p/w500/mnw4b9YyKHTdEzaleqCgXbSnrXU.jpg",
@@ -2217,7 +2217,7 @@
       "releaseInfo": "2002"
     },
     {
-      "id": "tmdb:335787",
+      "id": "tt1464335",
       "type": "movie",
       "name": "Uncharted: Fora do Mapa",
       "poster": "https://image.tmdb.org/t/p/w500/qNAPgepJ4NHNA74ThVsxQEOUceJ.jpg",
@@ -2225,7 +2225,7 @@
       "releaseInfo": "2022"
     },
     {
-      "id": "tmdb:82992",
+      "id": "tt1905041",
       "type": "movie",
       "name": "Velozes & Furiosos 6",
       "poster": "https://image.tmdb.org/t/p/w500/h8SD0Kkqv3PUBneQX9tFsDrFu8.jpg",
@@ -2233,7 +2233,7 @@
       "releaseInfo": "2013"
     },
     {
-      "id": "tmdb:51497",
+      "id": "tt1596343",
       "type": "movie",
       "name": "Velozes & Furiosos 5: Operação Rio",
       "poster": "https://image.tmdb.org/t/p/w500/5BKmQMUPOEtDFDCBW8jrUCI9ZbI.jpg",
@@ -2241,7 +2241,7 @@
       "releaseInfo": "2011"
     },
     {
-      "id": "tmdb:168259",
+      "id": "tt2820852",
       "type": "movie",
       "name": "Velozes & Furiosos 7",
       "poster": "https://image.tmdb.org/t/p/w500/spydMyyD81HjGJVwZvjajkrWW1h.jpg",
@@ -2249,7 +2249,7 @@
       "releaseInfo": "2015"
     },
     {
-      "id": "tmdb:337339",
+      "id": "tt4630562",
       "type": "movie",
       "name": "Velozes & Furiosos 8",
       "poster": "https://image.tmdb.org/t/p/w500/1wcMoiMZ2VxrrWswuarI7g9m9nN.jpg",
@@ -2257,7 +2257,7 @@
       "releaseInfo": "2017"
     },
     {
-      "id": "tmdb:385128",
+      "id": "tt5433138",
       "type": "movie",
       "name": "Velozes & Furiosos 9",
       "poster": "https://image.tmdb.org/t/p/w500/6TuEPZ3ItlBO8WmH8BmY2aGLhes.jpg",
@@ -2265,7 +2265,7 @@
       "releaseInfo": "2021"
     },
     {
-      "id": "tmdb:9799",
+      "id": "tt0232500",
       "type": "movie",
       "name": "Velozes e Furiosos",
       "poster": "https://image.tmdb.org/t/p/w500/rKaaYM4CtuJZFdOA0SZWbaMNHbn.jpg",
@@ -2273,7 +2273,7 @@
       "releaseInfo": "2001"
     },
     {
-      "id": "tmdb:13804",
+      "id": "tt1013752",
       "type": "movie",
       "name": "Velozes e Furiosos 4",
       "poster": "https://image.tmdb.org/t/p/w500/7sjbAOmNFtfTyZ6KFC9t9FDDOcK.jpg",
@@ -2281,7 +2281,7 @@
       "releaseInfo": "2009"
     },
     {
-      "id": "tmdb:9615",
+      "id": "tt0463985",
       "type": "movie",
       "name": "Velozes e Furiosos: Desafio em Tóquio",
       "poster": "https://image.tmdb.org/t/p/w500/1kzW2GImY1YVmLRx3NLhXFBfLLO.jpg",
@@ -2289,7 +2289,7 @@
       "releaseInfo": "2006"
     },
     {
-      "id": "tmdb:395992",
+      "id": "tt5442430",
       "type": "movie",
       "name": "Vida",
       "poster": "https://image.tmdb.org/t/p/w500/bKacW7BlSPHYvklyhSHvJrNl1CO.jpg",
@@ -2297,7 +2297,7 @@
       "releaseInfo": "2017"
     },
     {
-      "id": "tmdb:1949",
+      "id": "tt0443706",
       "type": "movie",
       "name": "Zodíaco",
       "poster": "https://image.tmdb.org/t/p/w500/jFmlV5vUzOt1PgJ82efOhNsWcWX.jpg",
@@ -2305,7 +2305,7 @@
       "releaseInfo": "2007"
     },
     {
-      "id": "tmdb:10661",
+      "id": "tt0960144",
       "type": "movie",
       "name": "Zohan: Um Agente Bom de Corte",
       "poster": "https://image.tmdb.org/t/p/w500/mT81xdLGdexnLfPqiNjjZ2BR82u.jpg",
@@ -2313,7 +2313,7 @@
       "releaseInfo": "2008"
     },
     {
-      "id": "tmdb:11074",
+      "id": "tt0108238",
       "type": "movie",
       "name": "Zona de Perigo",
       "poster": "https://image.tmdb.org/t/p/w500/40fmdc0apEKe8r36RRqBTqKELVS.jpg",
@@ -2321,7 +2321,7 @@
       "releaseInfo": "1993"
     },
     {
-      "id": "tmdb:1402",
+      "id": "tt0454921",
       "type": "movie",
       "name": "À Procura da Felicidade",
       "poster": "https://image.tmdb.org/t/p/w500/vHGC2sSh7pBWXY0qzMdPD7fcjzS.jpg",
@@ -2329,7 +2329,7 @@
       "releaseInfo": "2006"
     },
     {
-      "id": "tmdb:760161",
+      "id": "tt11851548",
       "type": "movie",
       "name": "Órfã 2: A Origem",
       "poster": "https://image.tmdb.org/t/p/w500/okgBTByIqwRotmfg3ljUBAyVmcW.jpg",
