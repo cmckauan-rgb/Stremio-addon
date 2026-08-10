@@ -11,6 +11,13 @@ PROXY_BASE_URL = "https://drive-proxy.cmckauan.workers.dev"
 FOLDER_ID = "1twEX01x0SdhtzoK58klrzP8JoDFdx6gW"
 LANGUAGE = "pt-BR"
 
+# Lista de gêneros igual à declarada no seu manifest.json
+GENEROS_OFICIAIS = [
+    "Ação", "Aventura", "Animação", "Comédia", "Crime", "Documentário",
+    "Drama", "Família", "Fantasia", "Ficção científica", "Guerra",
+    "História", "Mistério", "Romance", "Terror", "Thriller"
+]
+
 if not TMDB_API_KEY:
     print("ERRO CRÍTICO: TMDB_API_KEY não foi encontrada nos Secrets!")
     exit(1)
@@ -113,8 +120,8 @@ def processar_filmes():
 
     metas = []
     
-    # Garantir a criação das pastas necessárias
-    os.makedirs("catalog/movie", exist_ok=True)
+    # Criação das pastas de saída
+    os.makedirs("catalog/movie/meus_filmes", exist_ok=True)
     os.makedirs("stream/movie", exist_ok=True)
     os.makedirs("meta/movie", exist_ok=True)
 
@@ -145,7 +152,6 @@ def processar_filmes():
             release_date = (info_tmdb.get("release_date") or "")[:4]
             name_title = info_tmdb.get("title") or titulo
 
-            # Estrutura completa de Metadados
             meta_item = {
                 "id": movie_id,
                 "type": "movie",
@@ -159,12 +165,12 @@ def processar_filmes():
 
             metas.append(meta_item)
             
-            # Gera também o arquivo local de meta/{movie_id}.json para o Stremio conseguir ler filmes sem IMDb ID
+            # Gera os metadados locais (/meta/movie/{id}.json)
             meta_response = {"meta": meta_item}
             with open(f"meta/movie/{movie_id}.json", "w", encoding="utf-8") as f:
                 json.dump(meta_response, f, ensure_ascii=False, indent=2)
 
-            # Rota de Streams (Links dos vídeos)
+            # Rota de Streams (/stream/movie/{id}.json)
             stream_data = {
                 "streams": [
                     {
@@ -185,13 +191,35 @@ def processar_filmes():
     if metas:
         catalog_data = {"metas": metas}
         
+        # 1. Catálogo Geral (sem filtro)
         with open("catalog/movie/meus_filmes.json", "w", encoding="utf-8") as f:
             json.dump(catalog_data, f, ensure_ascii=False, indent=2)
 
         with open("catalog.json", "w", encoding="utf-8") as f:
             json.dump(catalog_data, f, ensure_ascii=False, indent=2)
 
-        print(f"\n🎉 Sucesso! Catálogo atualizado com suporte a metadados locais e streams!")
+        # 2. Geração dos arquivos filtrados por cada gênero
+        pasta_generos = "catalog/movie/meus_filmes"
+        for genero in GENEROS_OFICIAIS:
+            metas_genero = [
+                m for m in metas 
+                if any(g.lower() == genero.lower() for g in m.get("genres", []))
+            ]
+            dados_genero = {"metas": metas_genero}
+            
+            # Salva o arquivo normal (ex: genre=Animação.json)
+            caminho_normal = os.path.join(pasta_generos, f"genre={genero}.json")
+            with open(caminho_normal, "w", encoding="utf-8") as f:
+                json.dump(dados_genero, f, ensure_ascii=False, indent=2)
+                
+            # Salva também a versão em URL Encode (ex: genre=Anima%C3%A7%C3%A3o.json)
+            genero_encoded = quote(genero)
+            if genero_encoded != genero:
+                caminho_encoded = os.path.join(pasta_generos, f"genre={genero_encoded}.json")
+                with open(caminho_encoded, "w", encoding="utf-8") as f:
+                    json.dump(dados_genero, f, ensure_ascii=False, indent=2)
+
+        print(f"\n🎉 Sucesso! Catálogo e arquivos de gêneros gerados com sucesso!")
 
 if __name__ == "__main__":
     processar_filmes()
