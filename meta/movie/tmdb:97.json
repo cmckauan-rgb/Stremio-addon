@@ -1,0 +1,12 @@
+{
+  "meta": {
+    "id": "tmdb:97",
+    "type": "movie",
+    "name": "Tron: Uma Odisseia Eletrônica",
+    "poster": "https://image.tmdb.org/t/p/w500/1xTQHQxApZnnA7yPU31VgEggO6f.jpg",
+    "background": "https://image.tmdb.org/t/p/w1280/vUmeBHiGp5r2ydd8aEvbNLamTVD.jpg",
+    "description": "Quando o talentoso engenheiro de computação Kevin Flynn descobre que Ed Dillinger, um executivo da sua empresa, está roubando seu projeto, tenta invadir o sistema. No entanto, Flynn é transportado para o mundo digital em um programa antagônico.",
+    "releaseInfo": "1982",
+    "genres": []
+  }
+}

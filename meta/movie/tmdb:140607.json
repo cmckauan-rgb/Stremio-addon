@@ -1,0 +1,12 @@
+{
+  "meta": {
+    "id": "tmdb:140607",
+    "type": "movie",
+    "name": "Star Wars: O Despertar da Força",
+    "poster": "https://image.tmdb.org/t/p/w500/lqMDbo4rXnakFgc4C6LzPv6pG7F.jpg",
+    "background": "https://image.tmdb.org/t/p/w1280/k6EOrckWFuz7I4z4wiRwz8zsj4H.jpg",
+    "description": "A queda de Darth Vader e do Império levou ao surgimento de uma nova força sombria: a Primeira Ordem. Eles procuram o jedi Luke Skywalker, desaparecido. A resistência tenta desesperadamente encontrá-lo antes para salvar a galáxia.",
+    "releaseInfo": "2015",
+    "genres": []
+  }
+}

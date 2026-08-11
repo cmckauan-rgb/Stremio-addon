@@ -1,0 +1,12 @@
+{
+  "meta": {
+    "id": "tmdb:364",
+    "type": "movie",
+    "name": "Batman: O Retorno",
+    "poster": "https://image.tmdb.org/t/p/w500/trmToqPh8XYS6tzI2Nmv5ctfuSI.jpg",
+    "background": "https://image.tmdb.org/t/p/w1280/7x4SNxO5HWArighxxFeet5sn3il.jpg",
+    "description": "O monstruoso Pinguim, que vive nos arredores de Gotham, se junta ao diabólico empresário Max Shreck para vencer Batman de uma vez por todas. Porém, a secretária de Shreck, Selina Kyle, descobre os planos e se transforma na irresistível Mulher Gato que se alia na destruição de Batman.",
+    "releaseInfo": "1992",
+    "genres": []
+  }
+}

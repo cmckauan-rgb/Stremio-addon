@@ -1,0 +1,12 @@
+{
+  "meta": {
+    "id": "tmdb:949",
+    "type": "movie",
+    "name": "Fogo Contra Fogo",
+    "poster": "https://image.tmdb.org/t/p/w500/fv2mQTMJxjMY5EKG3epvjuVUVKJ.jpg",
+    "background": "https://image.tmdb.org/t/p/w1280/xKsnZDERG1dk95wuZ5q9iks3OL3.jpg",
+    "description": "O ladrão obsessivo Neil McCauley lidera uma equipe de primeira linha em vários assaltos ousados ​​por Los Angeles, enquanto o determinado detetive Vincent Hanna o persegue sem descanso. Cada homem reconhece e respeita a capacidade e a dedicação do outro, mesmo sabendo que o seu jogo de gato e rato pode terminar em violência.",
+    "releaseInfo": "1995",
+    "genres": []
+  }
+}

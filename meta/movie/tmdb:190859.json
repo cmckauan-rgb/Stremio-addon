@@ -1,0 +1,12 @@
+{
+  "meta": {
+    "id": "tmdb:190859",
+    "type": "movie",
+    "name": "Sniper Americano",
+    "poster": "https://image.tmdb.org/t/p/w500/mAXzc2oDTTYcnn6IGHlSXvmXloG.jpg",
+    "background": "https://image.tmdb.org/t/p/w1280/rl95VDEP3nsUQmGzE0S1S7y6T0N.jpg",
+    "description": "Chris Kyle é um atirador de elite das forças especiais da marinha dos Estados Unidos. Durante a Guerra do Iraque, sua missão é proteger seus companheiros e seu dever faz dele um dos maiores atiradores da história norte-americana. Sua precisão salva inúmeras vidas, mas também o torna um alvo preferencial. Quando Kyle finalmente volta para casa, ele descobre que não tem como deixar a guerra para trás.",
+    "releaseInfo": "2014",
+    "genres": []
+  }
+}

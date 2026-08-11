@@ -1,0 +1,152 @@
+{
+  "metas": [
+    {
+      "id": "tt11198330",
+      "type": "series",
+      "name": "A Casa do Dragão",
+      "poster": "https://image.tmdb.org/t/p/w500/oKJDm4QCKbp6mR4FnxXrFlPJP8Y.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/577eXC8wFQT0eUrJcgznSiFPRmk.jpg",
+      "description": "200 anos antes dos eventos de \"Game of Thrones\", os Targaryen estavam no ápice de seu poder, tendo inúmeros dragões sob seu comando, mas nem tudo dura para sempre. O início do fim da dinastia Targaryen.",
+      "releaseInfo": "2022",
+      "genres": [
+        "Sci-Fi & Fantasy",
+        "Drama",
+        "Action & Adventure"
+      ]
+    },
+    {
+      "id": "tt10466872",
+      "type": "series",
+      "name": "Duna: A Profecia",
+      "poster": "https://image.tmdb.org/t/p/w500/9kyqa103Ih22hT955ZaZdipAOAD.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/lBoHzOgft2QfpjkVVvZCqeM4ttT.jpg",
+      "description": "Dez mil anos antes da ascensão de Paul Atreides, as irmãs Valya e Tula Harkonnen estabeleceram a lendária seita e ordem feminina que se tornaria conhecida como Bene Gesserit para controlar o futuro da humanidade.",
+      "releaseInfo": "2024",
+      "genres": [
+        "Sci-Fi & Fantasy",
+        "Drama",
+        "Action & Adventure"
+      ]
+    },
+    {
+      "id": "tt9070896",
+      "type": "series",
+      "name": "Impuros",
+      "poster": "https://image.tmdb.org/t/p/w500/zTvluwSblMTAkM7Po7Sp75eqLzM.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/tqwbjrFPTiO48xxU6V26lqrfGIw.jpg",
+      "description": "No Rio dos anos 90, Evandro é um jovem da favela que tenta ganhar a vida honestamente. Porém, após a morte do irmão pela polícia, ele entra no mundo do tráfico buscando vingança.",
+      "releaseInfo": "2018",
+      "genres": [
+        "Crime",
+        "Drama",
+        "Action & Adventure"
+      ]
+    },
+    {
+      "id": "tt5057054",
+      "type": "series",
+      "name": "Jack Ryan de Tom Clancy",
+      "poster": "https://image.tmdb.org/t/p/w500/sUQS9Uks2UNdFc1Io2U0ulTDGsr.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/2y2TbzeKZHYqTN5gb4nBv9dKk1f.jpg",
+      "description": "Quando o analista da CIA Jack Ryan esbarra em uma série de transferências bancárias suspeitas, sua busca por respostas o afasta da segurança de sua mesa de trabalho e o joga em um jogo mortal de gato e rato pela Europa e pelo Oriente Médio, com um terrorista em ascensão preparando um grande ataque contra os EUA e seus aliados.",
+      "releaseInfo": "2018",
+      "genres": [
+        "Action & Adventure",
+        "Drama"
+      ]
+    },
+    {
+      "id": "tt27497448",
+      "type": "series",
+      "name": "O Cavaleiro dos Sete Reinos",
+      "poster": "https://image.tmdb.org/t/p/w500/whIZtYminSyVOwjxhjxYcOaCuBg.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/7mkUu1F2hVUNgz24xO8HPx0D6mK.jpg",
+      "description": "Ambientado em uma época em que a linhagem Targaryen ainda detém o Trono de Ferro e a memória do último dragão ainda não desapareceu da memória dos vivos, grandes destinos, inimigos poderosos e façanhas perigosas aguardam esses amigos improváveis ​​e incomparáveis.",
+      "releaseInfo": "2026",
+      "genres": [
+        "Drama",
+        "Sci-Fi & Fantasy",
+        "Action & Adventure"
+      ]
+    },
+    {
+      "id": "tt15435876",
+      "type": "series",
+      "name": "Pinguim",
+      "poster": "https://image.tmdb.org/t/p/w500/pPUNmQZUh7h6w2423VvtzUeg1LD.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/4TdmuuwiIiKw3JOjIuhdgYxRXnN.jpg",
+      "description": "Após a queda dos Carmines, Oswald “Oz” Cobb está pronto para assumir o controle de Gotham e dar à sua mãe a vida que ele sempre lhe prometeu. Mas primeiro, ele terá de enfrentar inimigos novos e antigos, além do seu tão odiado apelido – O Pinguim – que não tornará o caminho deste gangster tão fácil.",
+      "releaseInfo": "2024",
+      "genres": [
+        "Drama",
+        "Crime"
+      ]
+    },
+    {
+      "id": "tt3581920",
+      "type": "series",
+      "name": "The Last of Us",
+      "poster": "https://image.tmdb.org/t/p/w500/el1KQzwdIm17I3A6cYPfsVIWhfX.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/lY2DhbA7Hy44fAKddr06UrXWWaQ.jpg",
+      "description": "Situado duas décadas após a implosão de nossa sociedade, o drama seguirá Joel, um sobrevivente difícil, que é contratado para contrabandear uma garota de 14 anos chamada Ellie para fora de uma zona de quarentena opressiva. O que começa como um pequeno trabalho logo se torna uma jornada brutal e de partir o coração, já que os dois precisam atravessar os Estados Unidos e dependem um do outro para sobreviver.",
+      "releaseInfo": "2023",
+      "genres": [
+        "Drama"
+      ]
+    },
+    {
+      "id": "tt13062500",
+      "type": "series",
+      "name": "The Walking Dead: Daryl Dixon",
+      "poster": "https://image.tmdb.org/t/p/w500/8pQ09TA3FGeptJnHJ1R9rbENPWr.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/fkeVnvxVx4x2PdDOOzSblFUGTVt.jpg",
+      "description": "Daryl Dixon chega à costa da França e luta para entender como chegou lá e por quê. A série acompanha a sua jornada por uma França quebrada, mas resiliente, enquanto ele tenta encontrar um caminho de volta para casa. As conexões que ele forma no caminho, no entanto, complicam os seus planos.",
+      "releaseInfo": "2023",
+      "genres": [
+        "Sci-Fi & Fantasy",
+        "Action & Adventure",
+        "Drama"
+      ]
+    },
+    {
+      "id": "tt18546730",
+      "type": "series",
+      "name": "The Walking Dead: Dead City",
+      "poster": "https://image.tmdb.org/t/p/w500/wSd32fNxVqtPQCzxEzsUMzl6RK5.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/vV5LKWmuysEe5wsuZJGbdiL5XJ2.jpg",
+      "description": "Maggie e Negan viajam para uma Manhattan pós-apocalíptica há muito isolada do continente. A cidade em ruínas está cheia de mortos e habitantes que fizeram de Nova York seu próprio mundo cheio de anarquia, perigo, beleza e terror.",
+      "releaseInfo": "2023",
+      "genres": [
+        "Action & Adventure",
+        "Drama",
+        "Sci-Fi & Fantasy"
+      ]
+    },
+    {
+      "id": "tt9859436",
+      "type": "series",
+      "name": "The Walking Dead: The Ones Who Live",
+      "poster": "https://image.tmdb.org/t/p/w500/95pv9daC8yFm1BfaUyCTx7MfOs.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/5PCKxpFcCTDFT3b1olJGPaAIM9e.jpg",
+      "description": "Uma história de amor épica de duas pessoas mudadas por um mundo mudado, separadas pela distância e por um poder imparável. Rick e Michonne conseguirão encontrar um ao outro e quem eles eram em um lugar diferente de todos que já conheceram? Sem o outro, eles estão vivos?",
+      "releaseInfo": "2024",
+      "genres": [
+        "Sci-Fi & Fantasy",
+        "Drama"
+      ]
+    },
+    {
+      "id": "tt2788316",
+      "type": "series",
+      "name": "Xógum: A Gloriosa Saga do Japão",
+      "poster": "https://image.tmdb.org/t/p/w500/gaOb9hyCDUcbZiTYcHy7mIFmNo.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/bwSmgmd90hCWwqOKQYTEraeOZhJ.jpg",
+      "description": "Ambientada no Japão de 1600, o Senhor Yoshii Toranaga está lutando pela sua vida à medida que seus inimigos no Conselho dos Regentes se unem contra ele, quando um navio europeu misterioso é encontrado encalhado em um vilarejo de pescadores próximo.",
+      "releaseInfo": "2024",
+      "genres": [
+        "Drama",
+        "War & Politics"
+      ]
+    }
+  ]
+}

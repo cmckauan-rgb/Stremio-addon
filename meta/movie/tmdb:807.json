@@ -1,0 +1,12 @@
+{
+  "meta": {
+    "id": "tmdb:807",
+    "type": "movie",
+    "name": "Seven - Os Sete Crimes Capitais",
+    "poster": "https://image.tmdb.org/t/p/w500/dZXYPSEaXCeigR2GEuZoukNmLTf.jpg",
+    "background": "https://image.tmdb.org/t/p/w1280/i5H7zusQGsysGQ8i6P361Vnr0n2.jpg",
+    "description": "Quando, a ponto de se aposentar, o detetive William Somerset aborda o último caso com a ajuda do recém-transferido David Mills, eles descobrem uma série de assassinatos. Logo percebem que estão lidando com um assassino que tem como alvo pessoas que ele acredita representar os sete pecados capitais.",
+    "releaseInfo": "1995",
+    "genres": []
+  }
+}

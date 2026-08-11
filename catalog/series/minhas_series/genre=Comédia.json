@@ -1,0 +1,86 @@
+{
+  "metas": [
+    {
+      "id": "tt29485149",
+      "type": "series",
+      "name": "Dragon Ball DAIMA",
+      "poster": "https://image.tmdb.org/t/p/w500/qlLJvJO8rsltmnWWbKgT13hP90I.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/oUmWLyeko3kYdUr8DBLIsxwcugl.jpg",
+      "description": "Goku e companhia viviam pacificamente quando de repente ficaram pequenos por causa de uma conspiração! Quando eles descobrem que o motivo para isso pode estar no \"Mundo dos Demônios\", um misterioso Majin chamado Glorio aparece para eles.",
+      "releaseInfo": "2024",
+      "genres": [
+        "Animação",
+        "Action & Adventure",
+        "Comédia",
+        "Sci-Fi & Fantasy"
+      ]
+    },
+    {
+      "id": "tt1388589",
+      "type": "series",
+      "name": "Esquadrão de Heróis",
+      "poster": "https://image.tmdb.org/t/p/w500/nWhJyfeVElaosx4mc7893YJmM77.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/tSbZytA2RSLVXgEjTNTb27ZkvjZ.jpg",
+      "description": "Antes do início da série, o vilão Doutor Destino está em busca de uma dominação universal, e tenta adquirir o poder ilimitado da “Espada do Infinito”. Porém, numa batalha contra o Homem de Ferro, a espada se parte em mil pedacinhos, e esses chovem na cidade Super Herói. Então, o Doutor Destino forjou alianças com quase todos os supervilões de Villainville, que formam a Legião Letal, a fim de caçar os os pedacinhos da espada do infinito. Mas então, forma-se o grupo de super heróis Esquadrão de Heróis, consistindo de Homem de Ferro, Falcão, Hulk, Surfista Prateado, Thor e Wolverine. Dai então começa um novo desafio para o esquadrão de Super herois!!",
+      "releaseInfo": "2009",
+      "genres": [
+        "Action & Adventure",
+        "Animação",
+        "Comédia"
+      ]
+    },
+    {
+      "id": "tt1291662",
+      "type": "series",
+      "name": "Os Sábados Secretos",
+      "poster": "https://image.tmdb.org/t/p/w500/tByfzj32G7BAOKQ8h6qEakBdJMU.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/pmfDPxanEVZ2qFiNJvuKtuwYeoX.jpg",
+      "description": "Zak Sábado e seus pais, Doutor e Drica Sábado, formam uma família de cientistas sempre pronta a salvar o mundo chamada \"Sábados Secretos\". Vivendo em uma base escondida, eles fazem parte de uma organização secreta de cientistas conhecidos como Os Cientistas Secretos, que protegem a humanidade contra as ameaças escondidas e terríveis do mundo.",
+      "releaseInfo": "2008",
+      "genres": [
+        "Animação",
+        "Comédia",
+        "Kids",
+        "Action & Adventure"
+      ]
+    },
+    {
+      "id": "tt0460637",
+      "type": "series",
+      "name": "Todo Mundo Odeia o Chris",
+      "poster": "https://image.tmdb.org/t/p/w500/j7KcbOjhNIWOQqHGtL0P90nlfHB.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/qji729gwCW88RpIIWidlaLTul3V.jpg",
+      "description": "Para Chris, fazer 13 anos não tem nada de maravilhoso. Ele é o único negro da turma do ensino médio, onde tem uma educação medíocre. É amigo de Greg, e é frequentemente abusado por Joey Caruso. Ambos os pais trabalham e ele cuida de seus dois irmãos. Parece trágico, mas é hilário.",
+      "releaseInfo": "2005",
+      "genres": [
+        "Comédia"
+      ]
+    },
+    {
+      "id": "tt0182576",
+      "type": "series",
+      "name": "Uma Família da Pesada",
+      "poster": "https://image.tmdb.org/t/p/w500/j28XGzAhvJNGWEHbYrzvREw7kKd.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/l7wShoIdIUwaDIbsHno9pO5MZXT.jpg",
+      "description": "A série animada apresenta as aventuras da família Griffin. O ignorante Peter e sua esposa Lois residem em Quahog, em Rhode Island e têm três filhos. Meg, a filha mais velha, é uma pária social, e o adolescente Chris é estranho e sem noção quando se trata do sexo oposto. O mais novo, Stewie, é um bebê gênio decidido a matar sua mãe e destruir o mundo. O cachorro falante, Brian, mantém Stewie sob controle enquanto toma martinis e resolve seus próprios problemas de vida.",
+      "releaseInfo": "1999",
+      "genres": [
+        "Animação",
+        "Comédia"
+      ]
+    },
+    {
+      "id": "tt0182576",
+      "type": "series",
+      "name": "Uma Família da Pesada",
+      "poster": "https://image.tmdb.org/t/p/w500/j28XGzAhvJNGWEHbYrzvREw7kKd.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/l7wShoIdIUwaDIbsHno9pO5MZXT.jpg",
+      "description": "A série animada apresenta as aventuras da família Griffin. O ignorante Peter e sua esposa Lois residem em Quahog, em Rhode Island e têm três filhos. Meg, a filha mais velha, é uma pária social, e o adolescente Chris é estranho e sem noção quando se trata do sexo oposto. O mais novo, Stewie, é um bebê gênio decidido a matar sua mãe e destruir o mundo. O cachorro falante, Brian, mantém Stewie sob controle enquanto toma martinis e resolve seus próprios problemas de vida.",
+      "releaseInfo": "1999",
+      "genres": [
+        "Animação",
+        "Comédia"
+      ]
+    }
+  ]
+}

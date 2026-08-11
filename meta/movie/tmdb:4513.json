@@ -1,0 +1,12 @@
+{
+  "meta": {
+    "id": "tmdb:4513",
+    "type": "movie",
+    "name": "30 Dias de Noite",
+    "poster": "https://image.tmdb.org/t/p/w500/tbG7VEn5dZZQAjSNCPMAHzpf4GQ.jpg",
+    "background": "https://image.tmdb.org/t/p/w1280/w8VDpCcKezdBbXJEWMHwttI35mU.jpg",
+    "description": "Barrow, Alasca. Durante os 30 dias do inverno local a cidade fica na mais completa escuridão. Neste período boa parte dos moradores viaja rumo ao sul, mas neste ano a cidade recebeu a visita de seres estranhos: um grupo de vampiros, que pretendem se aproveitar da noite constante para atacar os moradores locais. Para combatê-los um pequeno grupo é reunido, liderado pelo xerife Eben Oleson e por sua ex-esposa Stella.",
+    "releaseInfo": "2007",
+    "genres": []
+  }
+}

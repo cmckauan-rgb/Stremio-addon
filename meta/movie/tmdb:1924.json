@@ -1,0 +1,12 @@
+{
+  "meta": {
+    "id": "tmdb:1924",
+    "type": "movie",
+    "name": "Superman: O Filme",
+    "poster": "https://image.tmdb.org/t/p/w500/sm6BLvYCSe4pUpW2UrCKSsS1o0B.jpg",
+    "background": "https://image.tmdb.org/t/p/w1280/p2zBTOd4JdmNhkRWHmjKg7hk3s1.jpg",
+    "description": "Jor-El, um renomado cientista, prevê a destruição do seu planeta e alerta o governo, que não lhe dá credito. Assim, decide salvar seu filho, mandando-o ao planeta Terra, onde terá superpoderes. Na Terra, ele usa o nome de Clark Kent e, já adulto, trabalha como repórter em um jornal, não demonstra ter superpoderes. Mas quando uma situação inesperada põe em risco a vida de Lois Lane, uma colega de trabalho, ele é obrigado a se revelar para o público, ficando conhecido popularmente como Superman. Descontente com o surgimento de um super-herói na cidade, Lex Luthor, um gênio do mal, o obriga a se desdobrar para evitar a morte de milhões de pessoas.",
+    "releaseInfo": "1978",
+    "genres": []
+  }
+}

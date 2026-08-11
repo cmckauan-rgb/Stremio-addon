@@ -1,0 +1,31 @@
+{
+  "metas": [
+    {
+      "id": "tt9070896",
+      "type": "series",
+      "name": "Impuros",
+      "poster": "https://image.tmdb.org/t/p/w500/zTvluwSblMTAkM7Po7Sp75eqLzM.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/tqwbjrFPTiO48xxU6V26lqrfGIw.jpg",
+      "description": "No Rio dos anos 90, Evandro é um jovem da favela que tenta ganhar a vida honestamente. Porém, após a morte do irmão pela polícia, ele entra no mundo do tráfico buscando vingança.",
+      "releaseInfo": "2018",
+      "genres": [
+        "Crime",
+        "Drama",
+        "Action & Adventure"
+      ]
+    },
+    {
+      "id": "tt15435876",
+      "type": "series",
+      "name": "Pinguim",
+      "poster": "https://image.tmdb.org/t/p/w500/pPUNmQZUh7h6w2423VvtzUeg1LD.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/4TdmuuwiIiKw3JOjIuhdgYxRXnN.jpg",
+      "description": "Após a queda dos Carmines, Oswald “Oz” Cobb está pronto para assumir o controle de Gotham e dar à sua mãe a vida que ele sempre lhe prometeu. Mas primeiro, ele terá de enfrentar inimigos novos e antigos, além do seu tão odiado apelido – O Pinguim – que não tornará o caminho deste gangster tão fácil.",
+      "releaseInfo": "2024",
+      "genres": [
+        "Drama",
+        "Crime"
+      ]
+    }
+  ]
+}

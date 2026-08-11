@@ -1,0 +1,12 @@
+{
+  "meta": {
+    "id": "tmdb:1452",
+    "type": "movie",
+    "name": "Superman: O Retorno",
+    "poster": "https://image.tmdb.org/t/p/w500/jLmb769DnH3UjSDThwmCNVnr6t9.jpg",
+    "background": "https://image.tmdb.org/t/p/w1280/8eRscFbRYl681zDfkjv1jjW1KAA.jpg",
+    "description": "Superman retorna à Terra após cinco anos de ausência e descobre que Lois Lane seguiu com sua vida, sendo agora mãe de uma criança e que Lex Luthor saiu da prisão e planejava botar em prática um plano que causará a morte de bilhões de pessoas.",
+    "releaseInfo": "2006",
+    "genres": []
+  }
+}
