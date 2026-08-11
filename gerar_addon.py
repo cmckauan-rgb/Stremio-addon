@@ -28,7 +28,7 @@ if not TMDB_API_KEY:
     print("ERRO CRÍTICO: TMDB_API_KEY não foi encontrada nos Secrets!")
     exit(1)
 
-# Caches globais para não repetir requisições HTTP desnecessárias
+# Caches globais e prevenção de recursão infinita
 CACHE_TMDB_SERIES = {}
 PASTAS_VISITADAS = set()
 
@@ -89,7 +89,6 @@ def buscar_arquivos_recursivo(folder_id):
 
         is_video = any(nome.lower().endswith(ext) for ext in ['.mkv', '.mp4', '.avi', '.webm'])
 
-        # Se for subpasta e não for arquivo de vídeo
         if ("folder" in mime or "directory" in mime or item_id) and not is_video:
             if item_id and item_id != folder_id and item_id not in PASTAS_VISITADAS:
                 todos_arquivos.extend(buscar_arquivos_recursivo(item_id))
@@ -98,7 +97,55 @@ def buscar_arquivos_recursivo(folder_id):
             
     return todos_arquivos
 
-# --- PARSERS E METADADOS ---
+# --- PARSERS E BUSCAS TMDB ---
+
+def extrair_info_nome(nome_arquivo):
+    """Extrai Título, Ano e ID do TMDB do nome do arquivo de filme"""
+    nome_limpo = re.sub(r'\.(mkv|mp4|avi|webm|mov)$', '', nome_arquivo, flags=re.IGNORECASE)
+    
+    id_match = re.search(r'-(?: id| tmdb) (\d+)', nome_limpo, flags=re.IGNORECASE)
+    tmdb_id = id_match.group(1) if id_match else None
+    
+    ano_match = re.search(r'\((\d{4})\)', nome_limpo)
+    ano = ano_match.group(1) if ano_match else None
+    
+    titulo = re.sub(r'\((\d{4})\)', '', nome_limpo)
+    titulo = re.sub(r'-(?: id| tmdb) \d+', '', titulo, flags=re.IGNORECASE)
+    titulo = titulo.strip().lstrip('+').strip()
+    
+    return titulo, ano, tmdb_id
+
+def buscar_tmdb_filme(titulo, ano=None, tmdb_id=None):
+    """Busca metadados de filmes na API do TMDB usando Ano e ID"""
+    if tmdb_id:
+        url = f"https://api.themoviedb.org/3/movie/{tmdb_id}?api_key={TMDB_API_KEY}&language={LANGUAGE}&append_to_response=external_ids"
+        try:
+            res = requests.get(url, timeout=5)
+            if res.status_code == 200:
+                return res.json()
+        except Exception:
+            pass
+
+    url_busca = f"https://api.themoviedb.org/3/search/movie?api_key={TMDB_API_KEY}&query={quote(titulo)}&language={LANGUAGE}"
+    if ano:
+        url_busca += f"&primary_release_year={ano}"
+        
+    try:
+        res = requests.get(url_busca, timeout=5)
+        if res.status_code == 200:
+            dados = res.json()
+            resultados = dados.get("results", [])
+            if resultados:
+                tmdb_data = resultados[0]
+                url_detalhes = f"https://api.themoviedb.org/3/movie/{tmdb_data['id']}?api_key={TMDB_API_KEY}&language={LANGUAGE}&append_to_response=external_ids"
+                res_det = requests.get(url_detalhes, timeout=5)
+                if res_det.status_code == 200:
+                    return res_det.json()
+                return tmdb_data
+    except Exception as e:
+        print(f"Erro ao buscar TMDB Filme '{titulo}': {e}")
+            
+    return None
 
 def extrair_info_serie(nome_arquivo):
     """Extrai Nome da Série, Temporada (S) e Episódio (E)"""
@@ -136,12 +183,92 @@ def buscar_tmdb_tv(nome_serie):
                 CACHE_TMDB_SERIES[nome_key] = resultados[0]
                 return resultados[0]
     except Exception as e:
-        print(f"Erro ao buscar TMDB para '{nome_serie}': {e}")
+        print(f"Erro ao buscar TMDB Série '{nome_serie}': {e}")
         
     CACHE_TMDB_SERIES[nome_key] = None
     return None
 
-# --- PROCESSADORES ---
+# --- PROCESSADORES PRINCIPAIS ---
+
+def processar_filmes():
+    print("\n🎬 --- PROCESSANDO FILMES ---")
+    items = listar_pasta_proxy(FILMES_FOLDER_ID)
+    metas = []
+    
+    os.makedirs("catalog/movie/meus_filmes", exist_ok=True)
+    os.makedirs("stream/movie", exist_ok=True)
+    os.makedirs("meta/movie", exist_ok=True)
+
+    for item in items:
+        nome_arq = item.get("name") or item.get("title", "")
+        file_id = item.get("id")
+        if not nome_arq or not any(nome_arq.lower().endswith(ext) for ext in ['.mkv', '.mp4', '.avi', '.webm']):
+            continue
+        
+        stream_url = f"{PROXY_BASE_URL}/file/{file_id}" if not str(file_id).startswith("http") else file_id
+        
+        titulo, ano, tmdb_id = extrair_info_nome(nome_arq)
+        info = buscar_tmdb_filme(titulo, ano, tmdb_id)
+        
+        if info:
+            imdb_id = info.get("imdb_id") or info.get("external_ids", {}).get("imdb_id")
+            mid = imdb_id if imdb_id else f"tmdb:{info.get('id')}"
+
+            poster_path = info.get("poster_path")
+            backdrop_path = info.get("backdrop_path")
+
+            m_item = {
+                "id": mid,
+                "type": "movie",
+                "name": info.get("title") or titulo,
+                "poster": f"https://image.tmdb.org/t/p/w500{poster_path}" if poster_path else None,
+                "background": f"https://image.tmdb.org/t/p/w1280{backdrop_path}" if backdrop_path else None,
+                "description": info.get("overview", "Sem sinopse disponível."),
+                "releaseInfo": (info.get("release_date") or "")[:4],
+                "genres": [g.get("name") for g in info.get("genres", []) if g.get("name")]
+            }
+            metas.append(m_item)
+            
+            # Salva Meta local
+            with open(f"meta/movie/{mid}.json", "w", encoding="utf-8") as f:
+                json.dump({"meta": m_item}, f, ensure_ascii=False, indent=2)
+
+            # Salva Stream local
+            stream_data = {
+                "streams": [{
+                    "name": "Drive Proxy",
+                    "title": f"1080p | {nome_arq}",
+                    "url": stream_url
+                }]
+            }
+            with open(f"stream/movie/{mid}.json", "w", encoding="utf-8") as f:
+                json.dump(stream_data, f, ensure_ascii=False, indent=2)
+
+            print(f"✅ Filme Mapeado: {m_item['name']} ({mid})")
+        else:
+            print(f"⚠️ Filme não encontrado no TMDB: {titulo}")
+
+    if metas:
+        catalog_data = {"metas": metas}
+        with open("catalog/movie/meus_filmes.json", "w", encoding="utf-8") as f:
+            json.dump(catalog_data, f, ensure_ascii=False, indent=2)
+
+        todos_generos_f = set(GENEROS_FILMES)
+        for m in metas:
+            for g in m.get("genres", []):
+                if g: todos_generos_f.add(g)
+
+        pasta_gen_f = "catalog/movie/meus_filmes"
+        for gen in todos_generos_f:
+            filtered = [m for m in metas if any(g.lower() == gen.lower() for g in m.get("genres", []))]
+            
+            with open(os.path.join(pasta_gen_f, f"genre={gen}.json"), "w", encoding="utf-8") as f:
+                json.dump({"metas": filtered}, f, ensure_ascii=False, indent=2)
+                
+            gen_enc = quote(gen)
+            if gen_enc != gen:
+                with open(os.path.join(pasta_gen_f, f"genre={gen_enc}.json"), "w", encoding="utf-8") as f:
+                    json.dump({"metas": filtered}, f, ensure_ascii=False, indent=2)
 
 def processar_series():
     print("\n📺 --- PROCESSANDO SÉRIES ---")
@@ -197,26 +324,28 @@ def processar_series():
                 }]
             }
 
-    # Salva arquivos JSON
+    # Criar pastas de Séries
     os.makedirs("catalog/series/minhas_series", exist_ok=True)
     os.makedirs("stream/series", exist_ok=True)
     os.makedirs("meta/series", exist_ok=True)
 
     metas_series = list(series_map.values())
 
+    # Salva os Meta JSON das séries
     for s_info in metas_series:
         with open(f"meta/series/{s_info['id']}.json", "w", encoding="utf-8") as f:
             json.dump({"meta": s_info}, f, ensure_ascii=False, indent=2)
 
+    # Salva as rotas de Stream dos episódios
     for ep_key, stream_data in streams_map.items():
         with open(f"stream/series/{ep_key}.json", "w", encoding="utf-8") as f:
             json.dump(stream_data, f, ensure_ascii=False, indent=2)
 
-    # Catálogo Geral
+    # Salva o Catálogo Geral de Séries
     with open("catalog/series/minhas_series.json", "w", encoding="utf-8") as f:
         json.dump({"metas": metas_series}, f, ensure_ascii=False, indent=2)
 
-    # Catálogo por Gênero
+    # Catálogos de Séries por Gênero
     todos_generos_s = set(GENEROS_SERIES)
     for m in metas_series:
         for g in m.get("genres", []):
@@ -235,53 +364,6 @@ def processar_series():
                 json.dump({"metas": filtered}, f, ensure_ascii=False, indent=2)
 
     print("🎉 Mapeamento de Séries concluído com sucesso!")
-
-def processar_filmes():
-    print("\n🎬 --- PROCESSANDO FILMES ---")
-    items = listar_pasta_proxy(FILMES_FOLDER_ID)
-    metas = []
-    
-    os.makedirs("catalog/movie/meus_filmes", exist_ok=True)
-    os.makedirs("stream/movie", exist_ok=True)
-    os.makedirs("meta/movie", exist_ok=True)
-
-    for item in items:
-        nome_arq = item.get("name") or item.get("title", "")
-        file_id = item.get("id")
-        if not nome_arq or not any(nome_arq.lower().endswith(ext) for ext in ['.mkv', '.mp4', '.avi', '.webm']):
-            continue
-        
-        stream_url = f"{PROXY_BASE_URL}/file/{file_id}" if not str(file_id).startswith("http") else file_id
-        
-        url_busca = f"https://api.themoviedb.org/3/search/movie?api_key={TMDB_API_KEY}&query={quote(nome_arq[:15])}&language={LANGUAGE}"
-        try:
-            res_m = requests.get(url_busca, timeout=5)
-            if res_m.status_code == 200 and res_m.json().get("results"):
-                info = res_m.json()["results"][0]
-                mid = f"tmdb:{info['id']}"
-                m_item = {
-                    "id": mid,
-                    "type": "movie",
-                    "name": info.get("title"),
-                    "poster": f"https://image.tmdb.org/t/p/w500{info.get('poster_path')}",
-                    "background": f"https://image.tmdb.org/t/p/w1280{info.get('backdrop_path')}",
-                    "description": info.get("overview"),
-                    "releaseInfo": (info.get("release_date") or "")[:4],
-                    "genres": []
-                }
-                metas.append(m_item)
-                
-                with open(f"meta/movie/{mid}.json", "w", encoding="utf-8") as f:
-                    json.dump({"meta": m_item}, f, ensure_ascii=False, indent=2)
-
-                with open(f"stream/movie/{mid}.json", "w", encoding="utf-8") as f:
-                    json.dump({"streams": [{"name": "Drive Proxy", "title": f"1080p | {nome_arq}", "url": stream_url}]}, f, ensure_ascii=False, indent=2)
-        except Exception:
-            pass
-
-    if metas:
-        with open("catalog/movie/meus_filmes.json", "w", encoding="utf-8") as f:
-            json.dump({"metas": metas}, f, ensure_ascii=False, indent=2)
 
 if __name__ == "__main__":
     processar_filmes()
