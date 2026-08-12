@@ -286,6 +286,7 @@ def processar_series():
 
     series_map = {}
     streams_map = {}
+    episodes_map = {}
 
     for item in arquivos:
         nome_arq = item.get("name") or item.get("title", "")
@@ -298,7 +299,6 @@ def processar_series():
         if not nome_serie:
             continue
 
-        # Procura por ID explicito no nome do arquivo (ex: id 4686 ou tmdb 4686)
         id_match = re.search(r'-(?: id| tmdb) (\d+)', nome_arq, flags=re.IGNORECASE)
         tmdb_id_forçado = id_match.group(1) if id_match else None
 
@@ -308,7 +308,6 @@ def processar_series():
             info_tmdb = buscar_tmdb_tv(nome_serie, tmdb_id=tmdb_id_forçado)
 
             if info_tmdb:
-                # Prioriza SEMPRE o ID do IMDb para o Stremio associar meta e episódios corretamente
                 imdb_id = info_tmdb.get("external_ids", {}).get("imdb_id")
                 series_id = imdb_id if imdb_id else f"tmdb:{info_tmdb.get('id')}"
                 
@@ -325,9 +324,9 @@ def processar_series():
                     "releaseInfo": (info_tmdb.get("first_air_date") or "")[:4],
                     "genres": [g.get("name") for g in info_tmdb.get("genres", []) if g.get("name")]
                 }
+                episodes_map[nome_serie] = []
                 print(f"✅ Mapeada Série: {series_map[nome_serie]['name']} ({series_id})")
 
-        # Mapeia os episódios apontando para o ID da série
         if nome_serie in series_map:
             sid = series_map[nome_serie]["id"]
             ep_key = f"{sid}:{temp}:{ep}"
@@ -340,24 +339,31 @@ def processar_series():
                 }]
             }
 
-    # Criar pastas de Séries
+            # Registra o episódio no mapa de vídeos da série
+            episodes_map[nome_serie].append({
+                "id": ep_key,
+                "title": f"Episódio {ep}",
+                "season": temp,
+                "episode": ep
+            })
+
     os.makedirs("catalog/series/minhas_series", exist_ok=True)
     os.makedirs("stream/series", exist_ok=True)
     os.makedirs("meta/series", exist_ok=True)
 
-    metas_series = list(series_map.values())
+    # Injeta a lista de episódios dentro dos metadados de cada série
+    for nome_s, meta_obj in series_map.items():
+        meta_obj["videos"] = episodes_map.get(nome_s, [])
+        with open(f"meta/series/{meta_obj['id']}.json", "w", encoding="utf-8") as f:
+            json.dump({"meta": meta_obj}, f, ensure_ascii=False, indent=2)
 
-    # Salva os Meta JSON das séries
-    for s_info in metas_series:
-        with open(f"meta/series/{s_info['id']}.json", "w", encoding="utf-8") as f:
-            json.dump({"meta": s_info}, f, ensure_ascii=False, indent=2)
-
-    # Salva as rotas de Stream dos episódios (ex: tt0765443:1:1.json)
+    # Salva as rotas de Stream dos episódios
     for ep_key, stream_data in streams_map.items():
         with open(f"stream/series/{ep_key}.json", "w", encoding="utf-8") as f:
             json.dump(stream_data, f, ensure_ascii=False, indent=2)
 
-    # Salva o Catálogo Geral de Séries
+    # Catálogo Geral de Séries
+    metas_series = list(series_map.values())
     with open("catalog/series/minhas_series.json", "w", encoding="utf-8") as f:
         json.dump({"metas": metas_series}, f, ensure_ascii=False, indent=2)
 
