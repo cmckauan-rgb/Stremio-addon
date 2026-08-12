@@ -100,7 +100,7 @@ def buscar_arquivos_recursivo(folder_id):
 # --- PARSERS E BUSCAS TMDB ---
 
 def extrair_info_nome(nome_arquivo):
-    """Extrai Título, Ano e ID do TMDB do nome do arquivo de filme"""
+    """Extrai Título, Ano e ID do TMDB do nome do arquivo/pasta de filme"""
     nome_limpo = re.sub(r'\.(mkv|mp4|avi|webm|mov)$', '', nome_arquivo, flags=re.IGNORECASE)
     
     id_match = re.search(r'-(?: id| tmdb) (\d+)', nome_limpo, flags=re.IGNORECASE)
@@ -116,7 +116,7 @@ def extrair_info_nome(nome_arquivo):
     return titulo, ano, tmdb_id
 
 def buscar_tmdb_filme(titulo, ano=None, tmdb_id=None):
-    """Busca metadados de filmes na API do TMDB usando Ano e ID"""
+    """Busca metadados de filmes na API do TMDB usando ID, Ano ou Título"""
     if tmdb_id:
         url = f"https://api.themoviedb.org/3/movie/{tmdb_id}?api_key={TMDB_API_KEY}&language={LANGUAGE}&append_to_response=external_ids"
         try:
@@ -161,8 +161,17 @@ def extrair_info_serie(nome_arquivo):
 
     return None, None, None
 
-def buscar_tmdb_tv(nome_serie):
-    """Busca Série de TV na API do TMDB usando cache"""
+def buscar_tmdb_tv(nome_serie, tmdb_id=None):
+    """Busca Série de TV na API do TMDB usando ID ou Nome (com Cache)"""
+    if tmdb_id:
+        try:
+            url_det = f"https://api.themoviedb.org/3/tv/{tmdb_id}?api_key={TMDB_API_KEY}&language={LANGUAGE}&append_to_response=external_ids"
+            res_det = requests.get(url_det, timeout=5)
+            if res_det.status_code == 200:
+                return res_det.json()
+        except Exception:
+            pass
+
     nome_key = nome_serie.lower().strip()
     if nome_key in CACHE_TMDB_SERIES:
         return CACHE_TMDB_SERIES[nome_key]
@@ -289,10 +298,15 @@ def processar_series():
         if not nome_serie:
             continue
 
+        # Procura por ID explícito no nome do arquivo (ex: id 4686 ou tmdb 4686)
+        id_match = re.search(r'-(?: id| tmdb) (\d+)', nome_arq, flags=re.IGNORECASE)
+        tmdb_id_forçado = id_match.group(1) if id_match else None
+
         stream_url = f"{PROXY_BASE_URL}/file/{file_id}" if not str(file_id).startswith("http") else file_id
 
         if nome_serie not in series_map:
-            info_tmdb = buscar_tmdb_tv(nome_serie)
+            info_tmdb = buscar_tmdb_tv(nome_serie, tmdb_id=tmdb_id_forçado)
+
             if info_tmdb:
                 imdb_id = info_tmdb.get("external_ids", {}).get("imdb_id")
                 series_id = imdb_id if imdb_id else f"tmdb:{info_tmdb.get('id')}"
