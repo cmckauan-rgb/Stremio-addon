@@ -15,6 +15,22 @@
       ]
     },
     {
+      "id": "tt0760437",
+      "type": "series",
+      "name": "Ben 10",
+      "poster": "https://image.tmdb.org/t/p/w500/eogRp6oAPK0SEvQmCrQ78LTlSdp.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/eIRe2cNOhvwPPtGDjFVEXGaMkVg.jpg",
+      "description": "Ben Tennyson era um garoto comum de 10 anos de idade que durante uma aborrecida viagem de férias em companhia de seu avô Max e de sua prima Gwen descobre um estranho objeto alienígena chamado Omnitrix trazido para a Terra por um meteorito. Agora com o Omnitrix, ele pode se transformar em 10 diferentes heróis alienígenas cada um com seus próprios poderes. Ben vai precisar de todos os poderes para salvar o mundo da presença de Vilgax e de ameaças extraterrestres",
+      "releaseInfo": "2005",
+      "genres": [
+        "Animação",
+        "Sci-Fi & Fantasy",
+        "Action & Adventure",
+        "Comédia",
+        "Kids"
+      ]
+    },
+    {
       "id": "tt29485149",
       "type": "series",
       "name": "Dragon Ball DAIMA",
