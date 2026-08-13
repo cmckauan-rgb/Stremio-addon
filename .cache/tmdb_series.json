@@ -1,0 +1,3831 @@
+{
+  "name:house of the dragon": {
+    "adult": false,
+    "backdrop_path": "/577eXC8wFQT0eUrJcgznSiFPRmk.jpg",
+    "created_by": [
+      {
+        "id": 237053,
+        "credit_id": "5db8d867a1d3320011e7ddf1",
+        "name": "George R.R. Martin",
+        "original_name": "George R.R. Martin",
+        "gender": 2,
+        "profile_path": "/1A7W0L9dZz0rCN1oj6h8YUvusdN.jpg"
+      },
+      {
+        "id": 1167458,
+        "credit_id": "5db8d8fe3faba000163a83cb",
+        "name": "Ryan J. Condal",
+        "original_name": "Ryan J. Condal",
+        "gender": 2,
+        "profile_path": "/iJLTtrR9JRsvcOnmK4BhCvWmFVm.jpg"
+      }
+    ],
+    "episode_run_time": [],
+    "first_air_date": "2022-08-21",
+    "genres": [
+      {
+        "id": 10765,
+        "name": "Sci-Fi & Fantasy"
+      },
+      {
+        "id": 18,
+        "name": "Drama"
+      },
+      {
+        "id": 10759,
+        "name": "Action & Adventure"
+      }
+    ],
+    "homepage": "https://www.hbo.com/content/house-of-the-dragon",
+    "id": 94997,
+    "in_production": true,
+    "languages": [
+      "en"
+    ],
+    "last_air_date": "2026-08-09",
+    "last_episode_to_air": {
+      "id": 7196571,
+      "name": "As Traições em Tumbleton",
+      "overview": "As alianças cambiantes transformam a guerra de forma irreversível à medida que as forças de Rhaenyra convergem em Tumbleton e ambos os bandos competem para obter vantagem.",
+      "vote_average": 6.5,
+      "vote_count": 31,
+      "air_date": "2026-08-09",
+      "episode_number": 8,
+      "episode_type": "finale",
+      "production_code": "",
+      "runtime": 71,
+      "season_number": 3,
+      "show_id": 94997,
+      "still_path": "/3307RKThwUvOoa0h8nhbMYZNpEd.jpg"
+    },
+    "name": "A Casa do Dragão",
+    "next_episode_to_air": null,
+    "networks": [
+      {
+        "id": 49,
+        "logo_path": "/tuomPhY2UtuPTqqFnKMVHvSb724.png",
+        "name": "HBO",
+        "origin_country": "US"
+      }
+    ],
+    "number_of_episodes": 26,
+    "number_of_seasons": 3,
+    "origin_country": [
+      "US"
+    ],
+    "original_language": "en",
+    "original_name": "House of the Dragon",
+    "overview": "200 anos antes dos eventos de \"Game of Thrones\", os Targaryen estavam no ápice de seu poder, tendo inúmeros dragões sob seu comando, mas nem tudo dura para sempre. O início do fim da dinastia Targaryen.",
+    "popularity": 452.94,
+    "poster_path": "/oKJDm4QCKbp6mR4FnxXrFlPJP8Y.jpg",
+    "production_companies": [
+      {
+        "id": 3268,
+        "logo_path": "/tuomPhY2UtuPTqqFnKMVHvSb724.png",
+        "name": "HBO",
+        "origin_country": "US"
+      },
+      {
+        "id": 180956,
+        "logo_path": null,
+        "name": "Bastard Sword",
+        "origin_country": "US"
+      },
+      {
+        "id": 180957,
+        "logo_path": null,
+        "name": "1:26 Pictures",
+        "origin_country": "US"
+      },
+      {
+        "id": 180958,
+        "logo_path": null,
+        "name": "GRRM",
+        "origin_country": "US"
+      }
+    ],
+    "production_countries": [
+      {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }
+    ],
+    "seasons": [
+      {
+        "air_date": "2022-08-21",
+        "episode_count": 89,
+        "id": 309556,
+        "name": "Especiais",
+        "overview": "",
+        "poster_path": "/n9z5p7psbfhLsaRyUrv0jrNCbh0.jpg",
+        "season_number": 0,
+        "vote_average": 0.0
+      },
+      {
+        "air_date": "2022-08-21",
+        "episode_count": 10,
+        "id": 134965,
+        "name": "Temporada 1",
+        "overview": "Ambientada quase 200 anos antes de Game of Thrones, esta temporada narra os eventos que levaram à guerra civil Targaryen, conhecida como a Dança dos Dragões. O Rei Viserys I Targaryen nomeia sua filha, a Princesa Rhaenyra, como herdeira do Trono de Ferro, quebrando a tradição e acirrando as tensões no reino. A corte se divide quando a Rainha Alicent Hightower, segunda esposa de Viserys, promove a reivindicação de seu filho Aegon ao trono. Intrigas políticas, alianças instáveis ​​e traições pessoais preparam o terreno para um conflito iminente que ameaça destruir a dinastia Targaryen.",
+        "poster_path": "/yXo83cODROFRYXS40ipHsSICfTY.jpg",
+        "season_number": 1,
+        "vote_average": 7.4
+      },
+      {
+        "air_date": "2024-06-16",
+        "episode_count": 8,
+        "id": 368014,
+        "name": "Temporada 2",
+        "overview": "A Dança dos Dragões irrompe quando Rhaenyra e Aegon II reivindicam o Trono de Ferro, mergulhando Westeros em uma brutal guerra civil. A temporada explora as complexidades da lealdade, do poder e da família, enquanto ambos os lados utilizam dragões e exércitos para afirmar sua supremacia. Eventos cruciais incluem o trágico assassinato do Príncipe Jaehaerys, que intensifica o conflito, e a dinâmica em constante mudança entre figuras-chave como Daemon Targaryen e Alicent Hightower. À medida que a guerra se intensifica, o reino testemunha as consequências devastadoras da ambição e o alto preço das disputas de sucessão.",
+        "poster_path": "/d8um9L1fqQGCLgTw5JGPHogdNgK.jpg",
+        "season_number": 2,
+        "vote_average": 7.0
+      },
+      {
+        "air_date": "2026-06-21",
+        "episode_count": 8,
+        "id": 449260,
+        "name": "Temporada 3",
+        "overview": "Rhaenyra parece se aproximar da vitória na guerra entre as duas facções da Casa Targaryen. Mas o equilíbrio de poder é frágil, e tudo pode mudar quando as lealdades mudam e novos personagens entram em cena.",
+        "poster_path": "/oKJDm4QCKbp6mR4FnxXrFlPJP8Y.jpg",
+        "season_number": 3,
+        "vote_average": 6.5
+      }
+    ],
+    "softcore": false,
+    "spoken_languages": [
+      {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+      }
+    ],
+    "status": "Returning Series",
+    "tagline": "Não foram os sonhos que os tornaram reis. Foram os dragões.",
+    "type": "Scripted",
+    "vote_average": 8.385,
+    "vote_count": 6943,
+    "external_ids": {
+      "imdb_id": "tt11198330",
+      "freebase_mid": "",
+      "freebase_id": "",
+      "tvdb_id": 371572,
+      "tvrage_id": 0,
+      "wikidata_id": "Q72930269",
+      "facebook_id": "100067234122352",
+      "instagram_id": "houseofthedragonhbo",
+      "twitter_id": "HouseofDragon"
+    }
+  },
+  "name:ben 10 2005": null,
+  "id:4686": {
+    "adult": false,
+    "backdrop_path": "/v5hLUEpbn3G3oLXLdF7lFikDivb.jpg",
+    "created_by": [
+      {
+        "id": 265415,
+        "credit_id": "5257798e760ee36aaa5686d3",
+        "name": "Duncan Rouleau",
+        "original_name": "Duncan Rouleau",
+        "gender": 2,
+        "profile_path": "/hGJdEQVMOdBD9erLCbJDvcKRwsH.jpg"
+      },
+      {
+        "id": 207269,
+        "credit_id": "52577990760ee36aaa5686eb",
+        "name": "Joe Kelly",
+        "original_name": "Joe Kelly",
+        "gender": 2,
+        "profile_path": null
+      },
+      {
+        "id": 1237905,
+        "credit_id": "52577990760ee36aaa5686e5",
+        "name": "Joe Casey",
+        "original_name": "Joe Casey",
+        "gender": 2,
+        "profile_path": null
+      },
+      {
+        "id": 1237903,
+        "credit_id": "5257798f760ee36aaa5686dc",
+        "name": "Steven T. Seagle",
+        "original_name": "Steven T. Seagle",
+        "gender": 2,
+        "profile_path": null
+      }
+    ],
+    "episode_run_time": [
+      22
+    ],
+    "first_air_date": "2005-12-27",
+    "genres": [
+      {
+        "id": 16,
+        "name": "Animação"
+      },
+      {
+        "id": 10765,
+        "name": "Sci-Fi & Fantasy"
+      },
+      {
+        "id": 10759,
+        "name": "Action & Adventure"
+      },
+      {
+        "id": 35,
+        "name": "Comédia"
+      },
+      {
+        "id": 10762,
+        "name": "Kids"
+      }
+    ],
+    "homepage": "",
+    "id": 4686,
+    "in_production": false,
+    "languages": [
+      "en"
+    ],
+    "last_air_date": "2008-04-15",
+    "last_episode_to_air": {
+      "id": 341159,
+      "name": "O Segredo do Omnitrix | Parte 3",
+      "overview": "Depois de uma batalha em uma usina nuclear, o Omnitrix dá sinais de que irá se autodestruir. Tetrax, Ben e sua prima Gwen devem agora encontrar seu criador, para impedir que ele se autodestrua levando consigo todo o Universo.",
+      "vote_average": 7.167,
+      "vote_count": 6,
+      "air_date": "2008-04-15",
+      "episode_number": 13,
+      "episode_type": "finale",
+      "production_code": "",
+      "runtime": 22,
+      "season_number": 4,
+      "show_id": 4686,
+      "still_path": "/x7OFNefxbVIskgcsuVC1tGZr7CR.jpg"
+    },
+    "name": "Ben 10",
+    "next_episode_to_air": null,
+    "networks": [
+      {
+        "id": 56,
+        "logo_path": "/c5OC6oVCg6QP4eqzW6XIq17CQjI.png",
+        "name": "Cartoon Network",
+        "origin_country": "US"
+      }
+    ],
+    "number_of_episodes": 52,
+    "number_of_seasons": 4,
+    "origin_country": [
+      "US"
+    ],
+    "original_language": "en",
+    "original_name": "Ben 10",
+    "overview": "Ben Tennyson era um garoto comum de 10 anos de idade que durante uma aborrecida viagem de férias em companhia de seu avô Max e de sua prima Gwen descobre um estranho objeto alienígena chamado Omnitrix trazido para a Terra por um meteorito. Agora com o Omnitrix, ele pode se transformar em 10 diferentes heróis alienígenas cada um com seus próprios poderes. Ben vai precisar de todos os poderes para salvar o mundo da presença de Vilgax e de ameaças extraterrestres",
+    "popularity": 30.138,
+    "poster_path": "/eogRp6oAPK0SEvQmCrQ78LTlSdp.jpg",
+    "production_companies": [
+      {
+        "id": 7899,
+        "logo_path": "/qnhd98hnBxCMMMod58FJqbCZ5O7.png",
+        "name": "Cartoon Network Studios",
+        "origin_country": "US"
+      },
+      {
+        "id": 78253,
+        "logo_path": "/9TKvqez9Es23bsemwO8tARXAA1q.png",
+        "name": "Man of Action Entertainment",
+        "origin_country": "US"
+      }
+    ],
+    "production_countries": [
+      {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }
+    ],
+    "seasons": [
+      {
+        "air_date": "2007-07-14",
+        "episode_count": 9,
+        "id": 14282,
+        "name": "Especiais",
+        "overview": "",
+        "poster_path": "/rrNLfdzlAoW3pn5lrosnPLCcbrB.jpg",
+        "season_number": 0,
+        "vote_average": 0.0
+      },
+      {
+        "air_date": "2005-12-27",
+        "episode_count": 13,
+        "id": 14278,
+        "name": "Temporada 1",
+        "overview": "",
+        "poster_path": "/jEFYRfZodMpxRzpuhxRPipCYfKW.jpg",
+        "season_number": 1,
+        "vote_average": 7.0
+      },
+      {
+        "air_date": "2006-05-29",
+        "episode_count": 13,
+        "id": 14279,
+        "name": "Temporada 2",
+        "overview": "",
+        "poster_path": "/shtZpLKuUsHH2LEFfENciI9EFl6.jpg",
+        "season_number": 2,
+        "vote_average": 7.0
+      },
+      {
+        "air_date": "2006-11-25",
+        "episode_count": 13,
+        "id": 14281,
+        "name": "Temporada 3",
+        "overview": "",
+        "poster_path": "/shDvpprkeJlAsmhq7kZmm2ajfF3.jpg",
+        "season_number": 3,
+        "vote_average": 6.8
+      },
+      {
+        "air_date": "2007-07-07",
+        "episode_count": 13,
+        "id": 14280,
+        "name": "Temporada 4",
+        "overview": "",
+        "poster_path": "/2ebwBMFZkgYzcgz614yfMjtXgpW.jpg",
+        "season_number": 4,
+        "vote_average": 6.6
+      }
+    ],
+    "softcore": false,
+    "spoken_languages": [
+      {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+      }
+    ],
+    "status": "Ended",
+    "tagline": "Tá na hora de virar herói!",
+    "type": "Scripted",
+    "vote_average": 8.2,
+    "vote_count": 1820,
+    "external_ids": {
+      "imdb_id": "tt0760437",
+      "freebase_mid": "/m/09g_31",
+      "freebase_id": "/en/ben_10",
+      "tvdb_id": 79567,
+      "tvrage_id": null,
+      "wikidata_id": "Q207746",
+      "facebook_id": null,
+      "instagram_id": null,
+      "twitter_id": null
+    }
+  },
+  "id:236994": {
+    "adult": false,
+    "backdrop_path": "/oUmWLyeko3kYdUr8DBLIsxwcugl.jpg",
+    "created_by": [],
+    "episode_run_time": [
+      25
+    ],
+    "first_air_date": "2024-10-11",
+    "genres": [
+      {
+        "id": 16,
+        "name": "Animação"
+      },
+      {
+        "id": 10759,
+        "name": "Action & Adventure"
+      },
+      {
+        "id": 35,
+        "name": "Comédia"
+      },
+      {
+        "id": 10765,
+        "name": "Sci-Fi & Fantasy"
+      }
+    ],
+    "homepage": "https://dragonballdaima.com",
+    "id": 236994,
+    "in_production": false,
+    "languages": [
+      "ja"
+    ],
+    "last_air_date": "2025-02-28",
+    "last_episode_to_air": {
+      "id": 5687468,
+      "name": "Máximo",
+      "overview": "Recuperado, Goku finalmente supera os próprios limites! Para derrotar o poderoso Gigante Gomah, que se regenera com o poder do Terceiro Olho, todos dão o máximo de si em uma batalha épica!",
+      "vote_average": 8.333,
+      "vote_count": 6,
+      "air_date": "2025-02-28",
+      "episode_number": 20,
+      "episode_type": "finale",
+      "production_code": "",
+      "runtime": 24,
+      "season_number": 1,
+      "show_id": 236994,
+      "still_path": "/A2l4sFZp3Tcgg9jKBXbpiJBGt5n.jpg"
+    },
+    "name": "Dragon Ball DAIMA",
+    "next_episode_to_air": null,
+    "networks": [
+      {
+        "id": 1,
+        "logo_path": "/4x4GsmRmSLLL0RVNKsoqAVH43tz.png",
+        "name": "Fuji TV",
+        "origin_country": "JP"
+      },
+      {
+        "id": 879,
+        "logo_path": "/pX3gDCsG8WcQvQbCNJ37t5w0HyG.png",
+        "name": "Tokai Television Broadcasting",
+        "origin_country": "JP"
+      },
+      {
+        "id": 1163,
+        "logo_path": "/1J33ZvSff1VOEt3aC8CyKmj9GEy.png",
+        "name": "Kansai TV",
+        "origin_country": "JP"
+      },
+      {
+        "id": 3535,
+        "logo_path": "/sces9gh6ih1DaD54WXvqHeLMScE.png",
+        "name": "Fukui TV",
+        "origin_country": "JP"
+      },
+      {
+        "id": 3721,
+        "logo_path": "/vkOmMDoyA8Jj8gDJOyP6CjD06Kj.png",
+        "name": "Hokkaido Cultural Broadcasting",
+        "origin_country": "JP"
+      },
+      {
+        "id": 4799,
+        "logo_path": "/y1F9WoEjz7MhzjN56im3tVKTd1r.png",
+        "name": "Iwate Menkoi Television",
+        "origin_country": "JP"
+      },
+      {
+        "id": 4825,
+        "logo_path": "/9dD3buakf1nS6XQVBwEtm50izs4.png",
+        "name": "TOS",
+        "origin_country": "JP"
+      },
+      {
+        "id": 4829,
+        "logo_path": "/qHGklsa90XMreAdYm7AZl6eeaCL.png",
+        "name": "Sendai Television",
+        "origin_country": "JP"
+      },
+      {
+        "id": 4839,
+        "logo_path": "/pRhoUkllLEe3U9341NUCeKdQ7to.png",
+        "name": "SAGA TV",
+        "origin_country": "JP"
+      },
+      {
+        "id": 4841,
+        "logo_path": "/7QZ9b8bIpNUU5AjdaW6BXcMziY6.png",
+        "name": "Ishikawa TV",
+        "origin_country": "JP"
+      },
+      {
+        "id": 4850,
+        "logo_path": "/thh0SqE1oh7oOH08ISphk6cRghq.png",
+        "name": "TNC",
+        "origin_country": "JP"
+      },
+      {
+        "id": 4851,
+        "logo_path": "/wd94E8WjZwEbu1PLxhNNH0Ny3VT.png",
+        "name": "OHK",
+        "origin_country": "JP"
+      },
+      {
+        "id": 4855,
+        "logo_path": "/vRWtsyWIcIrtw0PXbCbjC4xvXtw.png",
+        "name": "Kochi Sun Sun Broadcasting",
+        "origin_country": "JP"
+      },
+      {
+        "id": 4970,
+        "logo_path": "/6hrEhIW5lIUKeX78BNTzMQ0e8aK.png",
+        "name": "Television Shin Hiroshima System",
+        "origin_country": "JP"
+      },
+      {
+        "id": 5644,
+        "logo_path": "/832SJcpnozaNWKto6hPSpYvDYQU.png",
+        "name": "TV Shizuoka",
+        "origin_country": "JP"
+      },
+      {
+        "id": 6156,
+        "logo_path": "/gxpzF98cV1DHpXzJmXf2Ew6sQvV.png",
+        "name": "UMK TV Miyazaki",
+        "origin_country": "JP"
+      },
+      {
+        "id": 6209,
+        "logo_path": "/fjenNun3vCLtnHHsTpAgVYkubMl.png",
+        "name": "NST",
+        "origin_country": "JP"
+      },
+      {
+        "id": 6210,
+        "logo_path": "/kCNJcIxnOXI4fkc8oZLOk1BZb0o.png",
+        "name": "NBS",
+        "origin_country": "JP"
+      },
+      {
+        "id": 6211,
+        "logo_path": "/mFM7fx4yt3FOa6leUbBbd8iGZIi.png",
+        "name": "Sakuranbo TV",
+        "origin_country": "JP"
+      },
+      {
+        "id": 6212,
+        "logo_path": "/eAaH52WuIH4XNlqYSonXZRPRnGE.png",
+        "name": "TSK",
+        "origin_country": "JP"
+      },
+      {
+        "id": 6213,
+        "logo_path": "/np5gbKJvysVLnJKg8g1OxhiA6Qa.png",
+        "name": "Ehime Broadcasting",
+        "origin_country": "JP"
+      },
+      {
+        "id": 6214,
+        "logo_path": "/fF4u5E7SBK4qOoIUOVmr5FbYk2g.png",
+        "name": "KTS",
+        "origin_country": "JP"
+      },
+      {
+        "id": 6666,
+        "logo_path": "/rCdk5TWd3RPKTZU1zlhDCEFuzsI.png",
+        "name": "Fukushima TV",
+        "origin_country": "JP"
+      },
+      {
+        "id": 6819,
+        "logo_path": "/hNbCO6N6F4o09DCGAoz7g0G2E9F.png",
+        "name": "AKT",
+        "origin_country": "JP"
+      },
+      {
+        "id": 6821,
+        "logo_path": "/mkTZDdapxuLVS4gzSCwD01DFkbw.png",
+        "name": "Toyama Television",
+        "origin_country": "JP"
+      },
+      {
+        "id": 6822,
+        "logo_path": "/lquU1iSzXNKMWohDVIE91pxDzhE.png",
+        "name": "TV Kumamoto",
+        "origin_country": "JP"
+      },
+      {
+        "id": 6823,
+        "logo_path": "/gRUUO3lBYddcSqQPfFruXVDAlv2.png",
+        "name": "Okinawa Television Broadcasting",
+        "origin_country": "JP"
+      },
+      {
+        "id": 8446,
+        "logo_path": "/dHp09KNT493NE46Wt8pnPyL84Ef.png",
+        "name": "KTN",
+        "origin_country": "JP"
+      }
+    ],
+    "number_of_episodes": 20,
+    "number_of_seasons": 1,
+    "origin_country": [
+      "JP"
+    ],
+    "original_language": "ja",
+    "original_name": "ドラゴンボールDAIMA",
+    "overview": "Goku e companhia viviam pacificamente quando de repente ficaram pequenos por causa de uma conspiração! Quando eles descobrem que o motivo para isso pode estar no \"Mundo dos Demônios\", um misterioso Majin chamado Glorio aparece para eles.",
+    "popularity": 21.7654,
+    "poster_path": "/qlLJvJO8rsltmnWWbKgT13hP90I.jpg",
+    "production_companies": [
+      {
+        "id": 5542,
+        "logo_path": "/ayE4LIqoAWotavo7xdvYngwqGML.png",
+        "name": "Toei Animation",
+        "origin_country": "JP"
+      }
+    ],
+    "production_countries": [
+      {
+        "iso_3166_1": "JP",
+        "name": "Japan"
+      }
+    ],
+    "seasons": [
+      {
+        "air_date": "2024-10-11",
+        "episode_count": 20,
+        "id": 360623,
+        "name": "Temporada 1",
+        "overview": "",
+        "poster_path": "/pc9jW4KdhGfJ7go74VTOq3qWxk5.jpg",
+        "season_number": 1,
+        "vote_average": 7.7
+      }
+    ],
+    "softcore": false,
+    "spoken_languages": [
+      {
+        "english_name": "Japanese",
+        "iso_639_1": "ja",
+        "name": "日本語"
+      }
+    ],
+    "status": "Ended",
+    "tagline": "Bem-vindo ao Reino dos Demônios!",
+    "type": "Scripted",
+    "vote_average": 8.162,
+    "vote_count": 612,
+    "external_ids": {
+      "imdb_id": "tt29485149",
+      "freebase_mid": null,
+      "freebase_id": null,
+      "tvdb_id": 440820,
+      "tvrage_id": null,
+      "wikidata_id": "Q123022503",
+      "facebook_id": null,
+      "instagram_id": null,
+      "twitter_id": "DB_official_jp"
+    }
+  },
+  "name:dune prophecy": {
+    "adult": false,
+    "backdrop_path": "/lBoHzOgft2QfpjkVVvZCqeM4ttT.jpg",
+    "created_by": [
+      {
+        "id": 1212207,
+        "credit_id": "633c91d54df291007acfce61",
+        "name": "Diane Ademu-John",
+        "original_name": "Diane Ademu-John",
+        "gender": 1,
+        "profile_path": "/jAPp1NwOxsDkfKgPUnV0gVYXqvO.jpg"
+      },
+      {
+        "id": 1215681,
+        "credit_id": "664581ce4ec66580d0eecfb6",
+        "name": "Alison Schapker",
+        "original_name": "Alison Schapker",
+        "gender": 1,
+        "profile_path": null
+      }
+    ],
+    "episode_run_time": [],
+    "first_air_date": "2024-11-17",
+    "genres": [
+      {
+        "id": 10765,
+        "name": "Sci-Fi & Fantasy"
+      },
+      {
+        "id": 18,
+        "name": "Drama"
+      },
+      {
+        "id": 10759,
+        "name": "Action & Adventure"
+      }
+    ],
+    "homepage": "https://www.hbo.com/dune-prophecy",
+    "id": 90228,
+    "in_production": true,
+    "languages": [
+      "en"
+    ],
+    "last_air_date": "2024-12-22",
+    "last_episode_to_air": {
+      "id": 5692200,
+      "name": "O Inimigo Arrogante",
+      "overview": "A estratégia de Valya a leva a um confronto épico com um Desmond cada vez mais poderoso, enquanto Tula tenta lidar com a revelação de sua verdadeira identidade.",
+      "vote_average": 6.857,
+      "vote_count": 35,
+      "air_date": "2024-12-22",
+      "episode_number": 6,
+      "episode_type": "finale",
+      "production_code": "",
+      "runtime": 81,
+      "season_number": 1,
+      "show_id": 90228,
+      "still_path": "/fwHiXMFdPU448Sy0mwckqurYXgz.jpg"
+    },
+    "name": "Duna: A Profecia",
+    "next_episode_to_air": null,
+    "networks": [
+      {
+        "id": 49,
+        "logo_path": "/tuomPhY2UtuPTqqFnKMVHvSb724.png",
+        "name": "HBO",
+        "origin_country": "US"
+      }
+    ],
+    "number_of_episodes": 14,
+    "number_of_seasons": 2,
+    "origin_country": [
+      "US"
+    ],
+    "original_language": "en",
+    "original_name": "Dune: Prophecy",
+    "overview": "Dez mil anos antes da ascensão de Paul Atreides, as irmãs Valya e Tula Harkonnen estabeleceram a lendária seita e ordem feminina que se tornaria conhecida como Bene Gesserit para controlar o futuro da humanidade.",
+    "popularity": 28.1947,
+    "poster_path": "/9kyqa103Ih22hT955ZaZdipAOAD.jpg",
+    "production_companies": [
+      {
+        "id": 54629,
+        "logo_path": "/nygX645auQxOiiAH1mrPxIuQRj0.png",
+        "name": "Legendary Television",
+        "origin_country": "US"
+      },
+      {
+        "id": 3268,
+        "logo_path": "/tuomPhY2UtuPTqqFnKMVHvSb724.png",
+        "name": "HBO",
+        "origin_country": "US"
+      },
+      {
+        "id": 245085,
+        "logo_path": null,
+        "name": "Wandering Jew Productions",
+        "origin_country": "US"
+      },
+      {
+        "id": 245086,
+        "logo_path": null,
+        "name": "Herbert Properties",
+        "origin_country": "US"
+      },
+      {
+        "id": 245087,
+        "logo_path": null,
+        "name": "Flying Life",
+        "origin_country": "US"
+      }
+    ],
+    "production_countries": [
+      {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }
+    ],
+    "seasons": [
+      {
+        "air_date": null,
+        "episode_count": 17,
+        "id": 486998,
+        "name": "Especiais",
+        "overview": "",
+        "poster_path": "/eMgjGSc1ibI15ElFmD76JfoFZz9.jpg",
+        "season_number": 0,
+        "vote_average": 0.0
+      },
+      {
+        "air_date": "2024-11-17",
+        "episode_count": 6,
+        "id": 125731,
+        "name": "Temporada 1",
+        "overview": "",
+        "poster_path": "/iMSKTbNxtnCyPsWOhKwfK5H4RGF.jpg",
+        "season_number": 1,
+        "vote_average": 6.6
+      },
+      {
+        "air_date": null,
+        "episode_count": 8,
+        "id": 484478,
+        "name": "Temporada 2",
+        "overview": "",
+        "poster_path": null,
+        "season_number": 2,
+        "vote_average": 0.0
+      }
+    ],
+    "softcore": false,
+    "spoken_languages": [
+      {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+      }
+    ],
+    "status": "Returning Series",
+    "tagline": "Verdadeiro poder começa com controle.",
+    "type": "Scripted",
+    "vote_average": 7.21,
+    "vote_count": 619,
+    "external_ids": {
+      "imdb_id": "tt10466872",
+      "freebase_mid": null,
+      "freebase_id": null,
+      "tvdb_id": 367118,
+      "tvrage_id": null,
+      "wikidata_id": "Q64969653",
+      "facebook_id": null,
+      "instagram_id": null,
+      "twitter_id": null
+    }
+  },
+  "name:esquadrão de heróis": {
+    "adult": false,
+    "backdrop_path": "/tSbZytA2RSLVXgEjTNTb27ZkvjZ.jpg",
+    "created_by": [
+      {
+        "id": 7624,
+        "credit_id": "52586bdc760ee346611c0dbc",
+        "name": "Stan Lee",
+        "original_name": "Stan Lee",
+        "gender": 2,
+        "profile_path": "/kKeyWoFtTqOPsbmwylNHmuB3En9.jpg"
+      }
+    ],
+    "episode_run_time": [
+      22
+    ],
+    "first_air_date": "2009-09-14",
+    "genres": [
+      {
+        "id": 10759,
+        "name": "Action & Adventure"
+      },
+      {
+        "id": 16,
+        "name": "Animação"
+      },
+      {
+        "id": 35,
+        "name": "Comédia"
+      }
+    ],
+    "homepage": "http://www.superherosquad.marvel.com/",
+    "id": 21781,
+    "in_production": false,
+    "languages": [
+      "en",
+      "es"
+    ],
+    "last_air_date": "2011-07-23",
+    "last_episode_to_air": {
+      "id": 601186,
+      "name": "Dias, Noites e Fins de Semana do Futuro Passado!",
+      "overview": "Depois de ser lançado em um portal por Dark Surfer, Falcon e H.E.R.B.I.E. encontram-se em uma realidade alternativa onde a Feiticeira Escarlate é um imperador maligno que governa o mundo. Com a ajuda de um idoso Magneto e um forte Reptil, Falcon e H.E.R.B.I.E. tente convencer a Feiticeira Escarlate de que ela é boa e deixe o mundo em paz.",
+      "vote_average": 3.0,
+      "vote_count": 1,
+      "air_date": "2011-07-23",
+      "episode_number": 16,
+      "episode_type": "standard",
+      "production_code": "",
+      "runtime": 22,
+      "season_number": 2,
+      "show_id": 21781,
+      "still_path": "/ujfOuZYFhhFiDGS7TbQvZRVwKGp.jpg"
+    },
+    "name": "Esquadrão de Heróis",
+    "next_episode_to_air": null,
+    "networks": [
+      {
+        "id": 56,
+        "logo_path": "/c5OC6oVCg6QP4eqzW6XIq17CQjI.png",
+        "name": "Cartoon Network",
+        "origin_country": "US"
+      },
+      {
+        "id": 83,
+        "logo_path": "/mE2ElX5BSeUhiT3V8qUhLjd3Nbz.png",
+        "name": "Teletoon",
+        "origin_country": "CA"
+      }
+    ],
+    "number_of_episodes": 52,
+    "number_of_seasons": 2,
+    "origin_country": [
+      "US"
+    ],
+    "original_language": "en",
+    "original_name": "The Super Hero Squad Show",
+    "overview": "Antes do início da série, o vilão Doutor Destino está em busca de uma dominação universal, e tenta adquirir o poder ilimitado da “Espada do Infinito”. Porém, numa batalha contra o Homem de Ferro, a espada se parte em mil pedacinhos, e esses chovem na cidade Super Herói. Então, o Doutor Destino forjou alianças com quase todos os supervilões de Villainville, que formam a Legião Letal, a fim de caçar os os pedacinhos da espada do infinito. Mas então, forma-se o grupo de super heróis Esquadrão de Heróis, consistindo de Homem de Ferro, Falcão, Hulk, Surfista Prateado, Thor e Wolverine. Dai então começa um novo desafio para o esquadrão de Super herois!!",
+    "popularity": 14.6134,
+    "poster_path": "/nWhJyfeVElaosx4mc7893YJmM77.jpg",
+    "production_companies": [
+      {
+        "id": 156621,
+        "logo_path": "/mdppYgVogDhOZyBdNo4fL9SgLdt.png",
+        "name": "Natural 9 Entertainment",
+        "origin_country": "US"
+      },
+      {
+        "id": 19,
+        "logo_path": "/2XbFiOpwgdG1P1wKLqfk2kvcTdE.png",
+        "name": "Film Roman",
+        "origin_country": "US"
+      },
+      {
+        "id": 290,
+        "logo_path": "/jrgCuaQsY9ouP5ILZf4Dq4ZOkIX.png",
+        "name": "Ingenious Media",
+        "origin_country": "GB"
+      },
+      {
+        "id": 13252,
+        "logo_path": "/aGeUvfSNA8gRl6ZjvmLQOsb7PMw.png",
+        "name": "Marvel Animation",
+        "origin_country": "US"
+      }
+    ],
+    "production_countries": [
+      {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }
+    ],
+    "seasons": [
+      {
+        "air_date": null,
+        "episode_count": 2,
+        "id": 31573,
+        "name": "Especiais",
+        "overview": "",
+        "poster_path": null,
+        "season_number": 0,
+        "vote_average": 0.0
+      },
+      {
+        "air_date": "2009-09-14",
+        "episode_count": 26,
+        "id": 31575,
+        "name": "Temporada 1",
+        "overview": "O vilão Doutor Destino está em busca da dominação universal e tenta adquirir o poder ilimitado da \"Espada do Infinito\". Porém, numa batalha contra o Homem de Ferro, a espada se parte em pedacinhos (fractais), e esses chovem na cidade Super-Herói. Então, o Doutor Destino forja alianças com quase todos os supervilões de Villainville, que formam a Legião Letal, a fim de procurarem os pedacinhos da Espada do Infinito. Em resposta é formado o grupo de super-heróis Esquadrão de Heróis (com a maioria dos membros de Os Vingadores: Os Super-Heróis mais Poderosos da Terra), consistindo de Homem de Ferro, Falcão, Hulk, Surfista Prateado, Thor, Wolverine. Sempre antes de cada luta, o esquadrão grita o grito de guerra deles: \"É hora de Hero Up\".",
+        "poster_path": "/nWhJyfeVElaosx4mc7893YJmM77.jpg",
+        "season_number": 1,
+        "vote_average": 3.0
+      },
+      {
+        "air_date": "2010-10-23",
+        "episode_count": 26,
+        "id": 31574,
+        "name": "Temporada 2",
+        "overview": "O vilão Thanos, como o Doutor Destino, também está em busca da dominação universal, tentando adquirir o poder ilimitado desta vez da \"Manopla do Infinito\", que poderá ser usada se o vilão reunir todas as \"Pedras do Infinito\". Com o Surfista Prateado junto de Galactus no espaço, a Feiticeira Escarlate assume seu lugar, e junto do Esquadrão de Heróis, eles desta vez terão que enfrentar esse novo vilão e lidar com os truques de Thanos sob os Kree e os Skrulls, mas sendo apoiados pelos outros super-heróis.",
+        "poster_path": "/jomW2oKYbJ1O5EOgxrbd8GXxwN1.jpg",
+        "season_number": 2,
+        "vote_average": 3.0
+      }
+    ],
+    "softcore": false,
+    "spoken_languages": [
+      {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+      },
+      {
+        "english_name": "Spanish",
+        "iso_639_1": "es",
+        "name": "Español"
+      }
+    ],
+    "status": "Ended",
+    "tagline": "",
+    "type": "Scripted",
+    "vote_average": 7.504,
+    "vote_count": 130,
+    "external_ids": {
+      "imdb_id": "tt1388589",
+      "freebase_mid": "/m/06_xbm3",
+      "freebase_id": "/en/the_super_hero_squad_show",
+      "tvdb_id": 113901,
+      "tvrage_id": null,
+      "wikidata_id": "Q1509756",
+      "facebook_id": null,
+      "instagram_id": null,
+      "twitter_id": null
+    }
+  },
+  "name:impuros": {
+    "adult": false,
+    "backdrop_path": "/tqwbjrFPTiO48xxU6V26lqrfGIw.jpg",
+    "created_by": [
+      {
+        "id": 2156190,
+        "credit_id": "5bcba03ec3a36823a1006dce",
+        "name": "Alexandre Fraga",
+        "original_name": "Alexandre Fraga",
+        "gender": 0,
+        "profile_path": null
+      }
+    ],
+    "episode_run_time": [],
+    "first_air_date": "2018-10-19",
+    "genres": [
+      {
+        "id": 80,
+        "name": "Crime"
+      },
+      {
+        "id": 18,
+        "name": "Drama"
+      },
+      {
+        "id": 10759,
+        "name": "Action & Adventure"
+      }
+    ],
+    "homepage": "https://www.starplus.com/pt-br/series/impuros/1RTJdus2ei4S",
+    "id": 83295,
+    "in_production": true,
+    "languages": [
+      "pt"
+    ],
+    "last_air_date": "2026-05-01",
+    "last_episode_to_air": {
+      "id": 7011966,
+      "name": "Do Alto a Queda é Maior",
+      "overview": "Evandro e Geise sequestram Ortega. Inês tem uma surpresa no hospital e descobre que Afonso foi feito de refém. Morello encontra uma forma de chantagear os milicianos para resgatar Inês e Afonso. Santos planta um rastreador no carro do parceiro. Gilmar dá um ponto final nas chantagens de Almada. Geise não perdoa Carmen e passa por cima de Evandro para encontrá-la. Evandro cai numa armadilha de Morello, que não está disposto a trabalhar como manda a lei. Desafiando a própria Polícia Federal, Morello decide dar seu próprio desfecho a essa história.",
+      "vote_average": 10.0,
+      "vote_count": 1,
+      "air_date": "2026-05-01",
+      "episode_number": 10,
+      "episode_type": "standard",
+      "production_code": "",
+      "runtime": 66,
+      "season_number": 6,
+      "show_id": 83295,
+      "still_path": "/3auBwTgm4PPWXIst14nic4nfO49.jpg"
+    },
+    "name": "Impuros",
+    "next_episode_to_air": null,
+    "networks": [
+      {
+        "id": 1640,
+        "logo_path": "/6hsp8vstUpOX6suEw9xHs21shE.png",
+        "name": "Fox Premium Series",
+        "origin_country": ""
+      },
+      {
+        "id": 2319,
+        "logo_path": "/mGIwo5uKaPMK4sRNwSwRl9nmRtd.png",
+        "name": "Fox Brasil",
+        "origin_country": "BR"
+      },
+      {
+        "id": 2739,
+        "logo_path": "/1edZOYAfoyZyZ3rklNSiUpXX30Q.png",
+        "name": "Disney+",
+        "origin_country": ""
+      },
+      {
+        "id": 4697,
+        "logo_path": "/s8kZw4nGzlGPiL8qghKWQhGIjq4.png",
+        "name": "Star+",
+        "origin_country": ""
+      }
+    ],
+    "number_of_episodes": 60,
+    "number_of_seasons": 6,
+    "origin_country": [
+      "BR"
+    ],
+    "original_language": "pt",
+    "original_name": "Impuros",
+    "overview": "No Rio dos anos 90, Evandro é um jovem da favela que tenta ganhar a vida honestamente. Porém, após a morte do irmão pela polícia, ele entra no mundo do tráfico buscando vingança.",
+    "popularity": 12.0209,
+    "poster_path": "/zTvluwSblMTAkM7Po7Sp75eqLzM.jpg",
+    "production_companies": [
+      {
+        "id": 81072,
+        "logo_path": "/965z9BeD2ChX1NDD1gNhc3drU4V.png",
+        "name": "Barry Company",
+        "origin_country": "BR"
+      },
+      {
+        "id": 139958,
+        "logo_path": "/rKnRMd6HsVoyCnMVGuyFQnXcrzr.png",
+        "name": "Cintra Produções",
+        "origin_country": "BR"
+      },
+      {
+        "id": 50011,
+        "logo_path": "/tU8VfJGsFqLdqXEZAiasSvK4E1p.png",
+        "name": "Fox International Channels",
+        "origin_country": "US"
+      },
+      {
+        "id": 177366,
+        "logo_path": "/34jjG1OylEDpPj07nCjUMlU7Vmt.png",
+        "name": "Fox Latin American Channels",
+        "origin_country": ""
+      },
+      {
+        "id": 167704,
+        "logo_path": "/eVTzWqrkdybUTGGBFl3gTq0NlRm.png",
+        "name": "Star Original Productions",
+        "origin_country": ""
+      },
+      {
+        "id": 136963,
+        "logo_path": "/cy7yQL0v56g2MQChxKqYF3NGkLx.png",
+        "name": "Cimarrón Cine",
+        "origin_country": "UY"
+      },
+      {
+        "id": 209687,
+        "logo_path": "/9P9JQcn754Per4baTHwFAqaScTP.png",
+        "name": "Buena Vista International Brasil",
+        "origin_country": "BR"
+      }
+    ],
+    "production_countries": [
+      {
+        "iso_3166_1": "BR",
+        "name": "Brazil"
+      },
+      {
+        "iso_3166_1": "UY",
+        "name": "Uruguay"
+      }
+    ],
+    "seasons": [
+      {
+        "air_date": "2018-10-19",
+        "episode_count": 10,
+        "id": 111218,
+        "name": "Temporada 1",
+        "overview": "Rio de Janeiro, anos 90. Evandro entra no mundo do crime e faz de sua facção criminosa um império. Seus negócios chamam a atenção do policial federal Morello. Dois estrategistas que compartilham o amor pelo perigo. A caçada começa.",
+        "poster_path": "/suBblc2Fkfx4ABZhJhhQ47l1cDe.jpg",
+        "season_number": 1,
+        "vote_average": 7.3
+      },
+      {
+        "air_date": "2019-11-08",
+        "episode_count": 10,
+        "id": 135539,
+        "name": "Temporada 2",
+        "overview": "Encurralado entre facções inimigas, a vida de Evandro no presídio será um verdadeiro inferno. Tabuada, um dos líderes da Segunda Armada, decide ajudá-lo. Enquanto isso, Evandro planeja a sua reaproximação aos Urquizas para reassumir a rota do Ouro Branco.",
+        "poster_path": "/a4lZMp9n6sHo63AYYx36mmWzpJ7.jpg",
+        "season_number": 2,
+        "vote_average": 7.6
+      },
+      {
+        "air_date": "2021-08-31",
+        "episode_count": 10,
+        "id": 200195,
+        "name": "Temporada 3",
+        "overview": "O narcotraficante Evandro do Dendê e do policial Víctor Morello, que enfrentarão novos conflitos pessoais, familiares e criminais no contexto do narcotráfico da América Latina.",
+        "poster_path": "/mSZD9pa16JkeCTqnZFERBgZOg9y.jpg",
+        "season_number": 3,
+        "vote_average": 8.0
+      },
+      {
+        "air_date": "2023-08-30",
+        "episode_count": 10,
+        "id": 337714,
+        "name": "Temporada 4",
+        "overview": "",
+        "poster_path": "/vgdOEAAtH9hyJ5mZye8uKMaFV0X.jpg",
+        "season_number": 4,
+        "vote_average": 8.7
+      },
+      {
+        "air_date": "2024-07-24",
+        "episode_count": 10,
+        "id": 337715,
+        "name": "Temporada 5",
+        "overview": "",
+        "poster_path": "/yzPLHLPqEZI7uMNGh0v4wLqV6Fd.jpg",
+        "season_number": 5,
+        "vote_average": 8.6
+      },
+      {
+        "air_date": "2026-05-01",
+        "episode_count": 10,
+        "id": 503821,
+        "name": "Temporada 6",
+        "overview": "Após um ataque brutal contra sua família, que desencadeia um plano de vingança implacável, Evandro está determinado a derrubar seus antigos aliados, mesmo que isso coloque seu próprio império em risco. Enquanto isso, Morello se alia à sua filha fugitiva, Inês, ao marido dela, Afonso, e a um grupo de ex-policiais da milícia, com o objetivo de reduzir o tráfico de drogas nas comunidades do Rio de Janeiro. Mas, movidos por seus próprios interesses, os laços mais estreitos estão prestes a se romper, e cada escolha deixa profundas cicatrizes.",
+        "poster_path": "/zTvluwSblMTAkM7Po7Sp75eqLzM.jpg",
+        "season_number": 6,
+        "vote_average": 6.4
+      }
+    ],
+    "softcore": false,
+    "spoken_languages": [
+      {
+        "english_name": "Portuguese",
+        "iso_639_1": "pt",
+        "name": "Português"
+      }
+    ],
+    "status": "Returning Series",
+    "tagline": "",
+    "type": "Scripted",
+    "vote_average": 7.417,
+    "vote_count": 54,
+    "external_ids": {
+      "imdb_id": "tt9070896",
+      "freebase_mid": null,
+      "freebase_id": null,
+      "tvdb_id": 353300,
+      "tvrage_id": null,
+      "wikidata_id": "Q56697759",
+      "facebook_id": null,
+      "instagram_id": null,
+      "twitter_id": null
+    }
+  },
+  "name:jack ryan de tom clancy": {
+    "adult": false,
+    "backdrop_path": "/2y2TbzeKZHYqTN5gb4nBv9dKk1f.jpg",
+    "created_by": [
+      {
+        "id": 1226647,
+        "credit_id": "5aa225510e0a262c6e005637",
+        "name": "Graham Roland",
+        "original_name": "Graham Roland",
+        "gender": 2,
+        "profile_path": "/wrqRGS5KnEBWtNqOyHZ0en0JYN1.jpg"
+      },
+      {
+        "id": 161839,
+        "credit_id": "5aa226de9251414c540053a0",
+        "name": "Carlton Cuse",
+        "original_name": "Carlton Cuse",
+        "gender": 2,
+        "profile_path": "/40GhFizBF2jwU3tUi5FsxJPzDjt.jpg"
+      }
+    ],
+    "episode_run_time": [],
+    "first_air_date": "2018-08-30",
+    "genres": [
+      {
+        "id": 10759,
+        "name": "Action & Adventure"
+      },
+      {
+        "id": 18,
+        "name": "Drama"
+      }
+    ],
+    "homepage": "https://www.amazon.com/dp/B073RQ7KP4",
+    "id": 73375,
+    "in_production": false,
+    "languages": [
+      "ar",
+      "en",
+      "fr",
+      "de",
+      "ja",
+      "ru",
+      "es",
+      "tr"
+    ],
+    "last_air_date": "2023-07-13",
+    "last_episode_to_air": {
+      "id": 4424838,
+      "name": "Prova de uma ideia",
+      "overview": "Se Wright quiser o Jack vivo, concessões terão que ser feitas. Informações inovadoras dão à CIA a chance de impedir um ato terrorista no país.",
+      "vote_average": 6.766,
+      "vote_count": 32,
+      "air_date": "2023-07-13",
+      "episode_number": 6,
+      "episode_type": "finale",
+      "production_code": "JKRY 406",
+      "runtime": 64,
+      "season_number": 4,
+      "show_id": 73375,
+      "still_path": "/ccuT8l42kGTjSGY4CChWHReYBzk.jpg"
+    },
+    "name": "Jack Ryan de Tom Clancy",
+    "next_episode_to_air": null,
+    "networks": [
+      {
+        "id": 1024,
+        "logo_path": "/w7HfLNm9CWwRmAMU58udl2L7We7.png",
+        "name": "Prime Video",
+        "origin_country": ""
+      }
+    ],
+    "number_of_episodes": 30,
+    "number_of_seasons": 4,
+    "origin_country": [
+      "US"
+    ],
+    "original_language": "en",
+    "original_name": "Tom Clancy's Jack Ryan",
+    "overview": "Quando o analista da CIA Jack Ryan esbarra em uma série de transferências bancárias suspeitas, sua busca por respostas o afasta da segurança de sua mesa de trabalho e o joga em um jogo mortal de gato e rato pela Europa e pelo Oriente Médio, com um terrorista em ascensão preparando um grande ataque contra os EUA e seus aliados.",
+    "popularity": 51.4174,
+    "poster_path": "/sUQS9Uks2UNdFc1Io2U0ulTDGsr.jpg",
+    "production_companies": [
+      {
+        "id": 20580,
+        "logo_path": "/oRR9EXVoKP9szDkVKlze5HVJS7g.png",
+        "name": "Amazon Studios",
+        "origin_country": "US"
+      },
+      {
+        "id": 2481,
+        "logo_path": "/vOQg26GjR0LnkN1Ph9uyog1UuOE.png",
+        "name": "Platinum Dunes",
+        "origin_country": "US"
+      },
+      {
+        "id": 87731,
+        "logo_path": "/8PeKdSO13vYTod2HAJsV2m7mRr0.png",
+        "name": "Skydance Television",
+        "origin_country": "US"
+      },
+      {
+        "id": 114276,
+        "logo_path": null,
+        "name": "Genre Arts",
+        "origin_country": "US"
+      },
+      {
+        "id": 187676,
+        "logo_path": null,
+        "name": "Push, Boot.",
+        "origin_country": "US"
+      },
+      {
+        "id": 228633,
+        "logo_path": "/of4mmVt6egYaO9oERJbuUxMOTkj.png",
+        "name": "Paramount Television Studios",
+        "origin_country": "US"
+      }
+    ],
+    "production_countries": [
+      {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }
+    ],
+    "seasons": [
+      {
+        "air_date": "2018-08-30",
+        "episode_count": 8,
+        "id": 91583,
+        "name": "Temporada 1",
+        "overview": "Jack Ryan é um analista da CIA que é recrutado para uma perigosa operação de campo pela primeira vez. Ele descobre um padrão na comunicação terrorista que o coloca no centro de uma missão contra inimigos que visam a destruição em uma escala global.",
+        "poster_path": "/7XR8DIcftPFiVYYz9XsfvpllTqz.jpg",
+        "season_number": 1,
+        "vote_average": 7.7
+      },
+      {
+        "air_date": "2019-10-31",
+        "episode_count": 8,
+        "id": 128889,
+        "name": "Temporada 2",
+        "overview": "Depois de rastrear um carregamento suspeito na selva venezuelana, Jack Ryan vai à América do Sul para investigar. Enquanto Jack ameaça revelar uma enorme conspiração, o presidente da Venezuela contra-ataca, o que leva Jack a uma missão global nos EUA, Reino Unido, Rússia e Venezuela a fim de desvendar o plano do presidente e trazer estabilidade a um país à beira do caos.",
+        "poster_path": "/e2di0UWZTWr64Ll8bzu1Dst6QX.jpg",
+        "season_number": 2,
+        "vote_average": 7.1
+      },
+      {
+        "air_date": "2022-12-20",
+        "episode_count": 8,
+        "id": 310419,
+        "name": "Temporada 3",
+        "overview": "Jack corre contra o tempo e atravessa a Europa para impedir uma facção rebelde de dentro do governo russo de restaurar o Império Soviético e iniciar a Terceira Guerra Mundial.",
+        "poster_path": "/iBzl9aR9HeOmvvHyZgF72rZjnqN.jpg",
+        "season_number": 3,
+        "vote_average": 7.0
+      },
+      {
+        "air_date": "2023-06-29",
+        "episode_count": 6,
+        "id": 321971,
+        "name": "Temporada 4",
+        "overview": "Jack Ryan enfrenta sua missão mais perigosa. Como o novo diretor adjunto da CIA, Jack tem a tarefa de desvendar a corrupção interna. Ao investigar, Jack descobre a convergência de um cartel de drogas com uma organização terrorista, o que revela uma conspiração muito mais próxima de casa e testa a fé de nosso herói no sistema que ele sempre lutou para proteger.",
+        "poster_path": "/12J4SCPAgqOEJAe1CgVjvBxq6Zc.jpg",
+        "season_number": 4,
+        "vote_average": 6.8
+      }
+    ],
+    "softcore": false,
+    "spoken_languages": [
+      {
+        "english_name": "Arabic",
+        "iso_639_1": "ar",
+        "name": "العربية"
+      },
+      {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+      },
+      {
+        "english_name": "French",
+        "iso_639_1": "fr",
+        "name": "Français"
+      },
+      {
+        "english_name": "German",
+        "iso_639_1": "de",
+        "name": "Deutsch"
+      },
+      {
+        "english_name": "Japanese",
+        "iso_639_1": "ja",
+        "name": "日本語"
+      },
+      {
+        "english_name": "Russian",
+        "iso_639_1": "ru",
+        "name": "Pусский"
+      },
+      {
+        "english_name": "Spanish",
+        "iso_639_1": "es",
+        "name": "Español"
+      },
+      {
+        "english_name": "Turkish",
+        "iso_639_1": "tr",
+        "name": "Türkçe"
+      }
+    ],
+    "status": "Ended",
+    "tagline": "",
+    "type": "Scripted",
+    "vote_average": 7.679,
+    "vote_count": 1855,
+    "external_ids": {
+      "imdb_id": "tt5057054",
+      "freebase_mid": null,
+      "freebase_id": null,
+      "tvdb_id": 336261,
+      "tvrage_id": null,
+      "wikidata_id": "Q27062250",
+      "facebook_id": "JackRyanPV",
+      "instagram_id": "jackryanpv",
+      "twitter_id": "JackRyanPV"
+    }
+  },
+  "name:justice league 2001": null,
+  "name:a knight of the seven kingdoms": {
+    "adult": false,
+    "backdrop_path": "/7mkUu1F2hVUNgz24xO8HPx0D6mK.jpg",
+    "created_by": [
+      {
+        "id": 237053,
+        "credit_id": "696e40d53f6de5a4fff9528a",
+        "name": "George R.R. Martin",
+        "original_name": "George R.R. Martin",
+        "gender": 2,
+        "profile_path": "/1A7W0L9dZz0rCN1oj6h8YUvusdN.jpg"
+      },
+      {
+        "id": 1652516,
+        "credit_id": "696e40d643e339ddfdf95239",
+        "name": "Ira Parker",
+        "original_name": "Ira Parker",
+        "gender": 2,
+        "profile_path": "/nT54vjithriZtxaTCKXv8vQgTLw.jpg"
+      }
+    ],
+    "episode_run_time": [],
+    "first_air_date": "2026-01-18",
+    "genres": [
+      {
+        "id": 18,
+        "name": "Drama"
+      },
+      {
+        "id": 10765,
+        "name": "Sci-Fi & Fantasy"
+      },
+      {
+        "id": 10759,
+        "name": "Action & Adventure"
+      }
+    ],
+    "homepage": "https://www.hbo.com/content/a-knight-of-the-seven-kingdoms",
+    "id": 224372,
+    "in_production": true,
+    "languages": [
+      "en"
+    ],
+    "last_air_date": "2026-02-22",
+    "last_episode_to_air": {
+      "id": 6613706,
+      "name": "O Amanhã",
+      "overview": "Enquanto Ashford lamenta uma grande perda, Dunk avalia seu próximo passo... e se mantém ou não Egg como seu escudeiro.",
+      "vote_average": 8.291,
+      "vote_count": 67,
+      "air_date": "2026-02-22",
+      "episode_number": 6,
+      "episode_type": "finale",
+      "production_code": "",
+      "runtime": 31,
+      "season_number": 1,
+      "show_id": 224372,
+      "still_path": "/9VixNtswlKTzjSD0oFmT6eTcC9e.jpg"
+    },
+    "name": "O Cavaleiro dos Sete Reinos",
+    "next_episode_to_air": null,
+    "networks": [
+      {
+        "id": 49,
+        "logo_path": "/tuomPhY2UtuPTqqFnKMVHvSb724.png",
+        "name": "HBO",
+        "origin_country": "US"
+      }
+    ],
+    "number_of_episodes": 6,
+    "number_of_seasons": 1,
+    "origin_country": [
+      "US"
+    ],
+    "original_language": "en",
+    "original_name": "A Knight of the Seven Kingdoms",
+    "overview": "Ambientado em uma época em que a linhagem Targaryen ainda detém o Trono de Ferro e a memória do último dragão ainda não desapareceu da memória dos vivos, grandes destinos, inimigos poderosos e façanhas perigosas aguardam esses amigos improváveis ​​e incomparáveis.",
+    "popularity": 45.5244,
+    "poster_path": "/whIZtYminSyVOwjxhjxYcOaCuBg.jpg",
+    "production_companies": [
+      {
+        "id": 286657,
+        "logo_path": null,
+        "name": "Friendly Wolf Pictures",
+        "origin_country": "US"
+      },
+      {
+        "id": 180958,
+        "logo_path": null,
+        "name": "GRRM",
+        "origin_country": "US"
+      }
+    ],
+    "production_countries": [
+      {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }
+    ],
+    "seasons": [
+      {
+        "air_date": "2026-01-18",
+        "episode_count": 6,
+        "id": 336816,
+        "name": "Temporada 1",
+        "overview": "Um humilde cavaleiro andante e um garoto de língua afiada, que guarda um segredo oculto, percorrem uma Westeros inquieta, tropeçando entre a honra, o perigo e as intrigas de lordes poderosos. Enquanto participam de torneios e cruzam o caminho de ameaças crescentes, o vínculo entre eles se torna a única coisa que os separa de um reino à beira do colapso.",
+        "poster_path": "/za9rJZjU4RedAogriIkFcwcZmRl.jpg",
+        "season_number": 1,
+        "vote_average": 8.4
+      }
+    ],
+    "softcore": false,
+    "spoken_languages": [
+      {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+      }
+    ],
+    "status": "Returning Series",
+    "tagline": "Um conto à altura de uma lenda.",
+    "type": "Scripted",
+    "vote_average": 8.4,
+    "vote_count": 1091,
+    "external_ids": {
+      "imdb_id": "tt27497448",
+      "freebase_mid": null,
+      "freebase_id": null,
+      "tvdb_id": 433631,
+      "tvrage_id": null,
+      "wikidata_id": "Q120277524",
+      "facebook_id": "100044315715123",
+      "instagram_id": "gameofthrones",
+      "twitter_id": "GameOfThrones"
+    }
+  },
+  "name:the looney tunes show 2011": null,
+  "name:obi-wan kenobi": {
+    "adult": false,
+    "backdrop_path": "/p3Jmm6d1ShUrJEuU3DYD2K19c66.jpg",
+    "created_by": [],
+    "episode_run_time": [],
+    "first_air_date": "2022-05-26",
+    "genres": [
+      {
+        "id": 10765,
+        "name": "Sci-Fi & Fantasy"
+      },
+      {
+        "id": 10759,
+        "name": "Action & Adventure"
+      }
+    ],
+    "homepage": "https://www.disneyplus.com/series/obi-wan-kenobi/2JYKcHv9fRJb",
+    "id": 92830,
+    "in_production": false,
+    "languages": [
+      "en"
+    ],
+    "last_air_date": "2022-06-22",
+    "last_episode_to_air": {
+      "id": 3635495,
+      "name": "Parte VI",
+      "overview": "Obi Wan é arrastado para um confronto com Vader, pois o destino de Luke está em jogo.",
+      "vote_average": 7.1,
+      "vote_count": 128,
+      "air_date": "2022-06-22",
+      "episode_number": 6,
+      "episode_type": "finale",
+      "production_code": "",
+      "runtime": 52,
+      "season_number": 1,
+      "show_id": 92830,
+      "still_path": "/pQo4XVFI4LH6subG6v0ALvXxUF1.jpg"
+    },
+    "name": "Obi-Wan Kenobi",
+    "next_episode_to_air": null,
+    "networks": [
+      {
+        "id": 2739,
+        "logo_path": "/1edZOYAfoyZyZ3rklNSiUpXX30Q.png",
+        "name": "Disney+",
+        "origin_country": ""
+      }
+    ],
+    "number_of_episodes": 6,
+    "number_of_seasons": 1,
+    "origin_country": [
+      "US"
+    ],
+    "original_language": "en",
+    "original_name": "Obi-Wan Kenobi",
+    "overview": "Durante o reinado do Império Galáctico, o antigo Mestre Jedi Obi-Wan Kenobi embarca em uma missão crucial. Kenobi deve confrontar aliados que se tornaram inimigos e enfrentar a fúria do Império.",
+    "popularity": 16.7216,
+    "poster_path": "/dnHP6MdJ4jMZgKvNrOYTjrgqn9l.jpg",
+    "production_companies": [
+      {
+        "id": 1,
+        "logo_path": "/tlVSws0RvvtPBwViUyOFAO0vcQS.png",
+        "name": "Lucasfilm Ltd.",
+        "origin_country": "US"
+      }
+    ],
+    "production_countries": [
+      {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }
+    ],
+    "seasons": [
+      {
+        "air_date": "2024-04-30",
+        "episode_count": 3,
+        "id": 533281,
+        "name": "Especiais",
+        "overview": "",
+        "poster_path": "/sb8aUXEbLHyKuuj2e10SQJxLlhi.jpg",
+        "season_number": 0,
+        "vote_average": 0.0
+      },
+      {
+        "air_date": "2022-05-26",
+        "episode_count": 6,
+        "id": 130857,
+        "name": "Temporada 1",
+        "overview": "A história começa dez anós após os eventos dramáticos de \"Star Wars: A Vingança dos Sith\", quando Obi-Wan Kenobi encarou sua pior derrota: a queda e a corrupção de seu melhor amigo e aprendiz Jedi, Anakin Skywalker, que se tornou o perverso Lord Sith Darth Vader.",
+        "poster_path": "/oPkm7vwYCa1McT8jEIFWLj393s4.jpg",
+        "season_number": 1,
+        "vote_average": 6.6
+      }
+    ],
+    "softcore": false,
+    "spoken_languages": [
+      {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+      }
+    ],
+    "status": "Ended",
+    "tagline": "Entre a escuridão e a derrota, a esperança sobrevive.",
+    "type": "Miniseries",
+    "vote_average": 7.005,
+    "vote_count": 2308,
+    "external_ids": {
+      "imdb_id": "tt8466564",
+      "freebase_mid": null,
+      "freebase_id": null,
+      "tvdb_id": 393199,
+      "tvrage_id": null,
+      "wikidata_id": "Q104154217",
+      "facebook_id": "obiwankenobiofficial",
+      "instagram_id": "obiwankenobi",
+      "twitter_id": "obiwankenobi"
+    }
+  },
+  "name:the secret saturdays": {
+    "adult": false,
+    "backdrop_path": "/pmfDPxanEVZ2qFiNJvuKtuwYeoX.jpg",
+    "created_by": [
+      {
+        "id": 1227618,
+        "credit_id": "5258340a760ee36aaa9190cf",
+        "name": "Jay Stephens",
+        "original_name": "Jay Stephens",
+        "gender": 2,
+        "profile_path": "/4c26pAP2Zk4hBd3e1xB5FC9FYTH.jpg"
+      }
+    ],
+    "episode_run_time": [
+      22
+    ],
+    "first_air_date": "2008-10-03",
+    "genres": [
+      {
+        "id": 16,
+        "name": "Animação"
+      },
+      {
+        "id": 35,
+        "name": "Comédia"
+      },
+      {
+        "id": 10762,
+        "name": "Kids"
+      },
+      {
+        "id": 10759,
+        "name": "Action & Adventure"
+      }
+    ],
+    "homepage": "http://www.cartoonnetwork.com/tv_shows/tss/",
+    "id": 14636,
+    "in_production": false,
+    "languages": [
+      "en"
+    ],
+    "last_air_date": "2010-01-30",
+    "last_episode_to_air": {
+      "id": 525664,
+      "name": "Episódio 10",
+      "overview": "",
+      "vote_average": 0.0,
+      "vote_count": 0,
+      "air_date": "2010-01-30",
+      "episode_number": 10,
+      "episode_type": "finale",
+      "production_code": "",
+      "runtime": 22,
+      "season_number": 3,
+      "show_id": 14636,
+      "still_path": null
+    },
+    "name": "Os Sábados Secretos",
+    "next_episode_to_air": null,
+    "networks": [
+      {
+        "id": 56,
+        "logo_path": "/c5OC6oVCg6QP4eqzW6XIq17CQjI.png",
+        "name": "Cartoon Network",
+        "origin_country": "US"
+      }
+    ],
+    "number_of_episodes": 49,
+    "number_of_seasons": 3,
+    "origin_country": [
+      "US"
+    ],
+    "original_language": "en",
+    "original_name": "The Secret Saturdays",
+    "overview": "Zak Sábado e seus pais, Doutor e Drica Sábado, formam uma família de cientistas sempre pronta a salvar o mundo chamada \"Sábados Secretos\". Vivendo em uma base escondida, eles fazem parte de uma organização secreta de cientistas conhecidos como Os Cientistas Secretos, que protegem a humanidade contra as ameaças escondidas e terríveis do mundo.",
+    "popularity": 7.1026,
+    "poster_path": "/tByfzj32G7BAOKQ8h6qEakBdJMU.jpg",
+    "production_companies": [
+      {
+        "id": 28864,
+        "logo_path": "/h9SuMmWNAaKNqCx0AJ58Qrn8ILz.png",
+        "name": "PorchLight Entertainment",
+        "origin_country": "US"
+      }
+    ],
+    "production_countries": [
+      {
+        "iso_3166_1": "JP",
+        "name": "Japan"
+      },
+      {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }
+    ],
+    "seasons": [
+      {
+        "air_date": "2008-10-03",
+        "episode_count": 26,
+        "id": 26117,
+        "name": "Temporada 1",
+        "overview": "",
+        "poster_path": "/orkic1AujT8Ul1oMdwIQ9TMpYal.jpg",
+        "season_number": 1,
+        "vote_average": 8.3
+      },
+      {
+        "air_date": "2009-05-08",
+        "episode_count": 13,
+        "id": 26118,
+        "name": "Temporada 2",
+        "overview": "",
+        "poster_path": null,
+        "season_number": 2,
+        "vote_average": 0.0
+      },
+      {
+        "air_date": "2009-11-07",
+        "episode_count": 10,
+        "id": 26119,
+        "name": "Temporada 3",
+        "overview": "",
+        "poster_path": "/kcNMNtahXM3SquL1yOvUu8xhBL.jpg",
+        "season_number": 3,
+        "vote_average": 0.0
+      }
+    ],
+    "softcore": false,
+    "spoken_languages": [
+      {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+      }
+    ],
+    "status": "Ended",
+    "tagline": "",
+    "type": "Scripted",
+    "vote_average": 6.9,
+    "vote_count": 63,
+    "external_ids": {
+      "imdb_id": "tt1291662",
+      "freebase_mid": "/m/03cwxp0",
+      "freebase_id": "/en/the_secret_saturdays",
+      "tvdb_id": 83290,
+      "tvrage_id": 20018,
+      "wikidata_id": "Q1068743",
+      "facebook_id": null,
+      "instagram_id": null,
+      "twitter_id": null
+    }
+  },
+  "name:pinguim": {
+    "adult": false,
+    "backdrop_path": "/4TdmuuwiIiKw3JOjIuhdgYxRXnN.jpg",
+    "created_by": [
+      {
+        "id": 1223896,
+        "credit_id": "65395429091e620138b3caa2",
+        "name": "Lauren LeFranc",
+        "original_name": "Lauren LeFranc",
+        "gender": 1,
+        "profile_path": "/8OTJuIucLbUjIurI2yzgvMSneQg.jpg"
+      }
+    ],
+    "episode_run_time": [],
+    "first_air_date": "2024-09-19",
+    "genres": [
+      {
+        "id": 18,
+        "name": "Drama"
+      },
+      {
+        "id": 80,
+        "name": "Crime"
+      }
+    ],
+    "homepage": "https://www.hbo.com/the-penguin",
+    "id": 194764,
+    "in_production": false,
+    "languages": [
+      "en"
+    ],
+    "last_air_date": "2024-11-10",
+    "last_episode_to_air": {
+      "id": 5514597,
+      "name": "Algo Grave ou Trivial",
+      "overview": "As verdades vêm à tona enquanto Oz Cobb se aproxima do final de sua jornada e sua luta pelo poder com Sofia chega a um ponto decisivo.",
+      "vote_average": 8.813,
+      "vote_count": 75,
+      "air_date": "2024-11-10",
+      "episode_number": 8,
+      "episode_type": "finale",
+      "production_code": "",
+      "runtime": 70,
+      "season_number": 1,
+      "show_id": 194764,
+      "still_path": "/nCJ2Oa9HHpNRLD0LMrWXFnM8a4.jpg"
+    },
+    "name": "Pinguim",
+    "next_episode_to_air": null,
+    "networks": [
+      {
+        "id": 49,
+        "logo_path": "/tuomPhY2UtuPTqqFnKMVHvSb724.png",
+        "name": "HBO",
+        "origin_country": "US"
+      }
+    ],
+    "number_of_episodes": 8,
+    "number_of_seasons": 1,
+    "origin_country": [
+      "US"
+    ],
+    "original_language": "en",
+    "original_name": "The Penguin",
+    "overview": "Após a queda dos Carmines, Oswald “Oz” Cobb está pronto para assumir o controle de Gotham e dar à sua mãe a vida que ele sempre lhe prometeu. Mas primeiro, ele terá de enfrentar inimigos novos e antigos, além do seu tão odiado apelido – O Pinguim – que não tornará o caminho deste gangster tão fácil.",
+    "popularity": 27.2628,
+    "poster_path": "/pPUNmQZUh7h6w2423VvtzUeg1LD.jpg",
+    "production_companies": [
+      {
+        "id": 101405,
+        "logo_path": "/iusVPF9AJD1DiHEWbZEXgn1hpOf.png",
+        "name": "6th & Idaho Motion Picture Company",
+        "origin_country": "US"
+      },
+      {
+        "id": 119245,
+        "logo_path": "/6F45uVsKpNYANcWvplyhgIFezFU.png",
+        "name": "Dylan Clark Productions",
+        "origin_country": "US"
+      },
+      {
+        "id": 1957,
+        "logo_path": "/pJJw98MtNFC9cHn3o15G7vaUnnX.png",
+        "name": "Warner Bros. Television",
+        "origin_country": "US"
+      },
+      {
+        "id": 184898,
+        "logo_path": "/iNTsbEgntSUwHmsZ9whiLhm60WB.png",
+        "name": "DC Studios",
+        "origin_country": "US"
+      },
+      {
+        "id": 239486,
+        "logo_path": null,
+        "name": "Acid and Tender Productions",
+        "origin_country": "US"
+      },
+      {
+        "id": 225329,
+        "logo_path": "/haFdiPRSK9wRJ3xQZOqRNpk77jB.png",
+        "name": "Chapel Place Productions",
+        "origin_country": "IE"
+      },
+      {
+        "id": 154341,
+        "logo_path": null,
+        "name": "Zobot Projects",
+        "origin_country": "US"
+      }
+    ],
+    "production_countries": [
+      {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      },
+      {
+        "iso_3166_1": "IE",
+        "name": "Ireland"
+      }
+    ],
+    "seasons": [
+      {
+        "air_date": "2024-09-19",
+        "episode_count": 8,
+        "id": 282693,
+        "name": "Temporada 1",
+        "overview": "O próximo capítulo da épica saga Batman de Matt Reeves. Colin Farrell retorna como Oswald \"Oz\" Cobb, vulgo Pinguim, neste eletrizante drama policial que retrata a busca de Oz pelo poder e domínio de Gotham City.",
+        "poster_path": "/pPUNmQZUh7h6w2423VvtzUeg1LD.jpg",
+        "season_number": 1,
+        "vote_average": 8.2
+      }
+    ],
+    "softcore": false,
+    "spoken_languages": [
+      {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+      }
+    ],
+    "status": "Ended",
+    "tagline": "A cidade será sua.",
+    "type": "Miniseries",
+    "vote_average": 8.352,
+    "vote_count": 1431,
+    "external_ids": {
+      "imdb_id": "tt15435876",
+      "freebase_mid": null,
+      "freebase_id": null,
+      "tvdb_id": 417648,
+      "tvrage_id": null,
+      "wikidata_id": "Q111189743",
+      "facebook_id": "TheBatman",
+      "instagram_id": "thebatman",
+      "twitter_id": "TheBatman"
+    }
+  },
+  "name:the last of us": {
+    "adult": false,
+    "backdrop_path": "/lY2DhbA7Hy44fAKddr06UrXWWaQ.jpg",
+    "created_by": [
+      {
+        "id": 1295692,
+        "credit_id": "5e84f03598f1f10016a985c0",
+        "name": "Neil Druckmann",
+        "original_name": "Neil Druckmann",
+        "gender": 2,
+        "profile_path": "/bVUsM4aYiHbeSYE1xAw2H5Z1ANU.jpg"
+      },
+      {
+        "id": 35796,
+        "credit_id": "5e84f06a3344c600153f6a57",
+        "name": "Craig Mazin",
+        "original_name": "Craig Mazin",
+        "gender": 2,
+        "profile_path": "/uEhna6qcMuyU5TP7irpTUZ2ZsZc.jpg"
+      }
+    ],
+    "episode_run_time": [],
+    "first_air_date": "2023-01-15",
+    "genres": [
+      {
+        "id": 18,
+        "name": "Drama"
+      }
+    ],
+    "homepage": "https://www.hbo.com/the-last-of-us",
+    "id": 100088,
+    "in_production": true,
+    "languages": [
+      "en"
+    ],
+    "last_air_date": "2025-05-25",
+    "last_episode_to_air": {
+      "id": 5994273,
+      "name": "Convergência",
+      "overview": "Enquanto Lobos e Cicatrizes se preparam para uma batalha que pode encerrar sua longa guerra, a busca de Ellie a afasta de seus amigos e a leva a um confronto devastador.",
+      "vote_average": 6.253,
+      "vote_count": 99,
+      "air_date": "2025-05-25",
+      "episode_number": 7,
+      "episode_type": "finale",
+      "production_code": "",
+      "runtime": 50,
+      "season_number": 2,
+      "show_id": 100088,
+      "still_path": "/5xCYzdb4ASjn6wZQr5esz5aRf5U.jpg"
+    },
+    "name": "The Last of Us",
+    "next_episode_to_air": null,
+    "networks": [
+      {
+        "id": 49,
+        "logo_path": "/tuomPhY2UtuPTqqFnKMVHvSb724.png",
+        "name": "HBO",
+        "origin_country": "US"
+      }
+    ],
+    "number_of_episodes": 16,
+    "number_of_seasons": 2,
+    "origin_country": [
+      "US"
+    ],
+    "original_language": "en",
+    "original_name": "The Last of Us",
+    "overview": "Situado duas décadas após a implosão de nossa sociedade, o drama seguirá Joel, um sobrevivente difícil, que é contratado para contrabandear uma garota de 14 anos chamada Ellie para fora de uma zona de quarentena opressiva. O que começa como um pequeno trabalho logo se torna uma jornada brutal e de partir o coração, já que os dois precisam atravessar os Estados Unidos e dependem um do outro para sobreviver.",
+    "popularity": 55.0169,
+    "poster_path": "/el1KQzwdIm17I3A6cYPfsVIWhfX.jpg",
+    "production_companies": [
+      {
+        "id": 125281,
+        "logo_path": "/3hV8pyxzAJgEjiSYVv1WZ0ZYayp.png",
+        "name": "PlayStation Productions",
+        "origin_country": "US"
+      },
+      {
+        "id": 11073,
+        "logo_path": "/wHs44fktdoj6c378ZbSWfzKsM2Z.png",
+        "name": "Sony Pictures Television",
+        "origin_country": "US"
+      },
+      {
+        "id": 23217,
+        "logo_path": "/kXBZdQigEf6QiTLzo6TFLAa7jKD.png",
+        "name": "Naughty Dog",
+        "origin_country": "US"
+      },
+      {
+        "id": 119645,
+        "logo_path": null,
+        "name": "Word Games",
+        "origin_country": "US"
+      },
+      {
+        "id": 115241,
+        "logo_path": null,
+        "name": "The Mighty Mint",
+        "origin_country": "US"
+      },
+      {
+        "id": 3268,
+        "logo_path": "/tuomPhY2UtuPTqqFnKMVHvSb724.png",
+        "name": "HBO",
+        "origin_country": "US"
+      }
+    ],
+    "production_countries": [
+      {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }
+    ],
+    "seasons": [
+      {
+        "air_date": "2023-01-15",
+        "episode_count": 9,
+        "id": 144593,
+        "name": "Temporada 1",
+        "overview": "Joel, um sobrevivente duro e cínico, e a jovem e impetuosa Ellie se conectam pela dificuldade do mundo onde vivem. Juntos, eles enfrentam circunstâncias brutais e monstros impiedosos durante uma difícil jornada pelos EUA após um surto apocalíptico.",
+        "poster_path": "/mb75VyQbh1QzhBt0C3Li4SxVevr.jpg",
+        "season_number": 1,
+        "vote_average": 7.7
+      },
+      {
+        "air_date": "2025-04-13",
+        "episode_count": 7,
+        "id": 405376,
+        "name": "Temporada 2",
+        "overview": "Cinco anos após os eventos da primeira temporada, Joel e Ellie se veem envolvidos em um conflito em um mundo ainda mais perigoso e imprevisível do que aquele que deixaram para trás.",
+        "poster_path": "/dmo6TYuuJgaYinXBPjrgG9mB5od.jpg",
+        "season_number": 2,
+        "vote_average": 6.6
+      }
+    ],
+    "softcore": false,
+    "spoken_languages": [
+      {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+      }
+    ],
+    "status": "Returning Series",
+    "tagline": "Quando estiver perdido na escuridão, procure a luz.",
+    "type": "Scripted",
+    "vote_average": 8.414,
+    "vote_count": 7227,
+    "external_ids": {
+      "imdb_id": "tt3581920",
+      "freebase_mid": null,
+      "freebase_id": null,
+      "tvdb_id": 392256,
+      "tvrage_id": null,
+      "wikidata_id": "Q87131973",
+      "facebook_id": "TheLastOfUsHBO",
+      "instagram_id": "thelastofus",
+      "twitter_id": "TheLastofUsHBO"
+    }
+  },
+  "name:the walking dead daryl dixon": {
+    "adult": false,
+    "backdrop_path": "/fkeVnvxVx4x2PdDOOzSblFUGTVt.jpg",
+    "created_by": [
+      {
+        "id": 1181325,
+        "credit_id": "64fd74da6a2227011a79241a",
+        "name": "David Zabel",
+        "original_name": "David Zabel",
+        "gender": 2,
+        "profile_path": "/6cNrETHijbFi7rm15dJUAxwAjKp.jpg"
+      }
+    ],
+    "episode_run_time": [],
+    "first_air_date": "2023-09-10",
+    "genres": [
+      {
+        "id": 10765,
+        "name": "Sci-Fi & Fantasy"
+      },
+      {
+        "id": 10759,
+        "name": "Action & Adventure"
+      },
+      {
+        "id": 18,
+        "name": "Drama"
+      }
+    ],
+    "homepage": "https://www.amc.com/shows/the-walking-dead-daryl-dixon--1060742",
+    "id": 211684,
+    "in_production": true,
+    "languages": [
+      "en",
+      "pt",
+      "es"
+    ],
+    "last_air_date": "2025-10-19",
+    "last_episode_to_air": {
+      "id": 6443708,
+      "name": "Consolo do Mar",
+      "overview": "Enquanto Daryl e Paz se aproximam de El Alcazar, Carol retorna a Solaz com uma missão própria. Alianças são testadas enquanto nossos heróis lutam para proteger as pessoas com quem se importam.",
+      "vote_average": 9.0,
+      "vote_count": 17,
+      "air_date": "2025-10-19",
+      "episode_number": 7,
+      "episode_type": "finale",
+      "production_code": "",
+      "runtime": 52,
+      "season_number": 3,
+      "show_id": 211684,
+      "still_path": "/r2hFLy4oguRDyInCH4ohDhB9G9q.jpg"
+    },
+    "name": "The Walking Dead: Daryl Dixon",
+    "next_episode_to_air": null,
+    "networks": [
+      {
+        "id": 174,
+        "logo_path": "/pmvRmATOCaDykE6JrVoeYxlFHw3.png",
+        "name": "AMC",
+        "origin_country": "US"
+      }
+    ],
+    "number_of_episodes": 19,
+    "number_of_seasons": 3,
+    "origin_country": [
+      "US"
+    ],
+    "original_language": "en",
+    "original_name": "The Walking Dead: Daryl Dixon",
+    "overview": "Daryl Dixon chega à costa da França e luta para entender como chegou lá e por quê. A série acompanha a sua jornada por uma França quebrada, mas resiliente, enquanto ele tenta encontrar um caminho de volta para casa. As conexões que ele forma no caminho, no entanto, complicam os seus planos.",
+    "popularity": 31.1692,
+    "poster_path": "/8pQ09TA3FGeptJnHJ1R9rbENPWr.jpg",
+    "production_companies": [
+      {
+        "id": 23242,
+        "logo_path": "/ucE6dN6pUPfZHH5JlXkq44TDUMS.png",
+        "name": "AMC Studios",
+        "origin_country": "US"
+      },
+      {
+        "id": 170794,
+        "logo_path": null,
+        "name": "Idiotbox",
+        "origin_country": "US"
+      },
+      {
+        "id": 50032,
+        "logo_path": "/ojrMksdtR7Bs2vwERU1LCrjv7vx.png",
+        "name": "Skybound Entertainment",
+        "origin_country": "US"
+      },
+      {
+        "id": 73036,
+        "logo_path": "/1gMrlkgIuNWkuigpF5EsCfkaczk.png",
+        "name": "Valhalla Entertainment",
+        "origin_country": "US"
+      },
+      {
+        "id": 23921,
+        "logo_path": "/simDvqT8y6jhP530ggUMbikvVKc.png",
+        "name": "Circle of Confusion",
+        "origin_country": "US"
+      },
+      {
+        "id": 106395,
+        "logo_path": null,
+        "name": "Remainder Men",
+        "origin_country": "US"
+      }
+    ],
+    "production_countries": [
+      {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }
+    ],
+    "seasons": [
+      {
+        "air_date": "2023-09-10",
+        "episode_count": 6,
+        "id": 311345,
+        "name": "Temporada 1",
+        "overview": "Daryl Dixon se encontra longe de casa e mais uma vez enfrentando velhos demônios e novos inimigos enquanto é encarregado de proteger um jovem curioso cuja origem se tornou uma lenda e o ponto focal de diversas facções em toda a França.",
+        "poster_path": "/mFjEwa8zmZCocQF6r5Stpcg8mCK.jpg",
+        "season_number": 1,
+        "vote_average": 8.8
+      },
+      {
+        "air_date": "2024-09-29",
+        "episode_count": 6,
+        "id": 363691,
+        "name": "O Livro de Carol",
+        "overview": "Daryl e Carol enfrentam velhos demônios enquanto ela luta para encontrar seu amigo e ele luta com sua decisão de ficar na França, causando tensão no Ninho. Além disso, o movimento de Genet ganha impulso, colocando Pouvoir numa violenta rota de colisão com a União da Esperança na luta pelo futuro da França.",
+        "poster_path": "/4uosIMIknDnlvgVswAb82ddYECM.jpg",
+        "season_number": 2,
+        "vote_average": 8.1
+      },
+      {
+        "air_date": "2025-09-07",
+        "episode_count": 7,
+        "id": 426557,
+        "name": "Temporada 3",
+        "overview": "Daryl e Carol continuam sua jornada para, de alguma forma, retornar para casa e para aqueles que amam. Enquanto lutam para encontrar o caminho de volta, o caminho os leva ainda mais longe, conduzindo-os por terras distantes com condições desconhecidas e em constante mudança, enquanto testemunham os vários efeitos do apocalipse dos Caminhantes.",
+        "poster_path": "/yGH6fzzF4ep166xNE15aD67XizP.jpg",
+        "season_number": 3,
+        "vote_average": 8.4
+      }
+    ],
+    "softcore": false,
+    "spoken_languages": [
+      {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+      },
+      {
+        "english_name": "Portuguese",
+        "iso_639_1": "pt",
+        "name": "Português"
+      },
+      {
+        "english_name": "Spanish",
+        "iso_639_1": "es",
+        "name": "Español"
+      }
+    ],
+    "status": "Returning Series",
+    "tagline": "A esperança não está perdida.",
+    "type": "Scripted",
+    "vote_average": 8.0,
+    "vote_count": 897,
+    "external_ids": {
+      "imdb_id": "tt13062500",
+      "freebase_mid": null,
+      "freebase_id": null,
+      "tvdb_id": 427464,
+      "tvrage_id": null,
+      "wikidata_id": "Q116148366",
+      "facebook_id": null,
+      "instagram_id": null,
+      "twitter_id": null
+    }
+  },
+  "name:the walking dead dead city": {
+    "adult": false,
+    "backdrop_path": "/vV5LKWmuysEe5wsuZJGbdiL5XJ2.jpg",
+    "created_by": [
+      {
+        "id": 1639698,
+        "credit_id": "6470a61e77070001367f1906",
+        "name": "Eli Jorné",
+        "original_name": "Eli Jorné",
+        "gender": 2,
+        "profile_path": "/79Q8l988wG8oWoEclwbic2TyQzI.jpg"
+      }
+    ],
+    "episode_run_time": [],
+    "first_air_date": "2023-06-18",
+    "genres": [
+      {
+        "id": 10759,
+        "name": "Action & Adventure"
+      },
+      {
+        "id": 18,
+        "name": "Drama"
+      },
+      {
+        "id": 10765,
+        "name": "Sci-Fi & Fantasy"
+      }
+    ],
+    "homepage": "https://www.amc.com/shows/the-walking-dead-dead-city--1060741",
+    "id": 194583,
+    "in_production": true,
+    "languages": [
+      "en"
+    ],
+    "last_air_date": "2026-08-09",
+    "last_episode_to_air": {
+      "id": 7392574,
+      "name": "Episódio 3",
+      "overview": "",
+      "vote_average": 8.5,
+      "vote_count": 4,
+      "air_date": "2026-08-09",
+      "episode_number": 3,
+      "episode_type": "standard",
+      "production_code": "",
+      "runtime": 41,
+      "season_number": 3,
+      "show_id": 194583,
+      "still_path": "/3E41LJeuVWVn5Tk2ofsctLNHIP.jpg"
+    },
+    "name": "The Walking Dead: Dead City",
+    "next_episode_to_air": {
+      "id": 7392575,
+      "name": "Episódio 4",
+      "overview": "",
+      "vote_average": 0.0,
+      "vote_count": 0,
+      "air_date": "2026-08-16",
+      "episode_number": 4,
+      "episode_type": "standard",
+      "production_code": "",
+      "runtime": null,
+      "season_number": 3,
+      "show_id": 194583,
+      "still_path": "/jicNFjxKXbQtsCpPxYNh7Dndi4h.jpg"
+    },
+    "networks": [
+      {
+        "id": 174,
+        "logo_path": "/pmvRmATOCaDykE6JrVoeYxlFHw3.png",
+        "name": "AMC",
+        "origin_country": "US"
+      }
+    ],
+    "number_of_episodes": 22,
+    "number_of_seasons": 3,
+    "origin_country": [
+      "US"
+    ],
+    "original_language": "en",
+    "original_name": "The Walking Dead: Dead City",
+    "overview": "Maggie e Negan viajam para uma Manhattan pós-apocalíptica há muito isolada do continente. A cidade em ruínas está cheia de mortos e habitantes que fizeram de Nova York seu próprio mundo cheio de anarquia, perigo, beleza e terror.",
+    "popularity": 73.8098,
+    "poster_path": "/wSd32fNxVqtPQCzxEzsUMzl6RK5.jpg",
+    "production_companies": [
+      {
+        "id": 23242,
+        "logo_path": "/ucE6dN6pUPfZHH5JlXkq44TDUMS.png",
+        "name": "AMC Studios",
+        "origin_country": "US"
+      },
+      {
+        "id": 170794,
+        "logo_path": null,
+        "name": "Idiotbox",
+        "origin_country": "US"
+      },
+      {
+        "id": 50032,
+        "logo_path": "/ojrMksdtR7Bs2vwERU1LCrjv7vx.png",
+        "name": "Skybound Entertainment",
+        "origin_country": "US"
+      },
+      {
+        "id": 73036,
+        "logo_path": "/1gMrlkgIuNWkuigpF5EsCfkaczk.png",
+        "name": "Valhalla Entertainment",
+        "origin_country": "US"
+      },
+      {
+        "id": 23921,
+        "logo_path": "/simDvqT8y6jhP530ggUMbikvVKc.png",
+        "name": "Circle of Confusion",
+        "origin_country": "US"
+      },
+      {
+        "id": 202564,
+        "logo_path": null,
+        "name": "Schneibot",
+        "origin_country": "US"
+      }
+    ],
+    "production_countries": [
+      {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }
+    ],
+    "seasons": [
+      {
+        "air_date": "2023-06-01",
+        "episode_count": 2,
+        "id": 341365,
+        "name": "Especiais",
+        "overview": "",
+        "poster_path": "/cjtiYLz6sbE1EWObHXsmX4xeZiv.jpg",
+        "season_number": 0,
+        "vote_average": 0.0
+      },
+      {
+        "air_date": "2023-06-18",
+        "episode_count": 6,
+        "id": 282384,
+        "name": "Temporada 1",
+        "overview": "",
+        "poster_path": "/7gaq7sOWLa70fzUxdM21hf3RWP7.jpg",
+        "season_number": 1,
+        "vote_average": 8.1
+      },
+      {
+        "air_date": "2025-05-04",
+        "episode_count": 8,
+        "id": 395922,
+        "name": "Temporada 2",
+        "overview": "Maggie e Negan se encontram presos em lados opostos na guerra pelo controle de Manhattan. Conforme seus caminhos se entrelaçam, eles percebem que a saída para ambos é mais complicada e angustiante do que eles jamais imaginaram.",
+        "poster_path": "/3fESZqBjWLVLbUePsKz3zDuMRJe.jpg",
+        "season_number": 2,
+        "vote_average": 7.1
+      },
+      {
+        "air_date": "2026-07-26",
+        "episode_count": 8,
+        "id": 516724,
+        "name": "Temporada 3",
+        "overview": "Maggie e Negan deixam suas diferenças de lado para construir a primeira comunidade próspera em Manhattan desde o apocalipse zumbi. No entanto, quando o caos e novas ameaças surgem na ilha isolada, eles precisam questionar se seus passados sombrios condenarão toda a cidade.",
+        "poster_path": "/seYokxOjFyTVX13XgD2FNjWIry8.jpg",
+        "season_number": 3,
+        "vote_average": 8.1
+      }
+    ],
+    "softcore": false,
+    "spoken_languages": [
+      {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+      }
+    ],
+    "status": "Returning Series",
+    "tagline": "Mantenha seus inimigos por perto.",
+    "type": "Scripted",
+    "vote_average": 7.903,
+    "vote_count": 771,
+    "external_ids": {
+      "imdb_id": "tt18546730",
+      "freebase_mid": null,
+      "freebase_id": null,
+      "tvdb_id": 417549,
+      "tvrage_id": null,
+      "wikidata_id": "Q113838713",
+      "facebook_id": null,
+      "instagram_id": null,
+      "twitter_id": null
+    }
+  },
+  "name:the walking dead the ones who live": {
+    "adult": false,
+    "backdrop_path": "/5PCKxpFcCTDFT3b1olJGPaAIM9e.jpg",
+    "created_by": [
+      {
+        "id": 7062,
+        "credit_id": "65db127200fb6b01864cc0fa",
+        "name": "Andrew Lincoln",
+        "original_name": "Andrew Lincoln",
+        "gender": 2,
+        "profile_path": "/gR4RzQTDsMfVv8oEh2VRbO8LkFz.jpg"
+      },
+      {
+        "id": 205379,
+        "credit_id": "655cc59d10923000feae6601",
+        "name": "Scott M. Gimple",
+        "original_name": "Scott M. Gimple",
+        "gender": 2,
+        "profile_path": "/3i8X7w3B38ZM1xqrFwjV7sIUkr3.jpg"
+      },
+      {
+        "id": 82104,
+        "credit_id": "655cc5a73d7454013be6264f",
+        "name": "Danai Gurira",
+        "original_name": "Danai Gurira",
+        "gender": 1,
+        "profile_path": "/z7H7QeQvr24vskGlANQhG43vozQ.jpg"
+      }
+    ],
+    "episode_run_time": [],
+    "first_air_date": "2024-02-25",
+    "genres": [
+      {
+        "id": 10765,
+        "name": "Sci-Fi & Fantasy"
+      },
+      {
+        "id": 18,
+        "name": "Drama"
+      }
+    ],
+    "homepage": "https://www.amc.com/shows/the-walking-dead-the-ones-who-live--1060743",
+    "id": 206586,
+    "in_production": false,
+    "languages": [
+      "en"
+    ],
+    "last_air_date": "2024-03-31",
+    "last_episode_to_air": {
+      "id": 5006577,
+      "name": "A Última Vez",
+      "overview": "Rick e Michonne precisam realizar um milagre quase impossível para sobreviver. Muitos obstáculos formidáveis estão no seu caminho e, não importa o que aconteça, as coisas nunca mais serão as mesmas.",
+      "vote_average": 8.8,
+      "vote_count": 52,
+      "air_date": "2024-03-31",
+      "episode_number": 6,
+      "episode_type": "finale",
+      "production_code": "",
+      "runtime": 50,
+      "season_number": 1,
+      "show_id": 206586,
+      "still_path": "/vz45pMbmZr5gr56m0aVBt3WXdAi.jpg"
+    },
+    "name": "The Walking Dead: The Ones Who Live",
+    "next_episode_to_air": null,
+    "networks": [
+      {
+        "id": 174,
+        "logo_path": "/pmvRmATOCaDykE6JrVoeYxlFHw3.png",
+        "name": "AMC",
+        "origin_country": "US"
+      }
+    ],
+    "number_of_episodes": 6,
+    "number_of_seasons": 1,
+    "origin_country": [
+      "US"
+    ],
+    "original_language": "en",
+    "original_name": "The Walking Dead: The Ones Who Live",
+    "overview": "Uma história de amor épica de duas pessoas mudadas por um mundo mudado, separadas pela distância e por um poder imparável. Rick e Michonne conseguirão encontrar um ao outro e quem eles eram em um lugar diferente de todos que já conheceram? Sem o outro, eles estão vivos?",
+    "popularity": 16.128,
+    "poster_path": "/95pv9daC8yFm1BfaUyCTx7MfOs.jpg",
+    "production_companies": [
+      {
+        "id": 50032,
+        "logo_path": "/ojrMksdtR7Bs2vwERU1LCrjv7vx.png",
+        "name": "Skybound Entertainment",
+        "origin_country": "US"
+      },
+      {
+        "id": 11533,
+        "logo_path": "/tWM9pmzVYxok4GbQIttxdcml1yT.png",
+        "name": "Valhalla Motion Pictures",
+        "origin_country": "US"
+      },
+      {
+        "id": 23921,
+        "logo_path": "/simDvqT8y6jhP530ggUMbikvVKc.png",
+        "name": "Circle of Confusion",
+        "origin_country": "US"
+      },
+      {
+        "id": 221753,
+        "logo_path": "/4fpT5Obs44Qywn0bkyIozZ2ruqI.png",
+        "name": "Gurazoo Productions",
+        "origin_country": "US"
+      },
+      {
+        "id": 221755,
+        "logo_path": null,
+        "name": "Hush Hush Films",
+        "origin_country": "GB"
+      },
+      {
+        "id": 170794,
+        "logo_path": null,
+        "name": "Idiotbox",
+        "origin_country": "US"
+      },
+      {
+        "id": 23242,
+        "logo_path": "/ucE6dN6pUPfZHH5JlXkq44TDUMS.png",
+        "name": "AMC Studios",
+        "origin_country": "US"
+      }
+    ],
+    "production_countries": [
+      {
+        "iso_3166_1": "GB",
+        "name": "United Kingdom"
+      },
+      {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }
+    ],
+    "seasons": [
+      {
+        "air_date": "2024-02-25",
+        "episode_count": 6,
+        "id": 301903,
+        "name": "Temporada 1",
+        "overview": "Uma história de amor épica de duas pessoas mudadas por um mundo mudado, separadas pela distância e por um poder imparável. Rick e Michonne conseguirão encontrar um ao outro e quem eles eram em um lugar diferente de todos que já conheceram? Sem o outro, eles estão vivos?",
+        "poster_path": "/vZ57LSqaelPrW90Ujw497YhRa04.jpg",
+        "season_number": 1,
+        "vote_average": 8.5
+      }
+    ],
+    "softcore": false,
+    "spoken_languages": [
+      {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+      }
+    ],
+    "status": "Ended",
+    "tagline": "Esse novo mundo precisará de Rick Grimes.",
+    "type": "Miniseries",
+    "vote_average": 8.0,
+    "vote_count": 717,
+    "external_ids": {
+      "imdb_id": "tt9859436",
+      "freebase_mid": null,
+      "freebase_id": null,
+      "tvdb_id": 427202,
+      "tvrage_id": null,
+      "wikidata_id": "Q116873394",
+      "facebook_id": null,
+      "instagram_id": null,
+      "twitter_id": null
+    }
+  },
+  "name:todo mundo odeia o chris": {
+    "adult": false,
+    "backdrop_path": "/qji729gwCW88RpIIWidlaLTul3V.jpg",
+    "created_by": [
+      {
+        "id": 2632,
+        "credit_id": "525348d719c29579400e48f7",
+        "name": "Chris Rock",
+        "original_name": "Chris Rock",
+        "gender": 2,
+        "profile_path": "/5lILFeBvX3sC0EfbHhrvMEc7bPD.jpg"
+      },
+      {
+        "id": 59164,
+        "credit_id": "525348d719c29579400e48fd",
+        "name": "Ali LeRoi",
+        "original_name": "Ali LeRoi",
+        "gender": 2,
+        "profile_path": null
+      }
+    ],
+    "episode_run_time": [],
+    "first_air_date": "2005-09-22",
+    "genres": [
+      {
+        "id": 35,
+        "name": "Comédia"
+      }
+    ],
+    "homepage": "http://www.everybodyhateschris.com/",
+    "id": 252,
+    "in_production": false,
+    "languages": [
+      "en"
+    ],
+    "last_air_date": "2009-05-08",
+    "last_episode_to_air": {
+      "id": 13952,
+      "name": "Todo Mundo Odeia o Supletivo",
+      "overview": "Na última semana de escola, Chris descobre que corre o risco de repetir o ano e faz de tudo para chegar à aula na hora certa.",
+      "vote_average": 8.5,
+      "vote_count": 2,
+      "air_date": "2009-05-08",
+      "episode_number": 22,
+      "episode_type": "finale",
+      "production_code": "422",
+      "runtime": 22,
+      "season_number": 4,
+      "show_id": 252,
+      "still_path": "/9O1RzoU6OTkehGIAuJ3bMh5sbPP.jpg"
+    },
+    "name": "Todo Mundo Odeia o Chris",
+    "next_episode_to_air": null,
+    "networks": [
+      {
+        "id": 40,
+        "logo_path": "/333LtWX9Z7H9uRrNcCl1JcTvdpR.png",
+        "name": "UPN",
+        "origin_country": "US"
+      },
+      {
+        "id": 71,
+        "logo_path": "/hEpcdJ4O6eitG9ADSnDXNUrlovS.png",
+        "name": "The CW",
+        "origin_country": "US"
+      }
+    ],
+    "number_of_episodes": 88,
+    "number_of_seasons": 4,
+    "origin_country": [
+      "US"
+    ],
+    "original_language": "en",
+    "original_name": "Everybody Hates Chris",
+    "overview": "Para Chris, fazer 13 anos não tem nada de maravilhoso. Ele é o único negro da turma do ensino médio, onde tem uma educação medíocre. É amigo de Greg, e é frequentemente abusado por Joey Caruso. Ambos os pais trabalham e ele cuida de seus dois irmãos. Parece trágico, mas é hilário.",
+    "popularity": 23.0371,
+    "poster_path": "/j7KcbOjhNIWOQqHGtL0P90nlfHB.jpg",
+    "production_companies": [
+      {
+        "id": 160859,
+        "logo_path": null,
+        "name": "Chris Rock Entertainment",
+        "origin_country": "US"
+      },
+      {
+        "id": 787,
+        "logo_path": "/cCefBs1t7jxtiz3eCxBp9yxrxGx.png",
+        "name": "3 Arts Entertainment",
+        "origin_country": "US"
+      },
+      {
+        "id": 9223,
+        "logo_path": "/40qzTBM38vokoWhLKurficZ5syV.png",
+        "name": "Paramount Television",
+        "origin_country": "US"
+      },
+      {
+        "id": 1081,
+        "logo_path": "/19kn4jVvpc3sAL3YpZNb3elhSMl.png",
+        "name": "CBS Studios",
+        "origin_country": "US"
+      }
+    ],
+    "production_countries": [
+      {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }
+    ],
+    "seasons": [
+      {
+        "air_date": "2005-09-22",
+        "episode_count": 22,
+        "id": 809,
+        "name": "Temporada 1",
+        "overview": "",
+        "poster_path": "/yDZ3XJb9sNC0A9OpQtWDjlKYh6C.jpg",
+        "season_number": 1,
+        "vote_average": 7.7
+      },
+      {
+        "air_date": "2006-10-01",
+        "episode_count": 22,
+        "id": 810,
+        "name": "Temporada 2",
+        "overview": "Chris começa a trabalhar na mercearia do Doc para ajudar a família e se apaixona pela vizinha Tasha, apesar da implicância da avó dela, Louise. Ao longo da temporada, ele tenta virar presidente do grêmio, se torna DJ, conhece o criminoso Malvo e enfrenta um professor substituto que pega no seu pé. Enquanto isso, Rochelle aluga o apartamento para o excêntrico Sr. Omar, Chris e Greg matam aula para assistir *Os Caça-Fantasmas*, e Julius revela sua paixão por novelas.",
+        "poster_path": "/utqW60rl19BOZ3Cg3ZuiPbNvgBN.jpg",
+        "season_number": 2,
+        "vote_average": 7.5
+      },
+      {
+        "air_date": "2007-10-01",
+        "episode_count": 22,
+        "id": 808,
+        "name": "Temporada 3",
+        "overview": "Chris vive várias experiências marcantes, como dirigir pela primeira vez, tentar se tornar popular e lidar com a chegada de outro aluno negro na escola. Ele também trabalha no restaurante do Senhor Fong e chega a virar um “bad boy” para impressionar Tasha. Enquanto isso, Greg conhece a vizinhança de Bed-Stuy ao dormir na casa de Chris, Rochelle participa de um desfile de cabelos com um penteado bem exagerado, e Julius decide comemorar o Kwanzaa por ser mais barato que o Natal.",
+        "poster_path": "/4DIOtxZvWVvqxHf6BXFxrDud5gO.jpg",
+        "season_number": 3,
+        "vote_average": 7.4
+      },
+      {
+        "air_date": "2008-10-03",
+        "episode_count": 22,
+        "id": 811,
+        "name": "Temporada 4",
+        "overview": "Chris e Greg vão para o Colégio Tattaglia, mas a vida de Chris continua na mesma, ainda mais com a Senhorita Morello na nova escola. Enquanto isso, Peaches tenta virar amiga da Rochelle, Julius começa a trabalhar com o Sr. Omar e Tonya passa a ajudar no salão da Vanessa. Chris entra para a luta greco-romana para tentar impressionar as garotas, Rochelle coloca toda a família em uma dieta maluca, e Chris e Greg acabam se metendo em várias confusões, incluindo identidades falsas e uma perna quebrada do Greg.",
+        "poster_path": "/8w4fMn6PpQRJqfzOlC9vZm2d4g3.jpg",
+        "season_number": 4,
+        "vote_average": 7.7
+      }
+    ],
+    "softcore": false,
+    "spoken_languages": [
+      {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+      }
+    ],
+    "status": "Ended",
+    "tagline": "",
+    "type": "Scripted",
+    "vote_average": 8.072,
+    "vote_count": 1129,
+    "external_ids": {
+      "imdb_id": "tt0460637",
+      "freebase_mid": "/m/06xzbq",
+      "freebase_id": "/en/everybody_hates_chris",
+      "tvdb_id": 75914,
+      "tvrage_id": 3465,
+      "wikidata_id": "Q33323",
+      "facebook_id": null,
+      "instagram_id": null,
+      "twitter_id": null
+    }
+  },
+  "name:uma família da pesada": {
+    "adult": false,
+    "backdrop_path": "/l7wShoIdIUwaDIbsHno9pO5MZXT.jpg",
+    "created_by": [
+      {
+        "id": 52139,
+        "credit_id": "5256e93919c2956ff610860e",
+        "name": "Seth MacFarlane",
+        "original_name": "Seth MacFarlane",
+        "gender": 2,
+        "profile_path": "/8oQJqM51Z0Qtdb7sE6ZfX1peNCB.jpg"
+      }
+    ],
+    "episode_run_time": [],
+    "first_air_date": "1999-01-31",
+    "genres": [
+      {
+        "id": 16,
+        "name": "Animação"
+      },
+      {
+        "id": 35,
+        "name": "Comédia"
+      }
+    ],
+    "homepage": "https://www.fox.com/detail/series/SER000854XOPZ/family-guy",
+    "id": 1434,
+    "in_production": true,
+    "languages": [
+      "en"
+    ],
+    "last_air_date": "2026-05-17",
+    "last_episode_to_air": {
+      "id": 7193771,
+      "name": "Episódio 15",
+      "overview": "",
+      "vote_average": 6.5,
+      "vote_count": 2,
+      "air_date": "2026-05-17",
+      "episode_number": 15,
+      "episode_type": "finale",
+      "production_code": "",
+      "runtime": 30,
+      "season_number": 24,
+      "show_id": 1434,
+      "still_path": "/8cZI6xE1kZWIB8JOTtaVKTbDtD7.jpg"
+    },
+    "name": "Uma Família da Pesada",
+    "next_episode_to_air": null,
+    "networks": [
+      {
+        "id": 19,
+        "logo_path": "/1DSpHrWyOORkL9N2QHX7Adt31mQ.png",
+        "name": "FOX",
+        "origin_country": "US"
+      }
+    ],
+    "number_of_episodes": 456,
+    "number_of_seasons": 24,
+    "origin_country": [
+      "US"
+    ],
+    "original_language": "en",
+    "original_name": "Family Guy",
+    "overview": "A série animada apresenta as aventuras da família Griffin. O ignorante Peter e sua esposa Lois residem em Quahog, em Rhode Island e têm três filhos. Meg, a filha mais velha, é uma pária social, e o adolescente Chris é estranho e sem noção quando se trata do sexo oposto. O mais novo, Stewie, é um bebê gênio decidido a matar sua mãe e destruir o mundo. O cachorro falante, Brian, mantém Stewie sob controle enquanto toma martinis e resolve seus próprios problemas de vida.",
+    "popularity": 253.5646,
+    "poster_path": "/j28XGzAhvJNGWEHbYrzvREw7kKd.jpg",
+    "production_companies": [
+      {
+        "id": 1556,
+        "logo_path": "/31h94rG9hzjprXoYNy3L1ErUya2.png",
+        "name": "20th Century Fox Television",
+        "origin_country": "US"
+      },
+      {
+        "id": 8789,
+        "logo_path": "/1smGq637YoNgkeBZXt7TAPDYGda.png",
+        "name": "Fuzzy Door Productions",
+        "origin_country": "US"
+      },
+      {
+        "id": 154887,
+        "logo_path": "/wLFPu95hIMmyLR5hdtvYaMuK0tG.png",
+        "name": "20th Television Animation",
+        "origin_country": "US"
+      },
+      {
+        "id": 236166,
+        "logo_path": "/8rFlu5iytnjsciYXZDw90ktllCI.png",
+        "name": "20th Television",
+        "origin_country": "US"
+      }
+    ],
+    "production_countries": [
+      {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }
+    ],
+    "seasons": [
+      {
+        "air_date": "1995-01-01",
+        "episode_count": 27,
+        "id": 3831,
+        "name": "Especiais",
+        "overview": "",
+        "poster_path": "/tDypnXxoJOAUu6VvFvAAIkwXNXT.jpg",
+        "season_number": 0,
+        "vote_average": 0.0
+      },
+      {
+        "air_date": "1999-01-31",
+        "episode_count": 7,
+        "id": 3821,
+        "name": "Temporada 1",
+        "overview": "",
+        "poster_path": "/4fLbserVJuev3luHioEvJ85GmEM.jpg",
+        "season_number": 1,
+        "vote_average": 7.2
+      },
+      {
+        "air_date": "1999-09-23",
+        "episode_count": 21,
+        "id": 3822,
+        "name": "Temporada 2",
+        "overview": "",
+        "poster_path": "/qzrniwmmI9e0CJqd64Gq8rCHJq.jpg",
+        "season_number": 2,
+        "vote_average": 7.3
+      },
+      {
+        "air_date": "2001-07-10",
+        "episode_count": 22,
+        "id": 3823,
+        "name": "Temporada 3",
+        "overview": "",
+        "poster_path": "/z0oAsu70W7o6ulLydq5UnTQjsE9.jpg",
+        "season_number": 3,
+        "vote_average": 7.0
+      },
+      {
+        "air_date": "2005-04-30",
+        "episode_count": 30,
+        "id": 3824,
+        "name": "Temporada 4",
+        "overview": "",
+        "poster_path": "/cjnd4tTSgb63MOjQI1TeMtq3TK4.jpg",
+        "season_number": 4,
+        "vote_average": 7.0
+      },
+      {
+        "air_date": "2006-09-09",
+        "episode_count": 18,
+        "id": 3825,
+        "name": "Temporada 5",
+        "overview": "",
+        "poster_path": "/iE4HFHu03xHhzVsqfHoPJxgfHC4.jpg",
+        "season_number": 5,
+        "vote_average": 7.1
+      },
+      {
+        "air_date": "2007-09-23",
+        "episode_count": 12,
+        "id": 3826,
+        "name": "Temporada 6",
+        "overview": "",
+        "poster_path": "/vObch0KLy6rqP16rOVuGcMNV8uX.jpg",
+        "season_number": 6,
+        "vote_average": 7.2
+      },
+      {
+        "air_date": "2008-09-28",
+        "episode_count": 16,
+        "id": 3827,
+        "name": "Temporada 7",
+        "overview": "",
+        "poster_path": "/mJl1pS7s3lX3Isg3Dt13aoIzdV4.jpg",
+        "season_number": 7,
+        "vote_average": 7.0
+      },
+      {
+        "air_date": "2009-09-26",
+        "episode_count": 20,
+        "id": 3828,
+        "name": "Temporada 8",
+        "overview": "",
+        "poster_path": "/a5GmHSZ1CT8CfsSAZDCYs5DEkIe.jpg",
+        "season_number": 8,
+        "vote_average": 6.8
+      },
+      {
+        "air_date": "2010-09-26",
+        "episode_count": 18,
+        "id": 3829,
+        "name": "Temporada 9",
+        "overview": "",
+        "poster_path": "/j1UPvhYL6732Jm6WIxFQGy3eEbp.jpg",
+        "season_number": 9,
+        "vote_average": 6.8
+      },
+      {
+        "air_date": "2011-09-25",
+        "episode_count": 23,
+        "id": 3830,
+        "name": "Temporada 10",
+        "overview": "",
+        "poster_path": "/9KfRGXe9KmKsBMBcBJ8I2kt0IrC.jpg",
+        "season_number": 10,
+        "vote_average": 7.0
+      },
+      {
+        "air_date": "2012-09-30",
+        "episode_count": 22,
+        "id": 3832,
+        "name": "Temporada 11",
+        "overview": "",
+        "poster_path": "/yUTSz6C7Z5kyut5JATFY7WBjvXF.jpg",
+        "season_number": 11,
+        "vote_average": 6.9
+      },
+      {
+        "air_date": "2013-09-29",
+        "episode_count": 21,
+        "id": 3833,
+        "name": "Temporada 12",
+        "overview": "",
+        "poster_path": "/d2wSRZlt66mH2GQozDNN5vNWRDe.jpg",
+        "season_number": 12,
+        "vote_average": 6.6
+      },
+      {
+        "air_date": "2014-09-28",
+        "episode_count": 18,
+        "id": 62024,
+        "name": "Temporada 13",
+        "overview": "",
+        "poster_path": "/5xd7sJS0L5EtjmsOLZHTNfcARLw.jpg",
+        "season_number": 13,
+        "vote_average": 6.7
+      },
+      {
+        "air_date": "2015-09-27",
+        "episode_count": 20,
+        "id": 68069,
+        "name": "Temporada 14",
+        "overview": "",
+        "poster_path": "/mxRLjETxFAA2c6H4T5p1OtRZ9mp.jpg",
+        "season_number": 14,
+        "vote_average": 7.0
+      },
+      {
+        "air_date": "2016-09-25",
+        "episode_count": 20,
+        "id": 80358,
+        "name": "Temporada 15",
+        "overview": "",
+        "poster_path": "/rvyFw78s8sWbEW0hk1zwsnZTeSQ.jpg",
+        "season_number": 15,
+        "vote_average": 6.7
+      },
+      {
+        "air_date": "2017-10-01",
+        "episode_count": 20,
+        "id": 93251,
+        "name": "Temporada 16",
+        "overview": "",
+        "poster_path": "/jhvaf8E00psTeBNpH9vNzxKjZuX.jpg",
+        "season_number": 16,
+        "vote_average": 6.6
+      },
+      {
+        "air_date": "2018-09-30",
+        "episode_count": 20,
+        "id": 109932,
+        "name": "Temporada 17",
+        "overview": "",
+        "poster_path": "/wJVV8gRWFiogFM0cGX8hcZba9fG.jpg",
+        "season_number": 17,
+        "vote_average": 6.3
+      },
+      {
+        "air_date": "2019-09-28",
+        "episode_count": 20,
+        "id": 131144,
+        "name": "Temporada 18",
+        "overview": "",
+        "poster_path": "/j28XGzAhvJNGWEHbYrzvREw7kKd.jpg",
+        "season_number": 18,
+        "vote_average": 6.0
+      },
+      {
+        "air_date": "2020-09-27",
+        "episode_count": 20,
+        "id": 164100,
+        "name": "Temporada 19",
+        "overview": "",
+        "poster_path": "/zE4pnzCnDjIyUe5CxTR2LDoQaP3.jpg",
+        "season_number": 19,
+        "vote_average": 6.2
+      },
+      {
+        "air_date": "2021-09-26",
+        "episode_count": 20,
+        "id": 188886,
+        "name": "Temporada 20",
+        "overview": "",
+        "poster_path": "/4sKYQlG5arErJQfbwMFnIDpBxdm.jpg",
+        "season_number": 20,
+        "vote_average": 6.0
+      },
+      {
+        "air_date": "2022-09-25",
+        "episode_count": 20,
+        "id": 297016,
+        "name": "Temporada 21",
+        "overview": "",
+        "poster_path": "/aLB7psB9N81n5GecHNOudXWW3AI.jpg",
+        "season_number": 21,
+        "vote_average": 7.0
+      },
+      {
+        "air_date": "2023-10-01",
+        "episode_count": 15,
+        "id": 348835,
+        "name": "Temporada 22",
+        "overview": "",
+        "poster_path": "/y0HUz4eUNUe3TeEd8fQWYazPaC7.jpg",
+        "season_number": 22,
+        "vote_average": 7.3
+      },
+      {
+        "air_date": "2025-02-16",
+        "episode_count": 18,
+        "id": 439123,
+        "name": "Temporada 23",
+        "overview": "",
+        "poster_path": "/8o8kiBkWFK3gVytHdyzEWUBXVfK.jpg",
+        "season_number": 23,
+        "vote_average": 6.9
+      },
+      {
+        "air_date": "2026-02-15",
+        "episode_count": 15,
+        "id": 484484,
+        "name": "Temporada 24",
+        "overview": "",
+        "poster_path": "/3PFsEuAiyLkWsP4GG6dIV37Q6gu.jpg",
+        "season_number": 24,
+        "vote_average": 7.3
+      }
+    ],
+    "softcore": false,
+    "spoken_languages": [
+      {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+      }
+    ],
+    "status": "Returning Series",
+    "tagline": "Discrição dos pais aconselhada, é assim que você sabe que é bom",
+    "type": "Scripted",
+    "vote_average": 7.41,
+    "vote_count": 5063,
+    "external_ids": {
+      "imdb_id": "tt0182576",
+      "freebase_mid": "/m/019nnl",
+      "freebase_id": "/en/family_guy",
+      "tvdb_id": 75978,
+      "tvrage_id": 3506,
+      "wikidata_id": "Q5930",
+      "facebook_id": "FamilyGuy",
+      "instagram_id": "familyguyfox",
+      "twitter_id": "FamilyGuyonFOX"
+    }
+  },
+  "name:family guy": {
+    "adult": false,
+    "backdrop_path": "/l7wShoIdIUwaDIbsHno9pO5MZXT.jpg",
+    "created_by": [
+      {
+        "id": 52139,
+        "credit_id": "5256e93919c2956ff610860e",
+        "name": "Seth MacFarlane",
+        "original_name": "Seth MacFarlane",
+        "gender": 2,
+        "profile_path": "/8oQJqM51Z0Qtdb7sE6ZfX1peNCB.jpg"
+      }
+    ],
+    "episode_run_time": [],
+    "first_air_date": "1999-01-31",
+    "genres": [
+      {
+        "id": 16,
+        "name": "Animação"
+      },
+      {
+        "id": 35,
+        "name": "Comédia"
+      }
+    ],
+    "homepage": "https://www.fox.com/detail/series/SER000854XOPZ/family-guy",
+    "id": 1434,
+    "in_production": true,
+    "languages": [
+      "en"
+    ],
+    "last_air_date": "2026-05-17",
+    "last_episode_to_air": {
+      "id": 7193771,
+      "name": "Episódio 15",
+      "overview": "",
+      "vote_average": 6.5,
+      "vote_count": 2,
+      "air_date": "2026-05-17",
+      "episode_number": 15,
+      "episode_type": "finale",
+      "production_code": "",
+      "runtime": 30,
+      "season_number": 24,
+      "show_id": 1434,
+      "still_path": "/8cZI6xE1kZWIB8JOTtaVKTbDtD7.jpg"
+    },
+    "name": "Uma Família da Pesada",
+    "next_episode_to_air": null,
+    "networks": [
+      {
+        "id": 19,
+        "logo_path": "/1DSpHrWyOORkL9N2QHX7Adt31mQ.png",
+        "name": "FOX",
+        "origin_country": "US"
+      }
+    ],
+    "number_of_episodes": 456,
+    "number_of_seasons": 24,
+    "origin_country": [
+      "US"
+    ],
+    "original_language": "en",
+    "original_name": "Family Guy",
+    "overview": "A série animada apresenta as aventuras da família Griffin. O ignorante Peter e sua esposa Lois residem em Quahog, em Rhode Island e têm três filhos. Meg, a filha mais velha, é uma pária social, e o adolescente Chris é estranho e sem noção quando se trata do sexo oposto. O mais novo, Stewie, é um bebê gênio decidido a matar sua mãe e destruir o mundo. O cachorro falante, Brian, mantém Stewie sob controle enquanto toma martinis e resolve seus próprios problemas de vida.",
+    "popularity": 253.5646,
+    "poster_path": "/j28XGzAhvJNGWEHbYrzvREw7kKd.jpg",
+    "production_companies": [
+      {
+        "id": 1556,
+        "logo_path": "/31h94rG9hzjprXoYNy3L1ErUya2.png",
+        "name": "20th Century Fox Television",
+        "origin_country": "US"
+      },
+      {
+        "id": 8789,
+        "logo_path": "/1smGq637YoNgkeBZXt7TAPDYGda.png",
+        "name": "Fuzzy Door Productions",
+        "origin_country": "US"
+      },
+      {
+        "id": 154887,
+        "logo_path": "/wLFPu95hIMmyLR5hdtvYaMuK0tG.png",
+        "name": "20th Television Animation",
+        "origin_country": "US"
+      },
+      {
+        "id": 236166,
+        "logo_path": "/8rFlu5iytnjsciYXZDw90ktllCI.png",
+        "name": "20th Television",
+        "origin_country": "US"
+      }
+    ],
+    "production_countries": [
+      {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }
+    ],
+    "seasons": [
+      {
+        "air_date": "1995-01-01",
+        "episode_count": 27,
+        "id": 3831,
+        "name": "Especiais",
+        "overview": "",
+        "poster_path": "/tDypnXxoJOAUu6VvFvAAIkwXNXT.jpg",
+        "season_number": 0,
+        "vote_average": 0.0
+      },
+      {
+        "air_date": "1999-01-31",
+        "episode_count": 7,
+        "id": 3821,
+        "name": "Temporada 1",
+        "overview": "",
+        "poster_path": "/4fLbserVJuev3luHioEvJ85GmEM.jpg",
+        "season_number": 1,
+        "vote_average": 7.2
+      },
+      {
+        "air_date": "1999-09-23",
+        "episode_count": 21,
+        "id": 3822,
+        "name": "Temporada 2",
+        "overview": "",
+        "poster_path": "/qzrniwmmI9e0CJqd64Gq8rCHJq.jpg",
+        "season_number": 2,
+        "vote_average": 7.3
+      },
+      {
+        "air_date": "2001-07-10",
+        "episode_count": 22,
+        "id": 3823,
+        "name": "Temporada 3",
+        "overview": "",
+        "poster_path": "/z0oAsu70W7o6ulLydq5UnTQjsE9.jpg",
+        "season_number": 3,
+        "vote_average": 7.0
+      },
+      {
+        "air_date": "2005-04-30",
+        "episode_count": 30,
+        "id": 3824,
+        "name": "Temporada 4",
+        "overview": "",
+        "poster_path": "/cjnd4tTSgb63MOjQI1TeMtq3TK4.jpg",
+        "season_number": 4,
+        "vote_average": 7.0
+      },
+      {
+        "air_date": "2006-09-09",
+        "episode_count": 18,
+        "id": 3825,
+        "name": "Temporada 5",
+        "overview": "",
+        "poster_path": "/iE4HFHu03xHhzVsqfHoPJxgfHC4.jpg",
+        "season_number": 5,
+        "vote_average": 7.1
+      },
+      {
+        "air_date": "2007-09-23",
+        "episode_count": 12,
+        "id": 3826,
+        "name": "Temporada 6",
+        "overview": "",
+        "poster_path": "/vObch0KLy6rqP16rOVuGcMNV8uX.jpg",
+        "season_number": 6,
+        "vote_average": 7.2
+      },
+      {
+        "air_date": "2008-09-28",
+        "episode_count": 16,
+        "id": 3827,
+        "name": "Temporada 7",
+        "overview": "",
+        "poster_path": "/mJl1pS7s3lX3Isg3Dt13aoIzdV4.jpg",
+        "season_number": 7,
+        "vote_average": 7.0
+      },
+      {
+        "air_date": "2009-09-26",
+        "episode_count": 20,
+        "id": 3828,
+        "name": "Temporada 8",
+        "overview": "",
+        "poster_path": "/a5GmHSZ1CT8CfsSAZDCYs5DEkIe.jpg",
+        "season_number": 8,
+        "vote_average": 6.8
+      },
+      {
+        "air_date": "2010-09-26",
+        "episode_count": 18,
+        "id": 3829,
+        "name": "Temporada 9",
+        "overview": "",
+        "poster_path": "/j1UPvhYL6732Jm6WIxFQGy3eEbp.jpg",
+        "season_number": 9,
+        "vote_average": 6.8
+      },
+      {
+        "air_date": "2011-09-25",
+        "episode_count": 23,
+        "id": 3830,
+        "name": "Temporada 10",
+        "overview": "",
+        "poster_path": "/9KfRGXe9KmKsBMBcBJ8I2kt0IrC.jpg",
+        "season_number": 10,
+        "vote_average": 7.0
+      },
+      {
+        "air_date": "2012-09-30",
+        "episode_count": 22,
+        "id": 3832,
+        "name": "Temporada 11",
+        "overview": "",
+        "poster_path": "/yUTSz6C7Z5kyut5JATFY7WBjvXF.jpg",
+        "season_number": 11,
+        "vote_average": 6.9
+      },
+      {
+        "air_date": "2013-09-29",
+        "episode_count": 21,
+        "id": 3833,
+        "name": "Temporada 12",
+        "overview": "",
+        "poster_path": "/d2wSRZlt66mH2GQozDNN5vNWRDe.jpg",
+        "season_number": 12,
+        "vote_average": 6.6
+      },
+      {
+        "air_date": "2014-09-28",
+        "episode_count": 18,
+        "id": 62024,
+        "name": "Temporada 13",
+        "overview": "",
+        "poster_path": "/5xd7sJS0L5EtjmsOLZHTNfcARLw.jpg",
+        "season_number": 13,
+        "vote_average": 6.7
+      },
+      {
+        "air_date": "2015-09-27",
+        "episode_count": 20,
+        "id": 68069,
+        "name": "Temporada 14",
+        "overview": "",
+        "poster_path": "/mxRLjETxFAA2c6H4T5p1OtRZ9mp.jpg",
+        "season_number": 14,
+        "vote_average": 7.0
+      },
+      {
+        "air_date": "2016-09-25",
+        "episode_count": 20,
+        "id": 80358,
+        "name": "Temporada 15",
+        "overview": "",
+        "poster_path": "/rvyFw78s8sWbEW0hk1zwsnZTeSQ.jpg",
+        "season_number": 15,
+        "vote_average": 6.7
+      },
+      {
+        "air_date": "2017-10-01",
+        "episode_count": 20,
+        "id": 93251,
+        "name": "Temporada 16",
+        "overview": "",
+        "poster_path": "/jhvaf8E00psTeBNpH9vNzxKjZuX.jpg",
+        "season_number": 16,
+        "vote_average": 6.6
+      },
+      {
+        "air_date": "2018-09-30",
+        "episode_count": 20,
+        "id": 109932,
+        "name": "Temporada 17",
+        "overview": "",
+        "poster_path": "/wJVV8gRWFiogFM0cGX8hcZba9fG.jpg",
+        "season_number": 17,
+        "vote_average": 6.3
+      },
+      {
+        "air_date": "2019-09-28",
+        "episode_count": 20,
+        "id": 131144,
+        "name": "Temporada 18",
+        "overview": "",
+        "poster_path": "/j28XGzAhvJNGWEHbYrzvREw7kKd.jpg",
+        "season_number": 18,
+        "vote_average": 6.0
+      },
+      {
+        "air_date": "2020-09-27",
+        "episode_count": 20,
+        "id": 164100,
+        "name": "Temporada 19",
+        "overview": "",
+        "poster_path": "/zE4pnzCnDjIyUe5CxTR2LDoQaP3.jpg",
+        "season_number": 19,
+        "vote_average": 6.2
+      },
+      {
+        "air_date": "2021-09-26",
+        "episode_count": 20,
+        "id": 188886,
+        "name": "Temporada 20",
+        "overview": "",
+        "poster_path": "/4sKYQlG5arErJQfbwMFnIDpBxdm.jpg",
+        "season_number": 20,
+        "vote_average": 6.0
+      },
+      {
+        "air_date": "2022-09-25",
+        "episode_count": 20,
+        "id": 297016,
+        "name": "Temporada 21",
+        "overview": "",
+        "poster_path": "/aLB7psB9N81n5GecHNOudXWW3AI.jpg",
+        "season_number": 21,
+        "vote_average": 7.0
+      },
+      {
+        "air_date": "2023-10-01",
+        "episode_count": 15,
+        "id": 348835,
+        "name": "Temporada 22",
+        "overview": "",
+        "poster_path": "/y0HUz4eUNUe3TeEd8fQWYazPaC7.jpg",
+        "season_number": 22,
+        "vote_average": 7.3
+      },
+      {
+        "air_date": "2025-02-16",
+        "episode_count": 18,
+        "id": 439123,
+        "name": "Temporada 23",
+        "overview": "",
+        "poster_path": "/8o8kiBkWFK3gVytHdyzEWUBXVfK.jpg",
+        "season_number": 23,
+        "vote_average": 6.9
+      },
+      {
+        "air_date": "2026-02-15",
+        "episode_count": 15,
+        "id": 484484,
+        "name": "Temporada 24",
+        "overview": "",
+        "poster_path": "/3PFsEuAiyLkWsP4GG6dIV37Q6gu.jpg",
+        "season_number": 24,
+        "vote_average": 7.3
+      }
+    ],
+    "softcore": false,
+    "spoken_languages": [
+      {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+      }
+    ],
+    "status": "Returning Series",
+    "tagline": "Discrição dos pais aconselhada, é assim que você sabe que é bom",
+    "type": "Scripted",
+    "vote_average": 7.41,
+    "vote_count": 5063,
+    "external_ids": {
+      "imdb_id": "tt0182576",
+      "freebase_mid": "/m/019nnl",
+      "freebase_id": "/en/family_guy",
+      "tvdb_id": 75978,
+      "tvrage_id": 3506,
+      "wikidata_id": "Q5930",
+      "facebook_id": "FamilyGuy",
+      "instagram_id": "familyguyfox",
+      "twitter_id": "FamilyGuyonFOX"
+    }
+  },
+  "name:xogum a gloriosa saga do japao": {
+    "adult": false,
+    "backdrop_path": "/bwSmgmd90hCWwqOKQYTEraeOZhJ.jpg",
+    "created_by": [
+      {
+        "id": 3102407,
+        "credit_id": "660a15345aadc4016362526f",
+        "name": "Rachel Kondo",
+        "original_name": "Rachel Kondo",
+        "gender": 1,
+        "profile_path": "/1W265VLdnqVzx5ZoWxtV6mv2uxM.jpg"
+      },
+      {
+        "id": 78428,
+        "credit_id": "6544cbfd1ac292013b61d244",
+        "name": "Justin Marks",
+        "original_name": "Justin Marks",
+        "gender": 2,
+        "profile_path": "/dwUvMbNyljjafUzANkFWE64BNCu.jpg"
+      }
+    ],
+    "episode_run_time": [],
+    "first_air_date": "2024-02-27",
+    "genres": [
+      {
+        "id": 18,
+        "name": "Drama"
+      },
+      {
+        "id": 10768,
+        "name": "War & Politics"
+      }
+    ],
+    "homepage": "https://www.fxnetworks.com/shows/shogun/viewers-guide",
+    "id": 126308,
+    "in_production": true,
+    "languages": [
+      "en",
+      "ja"
+    ],
+    "last_air_date": "2024-04-23",
+    "last_episode_to_air": {
+      "id": 5146999,
+      "name": "Um Sonho Dentro de Um Sonho",
+      "overview": "Na esteira de uma morte trágica, Blackthorne enfim considera a verdadeira natureza do plano de Toranaga.",
+      "vote_average": 8.065,
+      "vote_count": 77,
+      "air_date": "2024-04-23",
+      "episode_number": 10,
+      "episode_type": "finale",
+      "production_code": "XJPV1010",
+      "runtime": 63,
+      "season_number": 1,
+      "show_id": 126308,
+      "still_path": "/dIXtG4MafmmjzNhU7ANJZByGmvr.jpg"
+    },
+    "name": "Xógum: A Gloriosa Saga do Japão",
+    "next_episode_to_air": null,
+    "networks": [
+      {
+        "id": 88,
+        "logo_path": "/aexGjtcs42DgRtZh7zOxayiry4J.png",
+        "name": "FX",
+        "origin_country": "US"
+      },
+      {
+        "id": 453,
+        "logo_path": "/pqUTCleNUiTLAVlelGxUgWn1ELh.png",
+        "name": "Hulu",
+        "origin_country": "US"
+      }
+    ],
+    "number_of_episodes": 10,
+    "number_of_seasons": 1,
+    "origin_country": [
+      "US"
+    ],
+    "original_language": "en",
+    "original_name": "Shōgun",
+    "overview": "Ambientada no Japão de 1600, o Senhor Yoshii Toranaga está lutando pela sua vida à medida que seus inimigos no Conselho dos Regentes se unem contra ele, quando um navio europeu misterioso é encontrado encalhado em um vilarejo de pescadores próximo.",
+    "popularity": 33.0322,
+    "poster_path": "/gaOb9hyCDUcbZiTYcHy7mIFmNo.jpg",
+    "production_companies": [
+      {
+        "id": 15990,
+        "logo_path": "/5cT4zwHA66uNAr2p3CcBDLddXu2.png",
+        "name": "FX Productions",
+        "origin_country": "US"
+      },
+      {
+        "id": 11370,
+        "logo_path": null,
+        "name": "Michael De Luca Productions",
+        "origin_country": "US"
+      },
+      {
+        "id": 221908,
+        "logo_path": null,
+        "name": "Gate 34",
+        "origin_country": "US"
+      }
+    ],
+    "production_countries": [
+      {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }
+    ],
+    "seasons": [
+      {
+        "air_date": "2024-02-27",
+        "episode_count": 10,
+        "id": 196786,
+        "name": "Temporada 1",
+        "overview": "",
+        "poster_path": "/bufY3UCdDjRu3OzsRRAOi3nX8W9.jpg",
+        "season_number": 1,
+        "vote_average": 8.2
+      }
+    ],
+    "softcore": false,
+    "spoken_languages": [
+      {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+      },
+      {
+        "english_name": "Japanese",
+        "iso_639_1": "ja",
+        "name": "日本語"
+      }
+    ],
+    "status": "Returning Series",
+    "tagline": "Uma saga épica de guerra, paixão e poder ambientada no Japão feudal.",
+    "type": "Scripted",
+    "vote_average": 8.422,
+    "vote_count": 1843,
+    "external_ids": {
+      "imdb_id": "tt2788316",
+      "freebase_mid": null,
+      "freebase_id": null,
+      "tvdb_id": 392573,
+      "tvrage_id": null,
+      "wikidata_id": "Q56276181",
+      "facebook_id": "FXShogun",
+      "instagram_id": "shogunfx",
+      "twitter_id": "shogunfx"
+    }
+  }
+}

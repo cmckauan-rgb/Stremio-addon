@@ -1,6 +1,18 @@
 {
   "metas": [
     {
+      "id": "tt21607272",
+      "type": "movie",
+      "name": "T'es pas bien là ?",
+      "poster": "https://image.tmdb.org/t/p/w500/x4ivKYKDXjL03jfYSKaoR3HWbWY.jpg",
+      "background": null,
+      "description": "Sem sinopse disponível.",
+      "releaseInfo": "2013",
+      "genres": [
+        "Documentário"
+      ]
+    },
+    {
       "id": "tt0322259",
       "type": "movie",
       "name": "+ Velozes + Furiosos",
@@ -1346,7 +1358,7 @@
       "id": "tt0480249",
       "type": "movie",
       "name": "Eu Sou a Lenda",
-      "poster": "https://image.tmdb.org/t/p/w500/j2jb6DwNCPIU2LtUrJ9zoQIGvSz.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/yhB3KqnYnYSiNoQUSjlT1c62usP.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/ePgD1cwmklyrFBjl6z96IuixuSY.jpg",
       "description": "Robert Neville é um brilhante cientista e o único sobrevivente de uma epidemia que transformou os humanos em mutantes sedentos por sangue. Andando pela cidade de Nova York, ele procura por outros possíveis sobreviventes e tenta achar a cura da praga usando seu próprio sangue, que é imune.",
       "releaseInfo": "2007",
@@ -2965,18 +2977,6 @@
         "Comédia",
         "Ação",
         "Drama"
-      ]
-    },
-    {
-      "id": "tt1636826",
-      "type": "movie",
-      "name": "Projeto X: Uma Festa Fora de Controle",
-      "poster": "https://image.tmdb.org/t/p/w500/yZcrard3hundE2NpgBaJdel3gAw.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/cUqXHZtnptgvyAE1hN47Wsf3ami.jpg",
-      "description": "Três garotos no último ano do colégio decidem fazer uma festa de aniversário para serem reconhecidos. Porém no decorrer da festa as coisas saem de controle.",
-      "releaseInfo": "2012",
-      "genres": [
-        "Comédia"
       ]
     },
     {
