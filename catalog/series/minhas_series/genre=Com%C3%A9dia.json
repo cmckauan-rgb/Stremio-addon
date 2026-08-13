@@ -5,7 +5,7 @@
       "type": "series",
       "name": "Ben 10",
       "poster": "https://image.tmdb.org/t/p/w500/eogRp6oAPK0SEvQmCrQ78LTlSdp.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/eIRe2cNOhvwPPtGDjFVEXGaMkVg.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/v5hLUEpbn3G3oLXLdF7lFikDivb.jpg",
       "description": "Ben Tennyson era um garoto comum de 10 anos de idade que durante uma aborrecida viagem de férias em companhia de seu avô Max e de sua prima Gwen descobre um estranho objeto alienígena chamado Omnitrix trazido para a Terra por um meteorito. Agora com o Omnitrix, ele pode se transformar em 10 diferentes heróis alienígenas cada um com seus próprios poderes. Ben vai precisar de todos os poderes para salvar o mundo da presença de Vilgax e de ameaças extraterrestres",
       "releaseInfo": "2005",
       "genres": [
@@ -14,6 +14,14 @@
         "Action & Adventure",
         "Comédia",
         "Kids"
+      ],
+      "videos": [
+        {
+          "id": "tt0760437:1:1",
+          "title": "Episódio 1",
+          "season": 1,
+          "episode": 1
+        }
       ]
     },
     {
@@ -29,6 +37,128 @@
         "Action & Adventure",
         "Comédia",
         "Sci-Fi & Fantasy"
+      ],
+      "videos": [
+        {
+          "id": "tt29485149:1:1",
+          "title": "Episódio 1",
+          "season": 1,
+          "episode": 1
+        },
+        {
+          "id": "tt29485149:1:2",
+          "title": "Episódio 2",
+          "season": 1,
+          "episode": 2
+        },
+        {
+          "id": "tt29485149:1:3",
+          "title": "Episódio 3",
+          "season": 1,
+          "episode": 3
+        },
+        {
+          "id": "tt29485149:1:4",
+          "title": "Episódio 4",
+          "season": 1,
+          "episode": 4
+        },
+        {
+          "id": "tt29485149:1:5",
+          "title": "Episódio 5",
+          "season": 1,
+          "episode": 5
+        },
+        {
+          "id": "tt29485149:1:6",
+          "title": "Episódio 6",
+          "season": 1,
+          "episode": 6
+        },
+        {
+          "id": "tt29485149:1:7",
+          "title": "Episódio 7",
+          "season": 1,
+          "episode": 7
+        },
+        {
+          "id": "tt29485149:1:8",
+          "title": "Episódio 8",
+          "season": 1,
+          "episode": 8
+        },
+        {
+          "id": "tt29485149:1:9",
+          "title": "Episódio 9",
+          "season": 1,
+          "episode": 9
+        },
+        {
+          "id": "tt29485149:1:10",
+          "title": "Episódio 10",
+          "season": 1,
+          "episode": 10
+        },
+        {
+          "id": "tt29485149:1:11",
+          "title": "Episódio 11",
+          "season": 1,
+          "episode": 11
+        },
+        {
+          "id": "tt29485149:1:12",
+          "title": "Episódio 12",
+          "season": 1,
+          "episode": 12
+        },
+        {
+          "id": "tt29485149:1:13",
+          "title": "Episódio 13",
+          "season": 1,
+          "episode": 13
+        },
+        {
+          "id": "tt29485149:1:14",
+          "title": "Episódio 14",
+          "season": 1,
+          "episode": 14
+        },
+        {
+          "id": "tt29485149:1:15",
+          "title": "Episódio 15",
+          "season": 1,
+          "episode": 15
+        },
+        {
+          "id": "tt29485149:1:16",
+          "title": "Episódio 16",
+          "season": 1,
+          "episode": 16
+        },
+        {
+          "id": "tt29485149:1:17",
+          "title": "Episódio 17",
+          "season": 1,
+          "episode": 17
+        },
+        {
+          "id": "tt29485149:1:18",
+          "title": "Episódio 18",
+          "season": 1,
+          "episode": 18
+        },
+        {
+          "id": "tt29485149:1:19",
+          "title": "Episódio 19",
+          "season": 1,
+          "episode": 19
+        },
+        {
+          "id": "tt29485149:1:20",
+          "title": "Episódio 20",
+          "season": 1,
+          "episode": 20
+        }
       ]
     },
     {
@@ -43,6 +173,320 @@
         "Action & Adventure",
         "Animação",
         "Comédia"
+      ],
+      "videos": [
+        {
+          "id": "tt1388589:1:1",
+          "title": "Episódio 1",
+          "season": 1,
+          "episode": 1
+        },
+        {
+          "id": "tt1388589:1:2",
+          "title": "Episódio 2",
+          "season": 1,
+          "episode": 2
+        },
+        {
+          "id": "tt1388589:1:3",
+          "title": "Episódio 3",
+          "season": 1,
+          "episode": 3
+        },
+        {
+          "id": "tt1388589:1:4",
+          "title": "Episódio 4",
+          "season": 1,
+          "episode": 4
+        },
+        {
+          "id": "tt1388589:1:5",
+          "title": "Episódio 5",
+          "season": 1,
+          "episode": 5
+        },
+        {
+          "id": "tt1388589:1:6",
+          "title": "Episódio 6",
+          "season": 1,
+          "episode": 6
+        },
+        {
+          "id": "tt1388589:1:7",
+          "title": "Episódio 7",
+          "season": 1,
+          "episode": 7
+        },
+        {
+          "id": "tt1388589:1:8",
+          "title": "Episódio 8",
+          "season": 1,
+          "episode": 8
+        },
+        {
+          "id": "tt1388589:1:9",
+          "title": "Episódio 9",
+          "season": 1,
+          "episode": 9
+        },
+        {
+          "id": "tt1388589:1:10",
+          "title": "Episódio 10",
+          "season": 1,
+          "episode": 10
+        },
+        {
+          "id": "tt1388589:1:11",
+          "title": "Episódio 11",
+          "season": 1,
+          "episode": 11
+        },
+        {
+          "id": "tt1388589:1:12",
+          "title": "Episódio 12",
+          "season": 1,
+          "episode": 12
+        },
+        {
+          "id": "tt1388589:1:13",
+          "title": "Episódio 13",
+          "season": 1,
+          "episode": 13
+        },
+        {
+          "id": "tt1388589:1:14",
+          "title": "Episódio 14",
+          "season": 1,
+          "episode": 14
+        },
+        {
+          "id": "tt1388589:1:15",
+          "title": "Episódio 15",
+          "season": 1,
+          "episode": 15
+        },
+        {
+          "id": "tt1388589:1:16",
+          "title": "Episódio 16",
+          "season": 1,
+          "episode": 16
+        },
+        {
+          "id": "tt1388589:1:17",
+          "title": "Episódio 17",
+          "season": 1,
+          "episode": 17
+        },
+        {
+          "id": "tt1388589:1:18",
+          "title": "Episódio 18",
+          "season": 1,
+          "episode": 18
+        },
+        {
+          "id": "tt1388589:1:19",
+          "title": "Episódio 19",
+          "season": 1,
+          "episode": 19
+        },
+        {
+          "id": "tt1388589:1:20",
+          "title": "Episódio 20",
+          "season": 1,
+          "episode": 20
+        },
+        {
+          "id": "tt1388589:1:21",
+          "title": "Episódio 21",
+          "season": 1,
+          "episode": 21
+        },
+        {
+          "id": "tt1388589:1:22",
+          "title": "Episódio 22",
+          "season": 1,
+          "episode": 22
+        },
+        {
+          "id": "tt1388589:1:23",
+          "title": "Episódio 23",
+          "season": 1,
+          "episode": 23
+        },
+        {
+          "id": "tt1388589:1:24",
+          "title": "Episódio 24",
+          "season": 1,
+          "episode": 24
+        },
+        {
+          "id": "tt1388589:1:25",
+          "title": "Episódio 25",
+          "season": 1,
+          "episode": 25
+        },
+        {
+          "id": "tt1388589:1:26",
+          "title": "Episódio 26",
+          "season": 1,
+          "episode": 26
+        },
+        {
+          "id": "tt1388589:2:1",
+          "title": "Episódio 1",
+          "season": 2,
+          "episode": 1
+        },
+        {
+          "id": "tt1388589:2:2",
+          "title": "Episódio 2",
+          "season": 2,
+          "episode": 2
+        },
+        {
+          "id": "tt1388589:2:3",
+          "title": "Episódio 3",
+          "season": 2,
+          "episode": 3
+        },
+        {
+          "id": "tt1388589:2:4",
+          "title": "Episódio 4",
+          "season": 2,
+          "episode": 4
+        },
+        {
+          "id": "tt1388589:2:5",
+          "title": "Episódio 5",
+          "season": 2,
+          "episode": 5
+        },
+        {
+          "id": "tt1388589:2:6",
+          "title": "Episódio 6",
+          "season": 2,
+          "episode": 6
+        },
+        {
+          "id": "tt1388589:2:7",
+          "title": "Episódio 7",
+          "season": 2,
+          "episode": 7
+        },
+        {
+          "id": "tt1388589:2:8",
+          "title": "Episódio 8",
+          "season": 2,
+          "episode": 8
+        },
+        {
+          "id": "tt1388589:2:9",
+          "title": "Episódio 9",
+          "season": 2,
+          "episode": 9
+        },
+        {
+          "id": "tt1388589:2:10",
+          "title": "Episódio 10",
+          "season": 2,
+          "episode": 10
+        },
+        {
+          "id": "tt1388589:2:11",
+          "title": "Episódio 11",
+          "season": 2,
+          "episode": 11
+        },
+        {
+          "id": "tt1388589:2:12",
+          "title": "Episódio 12",
+          "season": 2,
+          "episode": 12
+        },
+        {
+          "id": "tt1388589:2:13",
+          "title": "Episódio 13",
+          "season": 2,
+          "episode": 13
+        },
+        {
+          "id": "tt1388589:2:14",
+          "title": "Episódio 14",
+          "season": 2,
+          "episode": 14
+        },
+        {
+          "id": "tt1388589:2:15",
+          "title": "Episódio 15",
+          "season": 2,
+          "episode": 15
+        },
+        {
+          "id": "tt1388589:2:16",
+          "title": "Episódio 16",
+          "season": 2,
+          "episode": 16
+        },
+        {
+          "id": "tt1388589:2:17",
+          "title": "Episódio 17",
+          "season": 2,
+          "episode": 17
+        },
+        {
+          "id": "tt1388589:2:18",
+          "title": "Episódio 18",
+          "season": 2,
+          "episode": 18
+        },
+        {
+          "id": "tt1388589:2:19",
+          "title": "Episódio 19",
+          "season": 2,
+          "episode": 19
+        },
+        {
+          "id": "tt1388589:2:20",
+          "title": "Episódio 20",
+          "season": 2,
+          "episode": 20
+        },
+        {
+          "id": "tt1388589:2:21",
+          "title": "Episódio 21",
+          "season": 2,
+          "episode": 21
+        },
+        {
+          "id": "tt1388589:2:22",
+          "title": "Episódio 22",
+          "season": 2,
+          "episode": 22
+        },
+        {
+          "id": "tt1388589:2:23",
+          "title": "Episódio 23",
+          "season": 2,
+          "episode": 23
+        },
+        {
+          "id": "tt1388589:2:24",
+          "title": "Episódio 24",
+          "season": 2,
+          "episode": 24
+        },
+        {
+          "id": "tt1388589:2:25",
+          "title": "Episódio 25",
+          "season": 2,
+          "episode": 25
+        },
+        {
+          "id": "tt1388589:2:26",
+          "title": "Episódio 26",
+          "season": 2,
+          "episode": 26
+        }
       ]
     },
     {
@@ -58,6 +502,224 @@
         "Comédia",
         "Kids",
         "Action & Adventure"
+      ],
+      "videos": [
+        {
+          "id": "tt1291662:1:1",
+          "title": "Episódio 1",
+          "season": 1,
+          "episode": 1
+        },
+        {
+          "id": "tt1291662:1:2",
+          "title": "Episódio 2",
+          "season": 1,
+          "episode": 2
+        },
+        {
+          "id": "tt1291662:1:3",
+          "title": "Episódio 3",
+          "season": 1,
+          "episode": 3
+        },
+        {
+          "id": "tt1291662:1:4",
+          "title": "Episódio 4",
+          "season": 1,
+          "episode": 4
+        },
+        {
+          "id": "tt1291662:1:5",
+          "title": "Episódio 5",
+          "season": 1,
+          "episode": 5
+        },
+        {
+          "id": "tt1291662:1:6",
+          "title": "Episódio 6",
+          "season": 1,
+          "episode": 6
+        },
+        {
+          "id": "tt1291662:1:7",
+          "title": "Episódio 7",
+          "season": 1,
+          "episode": 7
+        },
+        {
+          "id": "tt1291662:1:8",
+          "title": "Episódio 8",
+          "season": 1,
+          "episode": 8
+        },
+        {
+          "id": "tt1291662:1:9",
+          "title": "Episódio 9",
+          "season": 1,
+          "episode": 9
+        },
+        {
+          "id": "tt1291662:1:10",
+          "title": "Episódio 10",
+          "season": 1,
+          "episode": 10
+        },
+        {
+          "id": "tt1291662:1:11",
+          "title": "Episódio 11",
+          "season": 1,
+          "episode": 11
+        },
+        {
+          "id": "tt1291662:1:12",
+          "title": "Episódio 12",
+          "season": 1,
+          "episode": 12
+        },
+        {
+          "id": "tt1291662:1:13",
+          "title": "Episódio 13",
+          "season": 1,
+          "episode": 13
+        },
+        {
+          "id": "tt1291662:1:14",
+          "title": "Episódio 14",
+          "season": 1,
+          "episode": 14
+        },
+        {
+          "id": "tt1291662:1:15",
+          "title": "Episódio 15",
+          "season": 1,
+          "episode": 15
+        },
+        {
+          "id": "tt1291662:1:16",
+          "title": "Episódio 16",
+          "season": 1,
+          "episode": 16
+        },
+        {
+          "id": "tt1291662:1:17",
+          "title": "Episódio 17",
+          "season": 1,
+          "episode": 17
+        },
+        {
+          "id": "tt1291662:1:18",
+          "title": "Episódio 18",
+          "season": 1,
+          "episode": 18
+        },
+        {
+          "id": "tt1291662:1:19",
+          "title": "Episódio 19",
+          "season": 1,
+          "episode": 19
+        },
+        {
+          "id": "tt1291662:1:20",
+          "title": "Episódio 20",
+          "season": 1,
+          "episode": 20
+        },
+        {
+          "id": "tt1291662:1:21",
+          "title": "Episódio 21",
+          "season": 1,
+          "episode": 21
+        },
+        {
+          "id": "tt1291662:1:22",
+          "title": "Episódio 22",
+          "season": 1,
+          "episode": 22
+        },
+        {
+          "id": "tt1291662:1:23",
+          "title": "Episódio 23",
+          "season": 1,
+          "episode": 23
+        },
+        {
+          "id": "tt1291662:1:24",
+          "title": "Episódio 24",
+          "season": 1,
+          "episode": 24
+        },
+        {
+          "id": "tt1291662:1:25",
+          "title": "Episódio 25",
+          "season": 1,
+          "episode": 25
+        },
+        {
+          "id": "tt1291662:1:26",
+          "title": "Episódio 26",
+          "season": 1,
+          "episode": 26
+        },
+        {
+          "id": "tt1291662:2:1",
+          "title": "Episódio 1",
+          "season": 2,
+          "episode": 1
+        },
+        {
+          "id": "tt1291662:2:2",
+          "title": "Episódio 2",
+          "season": 2,
+          "episode": 2
+        },
+        {
+          "id": "tt1291662:2:3",
+          "title": "Episódio 3",
+          "season": 2,
+          "episode": 3
+        },
+        {
+          "id": "tt1291662:2:4",
+          "title": "Episódio 4",
+          "season": 2,
+          "episode": 4
+        },
+        {
+          "id": "tt1291662:2:5",
+          "title": "Episódio 5",
+          "season": 2,
+          "episode": 5
+        },
+        {
+          "id": "tt1291662:2:6",
+          "title": "Episódio 6",
+          "season": 2,
+          "episode": 6
+        },
+        {
+          "id": "tt1291662:2:7",
+          "title": "Episódio 7",
+          "season": 2,
+          "episode": 7
+        },
+        {
+          "id": "tt1291662:2:8",
+          "title": "Episódio 8",
+          "season": 2,
+          "episode": 8
+        },
+        {
+          "id": "tt1291662:2:9",
+          "title": "Episódio 9",
+          "season": 2,
+          "episode": 9
+        },
+        {
+          "id": "tt1291662:2:10",
+          "title": "Episódio 10",
+          "season": 2,
+          "episode": 10
+        }
       ]
     },
     {
@@ -70,6 +732,536 @@
       "releaseInfo": "2005",
       "genres": [
         "Comédia"
+      ],
+      "videos": [
+        {
+          "id": "tt0460637:1:1",
+          "title": "Episódio 1",
+          "season": 1,
+          "episode": 1
+        },
+        {
+          "id": "tt0460637:1:2",
+          "title": "Episódio 2",
+          "season": 1,
+          "episode": 2
+        },
+        {
+          "id": "tt0460637:1:3",
+          "title": "Episódio 3",
+          "season": 1,
+          "episode": 3
+        },
+        {
+          "id": "tt0460637:1:4",
+          "title": "Episódio 4",
+          "season": 1,
+          "episode": 4
+        },
+        {
+          "id": "tt0460637:1:5",
+          "title": "Episódio 5",
+          "season": 1,
+          "episode": 5
+        },
+        {
+          "id": "tt0460637:1:6",
+          "title": "Episódio 6",
+          "season": 1,
+          "episode": 6
+        },
+        {
+          "id": "tt0460637:1:7",
+          "title": "Episódio 7",
+          "season": 1,
+          "episode": 7
+        },
+        {
+          "id": "tt0460637:1:8",
+          "title": "Episódio 8",
+          "season": 1,
+          "episode": 8
+        },
+        {
+          "id": "tt0460637:1:9",
+          "title": "Episódio 9",
+          "season": 1,
+          "episode": 9
+        },
+        {
+          "id": "tt0460637:1:10",
+          "title": "Episódio 10",
+          "season": 1,
+          "episode": 10
+        },
+        {
+          "id": "tt0460637:1:11",
+          "title": "Episódio 11",
+          "season": 1,
+          "episode": 11
+        },
+        {
+          "id": "tt0460637:1:12",
+          "title": "Episódio 12",
+          "season": 1,
+          "episode": 12
+        },
+        {
+          "id": "tt0460637:1:13",
+          "title": "Episódio 13",
+          "season": 1,
+          "episode": 13
+        },
+        {
+          "id": "tt0460637:1:14",
+          "title": "Episódio 14",
+          "season": 1,
+          "episode": 14
+        },
+        {
+          "id": "tt0460637:1:15",
+          "title": "Episódio 15",
+          "season": 1,
+          "episode": 15
+        },
+        {
+          "id": "tt0460637:1:16",
+          "title": "Episódio 16",
+          "season": 1,
+          "episode": 16
+        },
+        {
+          "id": "tt0460637:1:17",
+          "title": "Episódio 17",
+          "season": 1,
+          "episode": 17
+        },
+        {
+          "id": "tt0460637:1:18",
+          "title": "Episódio 18",
+          "season": 1,
+          "episode": 18
+        },
+        {
+          "id": "tt0460637:1:19",
+          "title": "Episódio 19",
+          "season": 1,
+          "episode": 19
+        },
+        {
+          "id": "tt0460637:1:20",
+          "title": "Episódio 20",
+          "season": 1,
+          "episode": 20
+        },
+        {
+          "id": "tt0460637:1:21",
+          "title": "Episódio 21",
+          "season": 1,
+          "episode": 21
+        },
+        {
+          "id": "tt0460637:1:22",
+          "title": "Episódio 22",
+          "season": 1,
+          "episode": 22
+        },
+        {
+          "id": "tt0460637:2:1",
+          "title": "Episódio 1",
+          "season": 2,
+          "episode": 1
+        },
+        {
+          "id": "tt0460637:2:2",
+          "title": "Episódio 2",
+          "season": 2,
+          "episode": 2
+        },
+        {
+          "id": "tt0460637:2:3",
+          "title": "Episódio 3",
+          "season": 2,
+          "episode": 3
+        },
+        {
+          "id": "tt0460637:2:4",
+          "title": "Episódio 4",
+          "season": 2,
+          "episode": 4
+        },
+        {
+          "id": "tt0460637:2:5",
+          "title": "Episódio 5",
+          "season": 2,
+          "episode": 5
+        },
+        {
+          "id": "tt0460637:2:6",
+          "title": "Episódio 6",
+          "season": 2,
+          "episode": 6
+        },
+        {
+          "id": "tt0460637:2:7",
+          "title": "Episódio 7",
+          "season": 2,
+          "episode": 7
+        },
+        {
+          "id": "tt0460637:2:8",
+          "title": "Episódio 8",
+          "season": 2,
+          "episode": 8
+        },
+        {
+          "id": "tt0460637:2:9",
+          "title": "Episódio 9",
+          "season": 2,
+          "episode": 9
+        },
+        {
+          "id": "tt0460637:2:10",
+          "title": "Episódio 10",
+          "season": 2,
+          "episode": 10
+        },
+        {
+          "id": "tt0460637:2:11",
+          "title": "Episódio 11",
+          "season": 2,
+          "episode": 11
+        },
+        {
+          "id": "tt0460637:2:12",
+          "title": "Episódio 12",
+          "season": 2,
+          "episode": 12
+        },
+        {
+          "id": "tt0460637:2:13",
+          "title": "Episódio 13",
+          "season": 2,
+          "episode": 13
+        },
+        {
+          "id": "tt0460637:2:14",
+          "title": "Episódio 14",
+          "season": 2,
+          "episode": 14
+        },
+        {
+          "id": "tt0460637:2:15",
+          "title": "Episódio 15",
+          "season": 2,
+          "episode": 15
+        },
+        {
+          "id": "tt0460637:2:16",
+          "title": "Episódio 16",
+          "season": 2,
+          "episode": 16
+        },
+        {
+          "id": "tt0460637:2:17",
+          "title": "Episódio 17",
+          "season": 2,
+          "episode": 17
+        },
+        {
+          "id": "tt0460637:2:18",
+          "title": "Episódio 18",
+          "season": 2,
+          "episode": 18
+        },
+        {
+          "id": "tt0460637:2:19",
+          "title": "Episódio 19",
+          "season": 2,
+          "episode": 19
+        },
+        {
+          "id": "tt0460637:2:20",
+          "title": "Episódio 20",
+          "season": 2,
+          "episode": 20
+        },
+        {
+          "id": "tt0460637:2:21",
+          "title": "Episódio 21",
+          "season": 2,
+          "episode": 21
+        },
+        {
+          "id": "tt0460637:2:22",
+          "title": "Episódio 22",
+          "season": 2,
+          "episode": 22
+        },
+        {
+          "id": "tt0460637:3:1",
+          "title": "Episódio 1",
+          "season": 3,
+          "episode": 1
+        },
+        {
+          "id": "tt0460637:3:2",
+          "title": "Episódio 2",
+          "season": 3,
+          "episode": 2
+        },
+        {
+          "id": "tt0460637:3:3",
+          "title": "Episódio 3",
+          "season": 3,
+          "episode": 3
+        },
+        {
+          "id": "tt0460637:3:4",
+          "title": "Episódio 4",
+          "season": 3,
+          "episode": 4
+        },
+        {
+          "id": "tt0460637:3:5",
+          "title": "Episódio 5",
+          "season": 3,
+          "episode": 5
+        },
+        {
+          "id": "tt0460637:3:6",
+          "title": "Episódio 6",
+          "season": 3,
+          "episode": 6
+        },
+        {
+          "id": "tt0460637:3:7",
+          "title": "Episódio 7",
+          "season": 3,
+          "episode": 7
+        },
+        {
+          "id": "tt0460637:3:8",
+          "title": "Episódio 8",
+          "season": 3,
+          "episode": 8
+        },
+        {
+          "id": "tt0460637:3:9",
+          "title": "Episódio 9",
+          "season": 3,
+          "episode": 9
+        },
+        {
+          "id": "tt0460637:3:10",
+          "title": "Episódio 10",
+          "season": 3,
+          "episode": 10
+        },
+        {
+          "id": "tt0460637:3:11",
+          "title": "Episódio 11",
+          "season": 3,
+          "episode": 11
+        },
+        {
+          "id": "tt0460637:3:12",
+          "title": "Episódio 12",
+          "season": 3,
+          "episode": 12
+        },
+        {
+          "id": "tt0460637:3:13",
+          "title": "Episódio 13",
+          "season": 3,
+          "episode": 13
+        },
+        {
+          "id": "tt0460637:3:14",
+          "title": "Episódio 14",
+          "season": 3,
+          "episode": 14
+        },
+        {
+          "id": "tt0460637:3:15",
+          "title": "Episódio 15",
+          "season": 3,
+          "episode": 15
+        },
+        {
+          "id": "tt0460637:3:16",
+          "title": "Episódio 16",
+          "season": 3,
+          "episode": 16
+        },
+        {
+          "id": "tt0460637:3:17",
+          "title": "Episódio 17",
+          "season": 3,
+          "episode": 17
+        },
+        {
+          "id": "tt0460637:3:18",
+          "title": "Episódio 18",
+          "season": 3,
+          "episode": 18
+        },
+        {
+          "id": "tt0460637:3:19",
+          "title": "Episódio 19",
+          "season": 3,
+          "episode": 19
+        },
+        {
+          "id": "tt0460637:3:20",
+          "title": "Episódio 20",
+          "season": 3,
+          "episode": 20
+        },
+        {
+          "id": "tt0460637:3:21",
+          "title": "Episódio 21",
+          "season": 3,
+          "episode": 21
+        },
+        {
+          "id": "tt0460637:3:22",
+          "title": "Episódio 22",
+          "season": 3,
+          "episode": 22
+        },
+        {
+          "id": "tt0460637:4:1",
+          "title": "Episódio 1",
+          "season": 4,
+          "episode": 1
+        },
+        {
+          "id": "tt0460637:4:2",
+          "title": "Episódio 2",
+          "season": 4,
+          "episode": 2
+        },
+        {
+          "id": "tt0460637:4:3",
+          "title": "Episódio 3",
+          "season": 4,
+          "episode": 3
+        },
+        {
+          "id": "tt0460637:4:4",
+          "title": "Episódio 4",
+          "season": 4,
+          "episode": 4
+        },
+        {
+          "id": "tt0460637:4:5",
+          "title": "Episódio 5",
+          "season": 4,
+          "episode": 5
+        },
+        {
+          "id": "tt0460637:4:6",
+          "title": "Episódio 6",
+          "season": 4,
+          "episode": 6
+        },
+        {
+          "id": "tt0460637:4:7",
+          "title": "Episódio 7",
+          "season": 4,
+          "episode": 7
+        },
+        {
+          "id": "tt0460637:4:8",
+          "title": "Episódio 8",
+          "season": 4,
+          "episode": 8
+        },
+        {
+          "id": "tt0460637:4:9",
+          "title": "Episódio 9",
+          "season": 4,
+          "episode": 9
+        },
+        {
+          "id": "tt0460637:4:10",
+          "title": "Episódio 10",
+          "season": 4,
+          "episode": 10
+        },
+        {
+          "id": "tt0460637:4:11",
+          "title": "Episódio 11",
+          "season": 4,
+          "episode": 11
+        },
+        {
+          "id": "tt0460637:4:12",
+          "title": "Episódio 12",
+          "season": 4,
+          "episode": 12
+        },
+        {
+          "id": "tt0460637:4:13",
+          "title": "Episódio 13",
+          "season": 4,
+          "episode": 13
+        },
+        {
+          "id": "tt0460637:4:14",
+          "title": "Episódio 14",
+          "season": 4,
+          "episode": 14
+        },
+        {
+          "id": "tt0460637:4:15",
+          "title": "Episódio 15",
+          "season": 4,
+          "episode": 15
+        },
+        {
+          "id": "tt0460637:4:16",
+          "title": "Episódio 16",
+          "season": 4,
+          "episode": 16
+        },
+        {
+          "id": "tt0460637:4:17",
+          "title": "Episódio 17",
+          "season": 4,
+          "episode": 17
+        },
+        {
+          "id": "tt0460637:4:18",
+          "title": "Episódio 18",
+          "season": 4,
+          "episode": 18
+        },
+        {
+          "id": "tt0460637:4:19",
+          "title": "Episódio 19",
+          "season": 4,
+          "episode": 19
+        },
+        {
+          "id": "tt0460637:4:20",
+          "title": "Episódio 20",
+          "season": 4,
+          "episode": 20
+        },
+        {
+          "id": "tt0460637:4:21",
+          "title": "Episódio 21",
+          "season": 4,
+          "episode": 21
+        },
+        {
+          "id": "tt0460637:4:22",
+          "title": "Episódio 22",
+          "season": 4,
+          "episode": 22
+        }
       ]
     },
     {
@@ -83,6 +1275,50 @@
       "genres": [
         "Animação",
         "Comédia"
+      ],
+      "videos": [
+        {
+          "id": "tt0182576:1:1",
+          "title": "Episódio 1",
+          "season": 1,
+          "episode": 1
+        },
+        {
+          "id": "tt0182576:1:2",
+          "title": "Episódio 2",
+          "season": 1,
+          "episode": 2
+        },
+        {
+          "id": "tt0182576:1:3",
+          "title": "Episódio 3",
+          "season": 1,
+          "episode": 3
+        },
+        {
+          "id": "tt0182576:1:4",
+          "title": "Episódio 4",
+          "season": 1,
+          "episode": 4
+        },
+        {
+          "id": "tt0182576:1:5",
+          "title": "Episódio 5",
+          "season": 1,
+          "episode": 5
+        },
+        {
+          "id": "tt0182576:1:6",
+          "title": "Episódio 6",
+          "season": 1,
+          "episode": 6
+        },
+        {
+          "id": "tt0182576:1:7",
+          "title": "Episódio 7",
+          "season": 1,
+          "episode": 7
+        }
       ]
     },
     {
@@ -96,6 +1332,266 @@
       "genres": [
         "Animação",
         "Comédia"
+      ],
+      "videos": [
+        {
+          "id": "tt0182576:2:1",
+          "title": "Episódio 1",
+          "season": 2,
+          "episode": 1
+        },
+        {
+          "id": "tt0182576:2:2",
+          "title": "Episódio 2",
+          "season": 2,
+          "episode": 2
+        },
+        {
+          "id": "tt0182576:2:3",
+          "title": "Episódio 3",
+          "season": 2,
+          "episode": 3
+        },
+        {
+          "id": "tt0182576:2:4",
+          "title": "Episódio 4",
+          "season": 2,
+          "episode": 4
+        },
+        {
+          "id": "tt0182576:2:5",
+          "title": "Episódio 5",
+          "season": 2,
+          "episode": 5
+        },
+        {
+          "id": "tt0182576:2:6",
+          "title": "Episódio 6",
+          "season": 2,
+          "episode": 6
+        },
+        {
+          "id": "tt0182576:2:7",
+          "title": "Episódio 7",
+          "season": 2,
+          "episode": 7
+        },
+        {
+          "id": "tt0182576:2:8",
+          "title": "Episódio 8",
+          "season": 2,
+          "episode": 8
+        },
+        {
+          "id": "tt0182576:2:9",
+          "title": "Episódio 9",
+          "season": 2,
+          "episode": 9
+        },
+        {
+          "id": "tt0182576:2:10",
+          "title": "Episódio 10",
+          "season": 2,
+          "episode": 10
+        },
+        {
+          "id": "tt0182576:2:11",
+          "title": "Episódio 11",
+          "season": 2,
+          "episode": 11
+        },
+        {
+          "id": "tt0182576:2:12",
+          "title": "Episódio 12",
+          "season": 2,
+          "episode": 12
+        },
+        {
+          "id": "tt0182576:2:13",
+          "title": "Episódio 13",
+          "season": 2,
+          "episode": 13
+        },
+        {
+          "id": "tt0182576:2:14",
+          "title": "Episódio 14",
+          "season": 2,
+          "episode": 14
+        },
+        {
+          "id": "tt0182576:2:15",
+          "title": "Episódio 15",
+          "season": 2,
+          "episode": 15
+        },
+        {
+          "id": "tt0182576:2:16",
+          "title": "Episódio 16",
+          "season": 2,
+          "episode": 16
+        },
+        {
+          "id": "tt0182576:2:17",
+          "title": "Episódio 17",
+          "season": 2,
+          "episode": 17
+        },
+        {
+          "id": "tt0182576:2:18",
+          "title": "Episódio 18",
+          "season": 2,
+          "episode": 18
+        },
+        {
+          "id": "tt0182576:2:19",
+          "title": "Episódio 19",
+          "season": 2,
+          "episode": 19
+        },
+        {
+          "id": "tt0182576:2:20",
+          "title": "Episódio 20",
+          "season": 2,
+          "episode": 20
+        },
+        {
+          "id": "tt0182576:2:21",
+          "title": "Episódio 21",
+          "season": 2,
+          "episode": 21
+        },
+        {
+          "id": "tt0182576:3:1",
+          "title": "Episódio 1",
+          "season": 3,
+          "episode": 1
+        },
+        {
+          "id": "tt0182576:3:2",
+          "title": "Episódio 2",
+          "season": 3,
+          "episode": 2
+        },
+        {
+          "id": "tt0182576:3:3",
+          "title": "Episódio 3",
+          "season": 3,
+          "episode": 3
+        },
+        {
+          "id": "tt0182576:3:4",
+          "title": "Episódio 4",
+          "season": 3,
+          "episode": 4
+        },
+        {
+          "id": "tt0182576:3:5",
+          "title": "Episódio 5",
+          "season": 3,
+          "episode": 5
+        },
+        {
+          "id": "tt0182576:3:6",
+          "title": "Episódio 6",
+          "season": 3,
+          "episode": 6
+        },
+        {
+          "id": "tt0182576:3:7",
+          "title": "Episódio 7",
+          "season": 3,
+          "episode": 7
+        },
+        {
+          "id": "tt0182576:3:8",
+          "title": "Episódio 8",
+          "season": 3,
+          "episode": 8
+        },
+        {
+          "id": "tt0182576:3:9",
+          "title": "Episódio 9",
+          "season": 3,
+          "episode": 9
+        },
+        {
+          "id": "tt0182576:3:10",
+          "title": "Episódio 10",
+          "season": 3,
+          "episode": 10
+        },
+        {
+          "id": "tt0182576:3:11",
+          "title": "Episódio 11",
+          "season": 3,
+          "episode": 11
+        },
+        {
+          "id": "tt0182576:3:12",
+          "title": "Episódio 12",
+          "season": 3,
+          "episode": 12
+        },
+        {
+          "id": "tt0182576:3:13",
+          "title": "Episódio 13",
+          "season": 3,
+          "episode": 13
+        },
+        {
+          "id": "tt0182576:3:14",
+          "title": "Episódio 14",
+          "season": 3,
+          "episode": 14
+        },
+        {
+          "id": "tt0182576:3:15",
+          "title": "Episódio 15",
+          "season": 3,
+          "episode": 15
+        },
+        {
+          "id": "tt0182576:3:16",
+          "title": "Episódio 16",
+          "season": 3,
+          "episode": 16
+        },
+        {
+          "id": "tt0182576:3:17",
+          "title": "Episódio 17",
+          "season": 3,
+          "episode": 17
+        },
+        {
+          "id": "tt0182576:3:18",
+          "title": "Episódio 18",
+          "season": 3,
+          "episode": 18
+        },
+        {
+          "id": "tt0182576:3:19",
+          "title": "Episódio 19",
+          "season": 3,
+          "episode": 19
+        },
+        {
+          "id": "tt0182576:3:20",
+          "title": "Episódio 20",
+          "season": 3,
+          "episode": 20
+        },
+        {
+          "id": "tt0182576:3:21",
+          "title": "Episódio 21",
+          "season": 3,
+          "episode": 21
+        },
+        {
+          "id": "tt0182576:3:22",
+          "title": "Episódio 22",
+          "season": 3,
+          "episode": 22
+        }
       ]
     }
   ]

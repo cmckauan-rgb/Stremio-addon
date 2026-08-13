@@ -9,6 +9,104 @@
     "releaseInfo": "2023",
     "genres": [
       "Drama"
+    ],
+    "videos": [
+      {
+        "id": "tt3581920:1:1",
+        "title": "Episódio 1",
+        "season": 1,
+        "episode": 1
+      },
+      {
+        "id": "tt3581920:1:2",
+        "title": "Episódio 2",
+        "season": 1,
+        "episode": 2
+      },
+      {
+        "id": "tt3581920:1:3",
+        "title": "Episódio 3",
+        "season": 1,
+        "episode": 3
+      },
+      {
+        "id": "tt3581920:1:4",
+        "title": "Episódio 4",
+        "season": 1,
+        "episode": 4
+      },
+      {
+        "id": "tt3581920:1:5",
+        "title": "Episódio 5",
+        "season": 1,
+        "episode": 5
+      },
+      {
+        "id": "tt3581920:1:6",
+        "title": "Episódio 6",
+        "season": 1,
+        "episode": 6
+      },
+      {
+        "id": "tt3581920:1:7",
+        "title": "Episódio 7",
+        "season": 1,
+        "episode": 7
+      },
+      {
+        "id": "tt3581920:1:8",
+        "title": "Episódio 8",
+        "season": 1,
+        "episode": 8
+      },
+      {
+        "id": "tt3581920:1:9",
+        "title": "Episódio 9",
+        "season": 1,
+        "episode": 9
+      },
+      {
+        "id": "tt3581920:2:1",
+        "title": "Episódio 1",
+        "season": 2,
+        "episode": 1
+      },
+      {
+        "id": "tt3581920:2:2",
+        "title": "Episódio 2",
+        "season": 2,
+        "episode": 2
+      },
+      {
+        "id": "tt3581920:2:3",
+        "title": "Episódio 3",
+        "season": 2,
+        "episode": 3
+      },
+      {
+        "id": "tt3581920:2:4",
+        "title": "Episódio 4",
+        "season": 2,
+        "episode": 4
+      },
+      {
+        "id": "tt3581920:2:5",
+        "title": "Episódio 5",
+        "season": 2,
+        "episode": 5
+      },
+      {
+        "id": "tt3581920:2:6",
+        "title": "Episódio 6",
+        "season": 2,
+        "episode": 6
+      },
+      {
+        "id": "tt3581920:2:7",
+        "title": "Episódio 7",
+        "season": 2,
+        "episode": 7
+      }
     ]
   }
 }
