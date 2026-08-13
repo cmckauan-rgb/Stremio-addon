@@ -1,392 +1,767 @@
+import json
 import os
 import re
-import json
-import requests
-from bs4 import BeautifulSoup
+import shutil
+import time
+from pathlib import Path
 from urllib.parse import quote
 
-# 1. Configurações Globais
+import requests
+from bs4 import BeautifulSoup
+
+# ============================================================
+# CONFIGURAÇÃO
+# ============================================================
+
 TMDB_API_KEY = os.environ.get("TMDB_API_KEY")
 PROXY_BASE_URL = "https://drive-proxy.cmckauan.workers.dev"
 
 FILMES_FOLDER_ID = "1twEX01x0SdhtzoK58klrzP8JoDFdx6gW"
 SERIES_FOLDER_ID = "1OZutaKMisH1w6W8PqKFpekyfIJpq6Rws"
+
 LANGUAGE = "pt-BR"
+REQUEST_TIMEOUT = 12
+MAX_RETRIES = 3
+
+VIDEO_EXTENSIONS = {".mkv", ".mp4", ".avi", ".webm", ".mov"}
 
 GENEROS_FILMES = [
-    "Ação", "Aventura", "Animação", "Cinema TV", "Comédia", "Crime", 
-    "Documentário", "Drama", "Família", "Fantasia", "Ficção científica", 
-    "Guerra", "História", "Mistério", "Música", "Romance", "Terror", "Thriller"
+    "Ação", "Aventura", "Animação", "Cinema TV", "Comédia", "Crime",
+    "Documentário", "Drama", "Família", "Fantasia", "Ficção científica",
+    "Guerra", "História", "Mistério", "Música", "Romance", "Terror",
+    "Thriller",
 ]
 
 GENEROS_SERIES = [
     "Ação", "Aventura", "Animação", "Comédia", "Crime", "Documentário",
-    "Drama", "Família", "Kids", "Mistério", "Reality", "Sci-Fi & Fantasy", "Soap", "Talk"
+    "Drama", "Família", "Kids", "Mistério", "Reality",
+    "Sci-Fi & Fantasy", "Soap", "Talk",
 ]
 
-if not TMDB_API_KEY:
-    print("ERRO CRÍTICO: TMDB_API_KEY não foi encontrada nos Secrets!")
-    exit(1)
+# Diretórios/arquivos que este script possui e pode regenerar.
+GENERATED_PATHS = [
+    Path("catalog/movie/meus_filmes"),
+    Path("catalog/series/minhas_series"),
+    Path("meta/movie"),
+    Path("meta/series"),
+    Path("stream/movie"),
+    Path("stream/series"),
+]
 
-# Caches globais e prevenção de recursão infinita
+CACHE_DIR = Path(".cache")
+CACHE_MOVIES_FILE = CACHE_DIR / "tmdb_movies.json"
+CACHE_SERIES_FILE = CACHE_DIR / "tmdb_series.json"
+
+if not TMDB_API_KEY:
+    raise SystemExit("ERRO CRÍTICO: TMDB_API_KEY não foi encontrada nos Secrets.")
+
+
+# ============================================================
+# HTTP / CACHE
+# ============================================================
+
+session = requests.Session()
+session.headers.update({
+    "User-Agent": "Stremio-Addon-Generator/2.0",
+    "Accept": "application/json, text/html",
+})
+
+CACHE_TMDB_MOVIES = {}
 CACHE_TMDB_SERIES = {}
 PASTAS_VISITADAS = set()
 
-# --- NAVEGAÇÃO NO PROXY WORKER ---
 
-def listar_pasta_proxy(folder_id):
-    """Lê os arquivos/subpastas de uma ID de pasta via Worker"""
-    url_pasta = f"{PROXY_BASE_URL}/folder/{folder_id}"
-    headers = {"User-Agent": "Mozilla/5.0", "Accept": "application/json, text/html"}
-
+def carregar_cache(path):
+    if not path.exists():
+        return {}
     try:
-        res = requests.post(f"{PROXY_BASE_URL}/", json={"id": folder_id}, headers=headers, timeout=8)
-        if res.status_code == 200:
-            dados = res.json()
-            items = dados.get("files") or dados.get("data", {}).get("files") or dados.get("items", [])
-            if items:
-                return items
-    except Exception:
-        pass
+        with path.open("r", encoding="utf-8") as f:
+            data = json.load(f)
+        return data if isinstance(data, dict) else {}
+    except Exception as exc:
+        print(f"⚠️ Não foi possível ler cache {path}: {exc}")
+        return {}
 
-    try:
-        res = requests.get(url_pasta, headers=headers, timeout=8)
-        if res.status_code == 200:
-            if "application/json" in res.headers.get("Content-Type", ""):
-                dados = res.json()
-                return dados.get("files", dados.get("items", []))
-            
-            soup = BeautifulSoup(res.text, "html.parser")
-            items = []
-            for a in soup.find_all("a", href=True):
-                href = a["href"]
-                texto = a.get_text().strip()
-                if "/folder/" in href:
-                    fid = href.split("/folder/")[-1]
-                    items.append({"name": texto, "id": fid, "mimeType": "application/vnd.google-apps.folder"})
-                elif "/file/" in href or any(texto.lower().endswith(ext) for ext in ['.mkv', '.mp4', '.avi', '.webm']):
-                    fid = href.split("/file/")[-1] if "/file/" in href else href
-                    items.append({"name": texto, "id": fid, "mimeType": "video/x-matroska"})
-            return items
-    except Exception:
-        pass
 
-    return []
+def salvar_cache(path, data):
+    path.parent.mkdir(parents=True, exist_ok=True)
+    tmp = path.with_suffix(path.suffix + ".tmp")
+    with tmp.open("w", encoding="utf-8") as f:
+        json.dump(data, f, ensure_ascii=False, indent=2)
+    tmp.replace(path)
 
-def buscar_arquivos_recursivo(folder_id):
-    """Navega recursivamente por todas as subpastas evitando loops"""
-    if folder_id in PASTAS_VISITADAS:
-        return []
-    PASTAS_VISITADAS.add(folder_id)
 
-    todos_arquivos = []
-    itens = listar_pasta_proxy(folder_id)
-    
-    for item in itens:
-        mime = item.get("mimeType", "")
-        item_id = item.get("id")
-        nome = item.get("name", "")
+CACHE_TMDB_MOVIES = carregar_cache(CACHE_MOVIES_FILE)
+CACHE_TMDB_SERIES = carregar_cache(CACHE_SERIES_FILE)
 
-        is_video = any(nome.lower().endswith(ext) for ext in ['.mkv', '.mp4', '.avi', '.webm'])
 
-        if ("folder" in mime or "directory" in mime or item_id) and not is_video:
-            if item_id and item_id != folder_id and item_id not in PASTAS_VISITADAS:
-                todos_arquivos.extend(buscar_arquivos_recursivo(item_id))
-        elif is_video:
-            todos_arquivos.append(item)
-            
-    return todos_arquivos
-
-# --- PARSERS E BUSCAS TMDB ---
-
-def extrair_info_nome(nome_arquivo):
-    """Extrai Título, Ano e ID do TMDB do nome do arquivo/pasta de filme"""
-    nome_limpo = re.sub(r'\.(mkv|mp4|avi|webm|mov)$', '', nome_arquivo, flags=re.IGNORECASE)
-    
-    id_match = re.search(r'-(?: id| tmdb) (\d+)', nome_limpo, flags=re.IGNORECASE)
-    tmdb_id = id_match.group(1) if id_match else None
-    
-    ano_match = re.search(r'\((\d{4})\)', nome_limpo)
-    ano = ano_match.group(1) if ano_match else None
-    
-    titulo = re.sub(r'\((\d{4})\)', '', nome_limpo)
-    titulo = re.sub(r'-(?: id| tmdb) \d+', '', titulo, flags=re.IGNORECASE)
-    titulo = titulo.strip().lstrip('+').strip()
-    
-    return titulo, ano, tmdb_id
-
-def buscar_tmdb_filme(titulo, ano=None, tmdb_id=None):
-    """Busca metadados de filmes na API do TMDB usando ID, Ano ou Título"""
-    if tmdb_id:
-        url = f"https://api.themoviedb.org/3/movie/{tmdb_id}?api_key={TMDB_API_KEY}&language={LANGUAGE}&append_to_response=external_ids"
+def request_json(url, params=None, label="requisição"):
+    """GET com retry, tratamento de rate limit e erros HTTP."""
+    for tentativa in range(1, MAX_RETRIES + 1):
         try:
-            res = requests.get(url, timeout=5)
-            if res.status_code == 200:
-                return res.json()
-        except Exception:
-            pass
+            response = session.get(
+                url,
+                params=params,
+                timeout=REQUEST_TIMEOUT,
+            )
 
-    url_busca = f"https://api.themoviedb.org/3/search/movie?api_key={TMDB_API_KEY}&query={quote(titulo)}&language={LANGUAGE}"
-    if ano:
-        url_busca += f"&primary_release_year={ano}"
-        
-    try:
-        res = requests.get(url_busca, timeout=5)
-        if res.status_code == 200:
-            dados = res.json()
-            resultados = dados.get("results", [])
-            if resultados:
-                tmdb_data = resultados[0]
-                url_detalhes = f"https://api.themoviedb.org/3/movie/{tmdb_data['id']}?api_key={TMDB_API_KEY}&language={LANGUAGE}&append_to_response=external_ids"
-                res_det = requests.get(url_detalhes, timeout=5)
-                if res_det.status_code == 200:
-                    return res_det.json()
-                return tmdb_data
-    except Exception as e:
-        print(f"Erro ao buscar TMDB Filme '{titulo}': {e}")
-            
+            if response.status_code == 429:
+                retry_after = response.headers.get("Retry-After")
+                try:
+                    espera = min(float(retry_after), 30) if retry_after else 2 ** tentativa
+                except ValueError:
+                    espera = 2 ** tentativa
+
+                print(f"⚠️ Rate limit em {label}; aguardando {espera:.1f}s...")
+                time.sleep(espera)
+                continue
+
+            if response.status_code == 404:
+                return None
+
+            response.raise_for_status()
+            return response.json()
+
+        except (requests.RequestException, ValueError) as exc:
+            if tentativa == MAX_RETRIES:
+                print(f"❌ {label} falhou após {MAX_RETRIES} tentativas: {exc}")
+                return None
+
+            espera = 2 ** (tentativa - 1)
+            print(f"⚠️ {label} falhou ({tentativa}/{MAX_RETRIES}): {exc}; "
+                  f"tentando novamente em {espera}s...")
+            time.sleep(espera)
+
     return None
 
+
+# ============================================================
+# UTILITÁRIOS
+# ============================================================
+
+def limpar_gerados():
+    """Remove somente os artefatos que o gerador controla."""
+    for path in GENERATED_PATHS:
+        if path.exists():
+            print(f"🧹 Limpando {path}")
+            shutil.rmtree(path)
+
+    # catalog.json é mantido como espelho do catálogo de filmes.
+    # Não removemos para preservar compatibilidade com o repositório atual.
+
+
+def normalizar_nome(nome):
+    nome = str(nome or "").lower()
+    nome = re.sub(r"[\._]+", " ", nome)
+    nome = re.sub(r"\s+", " ", nome)
+    return nome.strip()
+
+
+def is_video_file(name):
+    return Path(str(name or "")).suffix.lower() in VIDEO_EXTENSIONS
+
+
+def construir_stream_url(file_id):
+    if not file_id:
+        return None
+    value = str(file_id)
+    return value if value.startswith(("http://", "https://")) else f"{PROXY_BASE_URL}/file/{value}"
+
+
+def extrair_ano(nome):
+    match = re.search(r"\((\d{4})\)", nome or "")
+    return match.group(1) if match else None
+
+
+def extrair_id_forcado(nome):
+    match = re.search(r"-(?:\s*id|\s*tmdb)\s*(\d+)", nome or "", re.IGNORECASE)
+    return match.group(1) if match else None
+
+
+# ============================================================
+# GOOGLE DRIVE / WORKER
+# ============================================================
+
+def listar_pasta_proxy(folder_id):
+    """Lista itens de uma pasta pelo POST do Worker, com GET como fallback."""
+    headers = {
+        "User-Agent": "Mozilla/5.0",
+        "Accept": "application/json, text/html",
+    }
+
+    try:
+        response = session.post(
+            f"{PROXY_BASE_URL}/",
+            json={"id": folder_id},
+            headers=headers,
+            timeout=REQUEST_TIMEOUT,
+        )
+        if response.ok:
+            data = response.json()
+            items = (
+                data.get("files")
+                or data.get("data", {}).get("files")
+                or data.get("items")
+                or []
+            )
+            if isinstance(items, list):
+                return items
+    except (requests.RequestException, ValueError) as exc:
+        print(f"⚠️ POST / para pasta {folder_id} falhou: {exc}")
+
+    try:
+        response = session.get(
+            f"{PROXY_BASE_URL}/folder/{folder_id}",
+            headers=headers,
+            timeout=REQUEST_TIMEOUT,
+        )
+        response.raise_for_status()
+
+        content_type = response.headers.get("Content-Type", "").lower()
+
+        if "application/json" in content_type:
+            data = response.json()
+            items = data.get("files") or data.get("items") or []
+            return items if isinstance(items, list) else []
+
+        soup = BeautifulSoup(response.text, "html.parser")
+        items = []
+
+        for anchor in soup.find_all("a", href=True):
+            href = anchor["href"]
+            text = anchor.get_text(" ", strip=True)
+
+            if "/folder/" in href:
+                fid = href.split("/folder/", 1)[1].split("?", 1)[0].split("#", 1)[0]
+                items.append({
+                    "name": text,
+                    "id": fid,
+                    "mimeType": "application/vnd.google-apps.folder",
+                })
+            elif "/file/" in href or is_video_file(text):
+                fid = (
+                    href.split("/file/", 1)[1].split("?", 1)[0].split("#", 1)[0]
+                    if "/file/" in href
+                    else href
+                )
+                items.append({
+                    "name": text,
+                    "id": fid,
+                    "mimeType": "video/unknown",
+                })
+
+        return items
+
+    except (requests.RequestException, ValueError) as exc:
+        print(f"❌ Não foi possível listar pasta {folder_id}: {exc}")
+        return []
+
+
+def item_e_pasta(item):
+    mime = str(item.get("mimeType", "")).lower()
+    return (
+        mime == "application/vnd.google-apps.folder"
+        or "google-apps.folder" in mime
+        or mime.endswith("/folder")
+        or mime == "folder"
+        or "directory" in mime
+    )
+
+
+def buscar_arquivos_recursivo(folder_id):
+    """Busca vídeos em toda a árvore de pastas, evitando ciclos."""
+    if folder_id in PASTAS_VISITADAS:
+        return []
+
+    PASTAS_VISITADAS.add(folder_id)
+    encontrados = []
+
+    for item in listar_pasta_proxy(folder_id):
+        item_id = item.get("id")
+        nome = item.get("name") or item.get("title") or ""
+        if not item_id or not nome:
+            continue
+
+        if item_e_pasta(item):
+            if item_id != folder_id:
+                encontrados.extend(buscar_arquivos_recursivo(item_id))
+        elif is_video_file(nome):
+            encontrados.append(item)
+
+    return encontrados
+
+
+# ============================================================
+# TMDB
+# ============================================================
+
+def buscar_tmdb_filme(titulo, ano=None, tmdb_id=None):
+    cache_key = f"id:{tmdb_id}" if tmdb_id else f"title:{normalizar_nome(titulo)}|year:{ano or ''}"
+
+    if cache_key in CACHE_TMDB_MOVIES:
+        return CACHE_TMDB_MOVIES[cache_key]
+
+    if tmdb_id:
+        data = request_json(
+            f"https://api.themoviedb.org/3/movie/{tmdb_id}",
+            params={
+                "api_key": TMDB_API_KEY,
+                "language": LANGUAGE,
+                "append_to_response": "external_ids",
+            },
+            label=f"TMDB filme {tmdb_id}",
+        )
+        if data:
+            CACHE_TMDB_MOVIES[cache_key] = data
+            return data
+
+    data = request_json(
+        "https://api.themoviedb.org/3/search/movie",
+        params={
+            "api_key": TMDB_API_KEY,
+            "query": titulo,
+            "language": LANGUAGE,
+            **({"primary_release_year": ano} if ano else {}),
+        },
+        label=f"busca TMDB filme '{titulo}'",
+    )
+
+    results = data.get("results", []) if data else []
+    if not results:
+        CACHE_TMDB_MOVIES[cache_key] = None
+        return None
+
+    tmdb_id_result = results[0].get("id")
+    details = request_json(
+        f"https://api.themoviedb.org/3/movie/{tmdb_id_result}",
+        params={
+            "api_key": TMDB_API_KEY,
+            "language": LANGUAGE,
+            "append_to_response": "external_ids",
+        },
+        label=f"detalhes TMDB filme {tmdb_id_result}",
+    )
+
+    result = details or results[0]
+    CACHE_TMDB_MOVIES[cache_key] = result
+    return result
+
+
+def buscar_tmdb_tv(nome_serie, tmdb_id=None):
+    cache_key = f"id:{tmdb_id}" if tmdb_id else f"name:{normalizar_nome(nome_serie)}"
+
+    if cache_key in CACHE_TMDB_SERIES:
+        return CACHE_TMDB_SERIES[cache_key]
+
+    if tmdb_id:
+        data = request_json(
+            f"https://api.themoviedb.org/3/tv/{tmdb_id}",
+            params={
+                "api_key": TMDB_API_KEY,
+                "language": LANGUAGE,
+                "append_to_response": "external_ids",
+            },
+            label=f"TMDB série {tmdb_id}",
+        )
+        if data:
+            CACHE_TMDB_SERIES[cache_key] = data
+            return data
+
+    data = request_json(
+        "https://api.themoviedb.org/3/search/tv",
+        params={
+            "api_key": TMDB_API_KEY,
+            "query": nome_serie,
+            "language": LANGUAGE,
+        },
+        label=f"busca TMDB série '{nome_serie}'",
+    )
+
+    results = data.get("results", []) if data else []
+    if not results:
+        CACHE_TMDB_SERIES[cache_key] = None
+        return None
+
+    tv_id = results[0].get("id")
+    details = request_json(
+        f"https://api.themoviedb.org/3/tv/{tv_id}",
+        params={
+            "api_key": TMDB_API_KEY,
+            "language": LANGUAGE,
+            "append_to_response": "external_ids",
+        },
+        label=f"detalhes TMDB série {tv_id}",
+    )
+
+    result = details or results[0]
+    CACHE_TMDB_SERIES[cache_key] = result
+    return result
+
+
+# ============================================================
+# PARSERS
+# ============================================================
+
+def extrair_info_nome_filme(nome_arquivo):
+    base = re.sub(
+        r"\.(mkv|mp4|avi|webm|mov)$",
+        "",
+        nome_arquivo,
+        flags=re.IGNORECASE,
+    )
+
+    tmdb_id = extrair_id_forcado(base)
+    ano = extrair_ano(base)
+
+    titulo = re.sub(r"\(\d{4}\)", "", base)
+    titulo = re.sub(
+        r"-(?:\s*id|\s*tmdb)\s*\d+",
+        "",
+        titulo,
+        flags=re.IGNORECASE,
+    )
+    titulo = titulo.strip().lstrip("+").strip()
+
+    return titulo, ano, tmdb_id
+
+
 def extrair_info_serie(nome_arquivo):
-    """Extrai Nome da Série, Temporada (S) e Episódio (E)"""
-    match = re.search(r'(.*?)[._\s]+[sS](\d{1,2})[eE](\d{1,2})', nome_arquivo)
-    if match:
-        nome_serie = match.group(1).replace('.', ' ').replace('_', ' ').strip()
-        return nome_serie, int(match.group(2)), int(match.group(3))
-    
-    match_alt = re.search(r'(.*?)[._\s]+(\d{1,2})x(\d{1,2})', nome_arquivo)
-    if match_alt:
-        nome_serie = match_alt.group(1).replace('.', ' ').replace('_', ' ').strip()
-        return nome_serie, int(match_alt.group(2)), int(match_alt.group(3))
+    patterns = [
+        r"^(.*?)[._\s-]+[sS](\d{1,2})[eE](\d{1,3})(?:\b|[^0-9])",
+        r"^(.*?)[._\s-]+(\d{1,2})x(\d{1,3})(?:\b|[^0-9])",
+    ]
+
+    for pattern in patterns:
+        match = re.search(pattern, nome_arquivo)
+        if match:
+            nome = re.sub(r"[\._]+", " ", match.group(1))
+            nome = re.sub(r"\s+", " ", nome).strip()
+            return nome, int(match.group(2)), int(match.group(3))
 
     return None, None, None
 
-def buscar_tmdb_tv(nome_serie, tmdb_id=None):
-    """Busca Série de TV na API do TMDB usando ID ou Nome (com Cache)"""
-    if tmdb_id:
-        try:
-            url_det = f"https://api.themoviedb.org/3/tv/{tmdb_id}?api_key={TMDB_API_KEY}&language={LANGUAGE}&append_to_response=external_ids"
-            res_det = requests.get(url_det, timeout=5)
-            if res_det.status_code == 200:
-                return res_det.json()
-        except Exception:
-            pass
 
-    nome_key = nome_serie.lower().strip()
-    if nome_key in CACHE_TMDB_SERIES:
-        return CACHE_TMDB_SERIES[nome_key]
+# ============================================================
+# METADATA / CATÁLOGOS
+# ============================================================
 
-    try:
-        url_busca = f"https://api.themoviedb.org/3/search/tv?api_key={TMDB_API_KEY}&query={quote(nome_serie)}&language={LANGUAGE}"
-        res = requests.get(url_busca, timeout=5)
-        if res.status_code == 200:
-            dados = res.json()
-            resultados = dados.get("results", [])
-            if resultados:
-                tv_id = resultados[0]['id']
-                url_det = f"https://api.themoviedb.org/3/tv/{tv_id}?api_key={TMDB_API_KEY}&language={LANGUAGE}&append_to_response=external_ids"
-                res_det = requests.get(url_det, timeout=5)
-                if res_det.status_code == 200:
-                    CACHE_TMDB_SERIES[nome_key] = res_det.json()
-                    return CACHE_TMDB_SERIES[nome_key]
-                CACHE_TMDB_SERIES[nome_key] = resultados[0]
-                return resultados[0]
-    except Exception as e:
-        print(f"Erro ao buscar TMDB Série '{nome_serie}': {e}")
-        
-    CACHE_TMDB_SERIES[nome_key] = None
-    return None
+def imagem_tmdb(path, size):
+    return f"https://image.tmdb.org/t/p/{size}{path}" if path else None
 
-# --- PROCESSADORES PRINCIPAIS ---
+
+def montar_meta_movie(info, titulo_fallback, mid):
+    return {
+        "id": mid,
+        "type": "movie",
+        "name": info.get("title") or titulo_fallback,
+        "poster": imagem_tmdb(info.get("poster_path"), "w500"),
+        "background": imagem_tmdb(info.get("backdrop_path"), "w1280"),
+        "description": info.get("overview") or "Sem sinopse disponível.",
+        "releaseInfo": (info.get("release_date") or "")[:4],
+        "genres": [
+            g.get("name")
+            for g in info.get("genres", [])
+            if g.get("name")
+        ],
+    }
+
+
+def montar_meta_series(info, nome_fallback, sid):
+    return {
+        "id": sid,
+        "type": "series",
+        "name": info.get("name") or nome_fallback,
+        "poster": imagem_tmdb(info.get("poster_path"), "w500"),
+        "background": imagem_tmdb(info.get("backdrop_path"), "w1280"),
+        "description": info.get("overview") or "Sem sinopse disponível.",
+        "releaseInfo": (info.get("first_air_date") or "")[:4],
+        "genres": [
+            g.get("name")
+            for g in info.get("genres", [])
+            if g.get("name")
+        ],
+    }
+
+
+def salvar_json(path, data):
+    path.parent.mkdir(parents=True, exist_ok=True)
+    with path.open("w", encoding="utf-8") as f:
+        json.dump(data, f, ensure_ascii=False, indent=2)
+
+
+def gerar_catalogos_por_genero(metas, pasta, generos_padrao):
+    generos = set(generos_padrao)
+
+    for meta in metas:
+        generos.update(g for g in meta.get("genres", []) if g)
+
+    for genero in sorted(generos, key=str.casefold):
+        filtradas = [
+            meta for meta in metas
+            if any(g.casefold() == genero.casefold() for g in meta.get("genres", []))
+        ]
+
+        # Apenas UMA representação física do arquivo.
+        # O servidor web fará o escaping UTF-8 da URL.
+        filename = f"genre={genero}.json"
+        salvar_json(
+            Path(pasta) / filename,
+            {"metas": filtradas},
+        )
+
+
+# ============================================================
+# FILMES
+# ============================================================
 
 def processar_filmes():
     print("\n🎬 --- PROCESSANDO FILMES ---")
-    items = listar_pasta_proxy(FILMES_FOLDER_ID)
-    metas = []
-    
-    os.makedirs("catalog/movie/meus_filmes", exist_ok=True)
-    os.makedirs("stream/movie", exist_ok=True)
-    os.makedirs("meta/movie", exist_ok=True)
 
-    for item in items:
-        nome_arq = item.get("name") or item.get("title", "")
+    arquivos = buscar_arquivos_recursivo(FILMES_FOLDER_ID)
+    print(f"📦 Vídeos de filmes encontrados: {len(arquivos)}")
+
+    # ID do catálogo -> metadata
+    filmes = {}
+    streams = {}
+
+    for item in arquivos:
+        nome_arq = item.get("name") or item.get("title") or ""
         file_id = item.get("id")
-        if not nome_arq or not any(nome_arq.lower().endswith(ext) for ext in ['.mkv', '.mp4', '.avi', '.webm']):
+
+        if not is_video_file(nome_arq) or not file_id:
             continue
-        
-        stream_url = f"{PROXY_BASE_URL}/file/{file_id}" if not str(file_id).startswith("http") else file_id
-        
-        titulo, ano, tmdb_id = extrair_info_nome(nome_arq)
+
+        titulo, ano, tmdb_id = extrair_info_nome_filme(nome_arq)
+        if not titulo:
+            continue
+
         info = buscar_tmdb_filme(titulo, ano, tmdb_id)
-        
-        if info:
-            imdb_id = info.get("imdb_id") or info.get("external_ids", {}).get("imdb_id")
-            mid = imdb_id if imdb_id else f"tmdb:{info.get('id')}"
-
-            poster_path = info.get("poster_path")
-            backdrop_path = info.get("backdrop_path")
-
-            m_item = {
-                "id": mid,
-                "type": "movie",
-                "name": info.get("title") or titulo,
-                "poster": f"https://image.tmdb.org/t/p/w500{poster_path}" if poster_path else None,
-                "background": f"https://image.tmdb.org/t/p/w1280{backdrop_path}" if backdrop_path else None,
-                "description": info.get("overview", "Sem sinopse disponível."),
-                "releaseInfo": (info.get("release_date") or "")[:4],
-                "genres": [g.get("name") for g in info.get("genres", []) if g.get("name")]
-            }
-            metas.append(m_item)
-            
-            # Salva Meta local
-            with open(f"meta/movie/{mid}.json", "w", encoding="utf-8") as f:
-                json.dump({"meta": m_item}, f, ensure_ascii=False, indent=2)
-
-            # Salva Stream local
-            stream_data = {
-                "streams": [{
-                    "name": "Drive Proxy",
-                    "title": f"1080p | {nome_arq}",
-                    "url": stream_url
-                }]
-            }
-            with open(f"stream/movie/{mid}.json", "w", encoding="utf-8") as f:
-                json.dump(stream_data, f, ensure_ascii=False, indent=2)
-
-            print(f"✅ Filme Mapeado: {m_item['name']} ({mid})")
-        else:
+        if not info:
             print(f"⚠️ Filme não encontrado no TMDB: {titulo}")
+            continue
 
-    if metas:
-        catalog_data = {"metas": metas}
-        with open("catalog/movie/meus_filmes.json", "w", encoding="utf-8") as f:
-            json.dump(catalog_data, f, ensure_ascii=False, indent=2)
+        imdb_id = (
+            info.get("imdb_id")
+            or info.get("external_ids", {}).get("imdb_id")
+        )
+        mid = imdb_id or f"tmdb:{info.get('id')}"
 
-        todos_generos_f = set(GENEROS_FILMES)
-        for m in metas:
-            for g in m.get("genres", []):
-                if g: todos_generos_f.add(g)
+        meta = montar_meta_movie(info, titulo, mid)
 
-        pasta_gen_f = "catalog/movie/meus_filmes"
-        for gen in todos_generos_f:
-            filtered = [m for m in metas if any(g.lower() == gen.lower() for g in m.get("genres", []))]
-            
-            with open(os.path.join(pasta_gen_f, f"genre={gen}.json"), "w", encoding="utf-8") as f:
-                json.dump({"metas": filtered}, f, ensure_ascii=False, indent=2)
-                
-            gen_enc = quote(gen)
-            if gen_enc != gen:
-                with open(os.path.join(pasta_gen_f, f"genre={gen_enc}.json"), "w", encoding="utf-8") as f:
-                    json.dump({"metas": filtered}, f, ensure_ascii=False, indent=2)
+        # Deduplicação por ID. Se houver dois arquivos para o mesmo filme,
+        # mantemos uma entrada no catálogo e vários streams no mesmo JSON.
+        filmes[mid] = meta
+
+        stream = {
+            "name": "Drive Proxy",
+            "title": f"1080p | {nome_arq}",
+            "url": construir_stream_url(file_id),
+        }
+
+        streams.setdefault(mid, [])
+        if stream["url"] and not any(
+            s.get("url") == stream["url"] for s in streams[mid]
+        ):
+            streams[mid].append(stream)
+
+        print(f"✅ Filme: {meta['name']} ({mid})")
+
+    metas = list(filmes.values())
+
+    for mid, meta in filmes.items():
+        salvar_json(
+            Path("meta/movie") / f"{mid}.json",
+            {"meta": meta},
+        )
+        salvar_json(
+            Path("stream/movie") / f"{mid}.json",
+            {"streams": streams.get(mid, [])},
+        )
+
+    catalog_data = {"metas": metas}
+    salvar_json(Path("catalog/movie/meus_filmes.json"), catalog_data)
+
+    # Mantém o catalog.json antigo como espelho, caso seja usado fora do manifest.
+    salvar_json(Path("catalog.json"), catalog_data)
+
+    gerar_catalogos_por_genero(
+        metas,
+        "catalog/movie/meus_filmes",
+        GENEROS_FILMES,
+    )
+
+    print(f"🎬 Filmes únicos no catálogo: {len(metas)}")
+    return len(metas)
+
+
+# ============================================================
+# SÉRIES
+# ============================================================
 
 def processar_series():
     print("\n📺 --- PROCESSANDO SÉRIES ---")
-    arquivos = buscar_arquivos_recursivo(SERIES_FOLDER_ID)
-    print(f"📦 Total de arquivos de vídeo de séries encontrados: {len(arquivos)}")
 
+    # O conjunto de visitados é reiniciado para esta árvore.
+    PASTAS_VISITADAS.clear()
+    arquivos = buscar_arquivos_recursivo(SERIES_FOLDER_ID)
+
+    print(f"📦 Vídeos de séries encontrados: {len(arquivos)}")
+
+    # Primeiro agrupamos por nome normalizado para reduzir consultas.
     series_map = {}
     streams_map = {}
-    episodes_map = {}
 
     for item in arquivos:
-        nome_arq = item.get("name") or item.get("title", "")
+        nome_arq = item.get("name") or item.get("title") or ""
         file_id = item.get("id")
-        
-        if not nome_arq:
+
+        if not is_video_file(nome_arq) or not file_id:
             continue
 
-        nome_serie, temp, ep = extrair_info_serie(nome_arq)
+        nome_serie, temporada, episodio = extrair_info_serie(nome_arq)
         if not nome_serie:
+            print(f"⚠️ Não foi possível identificar SxxExx: {nome_arq}")
             continue
 
-        id_match = re.search(r'-(?: id| tmdb) (\d+)', nome_arq, flags=re.IGNORECASE)
-        tmdb_id_forçado = id_match.group(1) if id_match else None
+        nome_key = normalizar_nome(nome_serie)
+        tmdb_id_forcado = extrair_id_forcado(nome_arq)
 
-        stream_url = f"{PROXY_BASE_URL}/file/{file_id}" if not str(file_id).startswith("http") else file_id
+        if nome_key not in series_map:
+            info = buscar_tmdb_tv(nome_serie, tmdb_id_forcado)
 
-        if nome_serie not in series_map:
-            info_tmdb = buscar_tmdb_tv(nome_serie, tmdb_id=tmdb_id_forçado)
+            if not info:
+                print(f"⚠️ Série não encontrada no TMDB: {nome_serie}")
+                continue
 
-            if info_tmdb:
-                imdb_id = info_tmdb.get("external_ids", {}).get("imdb_id")
-                series_id = imdb_id if imdb_id else f"tmdb:{info_tmdb.get('id')}"
-                
-                poster_path = info_tmdb.get("poster_path")
-                backdrop_path = info_tmdb.get("backdrop_path")
-                
-                series_map[nome_serie] = {
-                    "id": series_id,
-                    "type": "series",
-                    "name": info_tmdb.get("name") or nome_serie,
-                    "poster": f"https://image.tmdb.org/t/p/w500{poster_path}" if poster_path else None,
-                    "background": f"https://image.tmdb.org/t/p/w1280{backdrop_path}" if backdrop_path else None,
-                    "description": info_tmdb.get("overview", "Sem sinopse."),
-                    "releaseInfo": (info_tmdb.get("first_air_date") or "")[:4],
-                    "genres": [g.get("name") for g in info_tmdb.get("genres", []) if g.get("name")]
-                }
-                episodes_map[nome_serie] = []
-                print(f"✅ Mapeada Série: {series_map[nome_serie]['name']} ({series_id})")
+            imdb_id = info.get("external_ids", {}).get("imdb_id")
+            sid = imdb_id or f"tmdb:{info.get('id')}"
 
-        if nome_serie in series_map:
-            sid = series_map[nome_serie]["id"]
-            ep_key = f"{sid}:{temp}:{ep}"
-
-            streams_map[ep_key] = {
-                "streams": [{
-                    "name": "Drive Proxy",
-                    "title": f"1080p | S{temp:02d}E{ep:02d}",
-                    "url": stream_url
-                }]
+            # Se duas grafias diferentes apontarem para o mesmo TMDB ID,
+            # consolidamos posteriormente por sid.
+            series_map[nome_key] = {
+                "info": info,
+                "sid": sid,
+                "nome_original": nome_serie,
+                "episodes": {},
             }
 
-            # Registra o episódio no mapa de vídeos da série
-            episodes_map[nome_serie].append({
-                "id": ep_key,
-                "title": f"Episódio {ep}",
-                "season": temp,
-                "episode": ep
-            })
+            print(f"✅ Série: {info.get('name') or nome_serie} ({sid})")
 
-    os.makedirs("catalog/series/minhas_series", exist_ok=True)
-    os.makedirs("stream/series", exist_ok=True)
-    os.makedirs("meta/series", exist_ok=True)
+        serie = series_map.get(nome_key)
+        if not serie:
+            continue
 
-    # Injeta a lista de episódios dentro dos metadados de cada série
-    for nome_s, meta_obj in series_map.items():
-        meta_obj["videos"] = episodes_map.get(nome_s, [])
-        with open(f"meta/series/{meta_obj['id']}.json", "w", encoding="utf-8") as f:
-            json.dump({"meta": meta_obj}, f, ensure_ascii=False, indent=2)
+        sid = serie["sid"]
+        ep_key = f"{sid}:{temporada}:{episodio}"
 
-    # Salva as rotas de Stream dos episódios
-    for ep_key, stream_data in streams_map.items():
-        with open(f"stream/series/{ep_key}.json", "w", encoding="utf-8") as f:
-            json.dump(stream_data, f, ensure_ascii=False, indent=2)
+        stream = {
+            "name": "Drive Proxy",
+            "title": f"1080p | S{temporada:02d}E{episodio:02d}",
+            "url": construir_stream_url(file_id),
+        }
 
-    # Catálogo Geral de Séries
-    metas_series = list(series_map.values())
-    with open("catalog/series/minhas_series.json", "w", encoding="utf-8") as f:
-        json.dump({"metas": metas_series}, f, ensure_ascii=False, indent=2)
+        # Se houver arquivos duplicados para o mesmo episódio,
+        # todos os streams ficam disponíveis.
+        streams_map.setdefault(ep_key, [])
+        if stream["url"] and not any(
+            s.get("url") == stream["url"] for s in streams_map[ep_key]
+        ):
+            streams_map[ep_key].append(stream)
 
-    # Catálogos de Séries por Gênero
-    todos_generos_s = set(GENEROS_SERIES)
-    for m in metas_series:
-        for g in m.get("genres", []):
-            if g: todos_generos_s.add(g)
+        serie["episodes"][ep_key] = {
+            "id": ep_key,
+            "title": f"Episódio {episodio}",
+            "season": temporada,
+            "episode": episodio,
+        }
 
-    pasta_gen_s = "catalog/series/minhas_series"
-    for gen in todos_generos_s:
-        filtered = [m for m in metas_series if any(g.lower() == gen.lower() for g in m.get("genres", []))]
-        
-        with open(os.path.join(pasta_gen_s, f"genre={gen}.json"), "w", encoding="utf-8") as f:
-            json.dump({"metas": filtered}, f, ensure_ascii=False, indent=2)
-            
-        gen_enc = quote(gen)
-        if gen_enc != gen:
-            with open(os.path.join(pasta_gen_s, f"genre={gen_enc}.json"), "w", encoding="utf-8") as f:
-                json.dump({"metas": filtered}, f, ensure_ascii=False, indent=2)
+    # Consolida séries por ID real.
+    series_por_id = {}
 
-    print("🎉 Mapeamento de Séries concluído com sucesso!")
+    for serie in series_map.values():
+        sid = serie["sid"]
+
+        if sid not in series_por_id:
+            series_por_id[sid] = serie
+        else:
+            # Junta episódios de grafias diferentes da mesma série.
+            series_por_id[sid]["episodes"].update(serie["episodes"])
+
+    metas = []
+
+    for sid, serie in series_por_id.items():
+        meta = montar_meta_series(
+            serie["info"],
+            serie["nome_original"],
+            sid,
+        )
+
+        meta["videos"] = sorted(
+            serie["episodes"].values(),
+            key=lambda ep: (ep["season"], ep["episode"]),
+        )
+
+        metas.append(meta)
+
+        salvar_json(
+            Path("meta/series") / f"{sid}.json",
+            {"meta": meta},
+        )
+
+    for ep_key, stream_list in streams_map.items():
+        salvar_json(
+            Path("stream/series") / f"{ep_key}.json",
+            {"streams": stream_list},
+        )
+
+    salvar_json(
+        Path("catalog/series/minhas_series.json"),
+        {"metas": metas},
+    )
+
+    gerar_catalogos_por_genero(
+        metas,
+        "catalog/series/minhas_series",
+        GENEROS_SERIES,
+    )
+
+    print(f"📺 Séries únicas no catálogo: {len(metas)}")
+    print(f"🎞️ Episódios com stream: {len(streams_map)}")
+
+    return len(metas), len(streams_map)
+
+
+# ============================================================
+# MAIN
+# ============================================================
+
+def main():
+    print("=" * 60)
+    print("🚀 GERADOR DO ADDON STREMIO")
+    print("=" * 60)
+
+    # IMPORTANTE:
+    # A limpeza ocorre antes da geração para impedir que arquivos
+    # antigos continuem acessíveis depois de serem removidos do Drive.
+    limpar_gerados()
+
+    filmes = processar_filmes()
+
+    # Reinicia o conjunto de pastas antes de processar a segunda árvore.
+    PASTAS_VISITADAS.clear()
+
+    series, episodios = processar_series()
+
+    salvar_cache(CACHE_MOVIES_FILE, CACHE_TMDB_MOVIES)
+    salvar_cache(CACHE_SERIES_FILE, CACHE_TMDB_SERIES)
+
+    print("\n" + "=" * 60)
+    print("✅ ATUALIZAÇÃO CONCLUÍDA")
+    print(f"🎬 Filmes: {filmes}")
+    print(f"📺 Séries: {series}")
+    print(f"🎞️ Episódios: {episodios}")
+    print("=" * 60)
+
 
 if __name__ == "__main__":
-    processar_filmes()
-    processar_series()
+    main()
