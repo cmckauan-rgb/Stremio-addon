@@ -6,13 +6,12 @@ on:
     - cron: '0 0 * * *'
   # Permite rodar manualmente na aba Actions
   workflow_dispatch:
-  # Regera imediatamente quando o gerador mudar.
-  # O próprio commit automático do catálogo não dispara este workflow,
-  # pois o filtro só inclui arquivos do gerador/workflow.
+  # Regera quando o gerador, workflow ou mapa de identificações mudar.
   push:
     paths:
       - 'gerar_addon.py'
       - '.github/workflows/atualizar.yml'
+      - '.cache/series_identifications.json'
 
 jobs:
   build:
