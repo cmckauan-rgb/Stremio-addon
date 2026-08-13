@@ -4,7 +4,6 @@ import re
 import shutil
 import time
 from pathlib import Path
-from urllib.parse import quote
 
 import requests
 from bs4 import BeautifulSoup
@@ -62,7 +61,7 @@ if not TMDB_API_KEY:
 
 session = requests.Session()
 session.headers.update({
-    "User-Agent": "Stremio-Addon-Generator/2.0",
+    "User-Agent": "Stremio-Addon-Generator/3.0",
     "Accept": "application/json, text/html",
 })
 
@@ -98,7 +97,6 @@ SERIES_IDENTIFICATIONS = carregar_cache(SERIES_IDENTIFICATIONS_FILE)
 
 
 def request_json(url, params=None, label="requisição"):
-    """GET com retry, tratamento de rate limit e erros HTTP."""
     for tentativa in range(1, MAX_RETRIES + 1):
         try:
             response = session.get(url, params=params, timeout=REQUEST_TIMEOUT)
@@ -135,7 +133,6 @@ def request_json(url, params=None, label="requisição"):
 # ============================================================
 
 def limpar_gerados():
-    """Remove somente os artefatos que o gerador controla."""
     for path in GENERATED_PATHS:
         if path.exists():
             print(f"🧹 Limpando {path}")
@@ -145,6 +142,14 @@ def limpar_gerados():
 def normalizar_nome(nome):
     nome = str(nome or "").lower()
     nome = re.sub(r"[\._]+", " ", nome)
+    nome = re.sub(r"\s+", " ", nome)
+    return nome.strip()
+
+
+def chave_serie(nome):
+    """Chave mais estável para agrupar grafias diferentes da mesma série."""
+    nome = normalizar_nome(nome)
+    nome = re.sub(r"[^\w\s]", " ", nome, flags=re.UNICODE)
     nome = re.sub(r"\s+", " ", nome)
     return nome.strip()
 
@@ -166,8 +171,7 @@ def extrair_ano(nome):
 
 
 def extrair_id_forcado(nome):
-    """Aceita formatos como '- id 4686' e '- tmdb 4686'."""
-    match = re.search(r"-(?:\s*id|\s*tmdb)\s*(\d+)", nome or "", re.IGNORECASE)
+    match = re.search(r"(?:^|\s|[-_])(?:id|tmdb)\s*[-:=]?\s*(\d+)\b", nome or "", re.IGNORECASE)
     return match.group(1) if match else None
 
 
@@ -176,7 +180,6 @@ def extrair_id_forcado(nome):
 # ============================================================
 
 def listar_pasta_proxy(folder_id):
-    """Lista itens de uma pasta pelo POST do Worker, com GET como fallback."""
     headers = {"User-Agent": "Mozilla/5.0", "Accept": "application/json, text/html"}
 
     try:
@@ -239,14 +242,14 @@ def item_e_pasta(item):
 
 
 def buscar_arquivos_recursivo(folder_id):
-    """Busca vídeos em toda a árvore de pastas, evitando ciclos."""
     if folder_id in PASTAS_VISITADAS:
         return []
 
     PASTAS_VISITADAS.add(folder_id)
     encontrados = []
+    itens = listar_pasta_proxy(folder_id)
 
-    for item in listar_pasta_proxy(folder_id):
+    for item in itens:
         item_id = item.get("id")
         nome = item.get("name") or item.get("title") or ""
         if not item_id or not nome:
@@ -267,7 +270,6 @@ def buscar_arquivos_recursivo(folder_id):
 
 def buscar_tmdb_filme(titulo, ano=None, tmdb_id=None):
     cache_key = f"id:{tmdb_id}" if tmdb_id else f"title:{normalizar_nome(titulo)}|year:{ano or ''}"
-
     if cache_key in CACHE_TMDB_MOVIES:
         return CACHE_TMDB_MOVIES[cache_key]
 
@@ -291,7 +293,6 @@ def buscar_tmdb_filme(titulo, ano=None, tmdb_id=None):
         },
         label=f"busca TMDB filme '{titulo}'",
     )
-
     results = data.get("results", []) if data else []
     if not results:
         CACHE_TMDB_MOVIES[cache_key] = None
@@ -303,7 +304,6 @@ def buscar_tmdb_filme(titulo, ano=None, tmdb_id=None):
         params={"api_key": TMDB_API_KEY, "language": LANGUAGE, "append_to_response": "external_ids"},
         label=f"detalhes TMDB filme {tmdb_id_result}",
     )
-
     result = details or results[0]
     CACHE_TMDB_MOVIES[cache_key] = result
     return result
@@ -311,7 +311,6 @@ def buscar_tmdb_filme(titulo, ano=None, tmdb_id=None):
 
 def buscar_tmdb_tv(nome_serie, tmdb_id=None):
     cache_key = f"id:{tmdb_id}" if tmdb_id else f"name:{normalizar_nome(nome_serie)}"
-
     if cache_key in CACHE_TMDB_SERIES:
         return CACHE_TMDB_SERIES[cache_key]
 
@@ -330,7 +329,6 @@ def buscar_tmdb_tv(nome_serie, tmdb_id=None):
         params={"api_key": TMDB_API_KEY, "query": nome_serie, "language": LANGUAGE},
         label=f"busca TMDB série '{nome_serie}'",
     )
-
     results = data.get("results", []) if data else []
     if not results:
         CACHE_TMDB_SERIES[cache_key] = None
@@ -342,7 +340,6 @@ def buscar_tmdb_tv(nome_serie, tmdb_id=None):
         params={"api_key": TMDB_API_KEY, "language": LANGUAGE, "append_to_response": "external_ids"},
         label=f"detalhes TMDB série {tv_id}",
     )
-
     result = details or results[0]
     CACHE_TMDB_SERIES[cache_key] = result
     return result
@@ -357,23 +354,35 @@ def extrair_info_nome_filme(nome_arquivo):
     tmdb_id = extrair_id_forcado(base)
     ano = extrair_ano(base)
     titulo = re.sub(r"\(\d{4}\)", "", base)
-    titulo = re.sub(r"-(?:\s*id|\s*tmdb)\s*\d+", "", titulo, flags=re.IGNORECASE)
-    titulo = titulo.strip().lstrip("+").strip()
-    return titulo, ano, tmdb_id
+    titulo = re.sub(r"(?:^|\s|[-_])(?:id|tmdb)\s*[-:=]?\s*\d+\b", "", titulo, flags=re.IGNORECASE)
+    return titulo.strip().lstrip("+").strip(), ano, tmdb_id
 
 
 def extrair_info_serie(nome_arquivo):
-    patterns = [
-        r"^(.*?)[._\s-]+[sS](\d{1,2})[eE](\d{1,3})(?:\b|[^0-9])",
-        r"^(.*?)[._\s-]+(\d{1,2})x(\d{1,3})(?:\b|[^0-9])",
+    """Extrai série/temporada/episódio de vários padrões reais de nomes."""
+    base = re.sub(r"\.(mkv|mp4|avi|webm|mov)$", "", str(nome_arquivo or ""), flags=re.IGNORECASE)
+
+    padroes = [
+        # Ben.10.S01E01, Ben 10 S1E2, Ben-10.S01E03
+        re.compile(r"(?i)\bS(\d{1,2})\s*E(\d{1,3})\b"),
+        # Ben.10.1x01
+        re.compile(r"(?i)\b(\d{1,2})\s*[xX]\s*(\d{1,3})\b"),
+        # Ben 10 Temporada 1 Episódio 2
+        re.compile(r"(?i)\b(?:temporada|season)\s*(\d{1,2})\D+(?:epis[oó]dio|episode|ep)\s*(\d{1,3})\b"),
     ]
 
-    for pattern in patterns:
-        match = re.search(pattern, nome_arquivo)
-        if match:
-            nome = re.sub(r"[\._]+", " ", match.group(1))
-            nome = re.sub(r"\s+", " ", nome).strip()
-            return nome, int(match.group(2)), int(match.group(3))
+    for pattern in padroes:
+        match = pattern.search(base)
+        if not match:
+            continue
+
+        prefixo = base[:match.start()]
+        nome = prefixo.strip(" ._-+")
+        nome = re.sub(r"[._]+", " ", nome)
+        nome = re.sub(r"\s+", " ", nome).strip()
+
+        if nome:
+            return nome, int(match.group(1)), int(match.group(2))
 
     return None, None, None
 
@@ -383,11 +392,10 @@ def extrair_info_serie(nome_arquivo):
 # ============================================================
 
 def registrar_identificacao_serie(nome_serie, tmdb_id, origem="arquivo"):
-    """Salva uma associação nome normalizado -> TMDB ID."""
     if not nome_serie or not tmdb_id:
         return
 
-    chave = normalizar_nome(nome_serie)
+    chave = chave_serie(nome_serie)
     tmdb_id = str(tmdb_id)
     anterior = SERIES_IDENTIFICATIONS.get(chave)
 
@@ -400,16 +408,13 @@ def registrar_identificacao_serie(nome_serie, tmdb_id, origem="arquivo"):
 
 
 def obter_identificacao_serie(nome_serie):
-    return SERIES_IDENTIFICATIONS.get(normalizar_nome(nome_serie))
+    return SERIES_IDENTIFICATIONS.get(chave_serie(nome_serie))
 
 
 def aprender_ids_das_series(arquivos):
-    """
-    Primeira passada: procura episódios com '- id XXXXX'.
-    Um único episódio identificado passa a ensinar o ID aos demais episódios
-    com o mesmo nome normalizado, independentemente da ordem no Drive.
-    """
+    """Faz uma primeira passada para que um único episódio ensine a série."""
     encontrados = 0
+    grupos = {}
 
     for item in arquivos:
         nome_arq = item.get("name") or item.get("title") or ""
@@ -417,9 +422,14 @@ def aprender_ids_das_series(arquivos):
             continue
 
         nome_serie, temporada, episodio = extrair_info_serie(nome_arq)
-        tmdb_id = extrair_id_forcado(nome_arq)
+        if not nome_serie:
+            continue
 
-        if nome_serie and tmdb_id:
+        grupos.setdefault(chave_serie(nome_serie), 0)
+        grupos[chave_serie(nome_serie)] += 1
+
+        tmdb_id = extrair_id_forcado(nome_arq)
+        if tmdb_id:
             registrar_identificacao_serie(
                 nome_serie,
                 tmdb_id,
@@ -427,8 +437,10 @@ def aprender_ids_das_series(arquivos):
             )
             encontrados += 1
 
-    print(f"🧠 IDs manuais encontrados nesta atualização: {encontrados}")
-    print(f"🧠 Associações de séries armazenadas: {len(SERIES_IDENTIFICATIONS)}")
+    print(f"🧠 Arquivos de séries agrupados: {sum(grupos.values())}")
+    print(f"🧠 Séries detectadas pelos nomes: {len(grupos)}")
+    print(f"🧠 IDs manuais encontrados: {encontrados}")
+    print(f"🧠 Associações persistentes: {len(SERIES_IDENTIFICATIONS)}")
 
 
 # ============================================================
@@ -490,7 +502,6 @@ def gerar_catalogos_por_genero(metas, pasta, generos_padrao):
 
 def processar_filmes():
     print("\n🎬 --- PROCESSANDO FILMES ---")
-
     arquivos = buscar_arquivos_recursivo(FILMES_FOLDER_ID)
     print(f"📦 Vídeos de filmes encontrados: {len(arquivos)}")
 
@@ -525,10 +536,7 @@ def processar_filmes():
         if stream["url"] and not any(s.get("url") == stream["url"] for s in streams[mid]):
             streams[mid].append(stream)
 
-        print(f"✅ Filme: {filmes[mid]['name']} ({mid})")
-
     metas = list(filmes.values())
-
     for mid, meta in filmes.items():
         salvar_json(Path("meta/movie") / f"{mid}.json", {"meta": meta})
         salvar_json(Path("stream/movie") / f"{mid}.json", {"streams": streams.get(mid, [])})
@@ -553,12 +561,12 @@ def processar_series():
     arquivos = buscar_arquivos_recursivo(SERIES_FOLDER_ID)
     print(f"📦 Vídeos de séries encontrados: {len(arquivos)}")
 
-    # Aprende primeiro todos os IDs explícitos. Assim E01 pode ensinar o ID
-    # mesmo que E02 apareça antes na lista retornada pelo Drive.
+    # O primeiro passo é aprender os IDs explícitos antes de processar qualquer episódio.
     aprender_ids_das_series(arquivos)
 
     series_map = {}
     streams_map = {}
+    ignorados = 0
 
     for item in arquivos:
         nome_arq = item.get("name") or item.get("title") or ""
@@ -568,13 +576,12 @@ def processar_series():
 
         nome_serie, temporada, episodio = extrair_info_serie(nome_arq)
         if not nome_serie:
-            print(f"⚠️ Não foi possível identificar SxxExx: {nome_arq}")
+            ignorados += 1
+            print(f"⚠️ Episódio ignorado (SxxExx não reconhecido): {nome_arq}")
             continue
 
-        nome_key = normalizar_nome(nome_serie)
+        nome_key = chave_serie(nome_serie)
         tmdb_id_forcado = extrair_id_forcado(nome_arq)
-
-        # Prioridade: ID explícito no episódio > memória persistente > busca por nome.
         tmdb_id = tmdb_id_forcado or obter_identificacao_serie(nome_serie)
 
         if tmdb_id_forcado:
@@ -584,7 +591,7 @@ def processar_series():
             if tmdb_id:
                 print(f"🔎 Identificando {nome_serie} pelo TMDB ID {tmdb_id}")
             else:
-                print(f"🔎 ID não encontrado para {nome_serie}; pesquisando pelo nome no TMDB")
+                print(f"🔎 ID não encontrado para {nome_serie}; pesquisando pelo nome")
 
             info = buscar_tmdb_tv(nome_serie, tmdb_id)
             if not info:
@@ -604,7 +611,6 @@ def processar_series():
                 "nome_original": nome_serie,
                 "episodes": {},
             }
-            print(f"✅ Série: {info.get('name') or nome_serie} ({sid})")
 
         serie = series_map.get(nome_key)
         if not serie:
@@ -612,16 +618,19 @@ def processar_series():
 
         sid = serie["sid"]
         ep_key = f"{sid}:{temporada}:{episodio}"
-        stream = {
-            "name": "Drive Proxy",
-            "title": f"1080p | S{temporada:02d}E{episodio:02d}",
-            "url": construir_stream_url(file_id),
-        }
+        stream_url = construir_stream_url(file_id)
 
-        streams_map.setdefault(ep_key, [])
-        if stream["url"] and not any(s.get("url") == stream["url"] for s in streams_map[ep_key]):
-            streams_map[ep_key].append(stream)
+        if stream_url:
+            stream = {
+                "name": "Drive Proxy",
+                "title": f"1080p | S{temporada:02d}E{episodio:02d}",
+                "url": stream_url,
+            }
+            streams_map.setdefault(ep_key, [])
+            if not any(s.get("url") == stream_url for s in streams_map[ep_key]):
+                streams_map[ep_key].append(stream)
 
+        # Não sobrescreve um episódio já encontrado com outra entrada vazia.
         serie["episodes"][ep_key] = {
             "id": ep_key,
             "title": f"Episódio {episodio}",
@@ -629,6 +638,9 @@ def processar_series():
             "episode": episodio,
         }
 
+        print(f"   🎞️ {nome_serie} S{temporada:02d}E{episodio:02d}")
+
+    # Consolida grafias diferentes que apontaram para o mesmo TMDB/IMDb ID.
     series_por_id = {}
     for serie in series_map.values():
         sid = serie["sid"]
@@ -653,10 +665,13 @@ def processar_series():
     salvar_json(Path("catalog/series/minhas_series.json"), {"metas": metas})
     gerar_catalogos_por_genero(metas, "catalog/series/minhas_series", GENEROS_SERIES)
 
+    total_episodios = sum(len(serie["episodes"]) for serie in series_por_id.values())
     print(f"📺 Séries únicas no catálogo: {len(metas)}")
-    print(f"🎞️ Episódios com stream: {len(streams_map)}")
+    print(f"🎞️ Episódios identificados: {total_episodios}")
+    print(f"🔗 Episódios com stream: {len(streams_map)}")
+    print(f"⚠️ Episódios ignorados: {ignorados}")
 
-    return len(metas), len(streams_map)
+    return len(metas), total_episodios
 
 
 # ============================================================
