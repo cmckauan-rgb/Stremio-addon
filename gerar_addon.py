@@ -38,7 +38,6 @@ GENEROS_SERIES = [
     "Sci-Fi & Fantasy", "Soap", "Talk",
 ]
 
-# Diretórios/arquivos que este script possui e pode regenerar.
 GENERATED_PATHS = [
     Path("catalog/movie/meus_filmes"),
     Path("catalog/series/minhas_series"),
@@ -51,6 +50,7 @@ GENERATED_PATHS = [
 CACHE_DIR = Path(".cache")
 CACHE_MOVIES_FILE = CACHE_DIR / "tmdb_movies.json"
 CACHE_SERIES_FILE = CACHE_DIR / "tmdb_series.json"
+SERIES_IDENTIFICATIONS_FILE = CACHE_DIR / "series_identifications.json"
 
 if not TMDB_API_KEY:
     raise SystemExit("ERRO CRÍTICO: TMDB_API_KEY não foi encontrada nos Secrets.")
@@ -68,6 +68,7 @@ session.headers.update({
 
 CACHE_TMDB_MOVIES = {}
 CACHE_TMDB_SERIES = {}
+SERIES_IDENTIFICATIONS = {}
 PASTAS_VISITADAS = set()
 
 
@@ -93,17 +94,14 @@ def salvar_cache(path, data):
 
 CACHE_TMDB_MOVIES = carregar_cache(CACHE_MOVIES_FILE)
 CACHE_TMDB_SERIES = carregar_cache(CACHE_SERIES_FILE)
+SERIES_IDENTIFICATIONS = carregar_cache(SERIES_IDENTIFICATIONS_FILE)
 
 
 def request_json(url, params=None, label="requisição"):
     """GET com retry, tratamento de rate limit e erros HTTP."""
     for tentativa in range(1, MAX_RETRIES + 1):
         try:
-            response = session.get(
-                url,
-                params=params,
-                timeout=REQUEST_TIMEOUT,
-            )
+            response = session.get(url, params=params, timeout=REQUEST_TIMEOUT)
 
             if response.status_code == 429:
                 retry_after = response.headers.get("Retry-After")
@@ -111,7 +109,6 @@ def request_json(url, params=None, label="requisição"):
                     espera = min(float(retry_after), 30) if retry_after else 2 ** tentativa
                 except ValueError:
                     espera = 2 ** tentativa
-
                 print(f"⚠️ Rate limit em {label}; aguardando {espera:.1f}s...")
                 time.sleep(espera)
                 continue
@@ -126,10 +123,8 @@ def request_json(url, params=None, label="requisição"):
             if tentativa == MAX_RETRIES:
                 print(f"❌ {label} falhou após {MAX_RETRIES} tentativas: {exc}")
                 return None
-
             espera = 2 ** (tentativa - 1)
-            print(f"⚠️ {label} falhou ({tentativa}/{MAX_RETRIES}): {exc}; "
-                  f"tentando novamente em {espera}s...")
+            print(f"⚠️ {label} falhou ({tentativa}/{MAX_RETRIES}): {exc}; tentando novamente em {espera}s...")
             time.sleep(espera)
 
     return None
@@ -145,9 +140,6 @@ def limpar_gerados():
         if path.exists():
             print(f"🧹 Limpando {path}")
             shutil.rmtree(path)
-
-    # catalog.json é mantido como espelho do catálogo de filmes.
-    # Não removemos para preservar compatibilidade com o repositório atual.
 
 
 def normalizar_nome(nome):
@@ -174,6 +166,7 @@ def extrair_ano(nome):
 
 
 def extrair_id_forcado(nome):
+    """Aceita formatos como '- id 4686' e '- tmdb 4686'."""
     match = re.search(r"-(?:\s*id|\s*tmdb)\s*(\d+)", nome or "", re.IGNORECASE)
     return match.group(1) if match else None
 
@@ -184,10 +177,7 @@ def extrair_id_forcado(nome):
 
 def listar_pasta_proxy(folder_id):
     """Lista itens de uma pasta pelo POST do Worker, com GET como fallback."""
-    headers = {
-        "User-Agent": "Mozilla/5.0",
-        "Accept": "application/json, text/html",
-    }
+    headers = {"User-Agent": "Mozilla/5.0", "Accept": "application/json, text/html"}
 
     try:
         response = session.post(
@@ -198,12 +188,7 @@ def listar_pasta_proxy(folder_id):
         )
         if response.ok:
             data = response.json()
-            items = (
-                data.get("files")
-                or data.get("data", {}).get("files")
-                or data.get("items")
-                or []
-            )
+            items = data.get("files") or data.get("data", {}).get("files") or data.get("items") or []
             if isinstance(items, list):
                 return items
     except (requests.RequestException, ValueError) as exc:
@@ -216,7 +201,6 @@ def listar_pasta_proxy(folder_id):
             timeout=REQUEST_TIMEOUT,
         )
         response.raise_for_status()
-
         content_type = response.headers.get("Content-Type", "").lower()
 
         if "application/json" in content_type:
@@ -226,30 +210,16 @@ def listar_pasta_proxy(folder_id):
 
         soup = BeautifulSoup(response.text, "html.parser")
         items = []
-
         for anchor in soup.find_all("a", href=True):
             href = anchor["href"]
             text = anchor.get_text(" ", strip=True)
 
             if "/folder/" in href:
                 fid = href.split("/folder/", 1)[1].split("?", 1)[0].split("#", 1)[0]
-                items.append({
-                    "name": text,
-                    "id": fid,
-                    "mimeType": "application/vnd.google-apps.folder",
-                })
+                items.append({"name": text, "id": fid, "mimeType": "application/vnd.google-apps.folder"})
             elif "/file/" in href or is_video_file(text):
-                fid = (
-                    href.split("/file/", 1)[1].split("?", 1)[0].split("#", 1)[0]
-                    if "/file/" in href
-                    else href
-                )
-                items.append({
-                    "name": text,
-                    "id": fid,
-                    "mimeType": "video/unknown",
-                })
-
+                fid = href.split("/file/", 1)[1].split("?", 1)[0].split("#", 1)[0] if "/file/" in href else href
+                items.append({"name": text, "id": fid, "mimeType": "video/unknown"})
         return items
 
     except (requests.RequestException, ValueError) as exc:
@@ -304,11 +274,7 @@ def buscar_tmdb_filme(titulo, ano=None, tmdb_id=None):
     if tmdb_id:
         data = request_json(
             f"https://api.themoviedb.org/3/movie/{tmdb_id}",
-            params={
-                "api_key": TMDB_API_KEY,
-                "language": LANGUAGE,
-                "append_to_response": "external_ids",
-            },
+            params={"api_key": TMDB_API_KEY, "language": LANGUAGE, "append_to_response": "external_ids"},
             label=f"TMDB filme {tmdb_id}",
         )
         if data:
@@ -334,11 +300,7 @@ def buscar_tmdb_filme(titulo, ano=None, tmdb_id=None):
     tmdb_id_result = results[0].get("id")
     details = request_json(
         f"https://api.themoviedb.org/3/movie/{tmdb_id_result}",
-        params={
-            "api_key": TMDB_API_KEY,
-            "language": LANGUAGE,
-            "append_to_response": "external_ids",
-        },
+        params={"api_key": TMDB_API_KEY, "language": LANGUAGE, "append_to_response": "external_ids"},
         label=f"detalhes TMDB filme {tmdb_id_result}",
     )
 
@@ -356,11 +318,7 @@ def buscar_tmdb_tv(nome_serie, tmdb_id=None):
     if tmdb_id:
         data = request_json(
             f"https://api.themoviedb.org/3/tv/{tmdb_id}",
-            params={
-                "api_key": TMDB_API_KEY,
-                "language": LANGUAGE,
-                "append_to_response": "external_ids",
-            },
+            params={"api_key": TMDB_API_KEY, "language": LANGUAGE, "append_to_response": "external_ids"},
             label=f"TMDB série {tmdb_id}",
         )
         if data:
@@ -369,11 +327,7 @@ def buscar_tmdb_tv(nome_serie, tmdb_id=None):
 
     data = request_json(
         "https://api.themoviedb.org/3/search/tv",
-        params={
-            "api_key": TMDB_API_KEY,
-            "query": nome_serie,
-            "language": LANGUAGE,
-        },
+        params={"api_key": TMDB_API_KEY, "query": nome_serie, "language": LANGUAGE},
         label=f"busca TMDB série '{nome_serie}'",
     )
 
@@ -385,11 +339,7 @@ def buscar_tmdb_tv(nome_serie, tmdb_id=None):
     tv_id = results[0].get("id")
     details = request_json(
         f"https://api.themoviedb.org/3/tv/{tv_id}",
-        params={
-            "api_key": TMDB_API_KEY,
-            "language": LANGUAGE,
-            "append_to_response": "external_ids",
-        },
+        params={"api_key": TMDB_API_KEY, "language": LANGUAGE, "append_to_response": "external_ids"},
         label=f"detalhes TMDB série {tv_id}",
     )
 
@@ -403,25 +353,12 @@ def buscar_tmdb_tv(nome_serie, tmdb_id=None):
 # ============================================================
 
 def extrair_info_nome_filme(nome_arquivo):
-    base = re.sub(
-        r"\.(mkv|mp4|avi|webm|mov)$",
-        "",
-        nome_arquivo,
-        flags=re.IGNORECASE,
-    )
-
+    base = re.sub(r"\.(mkv|mp4|avi|webm|mov)$", "", nome_arquivo, flags=re.IGNORECASE)
     tmdb_id = extrair_id_forcado(base)
     ano = extrair_ano(base)
-
     titulo = re.sub(r"\(\d{4}\)", "", base)
-    titulo = re.sub(
-        r"-(?:\s*id|\s*tmdb)\s*\d+",
-        "",
-        titulo,
-        flags=re.IGNORECASE,
-    )
+    titulo = re.sub(r"-(?:\s*id|\s*tmdb)\s*\d+", "", titulo, flags=re.IGNORECASE)
     titulo = titulo.strip().lstrip("+").strip()
-
     return titulo, ano, tmdb_id
 
 
@@ -442,6 +379,59 @@ def extrair_info_serie(nome_arquivo):
 
 
 # ============================================================
+# IDENTIFICAÇÃO INTELIGENTE DE SÉRIES
+# ============================================================
+
+def registrar_identificacao_serie(nome_serie, tmdb_id, origem="arquivo"):
+    """Salva uma associação nome normalizado -> TMDB ID."""
+    if not nome_serie or not tmdb_id:
+        return
+
+    chave = normalizar_nome(nome_serie)
+    tmdb_id = str(tmdb_id)
+    anterior = SERIES_IDENTIFICATIONS.get(chave)
+
+    if anterior != tmdb_id:
+        SERIES_IDENTIFICATIONS[chave] = tmdb_id
+        if anterior:
+            print(f"🔄 Identificação atualizada: {nome_serie} | {anterior} -> {tmdb_id}")
+        else:
+            print(f"🧠 Nova identificação: {nome_serie} -> TMDB {tmdb_id} ({origem})")
+
+
+def obter_identificacao_serie(nome_serie):
+    return SERIES_IDENTIFICATIONS.get(normalizar_nome(nome_serie))
+
+
+def aprender_ids_das_series(arquivos):
+    """
+    Primeira passada: procura episódios com '- id XXXXX'.
+    Um único episódio identificado passa a ensinar o ID aos demais episódios
+    com o mesmo nome normalizado, independentemente da ordem no Drive.
+    """
+    encontrados = 0
+
+    for item in arquivos:
+        nome_arq = item.get("name") or item.get("title") or ""
+        if not is_video_file(nome_arq):
+            continue
+
+        nome_serie, temporada, episodio = extrair_info_serie(nome_arq)
+        tmdb_id = extrair_id_forcado(nome_arq)
+
+        if nome_serie and tmdb_id:
+            registrar_identificacao_serie(
+                nome_serie,
+                tmdb_id,
+                origem=f"S{temporada:02d}E{episodio:02d}",
+            )
+            encontrados += 1
+
+    print(f"🧠 IDs manuais encontrados nesta atualização: {encontrados}")
+    print(f"🧠 Associações de séries armazenadas: {len(SERIES_IDENTIFICATIONS)}")
+
+
+# ============================================================
 # METADATA / CATÁLOGOS
 # ============================================================
 
@@ -458,11 +448,7 @@ def montar_meta_movie(info, titulo_fallback, mid):
         "background": imagem_tmdb(info.get("backdrop_path"), "w1280"),
         "description": info.get("overview") or "Sem sinopse disponível.",
         "releaseInfo": (info.get("release_date") or "")[:4],
-        "genres": [
-            g.get("name")
-            for g in info.get("genres", [])
-            if g.get("name")
-        ],
+        "genres": [g.get("name") for g in info.get("genres", []) if g.get("name")],
     }
 
 
@@ -475,11 +461,7 @@ def montar_meta_series(info, nome_fallback, sid):
         "background": imagem_tmdb(info.get("backdrop_path"), "w1280"),
         "description": info.get("overview") or "Sem sinopse disponível.",
         "releaseInfo": (info.get("first_air_date") or "")[:4],
-        "genres": [
-            g.get("name")
-            for g in info.get("genres", [])
-            if g.get("name")
-        ],
+        "genres": [g.get("name") for g in info.get("genres", []) if g.get("name")],
     }
 
 
@@ -491,7 +473,6 @@ def salvar_json(path, data):
 
 def gerar_catalogos_por_genero(metas, pasta, generos_padrao):
     generos = set(generos_padrao)
-
     for meta in metas:
         generos.update(g for g in meta.get("genres", []) if g)
 
@@ -500,14 +481,7 @@ def gerar_catalogos_por_genero(metas, pasta, generos_padrao):
             meta for meta in metas
             if any(g.casefold() == genero.casefold() for g in meta.get("genres", []))
         ]
-
-        # Apenas UMA representação física do arquivo.
-        # O servidor web fará o escaping UTF-8 da URL.
-        filename = f"genre={genero}.json"
-        salvar_json(
-            Path(pasta) / filename,
-            {"metas": filtradas},
-        )
+        salvar_json(Path(pasta) / f"genre={genero}.json", {"metas": filtradas})
 
 
 # ============================================================
@@ -520,14 +494,12 @@ def processar_filmes():
     arquivos = buscar_arquivos_recursivo(FILMES_FOLDER_ID)
     print(f"📦 Vídeos de filmes encontrados: {len(arquivos)}")
 
-    # ID do catálogo -> metadata
     filmes = {}
     streams = {}
 
     for item in arquivos:
         nome_arq = item.get("name") or item.get("title") or ""
         file_id = item.get("id")
-
         if not is_video_file(nome_arq) or not file_id:
             continue
 
@@ -540,55 +512,31 @@ def processar_filmes():
             print(f"⚠️ Filme não encontrado no TMDB: {titulo}")
             continue
 
-        imdb_id = (
-            info.get("imdb_id")
-            or info.get("external_ids", {}).get("imdb_id")
-        )
+        imdb_id = info.get("imdb_id") or info.get("external_ids", {}).get("imdb_id")
         mid = imdb_id or f"tmdb:{info.get('id')}"
-
-        meta = montar_meta_movie(info, titulo, mid)
-
-        # Deduplicação por ID. Se houver dois arquivos para o mesmo filme,
-        # mantemos uma entrada no catálogo e vários streams no mesmo JSON.
-        filmes[mid] = meta
+        filmes[mid] = montar_meta_movie(info, titulo, mid)
 
         stream = {
             "name": "Drive Proxy",
             "title": f"1080p | {nome_arq}",
             "url": construir_stream_url(file_id),
         }
-
         streams.setdefault(mid, [])
-        if stream["url"] and not any(
-            s.get("url") == stream["url"] for s in streams[mid]
-        ):
+        if stream["url"] and not any(s.get("url") == stream["url"] for s in streams[mid]):
             streams[mid].append(stream)
 
-        print(f"✅ Filme: {meta['name']} ({mid})")
+        print(f"✅ Filme: {filmes[mid]['name']} ({mid})")
 
     metas = list(filmes.values())
 
     for mid, meta in filmes.items():
-        salvar_json(
-            Path("meta/movie") / f"{mid}.json",
-            {"meta": meta},
-        )
-        salvar_json(
-            Path("stream/movie") / f"{mid}.json",
-            {"streams": streams.get(mid, [])},
-        )
+        salvar_json(Path("meta/movie") / f"{mid}.json", {"meta": meta})
+        salvar_json(Path("stream/movie") / f"{mid}.json", {"streams": streams.get(mid, [])})
 
     catalog_data = {"metas": metas}
     salvar_json(Path("catalog/movie/meus_filmes.json"), catalog_data)
-
-    # Mantém o catalog.json antigo como espelho, caso seja usado fora do manifest.
     salvar_json(Path("catalog.json"), catalog_data)
-
-    gerar_catalogos_por_genero(
-        metas,
-        "catalog/movie/meus_filmes",
-        GENEROS_FILMES,
-    )
+    gerar_catalogos_por_genero(metas, "catalog/movie/meus_filmes", GENEROS_FILMES)
 
     print(f"🎬 Filmes únicos no catálogo: {len(metas)}")
     return len(metas)
@@ -601,20 +549,20 @@ def processar_filmes():
 def processar_series():
     print("\n📺 --- PROCESSANDO SÉRIES ---")
 
-    # O conjunto de visitados é reiniciado para esta árvore.
     PASTAS_VISITADAS.clear()
     arquivos = buscar_arquivos_recursivo(SERIES_FOLDER_ID)
-
     print(f"📦 Vídeos de séries encontrados: {len(arquivos)}")
 
-    # Primeiro agrupamos por nome normalizado para reduzir consultas.
+    # Aprende primeiro todos os IDs explícitos. Assim E01 pode ensinar o ID
+    # mesmo que E02 apareça antes na lista retornada pelo Drive.
+    aprender_ids_das_series(arquivos)
+
     series_map = {}
     streams_map = {}
 
     for item in arquivos:
         nome_arq = item.get("name") or item.get("title") or ""
         file_id = item.get("id")
-
         if not is_video_file(nome_arq) or not file_id:
             continue
 
@@ -626,25 +574,36 @@ def processar_series():
         nome_key = normalizar_nome(nome_serie)
         tmdb_id_forcado = extrair_id_forcado(nome_arq)
 
-        if nome_key not in series_map:
-            info = buscar_tmdb_tv(nome_serie, tmdb_id_forcado)
+        # Prioridade: ID explícito no episódio > memória persistente > busca por nome.
+        tmdb_id = tmdb_id_forcado or obter_identificacao_serie(nome_serie)
 
+        if tmdb_id_forcado:
+            registrar_identificacao_serie(nome_serie, tmdb_id_forcado, origem="ID explícito")
+
+        if nome_key not in series_map:
+            if tmdb_id:
+                print(f"🔎 Identificando {nome_serie} pelo TMDB ID {tmdb_id}")
+            else:
+                print(f"🔎 ID não encontrado para {nome_serie}; pesquisando pelo nome no TMDB")
+
+            info = buscar_tmdb_tv(nome_serie, tmdb_id)
             if not info:
                 print(f"⚠️ Série não encontrada no TMDB: {nome_serie}")
                 continue
 
-            imdb_id = info.get("external_ids", {}).get("imdb_id")
-            sid = imdb_id or f"tmdb:{info.get('id')}"
+            real_tmdb_id = info.get("id")
+            if real_tmdb_id:
+                registrar_identificacao_serie(nome_serie, real_tmdb_id, origem="TMDB")
 
-            # Se duas grafias diferentes apontarem para o mesmo TMDB ID,
-            # consolidamos posteriormente por sid.
+            imdb_id = info.get("external_ids", {}).get("imdb_id")
+            sid = imdb_id or f"tmdb:{real_tmdb_id}"
+
             series_map[nome_key] = {
                 "info": info,
                 "sid": sid,
                 "nome_original": nome_serie,
                 "episodes": {},
             }
-
             print(f"✅ Série: {info.get('name') or nome_serie} ({sid})")
 
         serie = series_map.get(nome_key)
@@ -653,19 +612,14 @@ def processar_series():
 
         sid = serie["sid"]
         ep_key = f"{sid}:{temporada}:{episodio}"
-
         stream = {
             "name": "Drive Proxy",
             "title": f"1080p | S{temporada:02d}E{episodio:02d}",
             "url": construir_stream_url(file_id),
         }
 
-        # Se houver arquivos duplicados para o mesmo episódio,
-        # todos os streams ficam disponíveis.
         streams_map.setdefault(ep_key, [])
-        if stream["url"] and not any(
-            s.get("url") == stream["url"] for s in streams_map[ep_key]
-        ):
+        if stream["url"] and not any(s.get("url") == stream["url"] for s in streams_map[ep_key]):
             streams_map[ep_key].append(stream)
 
         serie["episodes"][ep_key] = {
@@ -675,55 +629,29 @@ def processar_series():
             "episode": episodio,
         }
 
-    # Consolida séries por ID real.
     series_por_id = {}
-
     for serie in series_map.values():
         sid = serie["sid"]
-
         if sid not in series_por_id:
             series_por_id[sid] = serie
         else:
-            # Junta episódios de grafias diferentes da mesma série.
             series_por_id[sid]["episodes"].update(serie["episodes"])
 
     metas = []
-
     for sid, serie in series_por_id.items():
-        meta = montar_meta_series(
-            serie["info"],
-            serie["nome_original"],
-            sid,
-        )
-
+        meta = montar_meta_series(serie["info"], serie["nome_original"], sid)
         meta["videos"] = sorted(
             serie["episodes"].values(),
             key=lambda ep: (ep["season"], ep["episode"]),
         )
-
         metas.append(meta)
-
-        salvar_json(
-            Path("meta/series") / f"{sid}.json",
-            {"meta": meta},
-        )
+        salvar_json(Path("meta/series") / f"{sid}.json", {"meta": meta})
 
     for ep_key, stream_list in streams_map.items():
-        salvar_json(
-            Path("stream/series") / f"{ep_key}.json",
-            {"streams": stream_list},
-        )
+        salvar_json(Path("stream/series") / f"{ep_key}.json", {"streams": stream_list})
 
-    salvar_json(
-        Path("catalog/series/minhas_series.json"),
-        {"metas": metas},
-    )
-
-    gerar_catalogos_por_genero(
-        metas,
-        "catalog/series/minhas_series",
-        GENEROS_SERIES,
-    )
+    salvar_json(Path("catalog/series/minhas_series.json"), {"metas": metas})
+    gerar_catalogos_por_genero(metas, "catalog/series/minhas_series", GENEROS_SERIES)
 
     print(f"📺 Séries únicas no catálogo: {len(metas)}")
     print(f"🎞️ Episódios com stream: {len(streams_map)}")
@@ -740,26 +668,22 @@ def main():
     print("🚀 GERADOR DO ADDON STREMIO")
     print("=" * 60)
 
-    # IMPORTANTE:
-    # A limpeza ocorre antes da geração para impedir que arquivos
-    # antigos continuem acessíveis depois de serem removidos do Drive.
     limpar_gerados()
-
     filmes = processar_filmes()
 
-    # Reinicia o conjunto de pastas antes de processar a segunda árvore.
     PASTAS_VISITADAS.clear()
-
     series, episodios = processar_series()
 
     salvar_cache(CACHE_MOVIES_FILE, CACHE_TMDB_MOVIES)
     salvar_cache(CACHE_SERIES_FILE, CACHE_TMDB_SERIES)
+    salvar_cache(SERIES_IDENTIFICATIONS_FILE, SERIES_IDENTIFICATIONS)
 
     print("\n" + "=" * 60)
     print("✅ ATUALIZAÇÃO CONCLUÍDA")
     print(f"🎬 Filmes: {filmes}")
     print(f"📺 Séries: {series}")
     print(f"🎞️ Episódios: {episodios}")
+    print(f"🧠 Identificações de séries: {len(SERIES_IDENTIFICATIONS)}")
     print("=" * 60)
 
 
