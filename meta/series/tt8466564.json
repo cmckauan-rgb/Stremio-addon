@@ -14,39 +14,57 @@
     "videos": [
       {
         "id": "tt8466564:1:1",
-        "title": "Episódio 1",
+        "title": "Parte I",
         "season": 1,
-        "episode": 1
+        "episode": 1,
+        "thumbnail": "https://image.tmdb.org/t/p/w780/twfvrChI2YEQITGbqjhEXVy39QA.jpg",
+        "overview": "Obi-Wan Kenobi vive uma existência humilde em Tatooine. Apesar dos perigos de ser um sobrevivente Jedi no auge do Império, Kenobi é forçado a sair do esconderijo.",
+        "released": "2022-05-26T00:00:00.000Z"
       },
       {
         "id": "tt8466564:1:2",
-        "title": "Episódio 2",
+        "title": "Parte II",
         "season": 1,
-        "episode": 2
+        "episode": 2,
+        "thumbnail": "https://image.tmdb.org/t/p/w780/7NvWnQmdBKRfMtKGcdik6NLH7MX.jpg",
+        "overview": "Em um mundo perigoso dominado pelo crime, Obi-Wan se torna um alvo.",
+        "released": "2022-05-26T00:00:00.000Z"
       },
       {
         "id": "tt8466564:1:3",
-        "title": "Episódio 3",
+        "title": "Parte III",
         "season": 1,
-        "episode": 3
+        "episode": 3,
+        "thumbnail": "https://image.tmdb.org/t/p/w780/aM0H1Gn2ry8Wc2eUxk9KHbZbeBr.jpg",
+        "overview": "Obi-Wan procura aliados enquanto atrai a atenção do Império, ameaçando os habitantes locais.",
+        "released": "2022-06-01T00:00:00.000Z"
       },
       {
         "id": "tt8466564:1:4",
-        "title": "Episódio 4",
+        "title": "Parte IV",
         "season": 1,
-        "episode": 4
+        "episode": 4,
+        "thumbnail": "https://image.tmdb.org/t/p/w780/tB2H0A8Gbpk8EjZAdw90jJLc6y3.jpg",
+        "overview": "Obi-Wan planeja uma missão.",
+        "released": "2022-06-08T00:00:00.000Z"
       },
       {
         "id": "tt8466564:1:5",
-        "title": "Episódio 5",
+        "title": "Parte V",
         "season": 1,
-        "episode": 5
+        "episode": 5,
+        "thumbnail": "https://image.tmdb.org/t/p/w780/hobgyyVnrtfYLeO45yD238dLVio.jpg",
+        "overview": "Forças Imperiais tentam atrair Obi-Wan.",
+        "released": "2022-06-15T00:00:00.000Z"
       },
       {
         "id": "tt8466564:1:6",
-        "title": "Episódio 6",
+        "title": "Parte VI",
         "season": 1,
-        "episode": 6
+        "episode": 6,
+        "thumbnail": "https://image.tmdb.org/t/p/w780/pQo4XVFI4LH6subG6v0ALvXxUF1.jpg",
+        "overview": "Obi Wan é arrastado para um confronto com Vader, pois o destino de Luke está em jogo.",
+        "released": "2022-06-22T00:00:00.000Z"
       }
     ]
   }

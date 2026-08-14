@@ -14,51 +14,75 @@
     "videos": [
       {
         "id": "tt5057054:1:1",
-        "title": "Episódio 1",
+        "title": "Piloto",
         "season": 1,
-        "episode": 1
+        "episode": 1,
+        "thumbnail": "https://image.tmdb.org/t/p/w780/l3SNFqVvpGZWg5USgPMXwSIHr19.jpg",
+        "overview": "Na estreia da série, o analista da CIA Jack Ryan descobre uma série de transações suspeitas que fazem com que ele e seu chefe James Greer troquem o escritório por missões de campo, para combater uma nova e perigosa ameaça mundial. Hanin começa a questionar os atos do marido depois que ele traz um forasteiro misterioso para a casa deles.",
+        "released": "2018-08-30T00:00:00.000Z"
       },
       {
         "id": "tt5057054:1:2",
-        "title": "Episódio 2",
+        "title": "Conexão Francesa",
         "season": 1,
-        "episode": 2
+        "episode": 2,
+        "thumbnail": "https://image.tmdb.org/t/p/w780/1OyiIzJ07gAsvaFILfVF40ggbAp.jpg",
+        "overview": "Jack e Greer decodificam informações secretas que os levam a Paris, ficando um passo mais perto do fugidio Suleiman. O marido de Hanin volta para casa com um fervor renovado por sua missão sigilosa, deixando-a insegura quanto ao futuro da família.",
+        "released": "2018-08-30T00:00:00.000Z"
       },
       {
         "id": "tt5057054:1:3",
-        "title": "Episódio 3",
+        "title": "Preto 22",
         "season": 1,
-        "episode": 3
+        "episode": 3,
+        "thumbnail": "https://image.tmdb.org/t/p/w780/x3e3m9eZaoUzlcBXnYSlexfohm3.jpg",
+        "overview": "O piloto de drones Victor sente o peso da imensa responsabilidade ligada ao seu trabalho. Jack e Greer se unem a agentes da Inteligência francesa numa missão para localizar o irmão de Suleiman. Hanin é forçada a tomar uma decisão perigosa pelo bem dos filhos.",
+        "released": "2018-08-30T00:00:00.000Z"
       },
       {
         "id": "tt5057054:1:4",
-        "title": "Episódio 4",
+        "title": "O Lobo",
         "season": 1,
-        "episode": 4
+        "episode": 4,
+        "thumbnail": "https://image.tmdb.org/t/p/w780/y7SmuZHh2fGstWS3ZSddxteftZC.jpg",
+        "overview": "À medida que Jack e Cathy ficam mais ligados, a vida dupla de Jack é posta à prova. Uma demonstração de força de Suleiman atrai mais seguidores e o leva um passo mais perto de seu próximo ataque.",
+        "released": "2018-08-30T00:00:00.000Z"
       },
       {
         "id": "tt5057054:1:5",
-        "title": "Episódio 5",
+        "title": "Fim da Honra",
         "season": 1,
-        "episode": 5
+        "episode": 5,
+        "thumbnail": "https://image.tmdb.org/t/p/w780/r2osBoDPBNA5PvRTUBUNoIcbsj6.jpg",
+        "overview": "Depois do terrível ataque à igreja de Paris, Jack e Greer descobrem uma estratégia mais profunda por trás dos atos de Suleiman, o que força Jack a sugerir uma armadilha incomum para capturá-lo. Hanin enfrenta novos desafios em sua luta por liberdade.",
+        "released": "2018-08-30T00:00:00.000Z"
       },
       {
         "id": "tt5057054:1:6",
-        "title": "Episódio 6",
+        "title": "Fontes e Métodos",
         "season": 1,
-        "episode": 6
+        "episode": 6,
+        "thumbnail": "https://image.tmdb.org/t/p/w780/r0o30zw7aNWX7SfTEsuKnLESAUr.jpg",
+        "overview": "O código moral de Jack é testado quando ele e Greer usam um criminoso turco para ajudá-los a localizar um alvo importante que talvez possa levá-los até Suleiman. Hanin tenta esquivar-se de seus perseguidores para manter as filhas a salvo. Cathy investiga um surto de uma forma virulenta do Ebola que pode apontar para algo mais sinistro.",
+        "released": "2018-08-30T00:00:00.000Z"
       },
       {
         "id": "tt5057054:1:7",
-        "title": "Episódio 7",
+        "title": "O Menino",
         "season": 1,
-        "episode": 7
+        "episode": 7,
+        "thumbnail": "https://image.tmdb.org/t/p/w780/9jPKSghTOToUgEyUuMzPejW5W9X.jpg",
+        "overview": "Jack e Greer tentam convencer seus superiores a montar um ataque sigiloso para capturar Suleiman. A vida dupla de Jack lhe custa um relacionamento importante.",
+        "released": "2018-08-30T00:00:00.000Z"
       },
       {
         "id": "tt5057054:1:8",
-        "title": "Episódio 8",
+        "title": "Inshallah",
         "season": 1,
-        "episode": 8
+        "episode": 8,
+        "thumbnail": "https://image.tmdb.org/t/p/w780/7J77cdPYnW3NxpXEpAHrLSgKCr2.jpg",
+        "overview": "Jack e Greer temem que o próximo ataque de Suleiman possa ser nos Estados Unidos. Eles precisam descobrir como impedi-lo ou os riscos podem ser enormes.",
+        "released": "2018-08-30T00:00:00.000Z"
       }
     ]
   }

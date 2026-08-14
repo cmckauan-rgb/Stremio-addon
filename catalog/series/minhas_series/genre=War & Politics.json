@@ -15,63 +15,93 @@
       "videos": [
         {
           "id": "tt2788316:1:1",
-          "title": "Episódio 1",
+          "title": "Anjin",
           "season": 1,
-          "episode": 1
+          "episode": 1,
+          "thumbnail": "https://image.tmdb.org/t/p/w780/8uib4EWHrAnhUg08pFLAnoo50rf.jpg",
+          "overview": "Os destinos convergem no Japão depois que um navio estrangeiro chega à costa de um pobre vilarejo de pescadores. Enquanto isso, em Osaka, Senhor Toranaga é derrotado por seus inimigos.",
+          "released": "2024-02-27T00:00:00.000Z"
         },
         {
           "id": "tt2788316:1:2",
-          "title": "Episódio 2",
+          "title": "Servos de Dois Senhores",
           "season": 1,
-          "episode": 2
+          "episode": 2,
+          "thumbnail": "https://image.tmdb.org/t/p/w780/gUglbYu9EjhpVoxzBWHsXVQYpQX.jpg",
+          "overview": "A chegada de Blackthorne a Osaka desperta um vespeiro de rivalidades. Mariko fica entre sua causa e sua fé quando precisa traduzir para o estrangeiro sob custódia do Senhor Toranaga.",
+          "released": "2024-02-27T00:00:00.000Z"
         },
         {
           "id": "tt2788316:1:3",
-          "title": "Episódio 3",
+          "title": "Amanhã é Amanhã",
           "season": 1,
-          "episode": 3
+          "episode": 3,
+          "thumbnail": "https://image.tmdb.org/t/p/w780/uXMdeoIltO85372VLX85abAC109.jpg",
+          "overview": "Depois que Blackthorne sobrevive a uma tentativa de assassinato, Toranaga percebe que deve tirar seus aliados de Osaka ou correr o risco de uma derrota certa.",
+          "released": "2024-03-05T00:00:00.000Z"
         },
         {
           "id": "tt2788316:1:4",
-          "title": "Episódio 4",
+          "title": "A cerca óctupla",
           "season": 1,
-          "episode": 4
+          "episode": 4,
+          "thumbnail": "https://image.tmdb.org/t/p/w780/kF8DfadGNPJi3fMZEZgiFRaoRH9.jpg",
+          "overview": "Blackthorne e Mariko testam sua nova aliança treinando o regimento de armas de Toranaga para a guerra. Yabushige deve lidar com suas promessas feitas a Ishido quando um velho amigo chega ao vilarejo.",
+          "released": "2024-03-12T00:00:00.000Z"
         },
         {
           "id": "tt2788316:1:5",
-          "title": "Episódio 5",
+          "title": "Domado pelo Punho",
           "season": 1,
-          "episode": 5
+          "episode": 5,
+          "thumbnail": "https://image.tmdb.org/t/p/w780/5N5isVZvgdYeGsASiUgQJzHW6Ll.jpg",
+          "overview": "Blackthorne e Mariko se esforçam para manter um segredo que pode levá-los à morte. Yabushige procura o espião que contou suas intenções ao Senhor Toranaga.",
+          "released": "2024-03-19T00:00:00.000Z"
         },
         {
           "id": "tt2788316:1:6",
-          "title": "Episódio 6",
+          "title": "Damas do Mundo do Salgueiro",
           "season": 1,
-          "episode": 6
+          "episode": 6,
+          "thumbnail": "https://image.tmdb.org/t/p/w780/15qoHmtC3zKQtZulccXs2GAMnKq.jpg",
+          "overview": "Senhora Ochiba retorna a Osaka para acelerar a campanha dos regentes contra Toranaga. Em Ajiro, Toranaga coloca à prova a lealdade de Mariko à sua causa.",
+          "released": "2024-03-26T00:00:00.000Z"
         },
         {
           "id": "tt2788316:1:7",
-          "title": "Episódio 7",
+          "title": "O Tempo de Um Incenso",
           "season": 1,
-          "episode": 7
+          "episode": 7,
+          "thumbnail": "https://image.tmdb.org/t/p/w780/s5yGuWq058n3urFKDIwjyNOzgCD.jpg",
+          "overview": "Superado por novas alianças em Osaka, Toranaga é forçado a firmar um novo acordo com um membro de sua família que não via há muito tempo.",
+          "released": "2024-04-02T00:00:00.000Z"
         },
         {
           "id": "tt2788316:1:8",
-          "title": "Episódio 8",
+          "title": "A Profundeza da Vida",
           "season": 1,
-          "episode": 8
+          "episode": 8,
+          "thumbnail": "https://image.tmdb.org/t/p/w780/jX99BvnOAF2bNjQvNHtMmCxmUOa.jpg",
+          "overview": "O clã de Toranaga vai para Edo e aguarda seu destino. Blackthorne deve decidir por quem lutará: pelo senhor que lhe deu as costas ou pela ambição que o trouxe ao Japão.",
+          "released": "2024-04-09T00:00:00.000Z"
         },
         {
           "id": "tt2788316:1:9",
-          "title": "Episódio 9",
+          "title": "Céu Carmesim",
           "season": 1,
-          "episode": 9
+          "episode": 9,
+          "thumbnail": "https://image.tmdb.org/t/p/w780/tAoNG2uBLRYJZKJOq9k9Xvb0voT.jpg",
+          "overview": "Mariko chega em Osaka para o combate de sua vida. Blackthorne e Yabushige se juntam para salvar suas cabeças à medida que suas opções diminuem.",
+          "released": "2024-04-16T00:00:00.000Z"
         },
         {
           "id": "tt2788316:1:10",
-          "title": "Episódio 10",
+          "title": "Um Sonho Dentro de Um Sonho",
           "season": 1,
-          "episode": 10
+          "episode": 10,
+          "thumbnail": "https://image.tmdb.org/t/p/w780/dIXtG4MafmmjzNhU7ANJZByGmvr.jpg",
+          "overview": "Na esteira de uma morte trágica, Blackthorne enfim considera a verdadeira natureza do plano de Toranaga.",
+          "released": "2024-04-23T00:00:00.000Z"
         }
       ]
     }

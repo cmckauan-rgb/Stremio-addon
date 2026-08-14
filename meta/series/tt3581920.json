@@ -13,99 +13,147 @@
     "videos": [
       {
         "id": "tt3581920:1:1",
-        "title": "Episódio 1",
+        "title": "Quando Você Estiver Perdido na Escuridão",
         "season": 1,
-        "episode": 1
+        "episode": 1,
+        "thumbnail": "https://image.tmdb.org/t/p/w780/3VeY1k8wFyhcrMyQ8jpGegh9beU.jpg",
+        "overview": "Vinte anos após um surto fúngico devastar o planeta, os sobreviventes Joel e Tess recebem uma missão que pode mudar tudo.",
+        "released": "2023-01-15T00:00:00.000Z"
       },
       {
         "id": "tt3581920:1:2",
-        "title": "Episódio 2",
+        "title": "Infectados",
         "season": 1,
-        "episode": 2
+        "episode": 2,
+        "thumbnail": "https://image.tmdb.org/t/p/w780/vGf7chl6XL7o3yYc8A5m3kjz8px.jpg",
+        "overview": "Após escaparem da zona de quarentena, Joel e Tess discutem sobre o destino de Ellie enquanto transitam pelas ruínas de uma Boston abandonada há muito tempo.",
+        "released": "2023-01-22T00:00:00.000Z"
       },
       {
         "id": "tt3581920:1:3",
-        "title": "Episódio 3",
+        "title": "Por Muito, Muito Tempo",
         "season": 1,
-        "episode": 3
+        "episode": 3,
+        "thumbnail": "https://image.tmdb.org/t/p/w780/fmaiMjbLXaeRyq2so0EXf3hrpyc.jpg",
+        "overview": "Quando um estranho se aproxima do alojamento de Bill, um aficionado por preparativos para cenários apocalípticos, ambos forjam uma conexão pouco provável. Mais tarde, Joel e Ellis buscam a orientação de Bill.",
+        "released": "2023-01-29T00:00:00.000Z"
       },
       {
         "id": "tt3581920:1:4",
-        "title": "Episódio 4",
+        "title": "Por Favor, Segure a Minha Mão",
         "season": 1,
-        "episode": 4
+        "episode": 4,
+        "thumbnail": "https://image.tmdb.org/t/p/w780/nYPkaj0a5m4Y9xHdDADtnzh6zOL.jpg",
+        "overview": "Depois de abandonar sua caminhonete em Kansas City, Joel e Ellie tentam escapar sem chamar a atenção de uma vingativa líder rebelde.",
+        "released": "2023-02-05T00:00:00.000Z"
       },
       {
         "id": "tt3581920:1:5",
-        "title": "Episódio 5",
+        "title": "Resistir e Sobreviver",
         "season": 1,
-        "episode": 5
+        "episode": 5,
+        "thumbnail": "https://image.tmdb.org/t/p/w780/ztzxqW4IAVQRVimxhIfryP4CuI9.jpg",
+        "overview": "Enquanto tentam fugir dos rebeldes, Joel e Ellie cruzam com o homem mais procurado de Kansas City. Kathleen continua sua caçada.",
+        "released": "2023-02-12T00:00:00.000Z"
       },
       {
         "id": "tt3581920:1:6",
-        "title": "Episódio 6",
+        "title": "Parentesco",
         "season": 1,
-        "episode": 6
+        "episode": 6,
+        "thumbnail": "https://image.tmdb.org/t/p/w780/zW9AIy0PVhYfmukqBcUvlvi4mKc.jpg",
+        "overview": "Após ignorar os conselhos dos locais, Joel e Ellie adentram em território perigoso na busca pelos Vaga-Lumes... e de Tommy.",
+        "released": "2023-02-19T00:00:00.000Z"
       },
       {
         "id": "tt3581920:1:7",
-        "title": "Episódio 7",
+        "title": "O Que Deixamos Para Trás",
         "season": 1,
-        "episode": 7
+        "episode": 7,
+        "thumbnail": "https://image.tmdb.org/t/p/w780/oNyC68bnOoVAiJnKVsRNY9YDbl6.jpg",
+        "overview": "Enquanto Joel luta para sobreviver, Ellie se recorda da noite em que tudo mudou.",
+        "released": "2023-02-26T00:00:00.000Z"
       },
       {
         "id": "tt3581920:1:8",
-        "title": "Episódio 8",
+        "title": "Quando Mais Precisamos",
         "season": 1,
-        "episode": 8
+        "episode": 8,
+        "thumbnail": "https://image.tmdb.org/t/p/w780/iNbhbEOt1KAeqr5iyL9QOAZzgzT.jpg",
+        "overview": "Ellie cruza com um vingativo grupo de sobreviventes e chama a atenção de seu líder. Um debilitado Joel enfrenta uma nova ameaça.",
+        "released": "2023-03-05T00:00:00.000Z"
       },
       {
         "id": "tt3581920:1:9",
-        "title": "Episódio 9",
+        "title": "Procure a Luz",
         "season": 1,
-        "episode": 9
+        "episode": 9,
+        "thumbnail": "https://image.tmdb.org/t/p/w780/4WZ9E8IGl9tkka9JPh325Lc1kfh.jpg",
+        "overview": "Uma Anna grávida deposita sua confiança em uma amiga de longa data. Mais tarde, Joel e Ellie se aproximam do fim de sua jornada.",
+        "released": "2023-03-12T00:00:00.000Z"
       },
       {
         "id": "tt3581920:2:1",
-        "title": "Episódio 1",
+        "title": "Dias Futuros",
         "season": 2,
-        "episode": 1
+        "episode": 1,
+        "thumbnail": "https://image.tmdb.org/t/p/w780/rNTeUQ0C2eRyOlSoPToHV3adTYb.jpg",
+        "overview": "Cinco anos após os eventos da primeira temporada, Joel e Ellie se veem envolvidos em um conflito em um mundo ainda mais perigoso e imprevisível do que aquele que deixaram para trás.",
+        "released": "2025-04-13T00:00:00.000Z"
       },
       {
         "id": "tt3581920:2:2",
-        "title": "Episódio 2",
+        "title": "Através do Vale",
         "season": 2,
-        "episode": 2
+        "episode": 2,
+        "thumbnail": "https://image.tmdb.org/t/p/w780/y5hH64UU5QSbsVOarLsdk0sD5Rm.jpg",
+        "overview": "Enquanto uma tempestade se forma nas montanhas, o povo de Jackson Hole se prepara para o pior em meio ao aumento de avistamentos de Infectados. Enquanto isso, Abby pondera suas opções.",
+        "released": "2025-04-20T00:00:00.000Z"
       },
       {
         "id": "tt3581920:2:3",
-        "title": "Episódio 3",
+        "title": "O Caminho",
         "season": 2,
-        "episode": 3
+        "episode": 3,
+        "thumbnail": "https://image.tmdb.org/t/p/w780/naQJx4p1H8pjnS2fntzK6Jtcak9.jpg",
+        "overview": "Após receber informações de Dinah, Ellie prepara uma petição ao conselho da cidade. Perto de Seattle, um grupo religioso foge de uma guerra.",
+        "released": "2025-04-27T00:00:00.000Z"
       },
       {
         "id": "tt3581920:2:4",
-        "title": "Episódio 4",
+        "title": "Dia Um",
         "season": 2,
-        "episode": 4
+        "episode": 4,
+        "thumbnail": "https://image.tmdb.org/t/p/w780/agq0JjJXYJclLH7iQWmVJxUb0CV.jpg",
+        "overview": "Em 2018, a FEDRA de Seattle enfrenta um inimigo inesperado. Onze anos depois, Ellie e Dina se veem no meio de uma batalha sangrenta entre os fervorosos Serafitas e uma milícia implacável.",
+        "released": "2025-05-04T00:00:00.000Z"
       },
       {
         "id": "tt3581920:2:5",
-        "title": "Episódio 5",
+        "title": "Sinta o Amor Dela",
         "season": 2,
-        "episode": 5
+        "episode": 5,
+        "thumbnail": "https://image.tmdb.org/t/p/w780/o79Zkjoe2bNKslh8Dr7mcm8gyg.jpg",
+        "overview": "A WFL faz uma descoberta perigosa... a um preço alto. Mais tarde, Ellie precisa decidir se continua com seu plano - e corre o risco de colocar Dina em perigo - ou se desiste de sua busca por justiça.",
+        "released": "2025-05-11T00:00:00.000Z"
       },
       {
         "id": "tt3581920:2:6",
-        "title": "Episódio 6",
+        "title": "O Preço",
         "season": 2,
-        "episode": 6
+        "episode": 6,
+        "thumbnail": "https://image.tmdb.org/t/p/w780/iyqiOrn1253erbEpX9UeSPYXhTh.jpg",
+        "overview": "Joel surpreende Ellie em seu aniversário. Anos depois, Ellie se prepara para confrontar Joel sobre seu passado.",
+        "released": "2025-05-18T00:00:00.000Z"
       },
       {
         "id": "tt3581920:2:7",
-        "title": "Episódio 7",
+        "title": "Convergência",
         "season": 2,
-        "episode": 7
+        "episode": 7,
+        "thumbnail": "https://image.tmdb.org/t/p/w780/5xCYzdb4ASjn6wZQr5esz5aRf5U.jpg",
+        "overview": "Enquanto Lobos e Cicatrizes se preparam para uma batalha que pode encerrar sua longa guerra, a busca de Ellie a afasta de seus amigos e a leva a um confronto devastador.",
+        "released": "2025-05-25T00:00:00.000Z"
       }
     ]
   }

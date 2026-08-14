@@ -14,51 +14,75 @@
     "videos": [
       {
         "id": "tt15435876:1:1",
-        "title": "Episódio 1",
+        "title": "Tempo Extra",
         "season": 1,
-        "episode": 1
+        "episode": 1,
+        "thumbnail": "https://image.tmdb.org/t/p/w780/ecX4IMGRlKwyq5eZd5sjPxtUTaT.jpg",
+        "overview": "Após a morte de Carmine Falcone, Oz tenta se legitimar no submundo do crime de Gotham.",
+        "released": "2024-09-19T00:00:00.000Z"
       },
       {
         "id": "tt15435876:1:2",
-        "title": "Episódio 2",
+        "title": "Infiltrado",
         "season": 1,
-        "episode": 2
+        "episode": 2,
+        "thumbnail": "https://image.tmdb.org/t/p/w780/t7rC5DPfhcwowVJpz3vWtjqcTn8.jpg",
+        "overview": "Sofia trabalha para garantir a fortaleza de sua família, enquanto Oz tenta usar ambas as famílias, Falcone e Maroni, a seu favor.",
+        "released": "2024-09-29T00:00:00.000Z"
       },
       {
         "id": "tt15435876:1:3",
-        "title": "Episódio 3",
+        "title": "Bliss",
         "season": 1,
-        "episode": 3
+        "episode": 3,
+        "thumbnail": "https://image.tmdb.org/t/p/w780/d6zLI6V7Iq7B8mA2o9Hh8dUg1Mc.jpg",
+        "overview": "Esperando controlar o futuro do tráfico de drogas em Gotham, Oz e Sofia precisam primeiro lidar com seus respectivos segredos obscuros. Enquanto isso, Victor fica dividido entre sua vida nova e o que resta do passado.",
+        "released": "2024-10-06T00:00:00.000Z"
       },
       {
         "id": "tt15435876:1:4",
-        "title": "Episódio 4",
+        "title": "Cent'anni",
         "season": 1,
-        "episode": 4
+        "episode": 4,
+        "thumbnail": "https://image.tmdb.org/t/p/w780/9fWQJSLK1IxS5HeEuP5hjO2pOtX.jpg",
+        "overview": "Ao encarar os eventos que a transformaram em “A Carrasco” (e a levaram a uma luta de uma década para sobreviver no Asilo Arkham) Sofia faz planos para um futuro mais esperançoso.",
+        "released": "2024-10-13T00:00:00.000Z"
       },
       {
         "id": "tt15435876:1:5",
-        "title": "Episódio 5",
+        "title": "Boas-vindas",
         "season": 1,
-        "episode": 5
+        "episode": 5,
+        "thumbnail": "https://image.tmdb.org/t/p/w780/asI0yTDa0LoM3Vnl7yJF4ccn8Re.jpg",
+        "overview": "Com sua operação incipiente em risco, Oz faz um movimento desesperado para virar o jogo. Enquanto isso, Sofia se esforça para construir um novo legado.",
+        "released": "2024-10-20T00:00:00.000Z"
       },
       {
         "id": "tt15435876:1:6",
-        "title": "Episódio 6",
+        "title": "Cúpula de Ouro",
         "season": 1,
-        "episode": 6
+        "episode": 6,
+        "thumbnail": "https://image.tmdb.org/t/p/w780/wx3MYJjZTadMslXBfVml4x53BiL.jpg",
+        "overview": "Apesar das tentativas de seus inimigos de acabar com ele, Oz procura expandir seu alcance na cidade. Enquanto isso, Victor reencontra um antigo adversário.",
+        "released": "2024-10-27T00:00:00.000Z"
       },
       {
         "id": "tt15435876:1:7",
-        "title": "Episódio 7",
+        "title": "Manda-Chuva",
         "season": 1,
-        "episode": 7
+        "episode": 7,
+        "thumbnail": "https://image.tmdb.org/t/p/w780/cdADIQxbtAB47oSOn6mjLtVvjd0.jpg",
+        "overview": "Oz luta para preservar sua família e suas operações, enquanto Sofia faz uma descoberta impressionante.",
+        "released": "2024-11-03T00:00:00.000Z"
       },
       {
         "id": "tt15435876:1:8",
-        "title": "Episódio 8",
+        "title": "Algo Grave ou Trivial",
         "season": 1,
-        "episode": 8
+        "episode": 8,
+        "thumbnail": "https://image.tmdb.org/t/p/w780/nCJ2Oa9HHpNRLD0LMrWXFnM8a4.jpg",
+        "overview": "As verdades vêm à tona enquanto Oz Cobb se aproxima do final de sua jornada e sua luta pelo poder com Sofia chega a um ponto decisivo.",
+        "released": "2024-11-10T00:00:00.000Z"
       }
     ]
   }

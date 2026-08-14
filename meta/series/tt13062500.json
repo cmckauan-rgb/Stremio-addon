@@ -15,117 +15,174 @@
     "videos": [
       {
         "id": "tt13062500:1:1",
-        "title": "Episódio 1",
+        "title": "A Alma Perdida",
         "season": 1,
-        "episode": 1
+        "episode": 1,
+        "thumbnail": "https://image.tmdb.org/t/p/w780/B40tdfUttzhyweK91DRw3T2VLm.jpg",
+        "overview": "A chegada de Daryl Dixon à França desencadeia uma violenta cadeia de eventos que inadvertidamente coloca em perigo um jovem no centro de um crescente movimento religioso. Daryl concorda em ajudar a pastorear o menino para um local seguro em troca de ajuda para retornar à América.",
+        "released": "2023-09-10T00:00:00.000Z"
       },
       {
         "id": "tt13062500:1:2",
-        "title": "Episódio 2",
+        "title": "Alouette",
         "season": 1,
-        "episode": 2
+        "episode": 2,
+        "thumbnail": "https://image.tmdb.org/t/p/w780/gCTcN8Wl9Pn3BuU6sJX2fqdxomb.jpg",
+        "overview": "Daryl, Isabelle, Laurent e Sylvie enfrentam problemas na estrada. Isabelle se lembra do dia em que apareceram os famintos. Laurent luta para se encaixar.",
+        "released": "2023-09-17T00:00:00.000Z"
       },
       {
         "id": "tt13062500:1:3",
-        "title": "Episódio 3",
+        "title": "Paris Sempre Será Paris",
         "season": 1,
-        "episode": 3
+        "episode": 3,
+        "thumbnail": "https://image.tmdb.org/t/p/w780/wSdflUF8nlcgDb6WFXRd1R7tPTC.jpg",
+        "overview": "O grupo chega a Paris, onde Isabelle confronta seu passado enquanto se aproxima de Daryl. Codron procura a ajuda do líder de um movimento nacionalista crescente chamado Pouvoir, colocando a União da Esperança e Laurent sob um perigoso escrutínio.",
+        "released": "2023-09-24T00:00:00.000Z"
       },
       {
         "id": "tt13062500:1:4",
-        "title": "Episódio 4",
+        "title": "A Dama de Ferro",
         "season": 1,
-        "episode": 4
+        "episode": 4,
+        "thumbnail": "https://image.tmdb.org/t/p/w780/l7Xj2excN8Ffx31qt3KTa68KKot.jpg",
+        "overview": "Daryl e Isabelle devem negociar com Quinn, o proprietário do clube underground Demimonde – o último vestígio de arte e expressão em Paris.",
+        "released": "2023-10-01T00:00:00.000Z"
       },
       {
         "id": "tt13062500:1:5",
-        "title": "Episódio 5",
+        "title": "Dois Amores",
         "season": 1,
-        "episode": 5
+        "episode": 5,
+        "thumbnail": "https://image.tmdb.org/t/p/w780/m2aML9HzHvm8Q9dWLAFtzIUQKqN.jpg",
+        "overview": "Daryl enfrenta velhos demônios, relembrando as circunstâncias que o levaram à França. O sacrifício de Isabelle obriga-a a considerar medidas drásticas. Genet inicia uma celebração para o povo de Paris.",
+        "released": "2023-10-08T00:00:00.000Z"
       },
       {
         "id": "tt13062500:1:6",
-        "title": "Episódio 6",
+        "title": "Voltando Pra Casa",
         "season": 1,
-        "episode": 6
+        "episode": 6,
+        "thumbnail": "https://image.tmdb.org/t/p/w780/bLN5MVuEqIX6KHeGKfr454zlUZx.jpg",
+        "overview": "Genet solidifica sua base de poder. Antes que Daryl possa retornar para a América, ele tem um trabalho a fazer.",
+        "released": "2023-10-15T00:00:00.000Z"
       },
       {
         "id": "tt13062500:2:1",
-        "title": "Episódio 1",
+        "title": "A Bondade dos Estranhos",
         "season": 2,
-        "episode": 1
+        "episode": 1,
+        "thumbnail": "https://image.tmdb.org/t/p/w780/9zFGzL3tsZQsQ5vRbnaZHjWC5e6.jpg",
+        "overview": "Carol traça um caminho em direção a Daryl. Daryl, Isabelle e Laurent definem seus papéis no Ninho.",
+        "released": "2024-09-29T00:00:00.000Z"
       },
       {
         "id": "tt13062500:2:2",
-        "title": "Episódio 2",
+        "title": "Moinho Vermelho",
         "season": 2,
-        "episode": 2
+        "episode": 2,
+        "thumbnail": "https://image.tmdb.org/t/p/w780/nGADuNLfyZrmVjvq26dz3tzTO6O.jpg",
+        "overview": "Carol e Ash fazem um desvio inesperado; Daryl e Isabelle descobrem uma nova ameaça no Ninho.",
+        "released": "2024-10-06T00:00:00.000Z"
       },
       {
         "id": "tt13062500:2:3",
-        "title": "Episódio 3",
+        "title": "O Invisível",
         "season": 2,
-        "episode": 3
+        "episode": 3,
+        "thumbnail": "https://image.tmdb.org/t/p/w780/hYunGgbQTr6qiKMtdUesDXJugkJ.jpg",
+        "overview": "Carol procura informações. Daryl e Isabelle correm para salvar um dos seus. Pouvoir se reorganiza.",
+        "released": "2024-10-13T00:00:00.000Z"
       },
       {
         "id": "tt13062500:2:4",
-        "title": "Episódio 4",
+        "title": "Paraíso para Você",
         "season": 2,
-        "episode": 4
+        "episode": 4,
+        "thumbnail": "https://image.tmdb.org/t/p/w780/9zrjsLauShAxr9uZ7dH50K7XXPV.jpg",
+        "overview": "Toda a esperança parece perdida em meio ao ataque de Genet ao Ninho.",
+        "released": "2024-10-20T00:00:00.000Z"
       },
       {
         "id": "tt13062500:2:5",
-        "title": "Episódio 5",
+        "title": "Querer é Poder",
         "season": 2,
-        "episode": 5
+        "episode": 5,
+        "thumbnail": "https://image.tmdb.org/t/p/w780/1gvAGCpqd1TbnTXzg1JmxaEqfwB.jpg",
+        "overview": "Uma nova facção de sobreviventes persegue Laurent. As mentiras de Carol vêm à tona.",
+        "released": "2024-10-27T00:00:00.000Z"
       },
       {
         "id": "tt13062500:2:6",
-        "title": "Episódio 6",
+        "title": "Adeus Criança",
         "season": 2,
-        "episode": 6
+        "episode": 6,
+        "thumbnail": "https://image.tmdb.org/t/p/w780/iqhfP8exhLlAb1UDwJKDj7ElRl0.jpg",
+        "overview": "Uma estratégia de saída é traçada da França. A comunidade ajuda a mapear um novo plano para o futuro.",
+        "released": "2024-11-03T00:00:00.000Z"
       },
       {
         "id": "tt13062500:3:1",
-        "title": "Episódio 1",
+        "title": "Costa da Morte",
         "season": 3,
-        "episode": 1
+        "episode": 1,
+        "thumbnail": "https://image.tmdb.org/t/p/w780/tJxRhENFt3bFMCHlDI24xGSnF8B.jpg",
+        "overview": "Daryl e Carol enfrentam novos desafios explorando a Europa pós-apocalíptica enquanto tentam processar suas experiências na França; um encontro casual com um marinheiro inglês oferece um possível caminho para casa. Daryl toma uma decisão difícil para ajudar Carol.",
+        "released": "2025-09-07T00:00:00.000Z"
       },
       {
         "id": "tt13062500:3:2",
-        "title": "Episódio 2",
+        "title": "A Oferta",
         "season": 3,
-        "episode": 2
+        "episode": 2,
+        "thumbnail": "https://image.tmdb.org/t/p/w780/rTy2qBcBFqF18I8lVdEhTptUMp3.jpg",
+        "overview": "Naufragados na Espanha, Daryl e Carol buscam refúgio em uma vila remota, mas a verdade sombria sobre a sobrevivência dessa cidade apresenta novos obstáculos para seus planos de retornar para casa.",
+        "released": "2025-09-14T00:00:00.000Z"
       },
       {
         "id": "tt13062500:3:3",
-        "title": "Episódio 3",
+        "title": "O Sacrifício",
         "season": 3,
-        "episode": 3
+        "episode": 3,
+        "thumbnail": "https://image.tmdb.org/t/p/w780/xsIzVKcEo45uJkSjyK4ZOvY67jv.jpg",
+        "overview": "Enquanto o investimento de Carol em Solaz del Mar se aprofunda, Daryl luta para manter a paz entre ela e os líderes da cidade em seu esforço para levá-los de volta para a América.",
+        "released": "2025-09-21T00:00:00.000Z"
       },
       {
         "id": "tt13062500:3:4",
-        "title": "Episódio 4",
+        "title": "A Justiça da Fronteira",
         "season": 3,
-        "episode": 4
+        "episode": 4,
+        "thumbnail": "https://image.tmdb.org/t/p/w780/h9qssLW6Y5kEiMNsJNKE9rEBtbs.jpg",
+        "overview": "Enquanto Daryl se concentra em consertar o barco para a viagem de volta aos Estados Unidos, ele e Carol discordam sobre como seguir em frente. Um ataque surpresa a Solaz del Mar muda tudo.",
+        "released": "2025-09-28T00:00:00.000Z"
       },
       {
         "id": "tt13062500:3:5",
-        "title": "Episódio 5",
+        "title": "Limbo",
         "season": 3,
-        "episode": 5
+        "episode": 5,
+        "thumbnail": "https://image.tmdb.org/t/p/w780/os873SqykfcluoTvh37p1UNOVue.jpg",
+        "overview": "Carol decide ajudar Antonio a devolver Roberto a Solaz del Mar, enquanto Daryl viaja para o deserto para tentar reparar os danos causados por sua presença.",
+        "released": "2025-10-05T00:00:00.000Z"
       },
       {
         "id": "tt13062500:3:6",
-        "title": "Episódio 6",
+        "title": "Contrabando",
         "season": 3,
-        "episode": 6
+        "episode": 6,
+        "thumbnail": "https://image.tmdb.org/t/p/w780/4ZRuAqMXjPcu7LvmsBPBJC5aXfo.jpg",
+        "overview": "Daryl e Paz tentam interceptar o comboio de El Alcazar em Barcelona. Em Solaz del Mar, Carol e Antonio enfrentam as consequências das crescentes tensões e suspeitas.",
+        "released": "2025-10-12T00:00:00.000Z"
       },
       {
         "id": "tt13062500:3:7",
-        "title": "Episódio 7",
+        "title": "Consolo do Mar",
         "season": 3,
-        "episode": 7
+        "episode": 7,
+        "thumbnail": "https://image.tmdb.org/t/p/w780/r2hFLy4oguRDyInCH4ohDhB9G9q.jpg",
+        "overview": "Enquanto Daryl e Paz se aproximam de El Alcazar, Carol retorna a Solaz com uma missão própria. Alianças são testadas enquanto nossos heróis lutam para proteger as pessoas com quem se importam.",
+        "released": "2025-10-19T00:00:00.000Z"
       }
     ]
   }
