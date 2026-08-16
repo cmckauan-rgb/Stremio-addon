@@ -27242,5 +27242,98 @@
       "instagram_id": null,
       "twitter_id": "OrphanFirstKiII"
     }
+  },
+  "id:1315772": {
+    "adult": false,
+    "backdrop_path": "/kkcwhgSFd81QDlXo8ytrpHPQjhy.jpg",
+    "belongs_to_collection": {
+      "id": 544669,
+      "name": "Minions: Coleção",
+      "poster_path": "/lqU48HkuPDpbumwHk9syT7FbxpC.jpg",
+      "backdrop_path": "/62Qe28oi9PaK3P2ljDYUDTGAyST.jpg"
+    },
+    "budget": 85000000,
+    "genres": [
+      {
+        "id": 12,
+        "name": "Aventura"
+      },
+      {
+        "id": 16,
+        "name": "Animação"
+      },
+      {
+        "id": 35,
+        "name": "Comédia"
+      },
+      {
+        "id": 10751,
+        "name": "Família"
+      },
+      {
+        "id": 14,
+        "name": "Fantasia"
+      }
+    ],
+    "homepage": "http://www.minionsfilme.com.br/",
+    "id": 1315772,
+    "imdb_id": "tt32890033",
+    "origin_country": [
+      "US"
+    ],
+    "original_language": "en",
+    "original_title": "Minions & Monsters",
+    "overview": "Esta é a frenética, ridícula e totalmente verdadeira história de como os Minions conquistaram Hollywood, se tornaram estrelas de cinema, perderam tudo, libertaram monstros pelo mundo e, depois, se uniram para tentar salvar o planeta do caos que eles mesmos haviam acabado de criar.",
+    "popularity": 329.1045,
+    "poster_path": "/hTowtXrkCY7FJyoj4p91JckrJSE.jpg",
+    "production_companies": [
+      {
+        "id": 33,
+        "logo_path": "/8lvHyhjr8oUKOOy2dKXoALWKdp0.png",
+        "name": "Universal Pictures",
+        "origin_country": "US"
+      },
+      {
+        "id": 6704,
+        "logo_path": "/fOG2oY4m1YuYTQh4bMqqZkmgOAI.png",
+        "name": "Illumination",
+        "origin_country": "US"
+      }
+    ],
+    "production_countries": [
+      {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }
+    ],
+    "release_date": "2026-06-24",
+    "revenue": 484839794,
+    "runtime": 87,
+    "softcore": false,
+    "spoken_languages": [
+      {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+      },
+      {
+        "english_name": "Spanish",
+        "iso_639_1": "es",
+        "name": "Español"
+      }
+    ],
+    "status": "Released",
+    "tagline": "Hollywood tem um problema monstruoso.",
+    "title": "Minions & Monstros",
+    "video": false,
+    "vote_average": 7.389,
+    "vote_count": 642,
+    "external_ids": {
+      "imdb_id": "tt32890033",
+      "wikidata_id": "Q127605787",
+      "facebook_id": "minions",
+      "instagram_id": "minions",
+      "twitter_id": "Minions"
+    }
   }
 }
