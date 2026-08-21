@@ -517,12 +517,29 @@ def processar_series():
         ep_info = buscar_tmdb_episodio(tv_tmdb_id, temporada, episodio) if tv_tmdb_id else None
         titulo_oficial = (ep_info or {}).get("name") or f"Episódio {episodio}"
         still_source = imagem_tmdb((ep_info or {}).get("still_path"), "w780")
-        still = salvar_arte_local(
-            still_source,
-            Path("series") / slug_arte(sid) / "episodes",
-            f"s{temporada:02d}e{episodio:03d}",
-            "episode",
-        )
+        if still_source:
+            still = salvar_arte_local(
+                still_source,
+                Path("series") / slug_arte(sid) / "episodes",
+                f"s{temporada:02d}e{episodio:03d}",
+                "episode",
+            )
+        else:
+            # Quando o TMDB não possui imagem do episódio, usa a arte horizontal
+            # da série (ou o pôster como último recurso) para evitar cartões vazios.
+            fallback_path = serie["info"].get("backdrop_path")
+            fallback_kind = "background"
+            fallback_size = "w1280"
+            if not fallback_path:
+                fallback_path = serie["info"].get("poster_path")
+                fallback_kind = "poster"
+                fallback_size = "w500"
+            still = salvar_arte_local(
+                imagem_tmdb(fallback_path, fallback_size),
+                Path("series") / slug_arte(sid),
+                fallback_kind,
+                fallback_kind,
+            )
         overview = (ep_info or {}).get("overview") or ""
         air_date = (ep_info or {}).get("air_date") or None
 
