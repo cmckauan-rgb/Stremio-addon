@@ -418,21 +418,26 @@ def processar_series():
         else:
             series_por_id[serie["sid"]]["episodes"].update(serie["episodes"])
 
-    metas = []
+    metas_catalogo = []
     for sid, serie in series_por_id.items():
-        meta = montar_meta_series(serie["info"], serie["nome_original"], sid)
-        meta["videos"] = sorted(serie["episodes"].values(), key=lambda ep: (ep["season"], ep["episode"]))
-        metas.append(meta)
-        salvar_json(Path("meta/series") / f"{sid}.json", {"meta": meta})
+        meta_catalogo = montar_meta_series(serie["info"], serie["nome_original"], sid)
+        meta_completa = {
+            **meta_catalogo,
+            "videos": sorted(serie["episodes"].values(), key=lambda ep: (ep["season"], ep["episode"])),
+        }
+        metas_catalogo.append(meta_catalogo)
+        salvar_json(Path("meta/series") / f"{sid}.json", {"meta": meta_completa})
 
     for ep_key, stream_list in streams_map.items():
         salvar_json(Path("stream/series") / f"{ep_key}.json", {"streams": stream_list})
 
-    salvar_json(Path("catalog/series/minhas_series.json"), {"metas": metas})
-    gerar_catalogos_por_genero(metas, "catalog/series/minhas_series", GENEROS_SERIES)
+    # O catálogo inicial contém apenas os dados da série. Os episódios permanecem
+    # nos metadados individuais e são baixados somente quando a série é aberta.
+    salvar_json(Path("catalog/series/minhas_series.json"), {"metas": metas_catalogo})
+    gerar_catalogos_por_genero(metas_catalogo, "catalog/series/minhas_series", GENEROS_SERIES)
     total_episodios = sum(len(serie["episodes"]) for serie in series_por_id.values())
-    print(f"📺 Séries únicas: {len(metas)} | 🎞️ Episódios: {total_episodios} | 🔗 Streams: {len(streams_map)} | ⚠️ Ignorados: {ignorados}")
-    return len(metas), total_episodios
+    print(f"📺 Séries únicas: {len(metas_catalogo)} | 🎞️ Episódios: {total_episodios} | 🔗 Streams: {len(streams_map)} | ⚠️ Ignorados: {ignorados}")
+    return len(metas_catalogo), total_episodios
 
 def main():
     print("=" * 60)
