@@ -3,8 +3,8 @@
     "id": "tt10466872",
     "type": "series",
     "name": "Duna: A Profecia",
-    "poster": "https://image.tmdb.org/t/p/w500/9kyqa103Ih22hT955ZaZdipAOAD.jpg",
-    "background": "https://image.tmdb.org/t/p/w1280/lBoHzOgft2QfpjkVVvZCqeM4ttT.jpg",
+    "poster": "https://cmckauan-rgb.github.io/Stremio-addon/assets/series/tt10466872/poster-e6de132a68f3.webp",
+    "background": "https://cmckauan-rgb.github.io/Stremio-addon/assets/series/tt10466872/background-1047730e0fa7.webp",
     "description": "Dez mil anos antes da ascensão de Paul Atreides, as irmãs Valya e Tula Harkonnen estabeleceram a lendária seita e ordem feminina que se tornaria conhecida como Bene Gesserit para controlar o futuro da humanidade.",
     "releaseInfo": "2024",
     "genres": [
@@ -18,7 +18,7 @@
         "title": "A Mão Oculta",
         "season": 1,
         "episode": 1,
-        "thumbnail": "https://image.tmdb.org/t/p/w780/tIOtr2QGGi1Ktek3vQaU8VaNAmt.jpg",
+        "thumbnail": "https://cmckauan-rgb.github.io/Stremio-addon/assets/series/tt10466872/episodes/s01e001-6a5c9e9734c3.webp",
         "overview": "Em Wallach IX, a jovem Valya Harkonnen faz uma promessa à Irmandade. Trinta anos depois, o plano de Valya enfrenta uma ameaça.",
         "released": "2024-11-17T00:00:00.000Z"
       },
@@ -27,7 +27,7 @@
         "title": "Duas Lobas",
         "season": 1,
         "episode": 2,
-        "thumbnail": "https://image.tmdb.org/t/p/w780/iqLJi0tYVwUjRJhvLcRpkG1ttII.jpg",
+        "thumbnail": "https://cmckauan-rgb.github.io/Stremio-addon/assets/series/tt10466872/episodes/s01e002-92ce048f3964.webp",
         "overview": "Enquanto Valya recruta Theodosia para administrar a situação em Salusa Secundus, uma relutante Tula alista Lila para uma missão vital.",
         "released": "2024-11-24T00:00:00.000Z"
       },
@@ -36,7 +36,7 @@
         "title": "Irmandade Acima de Tudo",
         "season": 1,
         "episode": 3,
-        "thumbnail": "https://image.tmdb.org/t/p/w780/qRscPri7qXpVTwVQ4IJOVDpGrIw.jpg",
+        "thumbnail": "https://cmckauan-rgb.github.io/Stremio-addon/assets/series/tt10466872/episodes/s01e003-81b53c673f32.webp",
         "overview": "Após uma tragédia, a jovem Tula se preocupa em ser aceita apesar do sobrenome, enquanto uma cética Valya luta com a decisão de fazer o voto da Irmandade. Anos depois, Valya recebe uma mensagem que confirma suas suspeitas, e Tula lamenta uma perda.",
         "released": "2024-12-01T00:00:00.000Z"
       },
@@ -45,7 +45,7 @@
         "title": "Nascido Duas Vezes",
         "season": 1,
         "episode": 4,
-        "thumbnail": "https://image.tmdb.org/t/p/w780/mMcYRktxx1S0Co8LxXooDwNTrmZ.jpg",
+        "thumbnail": "https://cmckauan-rgb.github.io/Stremio-addon/assets/series/tt10466872/episodes/s01e004-2ad2bcaacf4e.webp",
         "overview": "Enquanto Tula tenta entender o sonho compartilhado das acólitas, Valya coloca seu plano em ação para redimir a Casa Harkonnen antes do Landsraad.",
         "released": "2024-12-08T00:00:00.000Z"
       },
@@ -54,7 +54,7 @@
         "title": "A Verdade no Sangue",
         "season": 1,
         "episode": 5,
-        "thumbnail": "https://image.tmdb.org/t/p/w780/73K29n8q1EEjPSz2QfXu1wYwiwP.jpg",
+        "thumbnail": "https://cmckauan-rgb.github.io/Stremio-addon/assets/series/tt10466872/episodes/s01e005-ee2449410806.webp",
         "overview": "Enquanto Tula tenta impedir que seu projeto secreto seja descoberto pelas outras Irmãs, Desmond parte para uma guerra para erradicar os insurgentes.",
         "released": "2024-12-15T00:00:00.000Z"
       },
@@ -63,7 +63,7 @@
         "title": "O Inimigo Arrogante",
         "season": 1,
         "episode": 6,
-        "thumbnail": "https://image.tmdb.org/t/p/w780/fwHiXMFdPU448Sy0mwckqurYXgz.jpg",
+        "thumbnail": "https://cmckauan-rgb.github.io/Stremio-addon/assets/series/tt10466872/episodes/s01e006-bf21ef8d0a1c.webp",
         "overview": "A estratégia de Valya a leva a um confronto épico com um Desmond cada vez mais poderoso, enquanto Tula tenta lidar com a revelação de sua verdadeira identidade.",
         "released": "2024-12-22T00:00:00.000Z"
       }

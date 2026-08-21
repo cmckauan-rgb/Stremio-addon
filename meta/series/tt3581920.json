@@ -3,8 +3,8 @@
     "id": "tt3581920",
     "type": "series",
     "name": "The Last of Us",
-    "poster": "https://image.tmdb.org/t/p/w500/el1KQzwdIm17I3A6cYPfsVIWhfX.jpg",
-    "background": "https://image.tmdb.org/t/p/w1280/lY2DhbA7Hy44fAKddr06UrXWWaQ.jpg",
+    "poster": "https://cmckauan-rgb.github.io/Stremio-addon/assets/series/tt3581920/poster-ea6b039dedc1.webp",
+    "background": "https://cmckauan-rgb.github.io/Stremio-addon/assets/series/tt3581920/background-36642ea4f008.webp",
     "description": "Situado duas décadas após a implosão de nossa sociedade, o drama seguirá Joel, um sobrevivente difícil, que é contratado para contrabandear uma garota de 14 anos chamada Ellie para fora de uma zona de quarentena opressiva. O que começa como um pequeno trabalho logo se torna uma jornada brutal e de partir o coração, já que os dois precisam atravessar os Estados Unidos e dependem um do outro para sobreviver.",
     "releaseInfo": "2023",
     "genres": [
@@ -16,7 +16,7 @@
         "title": "Quando Você Estiver Perdido na Escuridão",
         "season": 1,
         "episode": 1,
-        "thumbnail": "https://image.tmdb.org/t/p/w780/3VeY1k8wFyhcrMyQ8jpGegh9beU.jpg",
+        "thumbnail": "https://cmckauan-rgb.github.io/Stremio-addon/assets/series/tt3581920/episodes/s01e001-bc2e9a2bded9.webp",
         "overview": "Vinte anos após um surto fúngico devastar o planeta, os sobreviventes Joel e Tess recebem uma missão que pode mudar tudo.",
         "released": "2023-01-15T00:00:00.000Z"
       },
@@ -25,7 +25,7 @@
         "title": "Infectados",
         "season": 1,
         "episode": 2,
-        "thumbnail": "https://image.tmdb.org/t/p/w780/vGf7chl6XL7o3yYc8A5m3kjz8px.jpg",
+        "thumbnail": "https://cmckauan-rgb.github.io/Stremio-addon/assets/series/tt3581920/episodes/s01e002-4808a8edbd6b.webp",
         "overview": "Após escaparem da zona de quarentena, Joel e Tess discutem sobre o destino de Ellie enquanto transitam pelas ruínas de uma Boston abandonada há muito tempo.",
         "released": "2023-01-22T00:00:00.000Z"
       },
@@ -34,7 +34,7 @@
         "title": "Por Muito, Muito Tempo",
         "season": 1,
         "episode": 3,
-        "thumbnail": "https://image.tmdb.org/t/p/w780/fmaiMjbLXaeRyq2so0EXf3hrpyc.jpg",
+        "thumbnail": "https://cmckauan-rgb.github.io/Stremio-addon/assets/series/tt3581920/episodes/s01e003-c4b2e818e86c.webp",
         "overview": "Quando um estranho se aproxima do alojamento de Bill, um aficionado por preparativos para cenários apocalípticos, ambos forjam uma conexão pouco provável. Mais tarde, Joel e Ellis buscam a orientação de Bill.",
         "released": "2023-01-29T00:00:00.000Z"
       },
@@ -43,7 +43,7 @@
         "title": "Por Favor, Segure a Minha Mão",
         "season": 1,
         "episode": 4,
-        "thumbnail": "https://image.tmdb.org/t/p/w780/nYPkaj0a5m4Y9xHdDADtnzh6zOL.jpg",
+        "thumbnail": "https://cmckauan-rgb.github.io/Stremio-addon/assets/series/tt3581920/episodes/s01e004-6f8b96756a22.webp",
         "overview": "Depois de abandonar sua caminhonete em Kansas City, Joel e Ellie tentam escapar sem chamar a atenção de uma vingativa líder rebelde.",
         "released": "2023-02-05T00:00:00.000Z"
       },
@@ -52,7 +52,7 @@
         "title": "Resistir e Sobreviver",
         "season": 1,
         "episode": 5,
-        "thumbnail": "https://image.tmdb.org/t/p/w780/ztzxqW4IAVQRVimxhIfryP4CuI9.jpg",
+        "thumbnail": "https://cmckauan-rgb.github.io/Stremio-addon/assets/series/tt3581920/episodes/s01e005-875bdef62069.webp",
         "overview": "Enquanto tentam fugir dos rebeldes, Joel e Ellie cruzam com o homem mais procurado de Kansas City. Kathleen continua sua caçada.",
         "released": "2023-02-12T00:00:00.000Z"
       },
@@ -61,7 +61,7 @@
         "title": "Parentesco",
         "season": 1,
         "episode": 6,
-        "thumbnail": "https://image.tmdb.org/t/p/w780/zW9AIy0PVhYfmukqBcUvlvi4mKc.jpg",
+        "thumbnail": "https://cmckauan-rgb.github.io/Stremio-addon/assets/series/tt3581920/episodes/s01e006-d15c701a5e84.webp",
         "overview": "Após ignorar os conselhos dos locais, Joel e Ellie adentram em território perigoso na busca pelos Vaga-Lumes... e de Tommy.",
         "released": "2023-02-19T00:00:00.000Z"
       },
@@ -70,7 +70,7 @@
         "title": "O Que Deixamos Para Trás",
         "season": 1,
         "episode": 7,
-        "thumbnail": "https://image.tmdb.org/t/p/w780/oNyC68bnOoVAiJnKVsRNY9YDbl6.jpg",
+        "thumbnail": "https://cmckauan-rgb.github.io/Stremio-addon/assets/series/tt3581920/episodes/s01e007-f43573046743.webp",
         "overview": "Enquanto Joel luta para sobreviver, Ellie se recorda da noite em que tudo mudou.",
         "released": "2023-02-26T00:00:00.000Z"
       },
@@ -79,7 +79,7 @@
         "title": "Quando Mais Precisamos",
         "season": 1,
         "episode": 8,
-        "thumbnail": "https://image.tmdb.org/t/p/w780/iNbhbEOt1KAeqr5iyL9QOAZzgzT.jpg",
+        "thumbnail": "https://cmckauan-rgb.github.io/Stremio-addon/assets/series/tt3581920/episodes/s01e008-4a677407d520.webp",
         "overview": "Ellie cruza com um vingativo grupo de sobreviventes e chama a atenção de seu líder. Um debilitado Joel enfrenta uma nova ameaça.",
         "released": "2023-03-05T00:00:00.000Z"
       },
@@ -88,7 +88,7 @@
         "title": "Procure a Luz",
         "season": 1,
         "episode": 9,
-        "thumbnail": "https://image.tmdb.org/t/p/w780/4WZ9E8IGl9tkka9JPh325Lc1kfh.jpg",
+        "thumbnail": "https://cmckauan-rgb.github.io/Stremio-addon/assets/series/tt3581920/episodes/s01e009-002560ed9c6c.webp",
         "overview": "Uma Anna grávida deposita sua confiança em uma amiga de longa data. Mais tarde, Joel e Ellie se aproximam do fim de sua jornada.",
         "released": "2023-03-12T00:00:00.000Z"
       },
@@ -97,7 +97,7 @@
         "title": "Dias Futuros",
         "season": 2,
         "episode": 1,
-        "thumbnail": "https://image.tmdb.org/t/p/w780/rNTeUQ0C2eRyOlSoPToHV3adTYb.jpg",
+        "thumbnail": "https://cmckauan-rgb.github.io/Stremio-addon/assets/series/tt3581920/episodes/s02e001-48870ffe9067.webp",
         "overview": "Cinco anos após os eventos da primeira temporada, Joel e Ellie se veem envolvidos em um conflito em um mundo ainda mais perigoso e imprevisível do que aquele que deixaram para trás.",
         "released": "2025-04-13T00:00:00.000Z"
       },
@@ -106,7 +106,7 @@
         "title": "Através do Vale",
         "season": 2,
         "episode": 2,
-        "thumbnail": "https://image.tmdb.org/t/p/w780/y5hH64UU5QSbsVOarLsdk0sD5Rm.jpg",
+        "thumbnail": "https://cmckauan-rgb.github.io/Stremio-addon/assets/series/tt3581920/episodes/s02e002-44b06996dc7f.webp",
         "overview": "Enquanto uma tempestade se forma nas montanhas, o povo de Jackson Hole se prepara para o pior em meio ao aumento de avistamentos de Infectados. Enquanto isso, Abby pondera suas opções.",
         "released": "2025-04-20T00:00:00.000Z"
       },
@@ -115,7 +115,7 @@
         "title": "O Caminho",
         "season": 2,
         "episode": 3,
-        "thumbnail": "https://image.tmdb.org/t/p/w780/naQJx4p1H8pjnS2fntzK6Jtcak9.jpg",
+        "thumbnail": "https://cmckauan-rgb.github.io/Stremio-addon/assets/series/tt3581920/episodes/s02e003-acaff12b45c1.webp",
         "overview": "Após receber informações de Dinah, Ellie prepara uma petição ao conselho da cidade. Perto de Seattle, um grupo religioso foge de uma guerra.",
         "released": "2025-04-27T00:00:00.000Z"
       },
@@ -124,7 +124,7 @@
         "title": "Dia Um",
         "season": 2,
         "episode": 4,
-        "thumbnail": "https://image.tmdb.org/t/p/w780/agq0JjJXYJclLH7iQWmVJxUb0CV.jpg",
+        "thumbnail": "https://cmckauan-rgb.github.io/Stremio-addon/assets/series/tt3581920/episodes/s02e004-59ad80dfbea5.webp",
         "overview": "Em 2018, a FEDRA de Seattle enfrenta um inimigo inesperado. Onze anos depois, Ellie e Dina se veem no meio de uma batalha sangrenta entre os fervorosos Serafitas e uma milícia implacável.",
         "released": "2025-05-04T00:00:00.000Z"
       },
@@ -133,7 +133,7 @@
         "title": "Sinta o Amor Dela",
         "season": 2,
         "episode": 5,
-        "thumbnail": "https://image.tmdb.org/t/p/w780/o79Zkjoe2bNKslh8Dr7mcm8gyg.jpg",
+        "thumbnail": "https://cmckauan-rgb.github.io/Stremio-addon/assets/series/tt3581920/episodes/s02e005-6f425cd130cc.webp",
         "overview": "A WFL faz uma descoberta perigosa... a um preço alto. Mais tarde, Ellie precisa decidir se continua com seu plano - e corre o risco de colocar Dina em perigo - ou se desiste de sua busca por justiça.",
         "released": "2025-05-11T00:00:00.000Z"
       },
@@ -142,7 +142,7 @@
         "title": "O Preço",
         "season": 2,
         "episode": 6,
-        "thumbnail": "https://image.tmdb.org/t/p/w780/iyqiOrn1253erbEpX9UeSPYXhTh.jpg",
+        "thumbnail": "https://cmckauan-rgb.github.io/Stremio-addon/assets/series/tt3581920/episodes/s02e006-ec83ea472f80.webp",
         "overview": "Joel surpreende Ellie em seu aniversário. Anos depois, Ellie se prepara para confrontar Joel sobre seu passado.",
         "released": "2025-05-18T00:00:00.000Z"
       },
@@ -151,7 +151,7 @@
         "title": "Convergência",
         "season": 2,
         "episode": 7,
-        "thumbnail": "https://image.tmdb.org/t/p/w780/5xCYzdb4ASjn6wZQr5esz5aRf5U.jpg",
+        "thumbnail": "https://cmckauan-rgb.github.io/Stremio-addon/assets/series/tt3581920/episodes/s02e007-517d2f18f932.webp",
         "overview": "Enquanto Lobos e Cicatrizes se preparam para uma batalha que pode encerrar sua longa guerra, a busca de Ellie a afasta de seus amigos e a leva a um confronto devastador.",
         "released": "2025-05-25T00:00:00.000Z"
       }

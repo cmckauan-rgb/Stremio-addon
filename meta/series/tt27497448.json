@@ -3,8 +3,8 @@
     "id": "tt27497448",
     "type": "series",
     "name": "O Cavaleiro dos Sete Reinos",
-    "poster": "https://image.tmdb.org/t/p/w500/whIZtYminSyVOwjxhjxYcOaCuBg.jpg",
-    "background": "https://image.tmdb.org/t/p/w1280/7mkUu1F2hVUNgz24xO8HPx0D6mK.jpg",
+    "poster": "https://cmckauan-rgb.github.io/Stremio-addon/assets/series/tt27497448/poster-d31588c9dd3b.webp",
+    "background": "https://cmckauan-rgb.github.io/Stremio-addon/assets/series/tt27497448/background-f994e1621d89.webp",
     "description": "Ambientado em uma época em que a linhagem Targaryen ainda detém o Trono de Ferro e a memória do último dragão ainda não desapareceu da memória dos vivos, grandes destinos, inimigos poderosos e façanhas perigosas aguardam esses amigos improváveis ​​e incomparáveis.",
     "releaseInfo": "2026",
     "genres": [
@@ -18,7 +18,7 @@
         "title": "O Cavaleiro Andante",
         "season": 1,
         "episode": 1,
-        "thumbnail": "https://image.tmdb.org/t/p/w780/skUblgYcUgTwcs1J2N0dAmIJcoF.jpg",
+        "thumbnail": "https://cmckauan-rgb.github.io/Stremio-addon/assets/series/tt27497448/episodes/s01e001-7afe987d13a1.webp",
         "overview": "Em seu caminho para o torneio de justas em Ashford, Dunk conhece um menino astuto chamado Egg, que se oferece para ser seu escudeiro.",
         "released": "2026-01-18T00:00:00.000Z"
       },
@@ -27,7 +27,7 @@
         "title": "Carne Salgada Dura",
         "season": 1,
         "episode": 2,
-        "thumbnail": "https://image.tmdb.org/t/p/w780/xIGDeFRQWNBYqGxzjLg1I8c22Ne.jpg",
+        "thumbnail": "https://cmckauan-rgb.github.io/Stremio-addon/assets/series/tt27497448/episodes/s01e002-27f6a536897d.webp",
         "overview": "Dunk tenta convencer vários lordes para que lhe permitam participar do torneio... mas Egg o aconselha a manter seu orgulho. Quando os Targaryens chegam a Ashford, Dunk aproveita a oportunidade para falar com o príncipe Baelor.",
         "released": "2026-01-25T00:00:00.000Z"
       },
@@ -36,7 +36,7 @@
         "title": "O Escudeiro",
         "season": 1,
         "episode": 3,
-        "thumbnail": "https://image.tmdb.org/t/p/w780/8coDmuDhHGJGpgOqr7eT4FtA4uD.jpg",
+        "thumbnail": "https://cmckauan-rgb.github.io/Stremio-addon/assets/series/tt27497448/episodes/s01e003-fa2b8b2ce3ea.webp",
         "overview": "Depois que Egg tenta treinar o cavalo indomável de Dunk, este ensina ao seu novo escudeiro uma habilidade importante. Enquanto aproveitam o primeiro dia do torneio, Dunk recebe uma proposta do ajudante de Ashford que poderia garantir seu futuro.",
         "released": "2026-02-01T00:00:00.000Z"
       },
@@ -45,7 +45,7 @@
         "title": "Os Sete",
         "season": 1,
         "episode": 4,
-        "thumbnail": "https://image.tmdb.org/t/p/w780/wl4Lm6bcmOc79Jxtl06pGZeLFhk.jpg",
+        "thumbnail": "https://cmckauan-rgb.github.io/Stremio-addon/assets/series/tt27497448/episodes/s01e004-c7b1d449b0d2.webp",
         "overview": "Após ganhar a inimizade dos Targaryens, Dunk exerce seu direito de solicitar um julgamento por combate, mas enfrenta a difícil tarefa de encontrar outros seis cavaleiros para lutar ao seu lado.",
         "released": "2026-02-08T00:00:00.000Z"
       },
@@ -54,7 +54,7 @@
         "title": "Em Nome da Mãe",
         "season": 1,
         "episode": 5,
-        "thumbnail": "https://image.tmdb.org/t/p/w780/qrqwS4n95ZOghrHWppvf6XZCmVN.jpg",
+        "thumbnail": "https://cmckauan-rgb.github.io/Stremio-addon/assets/series/tt27497448/episodes/s01e005-fa7be5785025.webp",
         "overview": "A coragem de Dunk é posta à prova no brutal julgamento dos sete. Anos antes, quando seu amigo sugere uma forma de escapar de sua existência lamentável em Flea Bottom, Dunk se vê atraído pela promessa de um novo futuro nas Cidades Livres.",
         "released": "2026-02-15T00:00:00.000Z"
       },
@@ -63,7 +63,7 @@
         "title": "O Amanhã",
         "season": 1,
         "episode": 6,
-        "thumbnail": "https://image.tmdb.org/t/p/w780/9VixNtswlKTzjSD0oFmT6eTcC9e.jpg",
+        "thumbnail": "https://cmckauan-rgb.github.io/Stremio-addon/assets/series/tt27497448/episodes/s01e006-7bc4a5394060.webp",
         "overview": "Enquanto Ashford lamenta uma grande perda, Dunk avalia seu próximo passo... e se mantém ou não Egg como seu escudeiro.",
         "released": "2026-02-22T00:00:00.000Z"
       }

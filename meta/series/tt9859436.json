@@ -3,8 +3,8 @@
     "id": "tt9859436",
     "type": "series",
     "name": "The Walking Dead: The Ones Who Live",
-    "poster": "https://image.tmdb.org/t/p/w500/95pv9daC8yFm1BfaUyCTx7MfOs.jpg",
-    "background": "https://image.tmdb.org/t/p/w1280/5PCKxpFcCTDFT3b1olJGPaAIM9e.jpg",
+    "poster": "https://cmckauan-rgb.github.io/Stremio-addon/assets/series/tt9859436/poster-f6d89a891e10.webp",
+    "background": "https://cmckauan-rgb.github.io/Stremio-addon/assets/series/tt9859436/background-1d5211af9961.webp",
     "description": "Uma história de amor épica de duas pessoas mudadas por um mundo mudado, separadas pela distância e por um poder imparável. Rick e Michonne conseguirão encontrar um ao outro e quem eles eram em um lugar diferente de todos que já conheceram? Sem o outro, eles estão vivos?",
     "releaseInfo": "2024",
     "genres": [
@@ -17,7 +17,7 @@
         "title": "Anos",
         "season": 1,
         "episode": 1,
-        "thumbnail": "https://image.tmdb.org/t/p/w780/nWePw5BvAmW8n9UtcPja4kdQBM5.jpg",
+        "thumbnail": "https://cmckauan-rgb.github.io/Stremio-addon/assets/series/tt9859436/episodes/s01e001-34a3d7869158.webp",
         "overview": "Desejando desesperadamente escapar do CRM, mas com a esperança diminuindo à medida que cada tentativa falha, Rick precisa encontrar seu caminho neste novo mundo. Com o destino da humanidade em jogo, ele poderá perder-se no processo.",
         "released": "2024-02-25T00:00:00.000Z"
       },
@@ -26,7 +26,7 @@
         "title": "Perdida",
         "season": 1,
         "episode": 2,
-        "thumbnail": "https://image.tmdb.org/t/p/w780/zct0RgLyKFoPx9WWD71irBGGtxC.jpg",
+        "thumbnail": "https://cmckauan-rgb.github.io/Stremio-addon/assets/series/tt9859436/episodes/s01e002-733a5012f498.webp",
         "overview": "Em sua jornada para encontrar Rick, Michonne recebe ajuda de um grupo inesperado de sobreviventes. Ela se pergunta se tanto essa ajuda quanto sua determinação serão suficientes para enfrentar os perigos dos vivos e dos mortos, ou se ela perderá a esperança e fracassará.",
         "released": "2024-03-03T00:00:00.000Z"
       },
@@ -35,7 +35,7 @@
         "title": "Adeus",
         "season": 1,
         "episode": 3,
-        "thumbnail": "https://image.tmdb.org/t/p/w780/chYopvy2q6OEKVaa34Kqb6HQnw.jpg",
+        "thumbnail": "https://cmckauan-rgb.github.io/Stremio-addon/assets/series/tt9859436/episodes/s01e003-b0da3464509c.webp",
         "overview": "Com Michonne agora por perto, Rick tem que encontrar uma maneira de eles sobreviverem enquanto fingem que não se conhecem, e Michonne tem que evitar chamar muita atenção para si mesma e se tornar um alvo.",
         "released": "2024-03-10T00:00:00.000Z"
       },
@@ -44,7 +44,7 @@
         "title": "O Que Nós",
         "season": 1,
         "episode": 4,
-        "thumbnail": "https://image.tmdb.org/t/p/w780/wVqeTSTIvRq00UVLkYu50YR4aiN.jpg",
+        "thumbnail": "https://cmckauan-rgb.github.io/Stremio-addon/assets/series/tt9859436/episodes/s01e004-c45d7424c256.webp",
         "overview": "Rick e Michonne precisam decidir como será seu futuro. Eles conseguirão voltar a ser como eram antes ou seu amor entrará em colapso como o mundo ao seu redor?",
         "released": "2024-03-17T00:00:00.000Z"
       },
@@ -53,7 +53,7 @@
         "title": "Tornar-se",
         "season": 1,
         "episode": 5,
-        "thumbnail": "https://image.tmdb.org/t/p/w780/yhRO6XN0HCFzYCsNGrc76j4KwVk.jpg",
+        "thumbnail": "https://cmckauan-rgb.github.io/Stremio-addon/assets/series/tt9859436/episodes/s01e005-f2d87c1d2f7c.webp",
         "overview": "A jornada de Rick e Michonne não é tão fácil quanto se esperava. É repleto de perigos, incluindo a suspeita de que alguém está atrás deles, tentando destruir seu futuro juntos. Sobreviver a isto será difícil.",
         "released": "2024-03-24T00:00:00.000Z"
       },
@@ -62,7 +62,7 @@
         "title": "A Última Vez",
         "season": 1,
         "episode": 6,
-        "thumbnail": "https://image.tmdb.org/t/p/w780/vz45pMbmZr5gr56m0aVBt3WXdAi.jpg",
+        "thumbnail": "https://cmckauan-rgb.github.io/Stremio-addon/assets/series/tt9859436/episodes/s01e006-d0f227d39988.webp",
         "overview": "Rick e Michonne precisam realizar um milagre quase impossível para sobreviver. Muitos obstáculos formidáveis estão no seu caminho e, não importa o que aconteça, as coisas nunca mais serão as mesmas.",
         "released": "2024-03-31T00:00:00.000Z"
       }
