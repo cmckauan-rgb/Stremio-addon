@@ -1,12 +1,15 @@
+import hashlib
 import json
 import os
 import re
 import shutil
 import time
+from io import BytesIO
 from pathlib import Path
 
 import requests
 from bs4 import BeautifulSoup
+from PIL import Image, ImageOps
 
 TMDB_API_KEY = os.environ.get("TMDB_API_KEY")
 PROXY_BASE_URL = "https://drive-proxy.cmckauan.workers.dev"
@@ -24,6 +27,15 @@ CACHE_MOVIES_FILE = CACHE_DIR / "tmdb_movies.json"
 CACHE_SERIES_FILE = CACHE_DIR / "tmdb_series.json"
 CACHE_EPISODES_FILE = CACHE_DIR / "tmdb_episodes.json"
 SERIES_IDENTIFICATIONS_FILE = CACHE_DIR / "series_identifications.json"
+ARTWORK_ROOT = Path("assets")
+PAGES_BASE_URL = "https://cmckauan-rgb.github.io/Stremio-addon"
+ARTWORK_VERSION = "v1"
+ARTWORK_MAX_BYTES = 15 * 1024 * 1024
+ARTWORK_SPECS = {
+    "poster": {"width": 342, "quality": 82},
+    "background": {"width": 780, "quality": 78},
+    "episode": {"width": 480, "quality": 76},
+}
 
 if not TMDB_API_KEY:
     raise SystemExit("ERRO CRÍTICO: TMDB_API_KEY não foi encontrada nos Secrets.")
@@ -35,6 +47,8 @@ CACHE_TMDB_SERIES = {}
 CACHE_TMDB_EPISODES = {}
 SERIES_IDENTIFICATIONS = {}
 PASTAS_VISITADAS = set()
+ARTWORK_USED_PATHS = set()
+ARTWORK_STATS = {"downloaded": 0, "cached": 0, "fallback": 0, "removed": 0}
 
 def carregar_cache(path):
     if not path.exists():
@@ -279,11 +293,128 @@ def aprender_ids_das_series(arquivos):
 def imagem_tmdb(path, size):
     return f"https://image.tmdb.org/t/p/{size}{path}" if path else None
 
+def slug_arte(value):
+    normalized = re.sub(r"[^a-zA-Z0-9._-]+", "-", str(value or "").strip())
+    return normalized.strip("-") or "sem-id"
+
+def url_arte_local(path):
+    return f"{PAGES_BASE_URL}/{path.as_posix()}"
+
+def salvar_arte_local(source_url, relative_folder, name, kind):
+    if not source_url:
+        return None
+
+    spec = ARTWORK_SPECS[kind]
+    fingerprint = hashlib.sha256(
+        f"{ARTWORK_VERSION}|{source_url}|{spec['width']}|{spec['quality']}".encode("utf-8")
+    ).hexdigest()[:12]
+    relative_path = ARTWORK_ROOT / relative_folder / f"{slug_arte(name)}-{fingerprint}.webp"
+    ARTWORK_USED_PATHS.add(relative_path)
+
+    if relative_path.exists() and relative_path.stat().st_size > 0:
+        ARTWORK_STATS["cached"] += 1
+        return url_arte_local(relative_path)
+
+    relative_path.parent.mkdir(parents=True, exist_ok=True)
+    for tentativa in range(1, MAX_RETRIES + 1):
+        tmp_path = relative_path.with_suffix(relative_path.suffix + ".tmp")
+        try:
+            response = session.get(
+                source_url,
+                headers={"Accept": "image/avif,image/webp,image/*,*/*"},
+                timeout=REQUEST_TIMEOUT,
+            )
+            if response.status_code == 429:
+                retry_after = response.headers.get("Retry-After")
+                try:
+                    espera = min(float(retry_after), 30) if retry_after else 2 ** tentativa
+                except ValueError:
+                    espera = 2 ** tentativa
+                print(f"⚠️ Rate limit ao baixar arte; aguardando {espera:.1f}s...")
+                time.sleep(espera)
+                continue
+            response.raise_for_status()
+            if len(response.content) > ARTWORK_MAX_BYTES:
+                raise ValueError(f"imagem maior que {ARTWORK_MAX_BYTES // (1024 * 1024)} MB")
+
+            with Image.open(BytesIO(response.content)) as opened:
+                image = ImageOps.exif_transpose(opened).convert("RGB")
+                if image.width > spec["width"]:
+                    target_height = max(1, round(image.height * spec["width"] / image.width))
+                    image = image.resize(
+                        (spec["width"], target_height),
+                        Image.Resampling.LANCZOS,
+                    )
+                image.save(
+                    tmp_path,
+                    format="WEBP",
+                    quality=spec["quality"],
+                    method=4,
+                    optimize=True,
+                )
+            tmp_path.replace(relative_path)
+            ARTWORK_STATS["downloaded"] += 1
+            return url_arte_local(relative_path)
+        except (requests.RequestException, OSError, ValueError) as exc:
+            tmp_path.unlink(missing_ok=True)
+            if tentativa == MAX_RETRIES:
+                print(f"⚠️ Arte mantida no TMDB após {MAX_RETRIES} tentativas: {exc}")
+                ARTWORK_STATS["fallback"] += 1
+                return source_url
+            espera = 2 ** (tentativa - 1)
+            print(f"⚠️ Falha ao baixar arte ({tentativa}/{MAX_RETRIES}): {exc}; nova tentativa em {espera}s...")
+            time.sleep(espera)
+
+    ARTWORK_STATS["fallback"] += 1
+    return source_url
+
+def limpar_artes_obsoletas():
+    if not ARTWORK_ROOT.exists():
+        return
+    for path in ARTWORK_ROOT.rglob("*.webp"):
+        if path in ARTWORK_USED_PATHS:
+            continue
+        path.unlink(missing_ok=True)
+        ARTWORK_STATS["removed"] += 1
+    for directory in sorted(
+        (path for path in ARTWORK_ROOT.rglob("*") if path.is_dir()),
+        key=lambda path: len(path.parts),
+        reverse=True,
+    ):
+        try:
+            directory.rmdir()
+        except OSError:
+            pass
+
 def montar_meta_movie(info, titulo_fallback, mid):
-    return {"id": mid, "type": "movie", "name": info.get("title") or titulo_fallback, "poster": imagem_tmdb(info.get("poster_path"), "w500"), "background": imagem_tmdb(info.get("backdrop_path"), "w1280"), "description": info.get("overview") or "Sem sinopse disponível.", "releaseInfo": (info.get("release_date") or "")[:4], "genres": [g.get("name") for g in info.get("genres", []) if g.get("name")]}
+    folder = Path("movie") / slug_arte(mid)
+    poster_source = imagem_tmdb(info.get("poster_path"), "w500")
+    background_source = imagem_tmdb(info.get("backdrop_path"), "w1280")
+    return {
+        "id": mid,
+        "type": "movie",
+        "name": info.get("title") or titulo_fallback,
+        "poster": salvar_arte_local(poster_source, folder, "poster", "poster"),
+        "background": salvar_arte_local(background_source, folder, "background", "background"),
+        "description": info.get("overview") or "Sem sinopse disponível.",
+        "releaseInfo": (info.get("release_date") or "")[:4],
+        "genres": [g.get("name") for g in info.get("genres", []) if g.get("name")],
+    }
 
 def montar_meta_series(info, nome_fallback, sid):
-    return {"id": sid, "type": "series", "name": info.get("name") or nome_fallback, "poster": imagem_tmdb(info.get("poster_path"), "w500"), "background": imagem_tmdb(info.get("backdrop_path"), "w1280"), "description": info.get("overview") or "Sem sinopse disponível.", "releaseInfo": (info.get("first_air_date") or "")[:4], "genres": [g.get("name") for g in info.get("genres", []) if g.get("name")]}
+    folder = Path("series") / slug_arte(sid)
+    poster_source = imagem_tmdb(info.get("poster_path"), "w500")
+    background_source = imagem_tmdb(info.get("backdrop_path"), "w1280")
+    return {
+        "id": sid,
+        "type": "series",
+        "name": info.get("name") or nome_fallback,
+        "poster": salvar_arte_local(poster_source, folder, "poster", "poster"),
+        "background": salvar_arte_local(background_source, folder, "background", "background"),
+        "description": info.get("overview") or "Sem sinopse disponível.",
+        "releaseInfo": (info.get("first_air_date") or "")[:4],
+        "genres": [g.get("name") for g in info.get("genres", []) if g.get("name")],
+    }
 
 def salvar_json(path, data):
     path.parent.mkdir(parents=True, exist_ok=True)
@@ -385,7 +516,13 @@ def processar_series():
         # Consulta individual ao TMDB para obter o título oficial e a imagem/still.
         ep_info = buscar_tmdb_episodio(tv_tmdb_id, temporada, episodio) if tv_tmdb_id else None
         titulo_oficial = (ep_info or {}).get("name") or f"Episódio {episodio}"
-        still = imagem_tmdb((ep_info or {}).get("still_path"), "w780")
+        still_source = imagem_tmdb((ep_info or {}).get("still_path"), "w780")
+        still = salvar_arte_local(
+            still_source,
+            Path("series") / slug_arte(sid) / "episodes",
+            f"s{temporada:02d}e{episodio:03d}",
+            "episode",
+        )
         overview = (ep_info or {}).get("overview") or ""
         air_date = (ep_info or {}).get("air_date") or None
 
@@ -451,6 +588,7 @@ def main():
     salvar_cache(CACHE_SERIES_FILE, CACHE_TMDB_SERIES)
     salvar_cache(CACHE_EPISODES_FILE, CACHE_TMDB_EPISODES)
     salvar_cache(SERIES_IDENTIFICATIONS_FILE, SERIES_IDENTIFICATIONS)
+    limpar_artes_obsoletas()
     print("\n" + "=" * 60)
     print("✅ ATUALIZAÇÃO CONCLUÍDA")
     print(f"🎬 Filmes: {filmes}")
@@ -458,6 +596,13 @@ def main():
     print(f"🎞️ Episódios: {episodios}")
     print(f"🧠 Identificações: {len(SERIES_IDENTIFICATIONS)}")
     print(f"📚 Episódios consultados no TMDB: {len(CACHE_TMDB_EPISODES)}")
+    print(
+        "🖼️ Artes: "
+        f"{ARTWORK_STATS['downloaded']} baixadas, "
+        f"{ARTWORK_STATS['cached']} em cache, "
+        f"{ARTWORK_STATS['fallback']} no fallback TMDB, "
+        f"{ARTWORK_STATS['removed']} antigas removidas"
+    )
     print("=" * 60)
 
 if __name__ == "__main__":
