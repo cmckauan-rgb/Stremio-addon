@@ -16,6 +16,8 @@ PROXY_BASE_URL = "https://drive-proxy.cmckauan.workers.dev"
 FILMES_FOLDER_ID = "1twEX01x0SdhtzoK58klrzP8JoDFdx6gW"
 SERIES_FOLDER_ID = "1OZutaKMisH1w6W8PqKFpekyfIJpq6Rws"
 LANGUAGE = "pt-BR"
+TMDB_IMAGE_LANGUAGES = "null,pt,en"
+TMDB_ARTWORK_SELECTION_VERSION = "backdrop-v2"
 REQUEST_TIMEOUT = 12
 MAX_RETRIES = 3
 VIDEO_EXTENSIONS = {".mkv", ".mp4", ".avi", ".webm", ".mov"}
@@ -188,12 +190,52 @@ def buscar_arquivos_recursivo(folder_id):
             encontrados.append(item)
     return encontrados
 
+def preparar_info_tmdb(data):
+    if not isinstance(data, dict):
+        return data
+    images = data.get("images")
+    if not isinstance(images, dict):
+        return data
+    prepared = dict(data)
+    prepared["_selected_backdrop_path"] = escolher_backdrop_path(data)
+    prepared["_artwork_selection_version"] = TMDB_ARTWORK_SELECTION_VERSION
+    # A galeria completa pode ter centenas de imagens. Guardamos somente a
+    # escolha final para manter os arquivos de cache pequenos.
+    prepared.pop("images", None)
+    return prepared
+
+def cache_tmdb_atualizado(data):
+    return (
+        isinstance(data, dict)
+        and data.get("_artwork_selection_version") == TMDB_ARTWORK_SELECTION_VERSION
+    )
+
+def buscar_detalhes_tmdb(tipo, tmdb_id, label):
+    data = request_json(
+        f"https://api.themoviedb.org/3/{tipo}/{tmdb_id}",
+        {
+            "api_key": TMDB_API_KEY,
+            "language": LANGUAGE,
+            "append_to_response": "external_ids,images",
+            "include_image_language": TMDB_IMAGE_LANGUAGES,
+        },
+        label,
+    )
+    return preparar_info_tmdb(data)
+
 def buscar_tmdb_filme(titulo, ano=None, tmdb_id=None):
     cache_key = f"id:{tmdb_id}" if tmdb_id else f"title:{normalizar_nome(titulo)}|year:{ano or ''}"
-    if cache_key in CACHE_TMDB_MOVIES:
-        return CACHE_TMDB_MOVIES[cache_key]
+    cached = CACHE_TMDB_MOVIES.get(cache_key)
+    if cache_key in CACHE_TMDB_MOVIES and (cached is None or cache_tmdb_atualizado(cached)):
+        return cached
+    if isinstance(cached, dict) and cached.get("id"):
+        data = buscar_detalhes_tmdb("movie", cached["id"], f"TMDB filme {cached['id']}")
+        if data:
+            CACHE_TMDB_MOVIES[cache_key] = data
+            return data
+        return cached
     if tmdb_id:
-        data = request_json(f"https://api.themoviedb.org/3/movie/{tmdb_id}", {"api_key": TMDB_API_KEY, "language": LANGUAGE, "append_to_response": "external_ids"}, f"TMDB filme {tmdb_id}")
+        data = buscar_detalhes_tmdb("movie", tmdb_id, f"TMDB filme {tmdb_id}")
         if data:
             CACHE_TMDB_MOVIES[cache_key] = data
             return data
@@ -203,17 +245,24 @@ def buscar_tmdb_filme(titulo, ano=None, tmdb_id=None):
         CACHE_TMDB_MOVIES[cache_key] = None
         return None
     tmdb_id_result = results[0].get("id")
-    details = request_json(f"https://api.themoviedb.org/3/movie/{tmdb_id_result}", {"api_key": TMDB_API_KEY, "language": LANGUAGE, "append_to_response": "external_ids"}, f"detalhes TMDB filme {tmdb_id_result}")
+    details = buscar_detalhes_tmdb("movie", tmdb_id_result, f"detalhes TMDB filme {tmdb_id_result}")
     result = details or results[0]
     CACHE_TMDB_MOVIES[cache_key] = result
     return result
 
 def buscar_tmdb_tv(nome_serie, tmdb_id=None):
     cache_key = f"id:{tmdb_id}" if tmdb_id else f"name:{chave_serie(nome_serie)}"
-    if cache_key in CACHE_TMDB_SERIES:
-        return CACHE_TMDB_SERIES[cache_key]
+    cached = CACHE_TMDB_SERIES.get(cache_key)
+    if cache_key in CACHE_TMDB_SERIES and (cached is None or cache_tmdb_atualizado(cached)):
+        return cached
+    if isinstance(cached, dict) and cached.get("id"):
+        data = buscar_detalhes_tmdb("tv", cached["id"], f"TMDB série {cached['id']}")
+        if data:
+            CACHE_TMDB_SERIES[cache_key] = data
+            return data
+        return cached
     if tmdb_id:
-        data = request_json(f"https://api.themoviedb.org/3/tv/{tmdb_id}", {"api_key": TMDB_API_KEY, "language": LANGUAGE, "append_to_response": "external_ids"}, f"TMDB série {tmdb_id}")
+        data = buscar_detalhes_tmdb("tv", tmdb_id, f"TMDB série {tmdb_id}")
         if data:
             CACHE_TMDB_SERIES[cache_key] = data
             return data
@@ -223,7 +272,7 @@ def buscar_tmdb_tv(nome_serie, tmdb_id=None):
         CACHE_TMDB_SERIES[cache_key] = None
         return None
     tv_id = results[0].get("id")
-    details = request_json(f"https://api.themoviedb.org/3/tv/{tv_id}", {"api_key": TMDB_API_KEY, "language": LANGUAGE, "append_to_response": "external_ids"}, f"detalhes TMDB série {tv_id}")
+    details = buscar_detalhes_tmdb("tv", tv_id, f"detalhes TMDB série {tv_id}")
     result = details or results[0]
     CACHE_TMDB_SERIES[cache_key] = result
     return result
@@ -292,6 +341,38 @@ def aprender_ids_das_series(arquivos):
 
 def imagem_tmdb(path, size):
     return f"https://image.tmdb.org/t/p/{size}{path}" if path else None
+
+def escolher_backdrop_path(info):
+    """Escolhe uma arte horizontal que não seja a capa principal disfarçada."""
+    primary_path = (info or {}).get("backdrop_path")
+    backdrops = ((info or {}).get("images") or {}).get("backdrops") or []
+    candidates = []
+    for backdrop in backdrops:
+        path = backdrop.get("file_path")
+        try:
+            aspect_ratio = float(backdrop.get("aspect_ratio") or 0)
+            width = int(backdrop.get("width") or 0)
+        except (TypeError, ValueError):
+            continue
+        if not path or width < ARTWORK_SPECS["background"]["width"]:
+            continue
+        if not 1.55 <= aspect_ratio <= 2.10:
+            continue
+        candidates.append(backdrop)
+
+    # Artes sem idioma normalmente não contêm títulos ou textos embutidos.
+    no_text = [item for item in candidates if not item.get("iso_639_1")]
+    pool = no_text or candidates
+
+    # O backdrop principal do TMDB é justamente o que costuma ser uma peça
+    # promocional parecida com pôster. Havendo alternativa válida, usamos a
+    # primeira opção da galeria, que já vem ordenada pelo TMDB.
+    alternatives = [item for item in pool if item.get("file_path") != primary_path]
+    selected = alternatives or pool
+    return selected[0].get("file_path") if selected else primary_path
+
+def backdrop_selecionado(info):
+    return (info or {}).get("_selected_backdrop_path") or escolher_backdrop_path(info)
 
 def slug_arte(value):
     normalized = re.sub(r"[^a-zA-Z0-9._-]+", "-", str(value or "").strip())
@@ -389,7 +470,7 @@ def limpar_artes_obsoletas():
 def montar_meta_movie(info, titulo_fallback, mid):
     folder = Path("movie") / slug_arte(mid)
     poster_source = imagem_tmdb(info.get("poster_path"), "w500")
-    background_source = imagem_tmdb(info.get("backdrop_path"), "w1280")
+    background_source = imagem_tmdb(backdrop_selecionado(info), "w1280")
     return {
         "id": mid,
         "type": "movie",
@@ -404,7 +485,7 @@ def montar_meta_movie(info, titulo_fallback, mid):
 def montar_meta_series(info, nome_fallback, sid):
     folder = Path("series") / slug_arte(sid)
     poster_source = imagem_tmdb(info.get("poster_path"), "w500")
-    background_source = imagem_tmdb(info.get("backdrop_path"), "w1280")
+    background_source = imagem_tmdb(backdrop_selecionado(info), "w1280")
     return {
         "id": sid,
         "type": "series",
@@ -527,7 +608,7 @@ def processar_series():
         else:
             # Quando o TMDB não possui imagem do episódio, usa a arte horizontal
             # da série (ou o pôster como último recurso) para evitar cartões vazios.
-            fallback_path = serie["info"].get("backdrop_path")
+            fallback_path = backdrop_selecionado(serie["info"])
             fallback_kind = "background"
             fallback_size = "w1280"
             if not fallback_path:
