@@ -4,12 +4,13 @@
     "type": "movie",
     "name": "Os Outros Caras",
     "poster": "https://cmckauan-rgb.github.io/Stremio-addon/assets/movie/tt1386588/poster-de47c8206412.webp",
-    "background": "https://cmckauan-rgb.github.io/Stremio-addon/assets/movie/tt1386588/background-73025fbcf8c9.webp",
+    "background": "https://cmckauan-rgb.github.io/Stremio-addon/assets/movie/tt1386588/background-46faef7c8294.webp",
     "description": "Os detetives da polícia de Nova York, Gamble e Hoitz, não fazem manchetes com o seu trabalho diário atrás de uma escrivaninha. Gamble aprecia a sua função, mas Hoitz está ansioso para voltar para as ruas. Quando um caso aparentemente insignificante acaba se revelando um grande negócio, os dois policiais têm a oportunidade de finalmente provar a seus companheiros que eles têm capacidade.",
     "releaseInfo": "2010",
     "genres": [
       "Comédia",
-      "Ação"
+      "Ação",
+      "Crime"
     ]
   }
 }

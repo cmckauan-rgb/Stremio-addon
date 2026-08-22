@@ -281,7 +281,7 @@
     "original_language": "en",
     "original_name": "Ben 10",
     "overview": "Ben Tennyson era um garoto comum de 10 anos de idade que durante uma aborrecida viagem de férias em companhia de seu avô Max e de sua prima Gwen descobre um estranho objeto alienígena chamado Omnitrix trazido para a Terra por um meteorito. Agora com o Omnitrix, ele pode se transformar em 10 diferentes heróis alienígenas cada um com seus próprios poderes. Ben vai precisar de todos os poderes para salvar o mundo da presença de Vilgax e de ameaças extraterrestres",
-    "popularity": 30.138,
+    "popularity": 28.4611,
     "poster_path": "/eogRp6oAPK0SEvQmCrQ78LTlSdp.jpg",
     "production_companies": [
       {
@@ -367,7 +367,7 @@
     "tagline": "Tá na hora de virar herói!",
     "type": "Scripted",
     "vote_average": 8.2,
-    "vote_count": 1820,
+    "vote_count": 1823,
     "external_ids": {
       "imdb_id": "tt0760437",
       "freebase_mid": "/m/09g_31",
@@ -378,7 +378,9 @@
       "facebook_id": null,
       "instagram_id": null,
       "twitter_id": null
-    }
+    },
+    "_selected_backdrop_path": "/tp3IqVNizpOhNLeZtUdGJLvoQk0.jpg",
+    "_artwork_selection_version": "backdrop-v2"
   },
   "id:236994": {
     "adult": false,
@@ -608,7 +610,7 @@
     "original_language": "ja",
     "original_name": "ドラゴンボールDAIMA",
     "overview": "Goku e companhia viviam pacificamente quando de repente ficaram pequenos por causa de uma conspiração! Quando eles descobrem que o motivo para isso pode estar no \"Mundo dos Demônios\", um misterioso Majin chamado Glorio aparece para eles.",
-    "popularity": 21.7654,
+    "popularity": 18.7109,
     "poster_path": "/qlLJvJO8rsltmnWWbKgT13hP90I.jpg",
     "production_companies": [
       {
@@ -647,8 +649,8 @@
     "status": "Ended",
     "tagline": "Bem-vindo ao Reino dos Demônios!",
     "type": "Scripted",
-    "vote_average": 8.162,
-    "vote_count": 612,
+    "vote_average": 8.157,
+    "vote_count": 614,
     "external_ids": {
       "imdb_id": "tt29485149",
       "freebase_mid": null,
@@ -659,7 +661,9 @@
       "facebook_id": null,
       "instagram_id": null,
       "twitter_id": "DB_official_jp"
-    }
+    },
+    "_selected_backdrop_path": "/jslk3I4TLDTb9BTKUqjMHpsCsml.jpg",
+    "_artwork_selection_version": "backdrop-v2"
   },
   "name:dune prophecy": {
     "adult": false,
@@ -3876,8 +3880,8 @@
       "id": 7196571,
       "name": "As Traições em Tumbleton",
       "overview": "As alianças cambiantes transformam a guerra de forma irreversível à medida que as forças de Rhaenyra convergem em Tumbleton e ambos os bandos competem para obter vantagem.",
-      "vote_average": 6.5,
-      "vote_count": 31,
+      "vote_average": 6.851,
+      "vote_count": 47,
       "air_date": "2026-08-09",
       "episode_number": 8,
       "episode_type": "finale",
@@ -3905,7 +3909,7 @@
     "original_language": "en",
     "original_name": "House of the Dragon",
     "overview": "200 anos antes dos eventos de \"Game of Thrones\", os Targaryen estavam no ápice de seu poder, tendo inúmeros dragões sob seu comando, mas nem tudo dura para sempre. O início do fim da dinastia Targaryen.",
-    "popularity": 452.94,
+    "popularity": 268.7605,
     "poster_path": "/oKJDm4QCKbp6mR4FnxXrFlPJP8Y.jpg",
     "production_companies": [
       {
@@ -3968,7 +3972,7 @@
         "overview": "A Dança dos Dragões irrompe quando Rhaenyra e Aegon II reivindicam o Trono de Ferro, mergulhando Westeros em uma brutal guerra civil. A temporada explora as complexidades da lealdade, do poder e da família, enquanto ambos os lados utilizam dragões e exércitos para afirmar sua supremacia. Eventos cruciais incluem o trágico assassinato do Príncipe Jaehaerys, que intensifica o conflito, e a dinâmica em constante mudança entre figuras-chave como Daemon Targaryen e Alicent Hightower. À medida que a guerra se intensifica, o reino testemunha as consequências devastadoras da ambição e o alto preço das disputas de sucessão.",
         "poster_path": "/d8um9L1fqQGCLgTw5JGPHogdNgK.jpg",
         "season_number": 2,
-        "vote_average": 7.0
+        "vote_average": 6.9
       },
       {
         "air_date": "2026-06-21",
@@ -3978,7 +3982,7 @@
         "overview": "Rhaenyra parece se aproximar da vitória na guerra entre as duas facções da Casa Targaryen. Mas o equilíbrio de poder é frágil, e tudo pode mudar quando as lealdades mudam e novos personagens entram em cena.",
         "poster_path": "/oKJDm4QCKbp6mR4FnxXrFlPJP8Y.jpg",
         "season_number": 3,
-        "vote_average": 6.5
+        "vote_average": 6.6
       }
     ],
     "softcore": false,
@@ -3992,8 +3996,8 @@
     "status": "Returning Series",
     "tagline": "Não foram os sonhos que os tornaram reis. Foram os dragões.",
     "type": "Scripted",
-    "vote_average": 8.385,
-    "vote_count": 6943,
+    "vote_average": 8.386,
+    "vote_count": 7009,
     "external_ids": {
       "imdb_id": "tt11198330",
       "freebase_mid": "",
@@ -4004,7 +4008,9 @@
       "facebook_id": "100067234122352",
       "instagram_id": "houseofthedragonhbo",
       "twitter_id": "HouseofDragon"
-    }
+    },
+    "_selected_backdrop_path": "/etj8E2o0Bud0HkONVQPjyCkIvpv.jpg",
+    "_artwork_selection_version": "backdrop-v2"
   },
   "id:90228": {
     "adult": false,
@@ -4083,7 +4089,7 @@
     "original_language": "en",
     "original_name": "Dune: Prophecy",
     "overview": "Dez mil anos antes da ascensão de Paul Atreides, as irmãs Valya e Tula Harkonnen estabeleceram a lendária seita e ordem feminina que se tornaria conhecida como Bene Gesserit para controlar o futuro da humanidade.",
-    "popularity": 28.1947,
+    "popularity": 18.5177,
     "poster_path": "/9kyqa103Ih22hT955ZaZdipAOAD.jpg",
     "production_companies": [
       {
@@ -4166,8 +4172,8 @@
     "status": "Returning Series",
     "tagline": "Verdadeiro poder começa com controle.",
     "type": "Scripted",
-    "vote_average": 7.21,
-    "vote_count": 619,
+    "vote_average": 7.214,
+    "vote_count": 626,
     "external_ids": {
       "imdb_id": "tt10466872",
       "freebase_mid": null,
@@ -4178,7 +4184,9 @@
       "facebook_id": null,
       "instagram_id": null,
       "twitter_id": null
-    }
+    },
+    "_selected_backdrop_path": "/nEwmL7nCXUuf4rEbMHBPNka1jy7.jpg",
+    "_artwork_selection_version": "backdrop-v2"
   },
   "id:21781": {
     "adult": false,
@@ -4258,7 +4266,7 @@
     "original_language": "en",
     "original_name": "The Super Hero Squad Show",
     "overview": "Antes do início da série, o vilão Doutor Destino está em busca de uma dominação universal, e tenta adquirir o poder ilimitado da “Espada do Infinito”. Porém, numa batalha contra o Homem de Ferro, a espada se parte em mil pedacinhos, e esses chovem na cidade Super Herói. Então, o Doutor Destino forjou alianças com quase todos os supervilões de Villainville, que formam a Legião Letal, a fim de caçar os os pedacinhos da espada do infinito. Mas então, forma-se o grupo de super heróis Esquadrão de Heróis, consistindo de Homem de Ferro, Falcão, Hulk, Surfista Prateado, Thor e Wolverine. Dai então começa um novo desafio para o esquadrão de Super herois!!",
-    "popularity": 14.6134,
+    "popularity": 15.6866,
     "poster_path": "/nWhJyfeVElaosx4mc7893YJmM77.jpg",
     "production_companies": [
       {
@@ -4352,7 +4360,9 @@
       "facebook_id": null,
       "instagram_id": null,
       "twitter_id": null
-    }
+    },
+    "_selected_backdrop_path": "/bcXu7sll9Pj28ZOodmTL2lpriSj.jpg",
+    "_artwork_selection_version": "backdrop-v2"
   },
   "id:83295": {
     "adult": false,
@@ -4441,7 +4451,7 @@
     "original_language": "pt",
     "original_name": "Impuros",
     "overview": "No Rio dos anos 90, Evandro é um jovem da favela que tenta ganhar a vida honestamente. Porém, após a morte do irmão pela polícia, ele entra no mundo do tráfico buscando vingança.",
-    "popularity": 12.0209,
+    "popularity": 12.1235,
     "poster_path": "/zTvluwSblMTAkM7Po7Sp75eqLzM.jpg",
     "production_companies": [
       {
@@ -4536,7 +4546,7 @@
         "overview": "",
         "poster_path": "/vgdOEAAtH9hyJ5mZye8uKMaFV0X.jpg",
         "season_number": 4,
-        "vote_average": 8.7
+        "vote_average": 8.9
       },
       {
         "air_date": "2024-07-24",
@@ -4582,7 +4592,9 @@
       "facebook_id": null,
       "instagram_id": null,
       "twitter_id": null
-    }
+    },
+    "_selected_backdrop_path": "/qqakxj2Law5dcCZJhgmhnfPSO8Y.jpg",
+    "_artwork_selection_version": "backdrop-v2"
   },
   "id:73375": {
     "adult": false,
@@ -4664,7 +4676,7 @@
     "original_language": "en",
     "original_name": "Tom Clancy's Jack Ryan",
     "overview": "Quando o analista da CIA Jack Ryan esbarra em uma série de transferências bancárias suspeitas, sua busca por respostas o afasta da segurança de sua mesa de trabalho e o joga em um jogo mortal de gato e rato pela Europa e pelo Oriente Médio, com um terrorista em ascensão preparando um grande ataque contra os EUA e seus aliados.",
-    "popularity": 51.4174,
+    "popularity": 50.1567,
     "poster_path": "/sUQS9Uks2UNdFc1Io2U0ulTDGsr.jpg",
     "production_companies": [
       {
@@ -4798,8 +4810,8 @@
     "status": "Ended",
     "tagline": "",
     "type": "Scripted",
-    "vote_average": 7.679,
-    "vote_count": 1855,
+    "vote_average": 7.682,
+    "vote_count": 1861,
     "external_ids": {
       "imdb_id": "tt5057054",
       "freebase_mid": null,
@@ -4810,7 +4822,9 @@
       "facebook_id": "JackRyanPV",
       "instagram_id": "jackryanpv",
       "twitter_id": "JackRyanPV"
-    }
+    },
+    "_selected_backdrop_path": "/9ops4f0v0TdUFcHRiJTGSnlBpVB.jpg",
+    "_artwork_selection_version": "backdrop-v2"
   },
   "id:224372": {
     "adult": false,
@@ -4860,8 +4874,8 @@
       "id": 6613706,
       "name": "O Amanhã",
       "overview": "Enquanto Ashford lamenta uma grande perda, Dunk avalia seu próximo passo... e se mantém ou não Egg como seu escudeiro.",
-      "vote_average": 8.291,
-      "vote_count": 67,
+      "vote_average": 8.287,
+      "vote_count": 68,
       "air_date": "2026-02-22",
       "episode_number": 6,
       "episode_type": "finale",
@@ -4889,7 +4903,7 @@
     "original_language": "en",
     "original_name": "A Knight of the Seven Kingdoms",
     "overview": "Ambientado em uma época em que a linhagem Targaryen ainda detém o Trono de Ferro e a memória do último dragão ainda não desapareceu da memória dos vivos, grandes destinos, inimigos poderosos e façanhas perigosas aguardam esses amigos improváveis ​​e incomparáveis.",
-    "popularity": 45.5244,
+    "popularity": 40.8718,
     "poster_path": "/whIZtYminSyVOwjxhjxYcOaCuBg.jpg",
     "production_companies": [
       {
@@ -4935,7 +4949,7 @@
     "tagline": "Um conto à altura de uma lenda.",
     "type": "Scripted",
     "vote_average": 8.4,
-    "vote_count": 1091,
+    "vote_count": 1114,
     "external_ids": {
       "imdb_id": "tt27497448",
       "freebase_mid": null,
@@ -4946,7 +4960,9 @@
       "facebook_id": "100044315715123",
       "instagram_id": "gameofthrones",
       "twitter_id": "GameOfThrones"
-    }
+    },
+    "_selected_backdrop_path": "/d5ohMxewL3L8CSt1AR897StlAe5.jpg",
+    "_artwork_selection_version": "backdrop-v2"
   },
   "id:14636": {
     "adult": false,
@@ -5023,7 +5039,7 @@
     "original_language": "en",
     "original_name": "The Secret Saturdays",
     "overview": "Zak Sábado e seus pais, Doutor e Drica Sábado, formam uma família de cientistas sempre pronta a salvar o mundo chamada \"Sábados Secretos\". Vivendo em uma base escondida, eles fazem parte de uma organização secreta de cientistas conhecidos como Os Cientistas Secretos, que protegem a humanidade contra as ameaças escondidas e terríveis do mundo.",
-    "popularity": 7.1026,
+    "popularity": 6.3934,
     "poster_path": "/tByfzj32G7BAOKQ8h6qEakBdJMU.jpg",
     "production_companies": [
       {
@@ -5086,8 +5102,8 @@
     "status": "Ended",
     "tagline": "",
     "type": "Scripted",
-    "vote_average": 6.9,
-    "vote_count": 63,
+    "vote_average": 6.914,
+    "vote_count": 64,
     "external_ids": {
       "imdb_id": "tt1291662",
       "freebase_mid": "/m/03cwxp0",
@@ -5098,7 +5114,9 @@
       "facebook_id": null,
       "instagram_id": null,
       "twitter_id": null
-    }
+    },
+    "_selected_backdrop_path": "/ii2PJAxWpJwDflXAJvsBjBnjBmY.jpg",
+    "_artwork_selection_version": "backdrop-v2"
   },
   "id:194764": {
     "adult": false,
@@ -5165,7 +5183,7 @@
     "original_language": "en",
     "original_name": "The Penguin",
     "overview": "Após a queda dos Carmines, Oswald “Oz” Cobb está pronto para assumir o controle de Gotham e dar à sua mãe a vida que ele sempre lhe prometeu. Mas primeiro, ele terá de enfrentar inimigos novos e antigos, além do seu tão odiado apelido – O Pinguim – que não tornará o caminho deste gangster tão fácil.",
-    "popularity": 27.2628,
+    "popularity": 24.0659,
     "poster_path": "/pPUNmQZUh7h6w2423VvtzUeg1LD.jpg",
     "production_companies": [
       {
@@ -5244,8 +5262,8 @@
     "status": "Ended",
     "tagline": "A cidade será sua.",
     "type": "Miniseries",
-    "vote_average": 8.352,
-    "vote_count": 1431,
+    "vote_average": 8.346,
+    "vote_count": 1446,
     "external_ids": {
       "imdb_id": "tt15435876",
       "freebase_mid": null,
@@ -5256,7 +5274,9 @@
       "facebook_id": "TheBatman",
       "instagram_id": "thebatman",
       "twitter_id": "TheBatman"
-    }
+    },
+    "_selected_backdrop_path": "/VSRmtRlYgd0pBISf7d34TAwWgB.jpg",
+    "_artwork_selection_version": "backdrop-v2"
   },
   "id:100088": {
     "adult": false,
@@ -5298,7 +5318,7 @@
       "id": 5994273,
       "name": "Convergência",
       "overview": "Enquanto Lobos e Cicatrizes se preparam para uma batalha que pode encerrar sua longa guerra, a busca de Ellie a afasta de seus amigos e a leva a um confronto devastador.",
-      "vote_average": 6.253,
+      "vote_average": 6.3,
       "vote_count": 99,
       "air_date": "2025-05-25",
       "episode_number": 7,
@@ -5327,7 +5347,7 @@
     "original_language": "en",
     "original_name": "The Last of Us",
     "overview": "Situado duas décadas após a implosão de nossa sociedade, o drama seguirá Joel, um sobrevivente difícil, que é contratado para contrabandear uma garota de 14 anos chamada Ellie para fora de uma zona de quarentena opressiva. O que começa como um pequeno trabalho logo se torna uma jornada brutal e de partir o coração, já que os dois precisam atravessar os Estados Unidos e dependem um do outro para sobreviver.",
-    "popularity": 55.0169,
+    "popularity": 45.7477,
     "poster_path": "/el1KQzwdIm17I3A6cYPfsVIWhfX.jpg",
     "production_companies": [
       {
@@ -5406,8 +5426,8 @@
     "status": "Returning Series",
     "tagline": "Quando estiver perdido na escuridão, procure a luz.",
     "type": "Scripted",
-    "vote_average": 8.414,
-    "vote_count": 7227,
+    "vote_average": 8.413,
+    "vote_count": 7258,
     "external_ids": {
       "imdb_id": "tt3581920",
       "freebase_mid": null,
@@ -5418,7 +5438,9 @@
       "facebook_id": "TheLastOfUsHBO",
       "instagram_id": "thelastofus",
       "twitter_id": "TheLastofUsHBO"
-    }
+    },
+    "_selected_backdrop_path": "/uDgy6hyPd82kOHh6I95FLtLnj6p.jpg",
+    "_artwork_selection_version": "backdrop-v2"
   },
   "id:211684": {
     "adult": false,
@@ -5454,8 +5476,8 @@
     "in_production": true,
     "languages": [
       "en",
-      "pt",
-      "es"
+      "es",
+      "pt"
     ],
     "last_air_date": "2025-10-19",
     "last_episode_to_air": {
@@ -5491,7 +5513,7 @@
     "original_language": "en",
     "original_name": "The Walking Dead: Daryl Dixon",
     "overview": "Daryl Dixon chega à costa da França e luta para entender como chegou lá e por quê. A série acompanha a sua jornada por uma França quebrada, mas resiliente, enquanto ele tenta encontrar um caminho de volta para casa. As conexões que ele forma no caminho, no entanto, complicam os seus planos.",
-    "popularity": 31.1692,
+    "popularity": 27.0149,
     "poster_path": "/8pQ09TA3FGeptJnHJ1R9rbENPWr.jpg",
     "production_companies": [
       {
@@ -5539,7 +5561,7 @@
     ],
     "seasons": [
       {
-        "air_date": "2023-09-10",
+        "air_date": "2023-09-09",
         "episode_count": 6,
         "id": 311345,
         "name": "Temporada 1",
@@ -5549,7 +5571,7 @@
         "vote_average": 8.8
       },
       {
-        "air_date": "2024-09-29",
+        "air_date": "2024-09-28",
         "episode_count": 6,
         "id": 363691,
         "name": "O Livro de Carol",
@@ -5559,7 +5581,7 @@
         "vote_average": 8.1
       },
       {
-        "air_date": "2025-09-07",
+        "air_date": "2025-09-06",
         "episode_count": 7,
         "id": 426557,
         "name": "Temporada 3",
@@ -5577,21 +5599,21 @@
         "name": "English"
       },
       {
-        "english_name": "Portuguese",
-        "iso_639_1": "pt",
-        "name": "Português"
-      },
-      {
         "english_name": "Spanish",
         "iso_639_1": "es",
         "name": "Español"
+      },
+      {
+        "english_name": "Portuguese",
+        "iso_639_1": "pt",
+        "name": "Português"
       }
     ],
     "status": "Returning Series",
     "tagline": "A esperança não está perdida.",
     "type": "Scripted",
-    "vote_average": 8.0,
-    "vote_count": 897,
+    "vote_average": 8.011,
+    "vote_count": 904,
     "external_ids": {
       "imdb_id": "tt13062500",
       "freebase_mid": null,
@@ -5602,7 +5624,9 @@
       "facebook_id": null,
       "instagram_id": null,
       "twitter_id": null
-    }
+    },
+    "_selected_backdrop_path": "/hXRAKps7stKEcRZzub7YPHFTJkK.jpg",
+    "_artwork_selection_version": "backdrop-v2"
   },
   "id:194583": {
     "adult": false,
@@ -5639,37 +5663,37 @@
     "languages": [
       "en"
     ],
-    "last_air_date": "2026-08-09",
+    "last_air_date": "2026-08-16",
     "last_episode_to_air": {
-      "id": 7392574,
-      "name": "Episódio 3",
-      "overview": "",
-      "vote_average": 8.5,
-      "vote_count": 4,
-      "air_date": "2026-08-09",
-      "episode_number": 3,
+      "id": 7392575,
+      "name": "Achados e Perdidos",
+      "overview": "Maggie e Luis buscam recursos valiosos, enquanto Negan e Renata protegem a cidade.",
+      "vote_average": 7.5,
+      "vote_count": 2,
+      "air_date": "2026-08-16",
+      "episode_number": 4,
       "episode_type": "standard",
       "production_code": "",
-      "runtime": 41,
+      "runtime": 44,
       "season_number": 3,
       "show_id": 194583,
-      "still_path": "/3E41LJeuVWVn5Tk2ofsctLNHIP.jpg"
+      "still_path": "/jicNFjxKXbQtsCpPxYNh7Dndi4h.jpg"
     },
     "name": "The Walking Dead: Dead City",
     "next_episode_to_air": {
-      "id": 7392575,
-      "name": "Episódio 4",
+      "id": 7392576,
+      "name": "Episódio 5",
       "overview": "",
       "vote_average": 0.0,
       "vote_count": 0,
-      "air_date": "2026-08-16",
-      "episode_number": 4,
+      "air_date": "2026-08-23",
+      "episode_number": 5,
       "episode_type": "standard",
       "production_code": "",
       "runtime": null,
       "season_number": 3,
       "show_id": 194583,
-      "still_path": "/jicNFjxKXbQtsCpPxYNh7Dndi4h.jpg"
+      "still_path": "/ArjRAyT6C3HKWfA3GscufSE3826.jpg"
     },
     "networks": [
       {
@@ -5687,8 +5711,8 @@
     "original_language": "en",
     "original_name": "The Walking Dead: Dead City",
     "overview": "Maggie e Negan viajam para uma Manhattan pós-apocalíptica há muito isolada do continente. A cidade em ruínas está cheia de mortos e habitantes que fizeram de Nova York seu próprio mundo cheio de anarquia, perigo, beleza e terror.",
-    "popularity": 73.8098,
-    "poster_path": "/wSd32fNxVqtPQCzxEzsUMzl6RK5.jpg",
+    "popularity": 59.3001,
+    "poster_path": "/oC4SG9TXM0C6KUoAUv76WOvQ103.jpg",
     "production_companies": [
       {
         "id": 23242,
@@ -5772,7 +5796,7 @@
         "overview": "Maggie e Negan deixam suas diferenças de lado para construir a primeira comunidade próspera em Manhattan desde o apocalipse zumbi. No entanto, quando o caos e novas ameaças surgem na ilha isolada, eles precisam questionar se seus passados sombrios condenarão toda a cidade.",
         "poster_path": "/seYokxOjFyTVX13XgD2FNjWIry8.jpg",
         "season_number": 3,
-        "vote_average": 8.1
+        "vote_average": 7.9
       }
     ],
     "softcore": false,
@@ -5786,8 +5810,8 @@
     "status": "Returning Series",
     "tagline": "Mantenha seus inimigos por perto.",
     "type": "Scripted",
-    "vote_average": 7.903,
-    "vote_count": 771,
+    "vote_average": 7.908,
+    "vote_count": 776,
     "external_ids": {
       "imdb_id": "tt18546730",
       "freebase_mid": null,
@@ -5798,7 +5822,9 @@
       "facebook_id": null,
       "instagram_id": null,
       "twitter_id": null
-    }
+    },
+    "_selected_backdrop_path": "/siYv4AKB7BBCWjFle5zqbARYFS2.jpg",
+    "_artwork_selection_version": "backdrop-v2"
   },
   "id:206586": {
     "adult": false,
@@ -5881,7 +5907,7 @@
     "original_language": "en",
     "original_name": "The Walking Dead: The Ones Who Live",
     "overview": "Uma história de amor épica de duas pessoas mudadas por um mundo mudado, separadas pela distância e por um poder imparável. Rick e Michonne conseguirão encontrar um ao outro e quem eles eram em um lugar diferente de todos que já conheceram? Sem o outro, eles estão vivos?",
-    "popularity": 16.128,
+    "popularity": 11.5876,
     "poster_path": "/95pv9daC8yFm1BfaUyCTx7MfOs.jpg",
     "production_companies": [
       {
@@ -5960,8 +5986,8 @@
     "status": "Ended",
     "tagline": "Esse novo mundo precisará de Rick Grimes.",
     "type": "Miniseries",
-    "vote_average": 8.0,
-    "vote_count": 717,
+    "vote_average": 7.996,
+    "vote_count": 723,
     "external_ids": {
       "imdb_id": "tt9859436",
       "freebase_mid": null,
@@ -5972,7 +5998,9 @@
       "facebook_id": null,
       "instagram_id": null,
       "twitter_id": null
-    }
+    },
+    "_selected_backdrop_path": "/4W9kyBFT69ORP5Jzk9mVMGBBO4R.jpg",
+    "_artwork_selection_version": "backdrop-v2"
   },
   "id:252": {
     "adult": false,
@@ -6049,7 +6077,7 @@
     "original_language": "en",
     "original_name": "Everybody Hates Chris",
     "overview": "Para Chris, fazer 13 anos não tem nada de maravilhoso. Ele é o único negro da turma do ensino médio, onde tem uma educação medíocre. É amigo de Greg, e é frequentemente abusado por Joey Caruso. Ambos os pais trabalham e ele cuida de seus dois irmãos. Parece trágico, mas é hilário.",
-    "popularity": 23.0371,
+    "popularity": 20.6151,
     "poster_path": "/j7KcbOjhNIWOQqHGtL0P90nlfHB.jpg",
     "production_companies": [
       {
@@ -6136,7 +6164,7 @@
     "status": "Ended",
     "tagline": "",
     "type": "Scripted",
-    "vote_average": 8.072,
+    "vote_average": 8.1,
     "vote_count": 1129,
     "external_ids": {
       "imdb_id": "tt0460637",
@@ -6148,7 +6176,9 @@
       "facebook_id": null,
       "instagram_id": null,
       "twitter_id": null
-    }
+    },
+    "_selected_backdrop_path": "/wnwraKTDgfci0xd8LdYuL7YAfQb.jpg",
+    "_artwork_selection_version": "backdrop-v2"
   },
   "id:1434": {
     "adult": false,
@@ -6215,7 +6245,7 @@
     "original_language": "en",
     "original_name": "Family Guy",
     "overview": "A série animada apresenta as aventuras da família Griffin. O ignorante Peter e sua esposa Lois residem em Quahog, em Rhode Island e têm três filhos. Meg, a filha mais velha, é uma pária social, e o adolescente Chris é estranho e sem noção quando se trata do sexo oposto. O mais novo, Stewie, é um bebê gênio decidido a matar sua mãe e destruir o mundo. O cachorro falante, Brian, mantém Stewie sob controle enquanto toma martinis e resolve seus próprios problemas de vida.",
-    "popularity": 253.5646,
+    "popularity": 316.3607,
     "poster_path": "/j28XGzAhvJNGWEHbYrzvREw7kKd.jpg",
     "production_companies": [
       {
@@ -6281,7 +6311,7 @@
         "vote_average": 7.3
       },
       {
-        "air_date": "2001-07-10",
+        "air_date": "2001-07-11",
         "episode_count": 22,
         "id": 3823,
         "name": "Temporada 3",
@@ -6291,7 +6321,7 @@
         "vote_average": 7.0
       },
       {
-        "air_date": "2005-04-30",
+        "air_date": "2005-05-01",
         "episode_count": 30,
         "id": 3824,
         "name": "Temporada 4",
@@ -6301,7 +6331,7 @@
         "vote_average": 7.0
       },
       {
-        "air_date": "2006-09-09",
+        "air_date": "2006-09-10",
         "episode_count": 18,
         "id": 3825,
         "name": "Temporada 5",
@@ -6496,7 +6526,7 @@
         "id": 484484,
         "name": "Temporada 24",
         "overview": "",
-        "poster_path": "/3PFsEuAiyLkWsP4GG6dIV37Q6gu.jpg",
+        "poster_path": "/u8WstRRVqh4WRK5jEhEsj8DDrSA.jpg",
         "season_number": 24,
         "vote_average": 7.3
       }
@@ -6512,8 +6542,8 @@
     "status": "Returning Series",
     "tagline": "Discrição dos pais aconselhada, é assim que você sabe que é bom",
     "type": "Scripted",
-    "vote_average": 7.41,
-    "vote_count": 5063,
+    "vote_average": 7.4,
+    "vote_count": 5074,
     "external_ids": {
       "imdb_id": "tt0182576",
       "freebase_mid": "/m/019nnl",
@@ -6524,7 +6554,9 @@
       "facebook_id": "FamilyGuy",
       "instagram_id": "familyguyfox",
       "twitter_id": "FamilyGuyonFOX"
-    }
+    },
+    "_selected_backdrop_path": "/jbTqU6BJMufoMnPSlO4ThrcXs3Y.jpg",
+    "_artwork_selection_version": "backdrop-v2"
   },
   "id:126308": {
     "adult": false,
@@ -6606,7 +6638,7 @@
     "original_language": "en",
     "original_name": "Shōgun",
     "overview": "Ambientada no Japão de 1600, o Senhor Yoshii Toranaga está lutando pela sua vida à medida que seus inimigos no Conselho dos Regentes se unem contra ele, quando um navio europeu misterioso é encontrado encalhado em um vilarejo de pescadores próximo.",
-    "popularity": 33.0322,
+    "popularity": 26.2415,
     "poster_path": "/gaOb9hyCDUcbZiTYcHy7mIFmNo.jpg",
     "production_companies": [
       {
@@ -6662,8 +6694,8 @@
     "status": "Returning Series",
     "tagline": "Uma saga épica de guerra, paixão e poder ambientada no Japão feudal.",
     "type": "Scripted",
-    "vote_average": 8.422,
-    "vote_count": 1843,
+    "vote_average": 8.424,
+    "vote_count": 1859,
     "external_ids": {
       "imdb_id": "tt2788316",
       "freebase_mid": null,
@@ -6674,7 +6706,9 @@
       "facebook_id": "FXShogun",
       "instagram_id": "shogunfx",
       "twitter_id": "shogunfx"
-    }
+    },
+    "_selected_backdrop_path": "/5zmiBoMzeeVdQ62no55JOJMY498.jpg",
+    "_artwork_selection_version": "backdrop-v2"
   },
   "id:92830": {
     "adult": false,
@@ -6703,8 +6737,8 @@
       "id": 3635495,
       "name": "Parte VI",
       "overview": "Obi Wan é arrastado para um confronto com Vader, pois o destino de Luke está em jogo.",
-      "vote_average": 7.1,
-      "vote_count": 128,
+      "vote_average": 7.093,
+      "vote_count": 129,
       "air_date": "2022-06-22",
       "episode_number": 6,
       "episode_type": "finale",
@@ -6732,7 +6766,7 @@
     "original_language": "en",
     "original_name": "Obi-Wan Kenobi",
     "overview": "Durante o reinado do Império Galáctico, o antigo Mestre Jedi Obi-Wan Kenobi embarca em uma missão crucial. Kenobi deve confrontar aliados que se tornaram inimigos e enfrentar a fúria do Império.",
-    "popularity": 16.7216,
+    "popularity": 13.1026,
     "poster_path": "/dnHP6MdJ4jMZgKvNrOYTjrgqn9l.jpg",
     "production_companies": [
       {
@@ -6781,8 +6815,8 @@
     "status": "Ended",
     "tagline": "Entre a escuridão e a derrota, a esperança sobrevive.",
     "type": "Miniseries",
-    "vote_average": 7.005,
-    "vote_count": 2308,
+    "vote_average": 7.0,
+    "vote_count": 2322,
     "external_ids": {
       "imdb_id": "tt8466564",
       "freebase_mid": null,
@@ -6793,6 +6827,8 @@
       "facebook_id": "obiwankenobiofficial",
       "instagram_id": "obiwankenobi",
       "twitter_id": "obiwankenobi"
-    }
+    },
+    "_selected_backdrop_path": "/vNPm1WG15IJHpsemb9ZRurm4ZC4.jpg",
+    "_artwork_selection_version": "backdrop-v2"
   }
 }
