@@ -27931,5 +27931,87 @@
     },
     "_selected_backdrop_path": "/xMoXsOgF0hBP7iVj7ZPIrFtTeL3.jpg",
     "_artwork_selection_version": "backdrop-v2"
+  },
+  "title:star wars o mandaloriano e grogu|year:2026": {
+    "adult": false,
+    "backdrop_path": "/wFKDH8nAz7l9iyVobjcNAPTrkNz.jpg",
+    "belongs_to_collection": null,
+    "budget": 165000000,
+    "genres": [
+      {
+        "id": 28,
+        "name": "Ação"
+      },
+      {
+        "id": 12,
+        "name": "Aventura"
+      },
+      {
+        "id": 878,
+        "name": "Ficção científica"
+      }
+    ],
+    "homepage": "https://tickets.disney.com.br/o-mandaloriano-e-grogu",
+    "id": 1228710,
+    "imdb_id": "tt30825738",
+    "origin_country": [
+      "US"
+    ],
+    "original_language": "en",
+    "original_title": "The Mandalorian and Grogu",
+    "overview": "O maligno Império caiu e os senhores da guerra Imperiais ainda estão espalhados pela galáxia. Enquanto a jovem Nova República luta para proteger tudo pelo que a Rebelião batalhou, ela conta com a ajuda do lendário caçador de recompensas Mandaloriano Din Djarin e seu jovem aprendiz Grogu.",
+    "popularity": 72.5705,
+    "poster_path": "/dNwaS0tnwgQRaQFPY5MbGxdmYXr.jpg",
+    "production_companies": [
+      {
+        "id": 1,
+        "logo_path": "/tlVSws0RvvtPBwViUyOFAO0vcQS.png",
+        "name": "Lucasfilm Ltd.",
+        "origin_country": "US"
+      },
+      {
+        "id": 7297,
+        "logo_path": "/l29JYQVZbTcjZXoz4CUYFpKRmM3.png",
+        "name": "Fairview Entertainment",
+        "origin_country": "US"
+      }
+    ],
+    "production_countries": [
+      {
+        "iso_3166_1": "US",
+        "name": "United States of America"
+      }
+    ],
+    "release_date": "2026-05-20",
+    "revenue": 345166617,
+    "runtime": 132,
+    "softcore": false,
+    "spoken_languages": [
+      {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+      },
+      {
+        "english_name": "Aymara",
+        "iso_639_1": "ay",
+        "name": "Aymara"
+      }
+    ],
+    "status": "Released",
+    "tagline": "Sinta a força da amizade.",
+    "title": "Star Wars: O Mandaloriano e Grogu",
+    "video": false,
+    "vote_average": 7.5,
+    "vote_count": 1451,
+    "external_ids": {
+      "imdb_id": "tt30825738",
+      "wikidata_id": "Q124246549",
+      "facebook_id": "StarWars",
+      "instagram_id": "themandalorian",
+      "twitter_id": "themandalorian"
+    },
+    "_selected_backdrop_path": "/MJcERawyqGqJdPsOBc0C449hQ9.jpg",
+    "_artwork_selection_version": "backdrop-v2"
   }
 }

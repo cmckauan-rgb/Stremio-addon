@@ -898,6 +898,20 @@
       ]
     },
     {
+      "id": "tt30825738",
+      "type": "movie",
+      "name": "Star Wars: O Mandaloriano e Grogu",
+      "poster": "https://cmckauan-rgb.github.io/Stremio-addon/assets/movie/tt30825738/poster-b88d750b6c49.webp",
+      "background": "https://cmckauan-rgb.github.io/Stremio-addon/assets/movie/tt30825738/background-24db67622329.webp",
+      "description": "O maligno Império caiu e os senhores da guerra Imperiais ainda estão espalhados pela galáxia. Enquanto a jovem Nova República luta para proteger tudo pelo que a Rebelião batalhou, ela conta com a ajuda do lendário caçador de recompensas Mandaloriano Din Djarin e seu jovem aprendiz Grogu.",
+      "releaseInfo": "2026",
+      "genres": [
+        "Ação",
+        "Aventura",
+        "Ficção científica"
+      ]
+    },
+    {
       "id": "tt2527336",
       "type": "movie",
       "name": "Star Wars: Os Últimos Jedi",
